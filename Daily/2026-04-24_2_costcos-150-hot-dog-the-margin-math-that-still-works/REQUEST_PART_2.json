@@ -1,0 +1,222 @@
+{
+  "duration_preset": "standard",
+  "voice_name": "Fenrir",
+  "language": "th-TH",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "custom",
+  "music_mood": "none",
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "subtitles_enabled": false,
+  "pace_to_narration": true,
+  "edited_script": {
+    "title": "Costco Hot Dog Part 2 — The System Behind the Price",
+    "description": "How Costco's membership model, exit-placement psychology, and $4.83B fee engine turn a $1.50 hot dog into a masterclass in brand architecture.",
+    "source_text": "เมื่อคุณเข้าใจว่า Costco แก้ปัญหาต้นทุนด้วยการเป็นเจ้าของห่วงโซ่การผลิต รูปแบบอื่นๆ ก็เริ่มชัดเจนขึ้น ปี 2019 Costco เปิดโรงงานแปรรูปไก่ใน Nebraska เพื่อให้ไก่ย่าง rotisserie ยังคงราคา 4.99 ดอลลาร์ได้ในยุคที่ต้นทุนไก่พุ่งสูง นี่ไม่ใช่เรื่องบังเอิญ มันคือ playbook เดิมที่ถูก copy มา\n\nตอนนี้ลองดูที่ตำแหน่งของ food court อีกครั้ง food court ของ Costco อยู่ที่ทางออก ไม่ใช่ทางเข้า คนส่วนใหญ่คิดว่านี่เป็นข้อจำกัดของพื้นที่ แต่ Sinegal กล่าวซ้ำหลายครั้งว่าเขาต้องการให้สมาชิก ออกไปอย่างมีความสุข\n\nคุณเพิ่งใช้เงินไป 200 ดอลลาร์ข้างใน และตอนนี้คุณได้รับฮอตดอกและโซดาในราคาที่น้อยกว่าค่าจอดรถในย่าน downtown เกือบทุกเมือง มันคือรางวัลที่เสริมสร้างความรู้สึกว่าคุณตัดสินใจถูกต้องที่มาซื้อที่นี่\n\nตัวเลขที่ทำให้ระบบนี้ทำงานได้คือ 4.83 พันล้านดอลลาร์ นั่นคือรายได้จากค่าสมาชิกของ Costco ในปีงบประมาณ 2024 ตามรายงาน 10-K ที่ยื่นต่อ SEC เมื่อเดือนตุลาคม 2024 ตัวเลขนี้สูงกว่ากำไรจากการดำเนินงานด้านสินค้าทั้งหมด ความหมายคือ Costco เป็นบริษัทสมาชิกที่บังเอิญขายของ ไม่ใช่ร้านค้าที่บังเอิญเก็บค่าสมาชิก\n\nเมื่อคุณมองจากมุมนั้น ฮอตดอก 1.50 ดอลลาร์ไม่ใช่ loss leader มันคืองบการตลาดที่ถูกจัดประเภทผิดเป็นค่าใช้จ่ายอาหาร ทุกครั้งที่เงินเฟ้อพุ่งสูงและสื่อรายงานว่า Costco ยังคงขายฮอตดอกราคา 1.50 ดอลลาร์ นั่นคือ earned media ที่ประเมินค่าไม่ได้ แต่ไม่ปรากฏในงบการตลาด\n\nถ้าจะพูดตามตรง สิ่งที่น่าประทับใจที่สุดในเรื่องนี้ไม่ใช่ความดื้อรั้นของราคา แต่คือความสอดคล้องของระบบ Sinegal ไม่ได้แค่ปฏิเสธที่จะขึ้นราคา เขาสร้างโครงสร้างทั้งหมดที่ทำให้ราคานั้นยั่งยืน โรงงาน Kirkland, ไก่ Nebraska, exit placement, fee model ทุกอย่างดึงไปในทิศทางเดียวกัน มันคือ business architecture ที่ซ่อนอยู่หลัง billboard ราคา 1.50 ดอลลาร์\n\nสำหรับใครที่อยากเข้าใจว่าทำไม supply chain storytelling ถึงเป็นเนื้อหาที่ดีสำหรับ YouTube ช่องนี้สร้างด้วย aivdo.ai ลองดูได้เลย",
+    "language": "th",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Pattern: Nebraska Chicken Plant 2019",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Nebraska · โรงงานไก่ 2019",
+          "Rotisserie $4.99 · Playbook เดิม"
+        ],
+        "narration": {
+          "text": "เมื่อคุณเข้าใจว่า Costco แก้ปัญหาต้นทุนด้วยการเป็นเจ้าของห่วงโซ่การผลิต รูปแบบอื่นๆ ก็เริ่มชัดเจนขึ้น ปี 2019 Costco เปิดโรงงานแปรรูปไก่ใน Nebraska เพื่อให้ไก่ย่าง rotisserie ยังคงราคา 4.99 ดอลลาร์ได้ในยุคที่ต้นทุนไก่พุ่งสูง",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Aerial illustration of a large poultry processing facility in flat Nebraska plains, industrial architecture, supply chain map overlay connecting factory to Costco store icon, warm midday lighting, documentary infographic style. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "The Same Playbook Repeated",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "ไม่ใช่บังเอิญ · Playbook เดิม",
+          "Vertical Integration · ทุกครั้ง"
+        ],
+        "narration": {
+          "text": "นี่ไม่ใช่เรื่องบังเอิญ มันคือ playbook เดิมที่ถูก copy มา",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Side-by-side comparison infographic: hot dog factory California on left, chicken plant Nebraska on right, matching visual style with connecting arrow labeled 'same playbook', illustrated schematic design, hidden truth template. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Exit Placement — Not a Coincidence",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Food Court · ทางออก ไม่ใช่ทางเข้า",
+          "Sinegal: \"ออกไปอย่างมีความสุข\""
+        ],
+        "narration": {
+          "text": "ตอนนี้ลองดูที่ตำแหน่งของ food court อีกครั้ง food court ของ Costco อยู่ที่ทางออก ไม่ใช่ทางเข้า คนส่วนใหญ่คิดว่านี่เป็นข้อจำกัดของพื้นที่ แต่ Sinegal กล่าวซ้ำหลายครั้งว่าเขาต้องการให้สมาชิก ออกไปอย่างมีความสุข",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Top-down floor plan illustration of a Costco warehouse store, entrance arrow at top, exit arrow at bottom with food court icon highlighted in bright color at exit position, contrast with unlabeled entrance, architectural blueprint style. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "The $200 Spent — Reward Psychology",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "ใช้เงิน $200 ข้างใน",
+          "ฮอตดอก = รางวัล · ยืนยันการตัดสินใจ"
+        ],
+        "narration": {
+          "text": "คุณเพิ่งใช้เงินไป 200 ดอลลาร์ข้างใน และตอนนี้คุณได้รับฮอตดอกและโซดาในราคาที่น้อยกว่าค่าจอดรถในย่าน downtown เกือบทุกเมือง มันคือรางวัลที่เสริมสร้างความรู้สึกว่าคุณตัดสินใจถูกต้องที่มาซื้อที่นี่",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of a full shopping cart overflowing with bulk goods next to a minimal hot dog and soda cup, calm warm lighting at store exit, satisfaction visual metaphor, soft infographic illustration style. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "The $4.83 Billion Fee Engine",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "ค่าสมาชิก FY2024 · $4.83B",
+          "Costco 10-K · SEC ต.ค. 2024"
+        ],
+        "narration": {
+          "text": "ตัวเลขที่ทำให้ระบบนี้ทำงานได้คือ 4.83 พันล้านดอลลาร์ นั่นคือรายได้จากค่าสมาชิกของ Costco ในปีงบประมาณ 2024 ตามรายงาน 10-K ที่ยื่นต่อ SEC เมื่อเดือนตุลาคม 2024 ตัวเลขนี้สูงกว่ากำไรจากการดำเนินงานด้านสินค้าทั้งหมด",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Large bold infographic showing $4.83 billion figure with SEC document icon, bar chart comparing membership fee revenue vs merchandise operating income, corporate data visualization on dark background, hidden truth illustration style. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "A Membership Company That Sells Goods",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "บริษัทสมาชิก · บังเอิญขายของ",
+          "Fee Model · เครื่องยนต์จริง"
+        ],
+        "narration": {
+          "text": "ความหมายคือ Costco เป็นบริษัทสมาชิกที่บังเอิญขายของ ไม่ใช่ร้านค้าที่บังเอิญเก็บค่าสมาชิก",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Two-tier organizational chart illustration: top tier labeled 'Membership Fee Engine' glowing brightly, bottom tier labeled 'Retail Operations' smaller and dimmer, corporate hierarchy diagram, bold color contrast, documentary infographic. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Reframe — Misclassified Marketing Budget",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "งบการตลาด · จัดประเภทเป็นค่าอาหาร",
+          "Earned Media · ไม่มีราคา"
+        ],
+        "narration": {
+          "text": "เมื่อคุณมองจากมุมนั้น ฮอตดอก 1.50 ดอลลาร์ไม่ใช่ loss leader มันคืองบการตลาดที่ถูกจัดประเภทผิดเป็นค่าใช้จ่ายอาหาร ทุกครั้งที่เงินเฟ้อพุ่งสูงและสื่อรายงานว่า Costco ยังคงขายฮอตดอกราคา 1.50 ดอลลาร์ นั่นคือ earned media ที่ประเมินค่าไม่ได้ แต่ไม่ปรากฏในงบการตลาด",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Split infographic: left side shows traditional advertising billboard with dollar signs labeled 'paid media', right side shows newspaper headlines and news ticker about Costco hot dog price labeled 'earned media $0', dramatic contrast lighting, hidden truth style. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "Conclusion — Business Architecture + CTA",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Business Architecture · ซ่อนอยู่ตรงหน้าเรา",
+          "aivdo.ai"
+        ],
+        "narration": {
+          "text": "ถ้าจะพูดตามตรง สิ่งที่น่าประทับใจที่สุดในเรื่องนี้ไม่ใช่ความดื้อรั้นของราคา แต่คือความสอดคล้องของระบบ Sinegal ไม่ได้แค่ปฏิเสธที่จะขึ้นราคา เขาสร้างโครงสร้างทั้งหมดที่ทำให้ราคานั้นยั่งยืน โรงงาน Kirkland, ไก่ Nebraska, exit placement, fee model ทุกอย่างดึงไปในทิศทางเดียวกัน มันคือ business architecture ที่ซ่อนอยู่หลัง billboard ราคา 1.50 ดอลลาร์\n\nสำหรับใครที่อยากเข้าใจว่าทำไม supply chain storytelling ถึงเป็นเนื้อหาที่ดีสำหรับ YouTube ช่องนี้สร้างด้วย aivdo.ai ลองดูได้เลย",
+          "language": "th",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Architectural blueprint of a business system: four interconnected pillars labeled 'Kirkland Factory', 'Nebraska Chicken', 'Exit Placement', 'Fee Model', all pointing to a central $1.50 price tag, grand reveal dramatic lighting, cinematic documentary illustration. No faces.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}
