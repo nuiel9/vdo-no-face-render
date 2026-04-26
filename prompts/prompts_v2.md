@@ -75,6 +75,19 @@ Structure (internal planning only — do NOT include these as headers in output)
 - Last 90s of Part 2: contrarian reframe + personal caveat ("I was wrong about X until I read Y")
 - CTA mentions aivdo.ai once, naturally, in Part 2's sign-off ONLY
 
+HOOK SCENE SPECIFICITY (REQUIRED for AIVDO v1.8 Cinematic — added 2026-04-26):
+The 0:00-0:20 hook narration MUST contain ALL FOUR:
+  1. A specific named brand or location (real or plausibly real — e.g. "ห้างตั้งฮั่วเส็งกลางถนนสีลม", "WeWork's HQ on Park Avenue", "Theranos lab in Newark CA")
+  2. A specific year or time marker (1995, 2018, "นานกว่า 50 ปี")
+  3. A specific number (revenue, branches, customers, age, employees, market cap)
+  4. At least one visual handle (building shape, street name, weather, era marker — gives the image generator something concrete to render)
+
+Example contrast (test results 2026-04-26):
+  VAGUE (calm B-roll): "ในปี 2010 ร้านขายของชำเล็กๆแห่งหนึ่งในกรุงเทพเปิดให้บริการ"
+  SPECIFIC (Netflix-doc cinematic): "ในปี 2018 ห้างสรรพสินค้าตั้งฮั่วเส็งเก่าแก่กลางถนนสีลม ที่เคยเป็นจุดนัดพบของวัยรุ่นกรุงเทพยุค 1990 ปิดประตูถาวรหลังเปิดมานานกว่า 50 ปี ตึก 7 ชั้นสีน้ำตาลแดงที่เคยมีคนเข้าออก 30,000 คนต่อวัน กลายเป็นห้องโถงว่างเปล่าในชั่วข้ามคืน"
+
+Same provider, same model, same cost — entirely different visual impact. The server-side hook punch-up (Lever 2, shipped 2026-04-26 in commit 0b10b5e) prepends cinematic-framing cues for `scene_role=hook` only when video_intent=faceless_youtube — so the more visual handles you give it, the more dramatic the establishing shot becomes.
+
 Voice: confident analyst, no hype, no AI-era filler phrases. ≥2 direct quotes from primary sources. No numbered lists spoken aloud — use prose.
 
 Return TWO deliverables:

@@ -105,8 +105,12 @@ def render_part(base: Path, n: int) -> Path:
     # render_mode routes every scene through OpenAI gpt-image-2 medium 1536x1024
     # instead of legacy Gemini Flash. video_intent activates the faceless_youtube
     # profile, server-enforcing "no faces" + documentary realism per-scene.
+    # acknowledged_no_editorial silences the soft editorial gate (v1.8+ Decision #4)
+    # for our headless renderer — Pitch Deck Template Style is enforced via prompt
+    # content, not the server's human_fingerprint metadata schema.
     req["render_mode"] = "cinematic"
     req["video_intent"] = "faceless_youtube"
+    req["acknowledged_no_editorial"] = True
     print(f"Part {n}: submitting")
     job_id = submit(req)
     print(f"Part {n}: job {job_id} — polling every {POLL_S}s (max {MAX_WAIT_MIN}min)")
