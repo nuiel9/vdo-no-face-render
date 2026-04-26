@@ -101,6 +101,12 @@ def render_part(base: Path, n: int) -> Path:
         print(f"part{n}.mp4: cached, skip")
         return mp4
     req = json.loads((base / f"REQUEST_PART_{n}.json").read_text())
+    # AIVDO v1.8 Cinematic — opt-in for all VDO No Face renders (2026-04-26).
+    # render_mode routes every scene through OpenAI gpt-image-2 medium 1536x1024
+    # instead of legacy Gemini Flash. video_intent activates the faceless_youtube
+    # profile, server-enforcing "no faces" + documentary realism per-scene.
+    req["render_mode"] = "cinematic"
+    req["video_intent"] = "faceless_youtube"
     print(f"Part {n}: submitting")
     job_id = submit(req)
     print(f"Part {n}: job {job_id} — polling every {POLL_S}s (max {MAX_WAIT_MIN}min)")
