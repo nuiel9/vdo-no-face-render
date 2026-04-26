@@ -76,17 +76,26 @@ Structure (internal planning only — do NOT include these as headers in output)
 - CTA mentions aivdo.ai once, naturally, in Part 2's sign-off ONLY
 
 HOOK SCENE SPECIFICITY (REQUIRED for AIVDO v1.8 Cinematic — added 2026-04-26):
-The 0:00-0:20 hook narration MUST contain ALL FOUR:
-  1. A specific named brand or location (real or plausibly real — e.g. "ห้างตั้งฮั่วเส็งกลางถนนสีลม", "WeWork's HQ on Park Avenue", "Theranos lab in Newark CA")
-  2. A specific year or time marker (1995, 2018, "นานกว่า 50 ปี")
-  3. A specific number (revenue, branches, customers, age, employees, market cap)
-  4. At least one visual handle (building shape, street name, weather, era marker — gives the image generator something concrete to render)
+The 0:00-0:20 hook narration MUST contain ALL FOUR — and every fact MUST be REAL, fact-checked against a primary source:
+  1. A specific named brand or location — REAL, verified against the source documents (NOT "plausibly real" — the AIVDO image generator renders plausible fabrications faithfully, which produces publication-blocking factual errors. e.g., "ห้างตั้งฮั่วเส็ง บางลำพู" is correct; "ห้างตั้งฮั่วเส็งกลางถนนสีลม" is fabricated)
+  2. A specific year or time marker (1995, 2018) — verifiable against a filing, news archive, or company record
+  3. A specific number (revenue, branches, customers, age, employees, market cap) — citation required in REVIEW.md
+  4. At least one visual handle (building shape, street name, weather, era marker) — must match reality (Google Street View, archival photo, etc.)
+
+Critical: the AIVDO server-side `faceless_youtube` editorial gate fires a warning if `acknowledged_no_editorial` is not set on the REQUEST. This gate exists EXACTLY to catch fabricated narration. Render flow:
+  - Human writes narration with REAL specifics → records sources in REVIEW.md
+  - Human fact-checks each "specific" → creates `.facts_verified` empty marker file in the slug folder
+  - render.py sees the marker → sets `acknowledged_no_editorial: true` → server-side gate stays quiet
+  - No marker → server warning fires in logs → reminds you the video still needs fact-check
 
 Example contrast (test results 2026-04-26):
-  VAGUE (calm B-roll): "ในปี 2010 ร้านขายของชำเล็กๆแห่งหนึ่งในกรุงเทพเปิดให้บริการ"
-  SPECIFIC (Netflix-doc cinematic): "ในปี 2018 ห้างสรรพสินค้าตั้งฮั่วเส็งเก่าแก่กลางถนนสีลม ที่เคยเป็นจุดนัดพบของวัยรุ่นกรุงเทพยุค 1990 ปิดประตูถาวรหลังเปิดมานานกว่า 50 ปี ตึก 7 ชั้นสีน้ำตาลแดงที่เคยมีคนเข้าออก 30,000 คนต่อวัน กลายเป็นห้องโถงว่างเปล่าในชั่วข้ามคืน"
+  VAGUE (calm B-roll, no fabrication risk): "ในปี 2010 ร้านขายของชำเล็กๆแห่งหนึ่งในกรุงเทพเปิดให้บริการ"
+  SPECIFIC + FABRICATED (DO NOT SHIP): "ในปี 2018 ห้างสรรพสินค้าตั้งฮั่วเส็งเก่าแก่กลางถนนสีลม..." (Tang Hua Seng was actually at บางลำพู, not Silom — the system rendered a plausible Silom landmark faithfully, which is a publication-blocking factual error)
+  SPECIFIC + REAL (Netflix-doc cinematic, ship-ready): use only details traceable to a primary source (annual reports, Wikipedia citations, company press releases, archival news)
 
-Same provider, same model, same cost — entirely different visual impact. The server-side hook punch-up (Lever 2, shipped 2026-04-26 in commit 0b10b5e) prepends cinematic-framing cues for `scene_role=hook` only when video_intent=faceless_youtube — so the more visual handles you give it, the more dramatic the establishing shot becomes.
+Same provider, same model, same cost. The visual lift is real — but it amplifies whatever facts the narration contains, true OR false. Fact-checking specificity is now the load-bearing editorial step.
+
+The server-side hook punch-up (Lever 2, shipped 2026-04-26 in commit 0b10b5e) prepends cinematic-framing cues for `scene_role=hook` only when video_intent=faceless_youtube — so the more visual handles you give it, the more dramatic the establishing shot becomes. This makes the fact-check requirement non-negotiable.
 
 Voice: confident analyst, no hype, no AI-era filler phrases. ≥2 direct quotes from primary sources. No numbered lists spoken aloud — use prose.
 
