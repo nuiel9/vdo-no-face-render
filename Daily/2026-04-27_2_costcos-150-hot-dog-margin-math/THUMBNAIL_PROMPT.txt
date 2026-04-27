@@ -1,0 +1,62 @@
+THUMBNAIL DESIGNER BRIEF
+Row #2 — Costco's $1.50 Hot Dog: The Margin Math That Still Works
+Date: 2026-04-27 | Template: Hidden Truth | Winner title: "Costco Built a Factory Just to Keep a Hot Dog at $1.50"
+
+---
+
+CONCEPT (WINNER — Option A)
+
+Visual split: Left half shows an extreme close-up of a battered $1.50 price tag — aged paper, slightly yellowed, handwritten-style numerals, as if it has been on a wall since 1985. Right half shows a dramatic aerial illustration of an industrial factory with loading docks and conveyor belt silhouettes. A bold red vertical divider line separates the two halves. No human faces, no named individual's likeness.
+
+Typography overlay (designer-placed, not AI-generated in the image):
+- Main title: "COSTCO BUILT A FACTORY" in large all-caps white block letters, top two-thirds of frame
+- Sub-line: "just to keep this at $1.50" in slightly smaller yellow text below
+- No additional text in the image itself
+
+Color palette:
+- Background and factory side: deep charcoal #1A1A1A
+- Price tag side: warm sepia #8B6914
+- Accent / divider: Costco red #CC0000
+- Title text: pure white #FFFFFF
+- Sub-line text: warm yellow #FFD700
+
+Mobile legibility check:
+At 320px width, the $1.50 numerals and the factory silhouette must both be readable as distinct elements. Title text must be minimum 18pt equivalent at thumbnail size. Sub-line can be smaller (14pt equivalent) but must remain legible.
+
+---
+
+CONCEPT (UNDERDOG — Option B)
+
+Visual: Full-frame illustration of a hot dog with a $1.50 price tag stuck to it, lit dramatically from above like a product shot under investigation. Behind it, slightly blurred, are newspaper headline clippings referencing inflation milestones (1990, 2000, 2008, 2022). The contrast between the sharp hot dog in the foreground and the blurred inflation context creates the hidden-truth tension.
+
+Typography overlay:
+- Main text: "WHY COSTCO LOSES MONEY ON EVERY HOT DOG" in white, bold, top of frame
+- Sub-text: "— and plans to forever" in red italic below
+
+Color palette:
+- Background: near-black #111111
+- Hot dog: natural warm tones, slightly overexposed
+- Newspaper clippings: desaturated sepia overlay
+- Title text: white #FFFFFF
+- Sub-text: Costco red #CC0000
+
+---
+
+FACELESS COMPLIANCE NOTE
+
+Neither concept features any named individual's face or likeness. Jim Sinegal and Craig Jelinek are referenced in the video narration only. The thumbnail must not include any identifiable person. Factory silhouettes and objects only.
+
+---
+
+FORMAT SPECS
+
+- Output dimensions: 1280 × 720 px (16:9 YouTube standard)
+- Safe zone: keep all text within 96px inset from all edges (YouTube UI crop protection)
+- File format: PNG or JPG at ≥90% quality
+- Preferred tool: Canva Pro / Adobe Illustrator / Figma — do NOT use AI image generation for the text layer; place text manually for legibility control
+- Deliver both options as separate files: thumbnail_A.png and thumbnail_B.png
+
+---
+
+AIVDO POSTER MODE NOTE (if using AIVDO poster template as base):
+Use the "Hidden Truth" poster template. Set background to dark. Insert the price tag illustration as the hero asset. Use the split-panel layout variant. Add a factory aerial as the secondary panel. All text should be manually placed post-export for mobile legibility control.
