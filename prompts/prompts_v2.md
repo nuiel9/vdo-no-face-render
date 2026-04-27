@@ -75,9 +75,9 @@ Structure (internal planning only — do NOT include these as headers in output)
 - Last 90s of Part 2: contrarian reframe + personal caveat ("I was wrong about X until I read Y")
 - CTA mentions aivdo.ai once, naturally, in Part 2's sign-off ONLY
 
-HOOK SCENE SPECIFICITY (REQUIRED for AIVDO v1.8 Cinematic — added 2026-04-26):
-The 0:00-0:20 hook narration MUST contain ALL FOUR — and every fact MUST be REAL, fact-checked against a primary source:
-  1. A specific named brand or location — REAL, verified against the source documents (NOT "plausibly real" — the AIVDO image generator renders plausible fabrications faithfully, which produces publication-blocking factual errors. e.g., "ห้างตั้งฮั่วเส็ง บางลำพู" is correct; "ห้างตั้งฮั่วเส็งกลางถนนสีลม" is fabricated)
+HOOK SCENE SPECIFICITY (REQUIRED for AIVDO v1.8 Cinematic — added 2026-04-26, English-only from 2026-04-27):
+The 0:00-0:20 hook narration (in English) MUST contain ALL FOUR — and every fact MUST be REAL, fact-checked against a primary source:
+  1. A specific named brand or location — REAL, verified against the source documents (NOT "plausibly real" — the AIVDO image generator renders plausible fabrications faithfully, which produces publication-blocking factual errors. e.g., "Theranos lab in Newark, California" is correct; placing it elsewhere without verification = fabrication)
   2. A specific year or time marker (1995, 2018) — verifiable against a filing, news archive, or company record
   3. A specific number (revenue, branches, customers, age, employees, market cap) — citation required in REVIEW.md
   4. At least one visual handle (building shape, street name, weather, era marker) — must match reality (Google Street View, archival photo, etc.)
@@ -88,16 +88,16 @@ Critical: the AIVDO server-side `faceless_youtube` editorial gate fires a warnin
   - render.py sees the marker → sets `acknowledged_no_editorial: true` → server-side gate stays quiet
   - No marker → server warning fires in logs → reminds you the video still needs fact-check
 
-Example contrast (test results 2026-04-26):
-  VAGUE (calm B-roll, no fabrication risk): "ในปี 2010 ร้านขายของชำเล็กๆแห่งหนึ่งในกรุงเทพเปิดให้บริการ"
-  SPECIFIC + FABRICATED (DO NOT SHIP): "ในปี 2018 ห้างสรรพสินค้าตั้งฮั่วเส็งเก่าแก่กลางถนนสีลม..." (Tang Hua Seng was actually at บางลำพู, not Silom — the system rendered a plausible Silom landmark faithfully, which is a publication-blocking factual error)
-  SPECIFIC + REAL (Netflix-doc cinematic, ship-ready): use only details traceable to a primary source (annual reports, Wikipedia citations, company press releases, archival news)
+Example contrast (test results 2026-04-26, illustrating fabrication risk):
+  VAGUE (calm B-roll, no fabrication risk): "In 2010, a small grocery store opened somewhere in the city."
+  SPECIFIC + FABRICATED (DO NOT SHIP): naming a real brand at a wrong location → image generator renders the fabricated combination faithfully → publication-blocking factual error
+  SPECIFIC + REAL (Netflix-doc cinematic, ship-ready): use only details traceable to a primary source (10-K filings, court dockets, earnings transcripts, company press releases, archival news)
 
 Same provider, same model, same cost. The visual lift is real — but it amplifies whatever facts the narration contains, true OR false. Fact-checking specificity is now the load-bearing editorial step.
 
 The server-side hook punch-up (Lever 2, shipped 2026-04-26 in commit 0b10b5e) prepends cinematic-framing cues for `scene_role=hook` only when video_intent=faceless_youtube — so the more visual handles you give it, the more dramatic the establishing shot becomes. This makes the fact-check requirement non-negotiable.
 
-Voice: confident analyst, no hype, no AI-era filler phrases. ≥2 direct quotes from primary sources. No numbered lists spoken aloud — use prose.
+Voice: confident analyst, English narration, no hype, no AI-era filler phrases. ≥2 direct quotes from primary sources (preserve exact wording from source). No numbered lists spoken aloud — use prose.
 
 Return TWO deliverables:
 
@@ -113,7 +113,7 @@ Same script but cleaned for TTS. Include `===PART_BREAK===` on its own line betw
 - Introduce quotes naturally ("According to the filing…") instead of raw quotation marks
 - Keep paragraph breaks (blank line between paragraphs) — AIVDO uses these as scene hints
 - Keep parenthetical rhythm asides (e.g., "Read that again.")
-- Target: 150-180 wpm. 10-12 min total → 1,500-2,100 words split ~50/50 (so 750-1,050 per part)
+- Target: 150-180 wpm (English narration). 10-12 min total → 1,500-2,100 words split ~50/50 (so 750-1,050 per part)
 - End Part 2 with a single CTA sentence mentioning aivdo.ai once
 - Do NOT say "subscribe", "like", or reference YouTube mechanics
 ```
