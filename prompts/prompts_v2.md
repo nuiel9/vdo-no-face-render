@@ -221,6 +221,22 @@ Schema (exact keys — AIVDO's Pydantic validator will reject extras):
 - NO request for readable text in image prompts (subtitle layer handles it).
 - NO generic face close-ups ("businessman in suit"). Named subjects OK (Neumann's silhouette), archival objects OK, always OK.
 
+**Visual subject discipline (the hot-dog rule, 2026-04-28):**
+
+Background: AIVDO's `render_mode=cinematic` + `video_intent=faceless_youtube` is currently leaking the topic's *anchor object* (the dominant noun in the hook — e.g. "hot dog" in a Costco-pricing topic, "pitch deck" in a WeWork topic, "blood vial" in a Theranos topic) into every per-scene image-engine call server-side. Without explicit defense, gpt-image-2 will insert the anchor object into chart scenes, boardroom scenes, factory scenes, and aerial scenes that didn't ask for it. Verified failure: 2026-04-28 Costco render had hot dogs in financial-dashboard, factory-aerial, and boardroom scenes despite clean per-scene prompts.
+
+When generating each scene's `visuals[0].prompt`, follow these three rules:
+
+1. **Anchor-recurrence cap**: identify the topic's anchor object (the hero subject of the hook). It may appear in AT MOST 30% of scenes — typically scene 1 (hook), the moment-it-lands beat (when the topic's defining number/quote/document is introduced), and the closing callback. All other scenes must have a different hero subject: data viz, archival document, factory aerial, boardroom, supply-chain cutaway, exterior establishing shot, magazine-cover macro, etc.
+
+2. **Negative-prompt defense on non-anchor scenes**: every scene that does NOT feature the anchor must end its prompt with explicit exclusions, e.g.:
+   - For a chart scene: `... NEGATIVE: no hot dog, no food, no Kirkland packaging, no consumable products visible.`
+   - For a boardroom scene: `... NEGATIVE: no hot dog, no food on the table, no product placement.`
+   - For a factory scene: `... NEGATIVE: no specific food product, no hot dogs, no sausages on the conveyor — generic packaging or unidentifiable goods.`
+   The exclusion list always includes the topic anchor by name. Belt-and-suspenders against AIVDO's server-side topic leak until that's fixed.
+
+3. **Single-frame discipline**: every prompt must end with `Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.` This is non-negotiable — gpt-image-2 in `cinematic` mode otherwise produces 2x2 / 5-panel grids that read as ads, not documentary.
+
 **Structure:**
 - Scene count: 14-18 per part.
 - Scene 1 and last: `energy_level="high"`. Middle: "medium" with 1-2 "low" breathing beats.
