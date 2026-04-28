@@ -299,6 +299,14 @@ Generate:
 - UTM link: https://aivdo.ai/?utm_source=youtube&utm_medium=channel&utm_campaign={slug}&utm_content={video-id}
 
 Flag any source that is paywalled and suggest a free mirror.
+
+ALWAYS append this trademark / no-affiliation disclaimer block at the very end of the description, verbatim, after the citations and hashtags:
+
+---
+Disclosed is independent commentary and analysis. No affiliation with the companies discussed. All trademarks, logos, and brand assets shown are property of their respective owners and are used for identification, commentary, and educational purposes under nominative fair use.
+---
+
+This block is non-negotiable on every video. Do not paraphrase, shorten, or move it.
 ```
 
 ---
