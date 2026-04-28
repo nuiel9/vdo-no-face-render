@@ -1,0 +1,24 @@
+{
+  "row_num": 2,
+  "slug_folder": "costcos-150-hot-dog-the-margin-math-that-still-works",
+  "date": "2026-04-28",
+  "topic": "Costco's $1.50 hot dog: the margin math that still works",
+  "template": "Hidden Truth",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "editorial_warnings_part1": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "editorial_warnings_part2": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "utm_campaign": "business-pm-02",
+  "part1_job_id": "1c555a9edfd04cbea32fa8ca4533548b",
+  "part2_job_id": "bd6578f23145441d93d7c5ea84c29558",
+  "submitted_at": "2026-04-28T01:33:46Z",
+  "status": "submitted_unverified"
+}
