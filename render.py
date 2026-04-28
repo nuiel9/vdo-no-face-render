@@ -7,11 +7,12 @@ import json, os, sys, time, subprocess
 from pathlib import Path
 import requests
 
-AIVDO_URL     = os.environ["AIVDO_URL"].rstrip("/")
-AIVDO_API_KEY = os.environ["AIVDO_API_KEY"]
-POLL_S        = int(os.environ.get("AIVDO_POLL_S", "30"))
-MAX_WAIT_MIN  = int(os.environ.get("AIVDO_MAX_WAIT_MIN", "130"))   # 120 stuck-job + 10 buffer
-XFADE_S       = float(os.environ.get("AIVDO_XFADE_S", "0.5"))      # 0 = hard-cut concat
+AIVDO_URL        = os.environ["AIVDO_URL"].rstrip("/")
+AIVDO_API_KEY    = os.environ["AIVDO_API_KEY"]
+POLL_S           = int(os.environ.get("AIVDO_POLL_S", "30"))
+MAX_WAIT_MIN     = int(os.environ.get("AIVDO_MAX_WAIT_MIN", "130"))   # 120 stuck-job + 10 buffer
+XFADE_S          = float(os.environ.get("AIVDO_XFADE_S", "0.5"))      # 0 = hard-cut concat
+STRICT_FALLBACK  = os.environ.get("AIVDO_STRICT_FALLBACK", "0") == "1"  # 1 = abort if Part fell back to non-cinematic engine
 
 H = {"X-API-Key": AIVDO_API_KEY, "Content-Type": "application/json"}
 
@@ -38,6 +39,37 @@ def poll(job_id: str) -> str:
             raise RuntimeError(f"Job {job_id} failed: {b.get('error')}")
         time.sleep(POLL_S)
     raise TimeoutError(f"Job {job_id} exceeded {MAX_WAIT_MIN}min")
+
+
+def fetch_routing_metadata(job_id: str) -> dict:
+    """v1.8.5 image-routing fields exposed on GET /api/jobs/{id}."""
+    r = requests.get(f"{AIVDO_URL}/api/jobs/{job_id}", headers=H, timeout=30)
+    r.raise_for_status()
+    b = r.json()
+    return {k: b.get(k) for k in (
+        "image_engine_actually_used", "scenes_routed_via",
+        "fallback_count", "tone_variant_resolved",
+    )}
+
+
+def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
+    engine   = meta.get("image_engine_actually_used") or "unknown"
+    fallback = meta.get("fallback_count") or 0
+    routed   = meta.get("scenes_routed_via") or {}
+    cinematic_expected = requested_mode == "cinematic"
+    cinematic_engines  = {"gpt-image-2-2026-04-21", "gpt-image-2"}
+    fell_back = cinematic_expected and engine not in cinematic_engines
+
+    if fell_back or fallback:
+        print(f"  ⚠ Part {part_n} FALLBACK: requested={requested_mode!r} actual_engine={engine!r} "
+              f"fallback_count={fallback} scenes_routed_via={routed}")
+        if STRICT_FALLBACK:
+            raise RuntimeError(
+                f"Part {part_n} fell back from cinematic to {engine!r}. "
+                f"Set AIVDO_STRICT_FALLBACK=0 to allow heterogeneous renders."
+            )
+    else:
+        print(f"  ✓ Part {part_n} engine={engine!r} fallback_count={fallback}")
 
 
 def download(url: str, dest: Path) -> None:
@@ -122,6 +154,12 @@ def render_part(base: Path, n: int) -> Path:
     job_id = submit(req)
     print(f"Part {n}: job {job_id} — polling every {POLL_S}s (max {MAX_WAIT_MIN}min)")
     url = poll(job_id)
+    try:
+        report_routing(n, req.get("render_mode", "default"), fetch_routing_metadata(job_id))
+    except Exception as e:
+        if STRICT_FALLBACK:
+            raise
+        print(f"  (routing-metadata fetch skipped: {e})")
     print(f"Part {n}: downloading → {mp4.name}")
     download(url, mp4)
     return mp4
