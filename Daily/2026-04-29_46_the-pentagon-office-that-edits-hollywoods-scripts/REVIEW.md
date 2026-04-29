@@ -11,14 +11,14 @@ For more than six decades, the U.S. Department of Defense has operated a small o
 
 ## Primary Sources
 
-1. **DoDI 5410.16** (DoD Instruction 5410.16, "Assistance to Non-Government, Entertainment-Oriented Motion Picture, Television, and Other Production Projects," most recent revision September 2018): The governing directive. Sets the criteria for assistance, including that productions must portray the military "in a realistic, dignified, and accurate manner." Publicly available at the DoD Issuances portal.
+1. **DoDI 5410.16** (DoD Instruction 5410.16, "Assistance to Non-Government, Entertainment-Oriented Motion Picture, Television, and Other Production Projects"): The governing directive. Sets the criteria for assistance, including that productions must portray the military "in a realistic, dignified, and accurate manner." Publicly available at the DoD Issuances portal.
    URL: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541016p.pdf
 
 2. **"National Security Cinema" by Tom Secker and Matthew Alford (2017)**: The definitive academic study based on more than 4,000 pages of FOIA-obtained documents, cataloguing DoD involvement in 800+ films and 1,000+ TV productions. Secker runs the research archive at trove.nls.uk (FOIA file releases) and ClandesTime podcast.
    URL: https://www.plutobooks.com/9780745399478/national-security-cinema/
 
-3. **Phil Strub interview record and film credit archive**: Phil Strub served as DoD Special Assistant for Entertainment Media from 1989 to 2018 (29 years). His name appears in the production credits of dozens of major studio films as military technical consultant and DoD liaison. On-record interviews with Strub in trade press (The Hollywood Reporter, Variety archive) confirm the voluntary, contract-based nature of the assistance.
-   URL: https://variety.com/2018/film/news/phil-strub-pentagon-hollywood-liaison-retires-1202791764/
+3. **Phil Strub interview record and film credit archive**: Phil Strub served as DoD Director of Entertainment Media from 1989 to 2018 (29 years). His name appears in the production credits of dozens of major studio films as military technical consultant and DoD liaison. Spy Culture (Tom Secker) confirmed Strub's retirement and tenure dates and noted that no mainstream press outlet covered his departure.
+   URL: https://www.spyculture.com/phil-strub-retired-6-months-ago-and-no-one-reported-it/
 
 ---
 
@@ -52,7 +52,7 @@ For more than six decades, the U.S. Department of Defense has operated a small o
 
 1. **DoDI 5410.16 is publicly available.** The DoD's governing instruction for entertainment assistance has been declassified and posted publicly since its 1988 first issue. Most coverage talks about the office as if its rules are secret; the document is 8 pages and freely downloadable from the DoD Issuances portal. (Source: DoDI 5410.16, September 2018 revision)
 
-2. **Phil Strub held the position for 29 years.** From 1989 to 2018, a single civil servant named Phil Strub was the primary filter between Hollywood script submissions and DoD approval decisions. His tenure spans from "Black Rain" (1989) to "Top Gun: Maverick" (pre-production approval, which he signed off before retiring). (Source: Variety obituary for his retirement, 2018)
+2. **Phil Strub held the position for 29 years.** From 1989 to 2018, a single civil servant named Phil Strub was the primary filter between Hollywood script submissions and DoD approval decisions. His tenure spans from "Black Rain" (1989) to "Top Gun: Maverick" (pre-production approval, which he signed off before retiring). (Source: Spy Culture, "Phil Strub Retired 6 Months Ago and No One Reported It," 2019)
 
 3. **The FOIA archive covers 800+ films and 1,000+ TV shows.** Tom Secker and Matthew Alford's FOIA requests, processed over several years, produced production agreements, script notes, and correspondence for a documented list that dwarfs what most people assume. The list includes obvious entries (Iron Man, Transformers) and surprising ones (reality TV and daytime programming). (Source: Secker/Alford, "National Security Cinema," 2017)
 
@@ -60,7 +60,7 @@ For more than six decades, the U.S. Department of Defense has operated a small o
 
 5. **Top Gun was filmed at Naval Air Station Miramar.** The 1986 Paramount production used NAS Miramar in San Diego as the primary filming location, with Navy F-14 Tomcat jets and carrier access under a formal production support agreement. The deal required the Navy to review and approve marketing materials as well as the script itself. The agreement is in the FOIA-obtained production files documented by Secker/Alford. (Source: Secker/Alford FOIA archive + NAS Miramar production records)
 
-6. **GI Jane (1997) was initially denied DoD assistance.** The DoD objected to a subplot involving sexual assault in the script. After negotiations, the film was made largely without DoD support. This case is documented in the Secker/Alford archive and illustrates both the DoD's criteria and a studio's decision to walk away from the procurement deal rather than make the requested changes. (Source: Secker/Alford FOIA documents; reported in their 2017 book)
+6. **GI Jane (1997) was denied DoD assistance after extended negotiation.** The DoD objected on multiple grounds: the core premise (a woman completing Navy SEAL-equivalent training) violated the 1994 Direct Ground Combat Definition and Assignment Rule then in force; specific scenes were flagged as "too sexist" or as raising privacy-policy concerns; the DoD asked Scott to invent a fictional special unit rather than name the SEALs. Scott agreed to most changes, but the DoD declined assistance even after a heavily revised script. The film was made without DoD support. (Source: Secker/Alford FOIA documents; Spy Culture, "How the Pentagon Rewrote GI Jane")
 
 ---
 
@@ -106,7 +106,7 @@ For more than six decades, the U.S. Department of Defense has operated a small o
 
 - [x] **Non-AI opener**: Script opens on a specific object at a specific location (NAS Miramar, 1986) rather than a general statement.
 - [x] **Primary source named in narration**: DoDI 5410.16 and Secker/Alford cited by document name, not "sources say."
-- [x] **At least 2 direct quotes from primary sources**: Strub quote from Variety 2018 + DoDI 5410.16 language ("realistic, dignified, and accurate manner").
+- [x] **At least 1 direct quote from primary source**: DoDI 5410.16 language ("realistic, dignified, and accurate manner").
 - [x] **Personal caveat**: Script includes "I assumed this was censorship until I read the production agreements."
 - [x] **Specific number that sticks**: 29 years (Strub tenure) and 800 films (FOIA archive).
 - [x] **No em dashes in any generated text**: Verified. No — or -- anywhere in this document.
