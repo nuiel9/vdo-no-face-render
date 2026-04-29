@@ -14,8 +14,8 @@ For more than six decades, the U.S. Department of Defense has operated a small o
 1. **DoDI 5410.16** (DoD Instruction 5410.16, "Assistance to Non-Government, Entertainment-Oriented Motion Picture, Television, and Other Production Projects"): The governing directive. Sets the criteria for assistance, including that productions must portray the military "in a realistic, dignified, and accurate manner." Publicly available at the DoD Issuances portal.
    URL: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541016p.pdf
 
-2. **"National Security Cinema" by Tom Secker and Matthew Alford (2017)**: The definitive academic study based on more than 4,000 pages of FOIA-obtained documents, cataloguing DoD involvement in 800+ films and 1,000+ TV productions. Secker runs the research archive at trove.nls.uk (FOIA file releases) and ClandesTime podcast.
-   URL: https://www.plutobooks.com/9780745399478/national-security-cinema/
+2. **"National Security Cinema" by Tom Secker and Matthew Alford (2017)**: The definitive study based on more than 4,000 pages of FOIA-obtained documents, cataloguing DoD involvement in 800+ films and 1,000+ TV productions. Independently published (ISBN 978-1548084981); Secker's separate Pluto Press title *Reel Power* (2010, with Alford) is the academic precursor. Secker's FOIA archive + ClandesTime podcast live at spyculture.com.
+   URL: https://www.amazon.com/National-Security-Cinema-Government-Hollywood/dp/1548084980
 
 3. **Phil Strub interview record and film credit archive**: Phil Strub served as DoD Director of Entertainment Media from 1989 to 2018 (29 years). His name appears in the production credits of dozens of major studio films as military technical consultant and DoD liaison. Spy Culture (Tom Secker) confirmed Strub's retirement and tenure dates and noted that no mainstream press outlet covered his departure.
    URL: https://www.spyculture.com/phil-strub-retired-6-months-ago-and-no-one-reported-it/

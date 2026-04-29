@@ -32,7 +32,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 1. DoD Instruction 5410.16, "Assistance to Non-Government, Entertainment-Oriented Motion Picture, Television, and Other Production Projects." DoD Issuances portal: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541016p.pdf
 
-2. Tom Secker and Matthew Alford, "National Security Cinema: The Relationship Between Hollywood and the American National Security State," Pluto Press, 2017. https://www.plutobooks.com/9780745399478/national-security-cinema/
+2. Tom Secker and Matthew Alford, "National Security Cinema: The Shocking New Evidence of Government Control in Hollywood" (2017, independently published, ISBN 978-1548084981). https://www.amazon.com/National-Security-Cinema-Government-Hollywood/dp/1548084980
 
 3. Tom Secker, "Phil Strub Retired 6 Months Ago and No One Reported It," Spy Culture (2019). https://www.spyculture.com/phil-strub-retired-6-months-ago-and-no-one-reported-it/ — confirms Strub's 29-year tenure (1989-2018) and the absence of mainstream press coverage of his retirement.
 
