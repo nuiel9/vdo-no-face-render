@@ -1,0 +1,27 @@
+{
+  "row_num": 46,
+  "slug_folder": "the-pentagon-office-that-edits-hollywoods-scripts",
+  "date": "2026-04-29",
+  "topic": "The Pentagon office that edits Hollywood's scripts",
+  "template": "Hidden Truth",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "editorial_warnings_part1": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "editorial_warnings_part2": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "utm_campaign": "business-pm-pentagon-elo",
+  "part1_job_id": "a51610c4283e49cb9528c099752f0d33",
+  "part2_job_id": "ddeed42b69d344538100565b5f770183",
+  "submitted_at": "2026-04-29T01:18:49Z",
+  "status": "submitted_unverified"
+}

@@ -1,0 +1,43 @@
+In 1986, Paramount Pictures sent a camera crew to Naval Air Station Miramar in San Diego, California. The Navy gave them F-14 Tomcat jets, deck space on aircraft carriers, and personnel to work around. The film was Top Gun. What almost nobody reported at the time was that this was not a donation. It was a contract. In exchange for the hardware, Paramount agreed to let the Navy review the script and approve marketing materials before the film went public.
+
+That contract has a formal name. It is called a production support agreement. And the government office that signs them is still operating today, still reviewing scripts, still deciding which Hollywood productions qualify for military hardware access, and still shaping what audiences see when they watch a soldier, a pilot, or a general on screen.
+
+The office sits inside the Department of Defense. Its governing document is DoD Instruction 5410.16, a publicly available eight-page directive that sets out exactly what Hollywood has to offer in exchange for assistance. The language is direct. Productions must portray the military, in the DoD's words, "in a realistic, dignified, and accurate manner." That phrase is the hinge of the entire relationship.
+
+When a production meets the standard, the deal is usually straightforward. The studio gets access to hardware that would cost hundreds of millions of dollars to replicate. A working aircraft carrier, a fleet of fighter jets, a forward operating base. In return, the DoD gets script notes, approval rights, and a screen credit. Both sides gain something concrete. This is not censorship in any formal sense. It is procurement.
+
+The person who ran this office for most of its modern era was a civil servant named Phil Strub. He held the title of Special Assistant for Entertainment Media at the Department of Defense from 1989 to 2018, a tenure of 29 years. During that time he personally reviewed thousands of script submissions and made the call on which productions received DoD support. His name appears in the credits of films ranging from Iron Man to Transformers to Act of Valor.
+
+Strub's approach was not arbitrary. He applied DoDI 5410.16 as his standard. But the instruction leaves significant room for interpretation, and across three decades, one man's interpretation of "dignified and accurate" became the de facto filter for how American military life was depicted in mainstream cinema.
+
+Some productions chose not to seek DoD support at all. Director Kathryn Bigelow did not use DoD assistance on "The Hurt Locker." Neither did Francis Ford Coppola on "Apocalypse Now," nor Stanley Kubrick on "Full Metal Jacket." All three films portray the military in ways that are complex, sometimes damaging, and difficult to reconcile with the "realistic, dignified, and accurate" standard of DoDI 5410.16. All three are also widely considered among the most serious and enduring films about American military experience ever made.
+
+The films that walked away from the DoD deal made different choices and told different stories. That is not a coincidence.
+
+The full scale of the DoD's entertainment involvement was not widely understood until 2017, when researchers Tom Secker and Matthew Alford published "National Security Cinema." Their book was based on more than 4,000 pages of FOIA-obtained documents: production agreements, script correspondence, and internal DoD memos. The database they assembled covers more than 800 films and more than 1,000 television productions across seven decades.
+
+The number is larger than almost anyone assumed. And the pattern it reveals is consistent. The DoD did not intervene randomly. It engaged with productions that sought its hardware, applied its standard, and signed agreements that both parties understood and accepted.
+
+But here is what most analysts miss when they look at this record: the question of who got the better deal.
+
+===PART_BREAK===
+
+Start with the Pentagon's side of the ledger. The DoD does not have a marketing budget for recruiting in the way a consumer brand does. It cannot buy a 30-second slot during the Super Bowl and expect the return to justify the cost. What it can do is embed its brand inside the most widely distributed entertainment product on earth and reach audiences in a context of aspiration and excitement rather than obligation.
+
+Top Gun is the standard reference point. A significant body of Navy recruiter testimony from the period suggests that the film drove measurable interest in Navy aviation programs. The exact numbers have been disputed and the most dramatic figures, including a frequently cited claim of a 500 percent increase in recruiting inquiries, have no verified primary source. Secker and Alford address this directly in "National Security Cinema." The 500 percent figure traces back to anecdotal recruiter reports, not a controlled study, and has been repeated so often it became embedded in the record as if it were data.
+
+What is verifiable is simpler: the Navy considered Top Gun a success and the production support model expanded after it. That is evidence of the Pentagon's internal assessment, even without a clean ROI number.
+
+The Phil Strub era illuminates something else. When one person holds a position for 29 years, their individual aesthetic and ethical judgments accumulate into institutional policy by accretion rather than design. Strub was not arbitrary. He was also not a panel, a committee, or a transparent review board. He was a civil servant applying an eight-page instruction to an industry that moves in drafts, pitches, and personal relationships. The DoD's entertainment policy is, in practice, the editorial record of one extended career.
+
+This matters because the mainstream critique of the Pentagon-Hollywood relationship focuses on specific changes to specific scripts: a subplot softened here, a character's service branch altered there. The more significant structural question is what scripts never got written at all, because writers and producers learned over decades which stories qualified for DoD support and which did not.
+
+The streaming era is beginning to shift this dynamic. CGI has lowered the cost of rendering military hardware to the point where access to real carriers and jets is less essential than it was in 1986. When the DoD's primary negotiating asset, hardware access, becomes cheaper to replace digitally, the leverage changes. Productions that would once have needed the partnership can now make the calculation differently.
+
+The FOIA archive assembled by Secker and Alford makes one thing clear that no amount of commentary can obscure: this is a documented, consistent, institutionalized relationship. The agreements exist in writing. The script notes exist in writing. The criteria exist in DoDI 5410.16, which is free to download.
+
+I spent time before researching this video assuming the Pentagon-Hollywood relationship was primarily a story about censorship. The FOIA documents corrected that. Censorship implies coercion. What the documents show is a long series of opt-in agreements between parties who understood the terms and chose them. Some studios walked away. Most did not. The studios that stayed got hardware. The DoD got favorable depictions of military service in the most widely watched entertainment formats in the world.
+
+Both sides knew what they were doing. The only people who didn't know were the audience.
+
+If you want to build the kind of research and production infrastructure that lets a small team tell this kind of story at scale, visit aivdo.ai and see what the stack looks like from the inside.

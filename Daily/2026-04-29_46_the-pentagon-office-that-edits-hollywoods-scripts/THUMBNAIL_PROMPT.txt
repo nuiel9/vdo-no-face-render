@@ -1,0 +1,44 @@
+THUMBNAIL DESIGNER BRIEF
+Video: "The Government Office That Approves Hollywood Scripts"
+Channel: Disclosed (faceless, business case studies, English)
+Template style: Hidden Truth / investigative reveal
+
+---
+
+CONCEPT (selected from 3 candidates)
+
+Split-field composition: left half shows the Pentagon building exterior silhouette in cool grey and blue tones. Right half shows a large film clapperboard with a red rubber stamp reading APPROVED across the slate. A single thick red horizontal line separates the two halves. The contrast between the institutional and the cinematic is the visual thesis: government meets entertainment.
+
+Text overlay (max 4 words): "Who Approves Your Movies?" in bold white Helvetica Neue, drop shadow, positioned across the center split line. Text must read clearly at 320px thumbnail width.
+
+---
+
+STYLE NOTES
+
+Color palette:
+- Left (Pentagon side): Desaturated concrete grey (#7A7F85), deep slate blue (#1E2D40)
+- Right (clapperboard side): Warm cream (#F5ECD7), aged paper texture, rubber stamp red (#CC2222)
+- Dividing line: solid red (#CC2222), 8px wide
+
+Mood: investigative documentary. Think Frontline or The New York Times visual style, not clickbait. The visual should feel like a magazine cover that reveals something, not sensationalizes it.
+
+No faces. No human silhouettes. No AI-generated portraits of named individuals (Phil Strub, any DoD official, any filmmaker). No military personnel in frame.
+
+Pentagon representation: architectural silhouette only, the five-sided building shape in grey line illustration against a dark sky, no realistic photography of actual personnel.
+
+Clapperboard representation: standard film-industry clapperboard (hinged sticks, striped chalk marker board), no brand logos, no film title visible. The APPROVED red stamp is the key visual element.
+
+---
+
+ALTERNATE CONCEPT (B-test candidate)
+
+A single image: a thick manila government folder labeled TOP SECRET, lying on a cinematic desk under a harsh overhead lamp, with the corner of a film script visible peeking out from beneath it. Text overlay: "The Deal Nobody Talks About." Same color palette, same typography treatment.
+
+Mobile legibility: both concepts work at 320px. The manila folder concept has stronger contrast because the single subject fills the frame.
+
+---
+
+AIVDO POSTER MODE NOTE
+
+If using AIVDO poster mode, use the following prompt:
+"Cinematic thumbnail composition. Left half: Pentagon building exterior silhouette in desaturated grey and slate blue tones against a dark sky, architectural line-art style. Right half: aged film clapperboard with a bold red rubber stamp reading APPROVED across the slate. A thick red dividing line (#CC2222) splits the two halves. No people. No human silhouettes. Text overlay: WHO APPROVES YOUR MOVIES in white Helvetica bold centered on the dividing line. Flat illustration style. No photorealistic faces. Single unified composition, no collage or multi-panel grid."
