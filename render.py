@@ -2,10 +2,22 @@
 """
 aivdo-render: submit 2 /api/generate jobs (Path B), poll, stitch into final.mp4.
 Usage: python render.py "<slug_dir>"  (e.g. Daily/2026-04-23_3_theranos-fake-scope/)
+
+State file: writes <slug_dir>/.render_state.json after each submit so a
+crashed run (DNS hiccup, network blip, ctrl-C) can be RESUMED on the next
+invocation instead of re-submitting fresh jobs and burning ~$0.66 OpenAI
+on the duplicate. The file is deleted automatically once final.mp4 lands.
+Manually delete it if you want a clean re-submit.
+
+Network: uses a urllib3 Retry policy on 5xx + connection-reset, plus an
+explicit per-poll try/except around DNS / timeout errors so a transient
+network blip doesn't kill an in-flight render job tracked on AIVDO's side.
 """
 import json, os, sys, time, subprocess
 from pathlib import Path
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 AIVDO_URL        = os.environ["AIVDO_URL"].rstrip("/")
 AIVDO_API_KEY    = os.environ["AIVDO_API_KEY"]
@@ -16,20 +28,84 @@ STRICT_FALLBACK  = os.environ.get("AIVDO_STRICT_FALLBACK", "0") == "1"  # 1 = ab
 
 H = {"X-API-Key": AIVDO_API_KEY, "Content-Type": "application/json"}
 
+# Session with urllib3 retry on 5xx + connection-reset. Catches the
+# transient class of failures BELOW the application layer. DNS-resolution
+# failures still raise ConnectionError up to the caller — handled
+# explicitly inside poll().
+SESSION = requests.Session()
+SESSION.headers.update(H)
+_retry = Retry(
+    total=4,
+    backoff_factor=1.0,
+    status_forcelist=[500, 502, 503, 504],
+    allowed_methods=frozenset(["HEAD", "GET", "POST"]),
+    raise_on_status=False,
+)
+SESSION.mount("https://", HTTPAdapter(max_retries=_retry))
+SESSION.mount("http://", HTTPAdapter(max_retries=_retry))
+
+
+# ─── State file (resume across crashes) ──────────────────────────────
+
+STATE_FILENAME = ".render_state.json"
+
+
+def _state_path(base: Path) -> Path:
+    return base / STATE_FILENAME
+
+
+def _load_state(base: Path) -> dict:
+    p = _state_path(base)
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text())
+    except json.JSONDecodeError:
+        return {}
+
+
+def _save_job_id(base: Path, part_n: int, job_id: str) -> None:
+    state = _load_state(base)
+    state[f"part{part_n}_job_id"] = job_id
+    state[f"part{part_n}_submitted_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    _state_path(base).write_text(json.dumps(state, indent=2) + "\n")
+
+
+def _clear_state(base: Path) -> None:
+    p = _state_path(base)
+    if p.exists():
+        p.unlink()
+
 
 def submit(req: dict) -> str:
-    r = requests.post(f"{AIVDO_URL}/api/generate", json=req, headers=H, timeout=60)
+    r = SESSION.post(f"{AIVDO_URL}/api/generate", json=req, timeout=60)
     r.raise_for_status()
     return r.json()["job_id"]
 
 
 def poll(job_id: str) -> str:
+    """Poll AIVDO until the job hits a terminal state. Survives transient
+    DNS / connection / timeout errors during a poll iteration — only the
+    deadline or a real `status=failed` from AIVDO bails out.
+    """
     deadline = time.time() + MAX_WAIT_MIN * 60
     last = ""
     while time.time() < deadline:
-        r = requests.get(f"{AIVDO_URL}/api/jobs/{job_id}", headers=H, timeout=30)
-        r.raise_for_status()
-        b = r.json()
+        try:
+            r = SESSION.get(f"{AIVDO_URL}/api/jobs/{job_id}", timeout=30)
+            r.raise_for_status()
+            b = r.json()
+        except (
+            requests.exceptions.ConnectionError,
+            requests.exceptions.Timeout,
+        ) as e:
+            # DNS hiccup, transient network blip, or AIVDO 5xx that
+            # exhausted the urllib3 retry budget. Job is still running on
+            # AIVDO's side; we just couldn't reach it this poll. Wait and
+            # try again.
+            print(f"  {job_id[:8]} transient {type(e).__name__} — retrying in {POLL_S}s")
+            time.sleep(POLL_S)
+            continue
         line = f"  {job_id[:8]} {b['status']} {b.get('progress',0)}% — {b.get('current_stage','')}"
         if line != last:
             print(line); last = line
@@ -43,7 +119,7 @@ def poll(job_id: str) -> str:
 
 def fetch_routing_metadata(job_id: str) -> dict:
     """v1.8.5 image-routing fields exposed on GET /api/jobs/{id}."""
-    r = requests.get(f"{AIVDO_URL}/api/jobs/{job_id}", headers=H, timeout=30)
+    r = SESSION.get(f"{AIVDO_URL}/api/jobs/{job_id}", timeout=30)
     r.raise_for_status()
     b = r.json()
     return {k: b.get(k) for k in (
@@ -73,6 +149,8 @@ def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
 
 
 def download(url: str, dest: Path) -> None:
+    # Use a fresh session for the GCS signed-URL download — AIVDO's
+    # X-API-Key header isn't needed (and shouldn't leak) on storage.googleapis.com.
     with requests.get(url, stream=True, timeout=300) as r:
         r.raise_for_status()
         with open(dest, "wb") as f:
@@ -150,9 +228,20 @@ def render_part(base: Path, n: int) -> Path:
     # imagery from un-verified narration.)
     if (base / ".facts_verified").exists():
         req["acknowledged_no_editorial"] = True
-    print(f"Part {n}: submitting")
-    job_id = submit(req)
-    print(f"Part {n}: job {job_id} — polling every {POLL_S}s (max {MAX_WAIT_MIN}min)")
+
+    # Resume an in-flight job if a prior run crashed mid-poll. Without this,
+    # a DNS hiccup mid-render forces a full re-submit, burning ~$0.66
+    # OpenAI on a duplicate AIVDO job. Saved to .render_state.json.
+    state = _load_state(base)
+    saved_job_id = state.get(f"part{n}_job_id")
+    if saved_job_id:
+        print(f"Part {n}: resuming saved job {saved_job_id} (from {state.get(f'part{n}_submitted_at', '?')})")
+        job_id = saved_job_id
+    else:
+        print(f"Part {n}: submitting")
+        job_id = submit(req)
+        _save_job_id(base, n, job_id)
+        print(f"Part {n}: job {job_id} — polling every {POLL_S}s (max {MAX_WAIT_MIN}min)")
     url = poll(job_id)
     try:
         report_routing(n, req.get("render_mode", "default"), fetch_routing_metadata(job_id))
@@ -175,6 +264,10 @@ def main(slug_dir: str) -> None:
     p2 = render_part(base, 2)
     print(f"Stitching → {final.name}")
     stitch([p1, p2], final)
+    # Run completed; the state file no longer reflects a useful resumable
+    # state. Remove it so the next slug-render in the same folder doesn't
+    # accidentally try to resume a stale job_id.
+    _clear_state(base)
     mins = (time.time() - started) / 60
     print(f"\nDone in {mins:.1f} min. {final}")
 
