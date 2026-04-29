@@ -430,16 +430,32 @@ def main(argv: list[str]) -> int:
             sys.stderr.write(f"warning: thumbnail upload failed: {e}\n")
 
     if meta["pinned_comment"] and not args["no_pinned_comment"]:
-        try:
-            cid = post_top_level_comment(youtube, video_id, meta["pinned_comment"])
-            print(f"✓ Posted pinned-comment text (comment id {cid})")
+        if args["privacy"] == "private":
+            # YouTube API blocks `commentThreads.insert` on private videos
+            # (returns 403 forbidden). Comments are public-facing surface;
+            # the API enforces "video must be public/unlisted before a
+            # comment can be posted." Don't try; print the text inline so
+            # the human can copy-paste it into Studio after flipping public.
             print(
-                "  NOTE: YouTube API has no 'pin' endpoint. Click the Pin button "
-                "in Studio:"
+                "\n(pinned-comment NOT posted — YouTube API blocks comments "
+                "on private videos. Once you flip privacy to public/unlisted "
+                "in Studio, post + pin this text manually:)\n"
             )
-            print(f"  {studio_url}/comments")
-        except Exception as e:
-            sys.stderr.write(f"warning: comment post failed: {e}\n")
+            print("─── pinned comment text ───")
+            print(meta["pinned_comment"])
+            print("───────────────────────────")
+            print(f"\nStudio comments page: {studio_url}/comments")
+        else:
+            try:
+                cid = post_top_level_comment(youtube, video_id, meta["pinned_comment"])
+                print(f"✓ Posted pinned-comment text (comment id {cid})")
+                print(
+                    "  NOTE: YouTube API has no 'pin' endpoint. Click the Pin button "
+                    "in Studio:"
+                )
+                print(f"  {studio_url}/comments")
+            except Exception as e:
+                sys.stderr.write(f"warning: comment post failed: {e}\n")
 
     print(
         f"\nNext: open Studio, QC, flip privacy → public when ready, "
