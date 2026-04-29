@@ -1,5 +1,8 @@
 # YOUTUBE.md: The Government Office That Approves Hollywood Scripts
 
+**Published:** 2026-04-29 to @disclosedch
+**URL:** https://www.youtube.com/watch?v=GkWZZc5q8-I
+
 ---
 
 ## Description (100 words)
