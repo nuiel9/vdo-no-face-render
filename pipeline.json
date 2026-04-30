@@ -603,7 +603,7 @@
       "niche": "Business Case Studies",
       "aivdo_template": "News",
       "target_length_min": 11,
-      "script_status": "Planned",
+      "script_status": "queue_next",
       "publish_status": "Planned",
       "planned_publish": null,
       "actual_publish": null,
@@ -705,8 +705,8 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
-      "script_status": "Planned",
-      "publish_status": "Planned",
+      "script_status": "Skipped",
+      "publish_status": "Skipped",
       "planned_publish": null,
       "actual_publish": null,
       "utm_campaign": "business-pm-ww-ozempic",
@@ -714,7 +714,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Skipped 2026-04-30: routine v4.5 had foundational fabrications (Chapter 11 timing/venue, Sequence price structure, Oprah resignation timing, ~7 issues). lint_urls.py + post-render fact-check caught it. Editorial gate worked; ~$1.32 OpenAI sunk on the broken render. Topic worth revisiting with hand-curated brief once WW emergence terms are public. Artifacts retained in daily/2026-04-30_42_ww-ozempic-pivot-failed-on-arrival as research draft."
     },
     {
       "#": 43,
@@ -766,6 +766,23 @@
       "views_30d": null,
       "aivdo_trials_attributed": null,
       "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+    },
+    {
+      "#": 46,
+      "title_working_draft": "The Pentagon office that edits Hollywood's scripts",
+      "niche": "Business Case Studies",
+      "aivdo_template": "Hidden Truth",
+      "target_length_min": 11,
+      "script_status": "Done",
+      "publish_status": "Published",
+      "planned_publish": "2026-04-30",
+      "actual_publish": "2026-04-29",
+      "utm_campaign": "business-pm-pentagon-elo",
+      "thumbnail_ctr_pct": null,
+      "views_7d": null,
+      "views_30d": null,
+      "aivdo_trials_attributed": null,
+      "notes": "Published 2026-04-29 to @disclosedch: https://www.youtube.com/watch?v=GkWZZc5q8-I — Final video 8:53 cinematic gpt-image-2, ~$3.32 OpenAI total inc. AIVDO-bug retries. Editorial corrections shipped 27dbd34 + 3917b8a (Strub title, Variety→Spy Culture, GI Jane accuracy, eight-page claim dropped). First production exercise of v4.5 routine + AIVDO v1.8.16 (which shipped Fix A/B/C to unblock this slug). Brief at briefs/2026-04-30_46_pentagon-entertainment-liaison-office.md. Disclosure Day SEO ride window: now → 2026-06-12 release."
     }
   ]
 }
