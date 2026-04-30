@@ -1,0 +1,243 @@
+{
+  "text": "In 2018, the U.S. Congress passed the Economic Growth, Regulatory Relief, and Consumer Protection Act, known as S. 2155. The law raised the threshold at which banks faced enhanced prudential standards under Dodd-Frank from $50 billion in assets to $250 billion. SVB was among the banks that supported that change. The direct result: SVB was not required to run formal stress tests against interest rate scenarios under the Dodd-Frank Act Stress Test framework. The very risk that destroyed it was the risk regulators were no longer required to formally test.\n\nSVB also entered 2022 without a Chief Risk Officer. Laura Izurieta departed in April 2022. Her replacement, Kim Olson, was not named until January 2023. During those eight months, the Federal Reserve raised its benchmark rate from 0.25 percent to 4.5 percent. There was no executive formally accountable for the portfolio's duration risk as that risk compounded.\n\nOn March 10, 2023, California's Department of Financial Protection and Innovation closed Silicon Valley Bank and appointed the FDIC as receiver. It was the second-largest bank failure in U.S. history by assets, behind only Washington Mutual in 2008. On March 12, the FDIC invoked a systemic risk exception, guaranteeing all deposits. That decision reflected an uncomfortable number from the 2022 10-K: approximately 93.8 percent of SVB's deposits exceeded the $250,000 FDIC insurance limit.\n\nThe FDIC's post-mortem, published April 28, 2023, called SVB's failure a textbook case of mismanagement. The Federal Reserve's own review, published the same day, found that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.\n\nFirst Citizens BancShares acquired SVB's deposits and loans from the FDIC on March 27, 2023, at a discount the FDIC estimated would cost the Deposit Insurance Fund approximately $20 billion.\n\nThe standard telling of the SVB story is a story about a social media panic and a VC herd. That story is not wrong. It is incomplete. A bank holding $91 billion in bonds with $15 billion in unrealized losses, no Chief Risk Officer, a deposit base that was 94 percent uninsured, and a regulatory exemption from the stress tests that would have caught this: that bank was not one provocative tweet away from stability. It was one honest accounting update away from a run. The March 8 8-K was that update. And the run came because the math had been true for months before anyone said it out loud.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "SVB: The $42B Run - Part 2",
+    "description": "The regulatory backstory, missing CRO, FDIC seizure, and the contrarian reframe: the run was rational.",
+    "source_text": "In 2018, the U.S. Congress passed the Economic Growth, Regulatory Relief, and Consumer Protection Act, known as S. 2155. The law raised the threshold at which banks faced enhanced prudential standards under Dodd-Frank from $50 billion in assets to $250 billion. SVB was among the banks that supported that change. The direct result: SVB was not required to run formal stress tests against interest rate scenarios under the Dodd-Frank Act Stress Test framework. The very risk that destroyed it was the risk regulators were no longer required to formally test.\n\nSVB also entered 2022 without a Chief Risk Officer. Laura Izurieta departed in April 2022. Her replacement, Kim Olson, was not named until January 2023. During those eight months, the Federal Reserve raised its benchmark rate from 0.25 percent to 4.5 percent. There was no executive formally accountable for the portfolio's duration risk as that risk compounded.\n\nOn March 10, 2023, California's Department of Financial Protection and Innovation closed Silicon Valley Bank and appointed the FDIC as receiver. It was the second-largest bank failure in U.S. history by assets, behind only Washington Mutual in 2008. On March 12, the FDIC invoked a systemic risk exception, guaranteeing all deposits. That decision reflected an uncomfortable number from the 2022 10-K: approximately 93.8 percent of SVB's deposits exceeded the $250,000 FDIC insurance limit.\n\nThe FDIC's post-mortem, published April 28, 2023, called SVB's failure a textbook case of mismanagement. The Federal Reserve's own review, published the same day, found that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.\n\nFirst Citizens BancShares acquired SVB's deposits and loans from the FDIC on March 27, 2023, at a discount the FDIC estimated would cost the Deposit Insurance Fund approximately $20 billion.\n\nThe standard telling of the SVB story is a story about a social media panic and a VC herd. That story is not wrong. It is incomplete. A bank holding $91 billion in bonds with $15 billion in unrealized losses, no Chief Risk Officer, a deposit base that was 94 percent uninsured, and a regulatory exemption from the stress tests that would have caught this: that bank was not one provocative tweet away from stability. It was one honest accounting update away from a run. The March 8 8-K was that update. And the run came because the math had been true for months before anyone said it out loud.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "The Deregulation Backstory: S. 2155",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "S. 2155 signed May 2018",
+          "SIFI threshold: $50B raised to $250B",
+          "SVB exempt from DFAST stress tests"
+        ],
+        "narration": {
+          "text": "In 2018, the U.S. Congress passed the Economic Growth, Regulatory Relief, and Consumer Protection Act, known as S. 2155. The law raised the threshold at which banks faced enhanced prudential standards under Dodd-Frank from $50 billion in assets to $250 billion. SVB was among the banks that supported that change. The direct result: SVB was not required to run formal stress tests against interest rate scenarios under the Dodd-Frank Act Stress Test framework. The very risk that destroyed it was the risk regulators were no longer required to formally test.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Wide-angle interior architectural shot of an ornate legislative chamber, rows of empty dark wooden desks arranged in a semicircle, warm gallery spotlights illuminating the chamber floor, neoclassical architectural details on the ceiling and columns, broadcast documentary civic architecture style. NEGATIVE: no people, no faces, no human silhouettes, no bank building exterior, no financial charts, no computers. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "The Missing CRO",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "CRO vacancy: April 2022 - Jan 2023",
+          "8 months · Fed raised 425bps",
+          "No risk executive during rate spike"
+        ],
+        "narration": {
+          "text": "SVB also entered 2022 without a Chief Risk Officer. Laura Izurieta departed in April 2022. Her replacement, Kim Olson, was not named until January 2023. During those eight months, the Federal Reserve raised its benchmark rate from 0.25 percent to 4.5 percent. There was no executive formally accountable for the portfolio's duration risk as that risk compounded.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a high-back black executive leather office chair, visibly empty, pushed slightly away from a clean uncluttered desk, morning light through half-open vertical window blinds casting parallel shadow lines across the vacant seat, corporate interior documentary photography, quiet and still atmosphere. NEGATIVE: no bank building exterior, no faces, no people, no financial charts, no phones, no bank branch lobby, no outdoor scene. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "FDIC Seizure: March 10",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "March 10, 2023 · FDIC receiver",
+          "2nd-largest US bank failure",
+          "Behind only WaMu 2008"
+        ],
+        "narration": {
+          "text": "On March 10, 2023, California's Department of Financial Protection and Innovation closed Silicon Valley Bank and appointed the FDIC as receiver. It was the second-largest bank failure in U.S. history by assets, behind only Washington Mutual in 2008.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Dramatic low-angle exterior shot of a modern glass-and-steel commercial bank branch, the front entrance closed and sealed with rolled metal security shutters, official government notice papers affixed to the glass doors, harsh midday sun reflecting off the facade, broadcast news documentary cinematography, stark and institutional. No people. No human silhouettes. No crowds. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "The 93% Uninsured Accelerant",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Systemic risk exception · March 12",
+          "All deposits guaranteed · FDIC",
+          "93.8% uninsured · per 2022 10-K"
+        ],
+        "narration": {
+          "text": "On March 12, the FDIC invoked a systemic risk exception, guaranteeing all deposits. That decision reflected an uncomfortable number from the 2022 10-K: approximately 93.8 percent of SVB's deposits exceeded the $250,000 FDIC insurance limit.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a large financial data visualization showing a stark pie chart, approximately 94 percent of the circle filled with a bold deep red representing uninsured deposits above the FDIC limit, the remaining small slice in cool blue representing the insured portion, dark background with the chart as a glowing central element, broadcast infographic documentary style, no readable text labels. NEGATIVE: no bank building exterior, no people, no faces, no government documents, no phones, no computers, no empty office chair. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "FDIC Post-Mortem: Textbook Mismanagement",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "FDIC review · April 28, 2023",
+          "\"textbook case of mismanagement\"",
+          "Fed review: warnings unheeded"
+        ],
+        "narration": {
+          "text": "The FDIC's post-mortem, published April 28, 2023, called SVB's failure a textbook case of mismanagement. The Federal Reserve's own review, published the same day, found that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Overhead close-up of a printed government regulatory review document spread across a dark desk, key passages underlined in red ink marker, pages slightly askew as if read urgently, a single focused spotlight illuminating the text from above, investigative journalism documentary visual style, paper texture visible. NEGATIVE: no bank building exterior, no computers, no phones, no faces, no people, no outdoor scene, no pie chart. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "First Citizens BancShares Acquisition",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "First Citizens BancShares · acquirer",
+          "March 27, 2023 · FDIC-assisted deal",
+          "DIF cost: ~$20B estimated"
+        ],
+        "narration": {
+          "text": "First Citizens BancShares acquired SVB's deposits and loans from the FDIC on March 27, 2023, at a discount the FDIC estimated would cost the Deposit Insurance Fund approximately $20 billion.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a formal financial acquisition agreement document on cream-colored paper, signature lines near the bottom of the page, the document spread flat on a polished conference table surface, clean neutral lighting from above, corporate documentary photography style, professional and institutional. NEGATIVE: no bank building exterior, no people, no faces, no government building, no pie chart, no phones, no computers, no regulatory document with red underlining. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "The Standard Narrative Is Incomplete",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Common narrative: social media panic",
+          "VC herd stampede · group chats",
+          "That story is incomplete"
+        ],
+        "narration": {
+          "text": "The standard telling of the SVB story is a story about a social media panic and a VC herd. That story is not wrong. It is incomplete.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a computer monitor screen displaying a social media news feed with cascading financial breaking-news alerts, the text rendered as abstracted unreadable blocks of color to avoid legibility, blue interface glow, multiple notification indicators visible, broadcast digital media journalism visual style. NEGATIVE: no bank building exterior, no government document, no people, no faces, no conference table, no wire transfer screen, no acquisition document. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "Contrarian Close: The Math Was Already True",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$91B bonds · $15B losses · no CRO",
+          "94% uninsured · no stress test",
+          "Math was true before the 8-K"
+        ],
+        "narration": {
+          "text": "A bank holding $91 billion in bonds with $15 billion in unrealized losses, no Chief Risk Officer, a deposit base that was 94 percent uninsured, and a regulatory exemption from the stress tests that would have caught this: that bank was not one provocative tweet away from stability. It was one honest accounting update away from a run. The March 8 8-K was that update. And the run came because the math had been true for months before anyone said it out loud.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Wide aerial cinematic shot of a corporate technology park campus at dusk, a single modern glass office building fully lit from within, warm amber interior light spilling out across the surrounding dark asphalt, all neighboring buildings dark and unlit, the isolated glow creating dramatic contrast against the darkening sky, rich cinematic documentary finish. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

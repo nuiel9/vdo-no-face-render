@@ -1,0 +1,21 @@
+{
+  "row_num": 36,
+  "slug_folder": "silicon-valley-bank-the-42b-run-in-36-hours",
+  "date": "2026-04-30",
+  "topic": "Silicon Valley Bank: the $42B run in 36 hours",
+  "template": "News",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "utm_campaign": "business-pm-svb-run",
+  "part1_job_id": null,
+  "part2_job_id": null,
+  "submitted_at": null,
+  "status": "pending_human_review"
+}

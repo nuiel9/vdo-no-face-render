@@ -1,0 +1,25 @@
+On the afternoon of March 8, 2023, SVB Financial Group filed an 8-K with the Securities and Exchange Commission. The filing disclosed that the bank had sold $21 billion in available-for-sale securities, absorbed a $1.8 billion after-tax loss, and was now attempting to raise $2.25 billion in new equity. The bank: headquartered at 3003 Tasman Drive, Santa Clara, California. Its clients: a generation of venture-backed startups. Within 36 hours, it no longer existed.
+
+SVB was not a normal retail bank. For four decades, it served as the operating account for the startup ecosystem. Series A companies held payroll there. Venture funds wired capital through it between funding rounds. By the end of 2022, the bank held $209 billion in total assets. It had survived the dot-com collapse, the 2008 financial crisis, and two years of a global pandemic. It was the 16th-largest bank in the United States.
+
+What it had not survived was a decade of near-zero interest rates followed by the fastest rate-hiking cycle in 40 years. During the low-rate era, SVB deployed customer deposits into long-duration bonds: mortgage-backed securities and U.S. Treasuries. When rates climbed, those bonds lost value. By December 31, 2022, SVB's held-to-maturity securities portfolio of $91.3 billion carried $15.1 billion in unrealized losses. Under U.S. GAAP, held-to-maturity losses do not flow through equity. They sit, invisible on the income statement, until you sell.
+
+SVB's 2022 annual report, filed February 24, 2023, disclosed those losses in the footnotes. Management described the portfolio as core to the bank's model. Two weeks later, rising deposit outflows forced management to sell the available-for-sale portion and crystallize a $1.8 billion loss in a single transaction. The March 8 8-K was supposed to be a reset. It was a starting gun.
+
+By the morning of March 9, the venture capital firm Founders Fund had advised its portfolio companies to move their SVB deposits. That advice spread through group chats and Slack channels across Silicon Valley. By the close of business, depositors had submitted $42 billion in withdrawal requests, roughly 25 percent of the bank's total deposit base. There were no teller lines. No one stood outside a branch. Every withdrawal was a wire instruction entered on a screen.
+
+Here is what most people remember: the run. Here is what most people miss.
+
+===PART_BREAK===
+
+In 2018, the U.S. Congress passed the Economic Growth, Regulatory Relief, and Consumer Protection Act, known as S. 2155. The law raised the threshold at which banks faced enhanced prudential standards under Dodd-Frank from $50 billion in assets to $250 billion. SVB was among the banks that supported that change. The direct result: SVB was not required to run formal stress tests against interest rate scenarios under the Dodd-Frank Act Stress Test framework. The very risk that destroyed it was the risk regulators were no longer required to formally test.
+
+SVB also entered 2022 without a Chief Risk Officer. Laura Izurieta departed in April 2022. Her replacement, Kim Olson, was not named until January 2023. During those eight months, the Federal Reserve raised its benchmark rate from 0.25 percent to 4.5 percent. There was no executive formally accountable for the portfolio's duration risk as that risk compounded. Verify exact dates in FDIC April 2023 post-mortem before publish.
+
+On March 10, 2023, California's Department of Financial Protection and Innovation closed Silicon Valley Bank and appointed the FDIC as receiver. It was the second-largest bank failure in U.S. history by assets, behind only Washington Mutual in 2008. On March 12, the FDIC invoked a systemic risk exception, guaranteeing all deposits. That decision reflected an uncomfortable number from the 2022 10-K: approximately 93.8 percent of SVB's deposits exceeded the $250,000 FDIC insurance limit. Verify exact percentage before publish.
+
+The FDIC's post-mortem, published April 28, 2023, called SVB's failure "a textbook case of mismanagement." The Federal Reserve's own review, published the same day, found that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.
+
+First Citizens BancShares acquired SVB's deposits and loans from the FDIC on March 27, 2023, at a discount the FDIC estimated would cost the Deposit Insurance Fund approximately $20 billion. Verify DIF cost figure in FDIC press release before publish.
+
+The standard telling of the SVB story is a story about a social media panic and a VC herd. That story is not wrong. It is incomplete. A bank holding $91 billion in bonds with $15 billion in unrealized losses, no Chief Risk Officer, a deposit base that was 94 percent uninsured, and a regulatory exemption from the stress tests that would have caught this: that bank was not one provocative tweet away from stability. It was one honest accounting update away from a run. The March 8 8-K was that update. And the run came because the math had been true for months before anyone said it out loud.

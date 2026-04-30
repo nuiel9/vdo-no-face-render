@@ -1,0 +1,31 @@
+THUMBNAIL BRIEF: "Silicon Valley Bank: the $42B run in 36 hours"
+Channel: Disclosed (faceless YouTube, Business Case Studies)
+Format: 1280x720px, legible at 320px mobile width
+
+---
+
+CONCEPT (selected):
+Dark, urgent, financial-crisis aesthetic. The central graphic element is a bold "$42B" in oversized white or red numerals dominating the right two-thirds of the frame. Left side: a silhouetted bank branch building facade at night, all windows lit but entrance sealed, suggesting the eerie moment just before closure. No real people, no faces, no AI-generated likenesses.
+
+COLOR PALETTE:
+- Deep navy (#0A1628) — background
+- Urgent red (#D63B3B) — dollar amount + warning accent
+- Cool white (#F4F7FA) — secondary text and building outline
+- Amber glow (#E8A042) — window light on building silhouette
+
+TEXT OVERLAY (on thumbnail, not narration):
+- Line 1 (large, top): "$42 BILLION" — bold sans-serif, red, high contrast
+- Line 2 (medium, below): "IN 36 HOURS" — white, slightly smaller
+- Optional lower-left corner: "SVB 2023" in small neutral grey
+
+SUBJECT:
+Silhouetted bank branch exterior at night. No identifiable logos or signage. The building should read as a generic corporate financial institution. Windows illuminated from within, entrance shuttered. This communicates "open but unreachable" — the defining visual irony of a digital bank run.
+
+FACELESS RULE:
+No AI-generated human faces, no stock-photo headshots of executives. If a human figure is needed for scale reference, use a full silhouette only (dark, featureless).
+
+MOBILE LEGIBILITY CHECK:
+At 320px width, "$42B" must still dominate and be immediately readable. Keep text in the upper half or right two-thirds. Avoid placing critical text near the bottom 20% (YouTube progress bar overlap).
+
+DESIGNER NOTE:
+Avoid the "red arrow going down" cliche used on every finance channel. The power of this thumbnail is the contrast between the calm, lit bank facade and the catastrophic number. The building should look ordinary. The number should look impossible.

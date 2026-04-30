@@ -1,0 +1,243 @@
+{
+  "text": "On the afternoon of March 8, 2023, SVB Financial Group filed an 8-K with the Securities and Exchange Commission. The filing disclosed that the bank had sold $21 billion in available-for-sale securities, absorbed a $1.8 billion after-tax loss, and was now attempting to raise $2.25 billion in new equity. The bank: headquartered at 3003 Tasman Drive, Santa Clara, California. Its clients: a generation of venture-backed startups. Within 36 hours, it no longer existed.\n\nSVB was not a normal retail bank. For four decades, it served as the operating account for the startup ecosystem. Series A companies held payroll there. Venture funds wired capital through it between funding rounds. By the end of 2022, the bank held $209 billion in total assets. It had survived the dot-com collapse, the 2008 financial crisis, and two years of a global pandemic. It was the 16th-largest bank in the United States.\n\nWhat it had not survived was a decade of near-zero interest rates followed by the fastest rate-hiking cycle in 40 years. During the low-rate era, SVB deployed customer deposits into long-duration bonds: mortgage-backed securities and U.S. Treasuries. When rates climbed, those bonds lost value. By December 31, 2022, SVB's held-to-maturity securities portfolio of $91.3 billion carried $15.1 billion in unrealized losses. Under U.S. GAAP, held-to-maturity losses do not flow through equity. They sit, invisible on the income statement, until you sell.\n\nSVB's 2022 annual report, filed February 24, 2023, disclosed those losses in the footnotes. Management described the portfolio as core to the bank's model. Two weeks later, rising deposit outflows forced management to sell the available-for-sale portion and crystallize a $1.8 billion loss in a single transaction. The March 8 8-K was supposed to be a reset. It was a starting gun.\n\nBy the morning of March 9, the venture capital firm Founders Fund had advised its portfolio companies to move their SVB deposits. That advice spread through group chats and Slack channels across Silicon Valley. By the close of business, depositors had submitted $42 billion in withdrawal requests, roughly 25 percent of the bank's total deposit base. There were no teller lines. No one stood outside a branch. Every withdrawal was a wire instruction entered on a screen.\n\nHere is what most people remember: the run. Here is what most people miss.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "SVB: The $42B Run - Part 1",
+    "description": "How a single SEC filing on March 8, 2023 triggered the second-largest bank failure in US history.",
+    "source_text": "On the afternoon of March 8, 2023, SVB Financial Group filed an 8-K with the Securities and Exchange Commission. The filing disclosed that the bank had sold $21 billion in available-for-sale securities, absorbed a $1.8 billion after-tax loss, and was now attempting to raise $2.25 billion in new equity. The bank: headquartered at 3003 Tasman Drive, Santa Clara, California. Its clients: a generation of venture-backed startups. Within 36 hours, it no longer existed.\n\nSVB was not a normal retail bank. For four decades, it served as the operating account for the startup ecosystem. Series A companies held payroll there. Venture funds wired capital through it between funding rounds. By the end of 2022, the bank held $209 billion in total assets. It had survived the dot-com collapse, the 2008 financial crisis, and two years of a global pandemic. It was the 16th-largest bank in the United States.\n\nWhat it had not survived was a decade of near-zero interest rates followed by the fastest rate-hiking cycle in 40 years. During the low-rate era, SVB deployed customer deposits into long-duration bonds: mortgage-backed securities and U.S. Treasuries. When rates climbed, those bonds lost value. By December 31, 2022, SVB's held-to-maturity securities portfolio of $91.3 billion carried $15.1 billion in unrealized losses. Under U.S. GAAP, held-to-maturity losses do not flow through equity. They sit, invisible on the income statement, until you sell.\n\nSVB's 2022 annual report, filed February 24, 2023, disclosed those losses in the footnotes. Management described the portfolio as core to the bank's model. Two weeks later, rising deposit outflows forced management to sell the available-for-sale portion and crystallize a $1.8 billion loss in a single transaction. The March 8 8-K was supposed to be a reset. It was a starting gun.\n\nBy the morning of March 9, the venture capital firm Founders Fund had advised its portfolio companies to move their SVB deposits. That advice spread through group chats and Slack channels across Silicon Valley. By the close of business, depositors had submitted $42 billion in withdrawal requests, roughly 25 percent of the bank's total deposit base. There were no teller lines. No one stood outside a branch. Every withdrawal was a wire instruction entered on a screen.\n\nHere is what most people remember: the run. Here is what most people miss.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: March 8 8-K Disclosure",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "SVB Financial Group · 8-K filed",
+          "March 8, 2023 · Santa Clara CA",
+          "$1.8B loss · $2.25B raise attempt"
+        ],
+        "narration": {
+          "text": "On the afternoon of March 8, 2023, SVB Financial Group filed an 8-K with the Securities and Exchange Commission. The filing disclosed that the bank had sold $21 billion in available-for-sale securities, absorbed a $1.8 billion after-tax loss, and was now attempting to raise $2.25 billion in new equity. The bank: headquartered at 3003 Tasman Drive, Santa Clara, California. Its clients: a generation of venture-backed startups. Within 36 hours, it no longer existed.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Aerial establishing shot of a low-rise corporate glass office building in a Silicon Valley technology park, late afternoon golden hour light casting long shadows across a concrete plaza, slow camera descent toward the entrance, broadcast documentary cinematography, cool blue sky, muted corporate tones. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "What SVB Was",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "SVB · 40 years · startup bank",
+          "$209B total assets · end 2022",
+          "16th-largest US bank"
+        ],
+        "narration": {
+          "text": "SVB was not a normal retail bank. For four decades, it served as the operating account for the startup ecosystem. Series A companies held payroll there. Venture funds wired capital through it between funding rounds. By the end of 2022, the bank held $209 billion in total assets. It had survived the dot-com collapse, the 2008 financial crisis, and two years of a global pandemic. It was the 16th-largest bank in the United States.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Overhead bird's-eye view of a contemporary open-plan technology startup office, rows of standing desks with dark monitors displaying abstract data dashboards, warm task lighting against a cool dark background, Northern California tech campus aesthetic, 2022 documentary style. NEGATIVE: no bank building exterior, no bank branch interior, no traditional banking hall, no teller counters, no bank signage. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "The Rate Hike Problem",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Near-zero rates · 2010-2021",
+          "Fed rate hiking cycle · 2022",
+          "Long-duration bonds · MBS + Treasuries"
+        ],
+        "narration": {
+          "text": "What it had not survived was a decade of near-zero interest rates followed by the fastest rate-hiking cycle in 40 years. During the low-rate era, SVB deployed customer deposits into long-duration bonds: mortgage-backed securities and U.S. Treasuries. When rates climbed, those bonds lost value.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a large financial data visualization display showing a Federal Reserve interest rate line chart, the line flat near zero from left to right then sharply ascending at the far right, glowing blue data lines on a dark navy background, broadcast news infographic documentary style, no readable text labels, abstract data aesthetic. NEGATIVE: no bank building, no banking hall, no SVB exterior, no people, no faces, no wire transfer screen. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "The Hidden $15.1B Loss",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "HTM portfolio: $91.3B · Dec 2022",
+          "$15.1B unrealized losses",
+          "Not on income statement (US GAAP)"
+        ],
+        "narration": {
+          "text": "By December 31, 2022, SVB's held-to-maturity securities portfolio of $91.3 billion carried $15.1 billion in unrealized losses. Under U.S. GAAP, held-to-maturity losses do not flow through equity. They sit, invisible on the income statement, until you sell.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Extreme macro close-up of a printed financial statement footnote page, dense columns of bond portfolio numbers in small serif type, a faint amber glow illuminating the center of the page, shallow depth of field with edges dissolving into darkness, journalistic documentary macro photography, paper grain visible. NEGATIVE: no bank building exterior, no people, no faces, no computers, no wire transfer screens, no bank lobby, no outdoor scene. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "The Capital Raise: Starting Gun",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "10-K filed Feb 24, 2023",
+          "8-K filed March 8 · losses crystallized",
+          "Capital raise failed · starting gun"
+        ],
+        "narration": {
+          "text": "SVB's 2022 annual report, filed February 24, 2023, disclosed those losses in the footnotes. Management described the portfolio as core to the bank's model. Two weeks later, rising deposit outflows forced management to sell the available-for-sale portion and crystallize a $1.8 billion loss in a single transaction. The March 8 8-K was supposed to be a reset. It was a starting gun.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Dramatic close-up of a formal SEC regulatory filing document spread flat on a dark wooden desk, a single red-amber highlight circle drawn around a loss figure in the middle of the page, hard side lighting from one source casting deep shadows across the paper, broadcast investigative journalism documentary style, aged paper texture clearly visible. NEGATIVE: no bank building exterior, no outdoor scene, no wire transfer screen, no phone, no computer monitor, no faces, no people, no bank lobby. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Founders Fund Advice Spreads",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Founders Fund · March 9, 2023",
+          "Advice spreads via group chats",
+          "Slack channels · Silicon Valley VCs"
+        ],
+        "narration": {
+          "text": "By the morning of March 9, the venture capital firm Founders Fund had advised its portfolio companies to move their SVB deposits. That advice spread through group chats and Slack channels across Silicon Valley.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Overhead bird's-eye view of multiple smartphones laid flat on a dark matte desk surface, each screen lit with a messaging application showing notification badges and red alert indicators, cool blue ambient light, Silicon Valley tech office aesthetic, abstract patterns of screen light on the dark surface. No faces. No human silhouettes. NEGATIVE: no bank building, no financial charts, no bank signage, no laptops, no computers, no SVB exterior, no outdoor scene. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "$42B in Wire Transfers",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$42B withdrawal requests · March 9",
+          "25% of deposit base · one business day",
+          "All wire instructions · no teller lines"
+        ],
+        "narration": {
+          "text": "By the close of business, depositors had submitted $42 billion in withdrawal requests, roughly 25 percent of the bank's total deposit base. There were no teller lines. No one stood outside a branch. Every withdrawal was a wire instruction entered on a screen.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up of a digital online banking interface on a single desktop computer monitor, a wire transfer entry form filling the screen with a large dollar amount visible in the amount field, a cursor hovering over a confirm button, dark room with only monitor glow as light source, documentary cybersecurity journalism visual style. NEGATIVE: no bank building exterior, no bank lobby interior, no physical cash, no people, no faces, no teller counter, no outdoor scene, no SVB exterior signage. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "Cliffhanger: The Run Was Rational",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$42B · one day · March 9 2023",
+          "The run: remembered",
+          "The cause: mostly missed"
+        ],
+        "narration": {
+          "text": "Here is what most people remember: the run. Here is what most people miss.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Wide-angle low-angle night shot of a modern glass-and-steel commercial bank branch facade, all interior fluorescent lights fully illuminated, the building casting a cold white glow across an empty wet asphalt parking lot, dramatic cinematic documentary style, dark sky above, reflections in the wet surface. No people. No human silhouettes. No crowds. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}
