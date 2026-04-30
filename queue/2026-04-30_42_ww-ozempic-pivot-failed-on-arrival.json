@@ -1,0 +1,27 @@
+{
+  "row_num": 42,
+  "slug_folder": "ww-ozempic-pivot-failed-on-arrival",
+  "date": "2026-04-30",
+  "topic": "WW + Ozempic: the pivot that failed on arrival",
+  "template": "Hidden Truth",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "editorial_warnings_part1": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "editorial_warnings_part2": [
+    "faceless_youtube intent without human verification. Pass verification_status='human_reviewed' (after fact-checking) or 'fictional' (for clearly-marked fiction) to silence. acknowledged_no_editorial=true is also accepted as legacy. A future auto-publish flow will hard-block without verification."
+  ],
+  "utm_campaign": "business-pm-ww-ozempic",
+  "part1_job_id": "11c3dadb733e4c759ee8c5d8b3c46c5d",
+  "part2_job_id": "4c419fdaab774aa49790c00d253de8f1",
+  "submitted_at": "2026-04-30T08:45:28Z",
+  "status": "submitted_unverified"
+}

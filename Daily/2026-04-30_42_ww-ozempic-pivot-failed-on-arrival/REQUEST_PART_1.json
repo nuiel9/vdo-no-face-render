@@ -1,0 +1,211 @@
+{
+  "text": "In April 2023, WeightWatchers International filed Form 8-K with the Securities and Exchange Commission. The company had acquired Sequence, a telehealth platform that prescribed GLP-1 weight loss drugs, for $106 million in cash. The press release described WW as \"the leading evidence-based, people-centered weight management platform.\" That phrase tells you everything about where the company thought it stood. The market had already moved on.\n\nWeightWatchers was sixty years old. Jean Nidetch started the program in her apartment in Little Neck, Queens, in 1963, charging two dollars a meeting. The model was simple: join a group, track your food, change your behavior. By the 1980s, the program had spread to 30 countries. By 2018, the company rebranded to WW, partly to shed the stigma of the word \"diet.\" The behavioral model, the willpower economy, that was what WW sold. Semaglutide made it optional.\n\nFDA approved Wegovy on June 4, 2021. The approval stated the drug was cleared for \"chronic weight management in adult patients with obesity or in adult patients who are overweight and have at least one weight-related condition such as high blood pressure, type 2 diabetes, or high cholesterol.\" That was 22 months before WW acquired Sequence. The clinical evidence for pharmaceutical weight loss was on the public record. The board had time to see it coming.\n\nIn late 2022, Ozempic became a cultural phenomenon. WW's digital subscriber count, which had reached approximately 5.4 million at the end of fiscal 2021, fell to approximately 3.5 million by the end of fiscal 2022. That is a 35% decline in a single year, visible in plain text in the company's annual 10-K filing. The people paying for WW were canceling. The reason was in every pharmacy line.\n\nThe Sequence acquisition was WW's answer. One hundred and six million dollars for a platform with clinical infrastructure and GLP-1 prescribing capability. It was the right strategic direction. What the 8-K did not address was how the company would pay for it.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "WW + Ozempic: The Pivot That Failed — Part 1",
+    "description": "How WeightWatchers' 60-year behavioral model collided with pharmaceutical disruption, and why the board had 22 months to see it coming.",
+    "source_text": "In April 2023, WeightWatchers International filed Form 8-K with the Securities and Exchange Commission. The company had acquired Sequence, a telehealth platform that prescribed GLP-1 weight loss drugs, for $106 million in cash. The press release described WW as \"the leading evidence-based, people-centered weight management platform.\" That phrase tells you everything about where the company thought it stood. The market had already moved on.\n\nWeightWatchers was sixty years old. Jean Nidetch started the program in her apartment in Little Neck, Queens, in 1963, charging two dollars a meeting. The model was simple: join a group, track your food, change your behavior. By the 1980s, the program had spread to 30 countries. By 2018, the company rebranded to WW, partly to shed the stigma of the word \"diet.\" The behavioral model, the willpower economy, that was what WW sold. Semaglutide made it optional.\n\nFDA approved Wegovy on June 4, 2021. The approval stated the drug was cleared for \"chronic weight management in adult patients with obesity or in adult patients who are overweight and have at least one weight-related condition such as high blood pressure, type 2 diabetes, or high cholesterol.\" That was 22 months before WW acquired Sequence. The clinical evidence for pharmaceutical weight loss was on the public record. The board had time to see it coming.\n\nIn late 2022, Ozempic became a cultural phenomenon. WW's digital subscriber count, which had reached approximately 5.4 million at the end of fiscal 2021, fell to approximately 3.5 million by the end of fiscal 2022. That is a 35% decline in a single year, visible in plain text in the company's annual 10-K filing. The people paying for WW were canceling. The reason was in every pharmacy line.\n\nThe Sequence acquisition was WW's answer. One hundred and six million dollars for a platform with clinical infrastructure and GLP-1 prescribing capability. It was the right strategic direction. What the 8-K did not address was how the company would pay for it.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: The $106M SEC Filing",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": ["$106M · Sequence · April 2023"],
+        "narration": {
+          "text": "In April 2023, WeightWatchers International filed Form 8-K with the Securities and Exchange Commission. The company had acquired Sequence, a telehealth platform that prescribed GLP-1 weight loss drugs, for $106 million in cash. The press release described WW as \"the leading evidence-based, people-centered weight management platform.\" That phrase tells you everything about where the company thought it stood. The market had already moved on.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up illustration of an official SEC Form 8-K corporate disclosure document on a dark mahogany desk, company letterhead in blue and white, ballpoint pen resting across the paper, dramatic overhead light casting hard geometric shadows, editorial broadsheet aesthetic, high contrast. No people. No human silhouettes. NEGATIVE: no injection pens, no weighing scales, no food products, no pharmaceutical devices. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "WW Founded 1963 Queens",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": ["Founded 1963 · Little Neck, Queens"],
+        "narration": {
+          "text": "WeightWatchers was sixty years old. Jean Nidetch started the program in her apartment in Little Neck, Queens, in 1963, charging two dollars a meeting. The model was simple: join a group, track your food, change your behavior. By the 1980s, the program had spread to 30 countries.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of a quiet residential street in early 1960s New York City, brick rowhouses with aluminum screen doors, a vintage Ford Fairlane parked at the curb, autumnal elm trees lining the sidewalk, morning light at low angle. No people, no human silhouettes, no faces. Warm nostalgic palette, editorial illustration style. NEGATIVE: no injection pens, no weighing scales, no pharmaceutical products, no GLP-1 devices. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "WW Rebrand 2018",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": ["Weight Watchers → WW · 2018"],
+        "narration": {
+          "text": "By 2018, the company rebranded to WW, partly to shed the stigma of the word \"diet.\" The behavioral model, the willpower economy, that was what WW sold. Semaglutide made it optional.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of a corporate rebrand presentation board in a clean white design studio, circular logo redesign in progress, brand guidelines sheets spread on the desk, color palette swatches from blue to green gradient, typography samples pinned to a mood board. No people, no human silhouettes. Modern minimalist illustration style. NEGATIVE: no injection pens, no weighing scales, no pharmaceutical imagery, no food products. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Wegovy FDA Approval June 2021",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": ["Wegovy Approved · FDA · June 4 2021"],
+        "narration": {
+          "text": "FDA approved Wegovy on June 4, 2021. The approval stated the drug was cleared for \"chronic weight management in adult patients with obesity or in adult patients who are overweight and have at least one weight-related condition such as high blood pressure, type 2 diabetes, or high cholesterol.\"",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of an FDA official press release document on crisp white paper, FDA letterhead in blue and white, date stamp June 4 2021 visible, green approval seal. A single semaglutide auto-injector pen placed beside the document on a clinical white surface, soft directional studio light. Precise pharmaceutical documentary illustration style. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "22 Months: The Board Had Time",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": ["22 Months Before Sequence Deal"],
+        "narration": {
+          "text": "That was 22 months before WW acquired Sequence. The clinical evidence for pharmaceutical weight loss was on the public record. The board had time to see it coming.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of an empty corporate boardroom, long polished oak conference table, twenty black leather chairs arranged symmetrically, floor-to-ceiling windows showing a Manhattan skyline at dusk, warm amber light. A wall-mounted calendar visible in the background with months spanning 2021 to 2023. No people, no human silhouettes. Wide-angle cinematic illustration. NEGATIVE: no injection pens, no weighing scales, no pharmaceutical products, no GLP-1 devices. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Subscriber Crash 2022",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": ["Subscribers: 5.4M → 3.5M · FY2022"],
+        "narration": {
+          "text": "In late 2022, Ozempic became a cultural phenomenon. WW's digital subscriber count, which had reached approximately 5.4 million at the end of fiscal 2021, fell to approximately 3.5 million by the end of fiscal 2022. That is a 35% decline in a single year, visible in plain text in the company's annual 10-K filing.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of a financial data dashboard showing a steep declining subscriber line chart, labeled axis from 5.4M down to 3.5M, bold red downward-trending line, year markers 2021 and 2022 on the x-axis, corporate report design on white background. Clean data-visualization editorial illustration style. No people, no human silhouettes. NEGATIVE: no injection pens, no weighing scales, no food products, no pharmaceutical imagery. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Cancellations at the Pharmacy",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": ["35% Drop · Cancellations Rising"],
+        "narration": {
+          "text": "The people paying for WW were canceling. The reason was in every pharmacy line.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of the interior of a modern American pharmacy, prescription counter in the background, shelving unit with a prominent empty slot labeled for a high-demand medication, a smartphone screen on the counter displaying a digital subscription cancellation notification. Warm fluorescent light, clean commercial interior illustration style. No people, no human silhouettes. NEGATIVE: no injection pens visible, no Ozempic packaging, no branded pharmaceuticals, no GLP-1 auto-injectors. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "The Debt Nobody Quoted",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": ["$106M Deal · Balance Sheet Unanswered"],
+        "narration": {
+          "text": "The Sequence acquisition was WW's answer. One hundred and six million dollars for a platform with clinical infrastructure and GLP-1 prescribing capability. It was the right strategic direction. What the 8-K did not address was how the company would pay for it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Illustration of a corporate financial ledger spread open on a mahogany desk under a single desk lamp, long-term debt column circled in red ink, numerical figures visible but too small to read, a handwritten question mark in the margin beside the debt row. Dramatic chiaroscuro lighting, deep shadows in the background, documentary tension aesthetic. No people, no human silhouettes. Illustration style. NEGATIVE: no injection pens, no weighing scales, no pharmaceutical products. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

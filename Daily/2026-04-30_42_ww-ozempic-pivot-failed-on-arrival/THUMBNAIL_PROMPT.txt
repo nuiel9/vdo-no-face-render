@@ -1,0 +1,30 @@
+THUMBNAIL DESIGNER BRIEF
+Video: WW + Ozempic: The Pivot That Failed on Arrival
+Channel: Disclosed (Business Case Studies, faceless)
+Title line to feature: "NOT Ozempic."
+
+---
+
+CONCEPT (primary): Split-frame, high-contrast, bold text dominant.
+
+LEFT PANEL (40% width): WW International corporate logo in desaturated grey-blue, visually faded or ghosted, slight film-grain texture suggesting age. A thin diagonal red slash across it.
+
+RIGHT PANEL (60% width): Dark charcoal background. Bold white typography: "NOT OZEMPIC." in the largest font that fits. Directly below in smaller red text: "The Real Reason."
+
+Horizontal divider: sharp 2px white line separating the panels.
+
+Bottom strip (full width, 10% height): Deep navy bar. White text: "$1.4B DEBT" in bold monospace.
+
+---
+
+CONCEPT (alternate): Single-frame. A crumpled $106M wire-transfer document (fictional, no real routing numbers) on a dark surface. Red REJECTED stamp on the paper. Large white bold overlay: "NOT ENOUGH." Color palette: black, white, crimson.
+
+---
+
+COLOR PALETTE: #0A0A0A (near-black), #FFFFFF (white), #CC2200 (crimson red), #8A9CB5 (WW faded blue-grey).
+
+SILHOUETTE NOTE: No real person likenesses. No faces. No Oprah likeness or silhouette.
+
+Mobile legibility check (320px): The two-word overlay "NOT OZEMPIC." must be legible. Test at 96px font minimum. The bottom "$1.4B DEBT" strip can drop at mobile but the main text must hold.
+
+Aspect ratio: 16:9 (1280x720 minimum, 1920x1080 preferred).
