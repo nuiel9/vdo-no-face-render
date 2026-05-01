@@ -118,10 +118,10 @@ def parse_youtube_md(path: Path) -> dict[str, Any]:
     """
     text = path.read_text()
 
-    # Title from `# YOUTUBE.md: <title>` first line.
-    m = re.search(r"^#\s+YOUTUBE\.md:\s*(.+?)\s*$", text, re.MULTILINE)
+    # Title from `# YOUTUBE.md: <title>` (v4.5) or `# YOUTUBE: <title>` (v4.6) first line.
+    m = re.search(r"^#\s+YOUTUBE(?:\.md)?:\s*(.+?)\s*$", text, re.MULTILINE)
     if not m:
-        raise ValueError(f"{path}: cannot find `# YOUTUBE.md: <title>` header")
+        raise ValueError(f"{path}: cannot find `# YOUTUBE[.md]: <title>` header")
     title = m.group(1).strip()
 
     # Split into sections by `## ` headers (ignoring the H1 line).
