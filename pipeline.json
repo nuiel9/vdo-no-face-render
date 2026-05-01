@@ -25,8 +25,8 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 18,
-      "script_status": "In Progress",
-      "publish_status": "Planned",
+      "script_status": "Skipped",
+      "publish_status": "Skipped",
       "planned_publish": null,
       "actual_publish": null,
       "utm_campaign": "business-pm-02",
@@ -34,7 +34,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Daily pipeline run 2026-04-22, draft at Daily/2026-04-22_2_costcos-hot-dog-margin-math.md"
+      "notes": "Skipped 2026-05-01: saturated on YouTube (Cold Fusion / Company Man / How Money Works / Modern MBA / Logically Answered / Wendover / Coffeezilla / Patrick Boyle all have viral Costco hot-dog videos). Original Daily pipeline run 2026-04-22 draft + 2026-04-24 + 2026-04-28 routine rebuilds (artifacts deleted as orphan, ~$0.30 sunk on routine compute). Rejected per STEP 2.5 saturation gate matching pattern of #4/#5/#10/#12-14/#16/#19-21. If revisited: pivot to under-covered Costco angle (gold-bar arbitrage 2024, Costco Korea highest-revenue store, or Kirkland Manhattan distribution war) — NOT the hot-dog angle."
     },
     {
       "#": 3,
