@@ -5,7 +5,7 @@
 
 ## Video Description (100 words)
 
-In August 2020, Beijing's financial regulators sent a memo to China's biggest property developers. It set three debt ratios. China Evergrande Group, listed on HK:3333, breached all three. Its own exchange filings showed total liabilities above $300 billion. None of it was hidden. We break down the three red lines policy, Evergrande's presale-funded growth model, the December 2021 offshore bond default, the 1.5 million unbuilt apartments behind the 2022 mortgage boycott, and the January 2024 Hong Kong winding-up order (HCCW 179/2022). The chart that explains this collapse is not Evergrande's debt. It's the gap between what was sold and what was built.
+In August 2020, Beijing's financial regulators sent a memo to China's biggest property developers. It set three debt ratios. China Evergrande Group, listed on HK:3333, breached all three. Its own exchange filings showed total liabilities above $300 billion. None of it was hidden. We break down the three red lines policy, Evergrande's presale-funded growth model, the December 2021 offshore bond default, the 1.5 million unbuilt apartments behind the 2022 mortgage boycott, and the January 2024 Hong Kong winding-up order (HCCW 179/2022; Re China Evergrande Group [2024] HKCFI 363). The chart that explains this collapse is not Evergrande's debt. It's the gap between what was sold and what was built.
 
 Sources in pinned comment.
 
@@ -40,10 +40,10 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
    Access: pbc.gov.cn (English-language publications section)
    [VERIFY: confirm three red lines ratio thresholds and August 2020 distribution date]
 
-3. **Hong Kong High Court, HCCW 179/2022 (Evergrande Winding-Up)**
-   Hong Kong Judiciary, High Court (Companies Winding-Up).
+3. **Hong Kong High Court — Re China Evergrande Group [2024] HKCFI 363 (HCCW 179/2022)**
+   Hong Kong Judiciary, Court of First Instance (Companies Winding-Up). Justice Linda Chan, winding-up order 29 January 2024.
    Access: judiciary.hk (Legal Reference System) or Bloomberg Law
-   [VERIFY: confirm case number, January 29, 2024 order date, presiding judge]
+   [VERIFIED 2026-05-01]
 
 4. **IMF Article IV Consultation: People's Republic of China (2022 and 2023 editions)**
    International Monetary Fund, Staff Country Reports.
@@ -66,7 +66,7 @@ Sources for this video:
 
 (2) Three red lines policy: People's Bank of China Financial Stability Report 2021 (pbc.gov.cn). The three ratio thresholds are described there. The August 2020 internal distribution date is confirmed via Caixin Global reporting and the PBOC report.
 
-(3) Hong Kong winding-up order: HCCW 179/2022, Hong Kong High Court. Verify the January 29, 2024 order date and Justice Linda Chan via judiciary.hk.
+(3) Hong Kong winding-up order: Re China Evergrande Group [2024] HKCFI 363 (petition HCCW 179/2022), Hong Kong High Court (Court of First Instance), Justice Linda Chan, 29 January 2024. Petitioner Top Shine Global Limited sought HK$862.5M (~US$110M) from a March 2021 offshore financing arrangement.
 
 (4) GDP share of real estate: IMF China Article IV consultations 2022-2023, and Goldman Sachs Research (the 25-29% range is a commonly cited composite; verify against the specific IMF paper).
 
