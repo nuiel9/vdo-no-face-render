@@ -141,22 +141,26 @@ def parse_youtube_md(path: Path) -> dict[str, Any]:
     if current_name is not None:
         sections[current_name] = "\n".join(current_buf).strip()
 
-    # Match section names tolerantly (the routine uses "Description (100 words)",
-    # "Chapters (approximate timestamps...)", etc.).
-    def section_starting_with(prefix: str) -> str:
+    # Match section names tolerantly. The routine wraps each section header
+    # with descriptors and counts ("Video Description (100 words)",
+    # "6 Chapters with Approximate Timestamps", "4 Citations", "8 Hashtags",
+    # "Pinned Comment Draft"), so substring match is the only reliable path
+    # — `startswith` breaks on the leading digit/word prefixes.
+    def section_containing(needle: str) -> str:
+        needle_lower = needle.lower()
         for name, body in sections.items():
-            if name.lower().startswith(prefix.lower()):
+            if needle_lower in name.lower():
                 # Strip horizontal rules and lone dashes-block disclaimers
                 # that the routine wraps the Description in.
                 body = re.sub(r"^---\s*$", "", body, flags=re.MULTILINE).strip()
                 return body
         return ""
 
-    description_body = section_starting_with("Description")
-    chapters = section_starting_with("Chapters")
-    citations = section_starting_with("Citations")
-    hashtags = section_starting_with("Hashtags")
-    pinned = section_starting_with("Pinned Comment")
+    description_body = section_containing("Description")
+    chapters = section_containing("Chapters")
+    citations = section_containing("Citations")
+    hashtags = section_containing("Hashtags")
+    pinned = section_containing("Pinned Comment")
 
     # Strip any pinned-comment text from the rest (it's the LAST section
     # and shouldn't appear in the YT description).
