@@ -1,0 +1,19 @@
+THUMBNAIL BRIEF: Evergrande: the $300B debt math in one chart
+Row #44 | Date: 2026-05-01 | Winning title: "Evergrande's $300 Billion Collapse: The Chart That Explains It"
+
+CONCEPT: The towering red bar chart over a Chinese city silhouette.
+
+COMPOSITION:
+- Background: deep charcoal-black (#111111) with subtle concrete-gray texture suggesting a city seen from above
+- Hero element (60% of frame): a single massive vertical red bar (#CC2222) occupying left-center, labeled "$300B+" in bold white sans-serif at the top edge. The bar should feel like it is about to fall or press through the top of the frame.
+- Secondary elements (right side, 25% of frame): three much shorter bars in muted gray (#666666) representing competitor developers, without labels. The visual contrast is the point.
+- Bottom band: a thin horizontal line of faint city skyline silhouette (Guangzhou towers) in dark charcoal, just above the baseline. This grounds the chart in the physical world.
+- Text overlay (top-right area): "The Chart That Explains It" in 2-line bold white type, 40-50px effective height on a 1280x720 canvas. Outline/shadow for legibility.
+
+TYPOGRAPHY: All-caps sans-serif. Red for the number "$300B+", white for the explanatory text.
+
+NO HUMAN FACES. No silhouettes of named persons. No Evergrande logo or corporate branding.
+
+MOBILE CHECK: "$300B+" and the bar must read clearly at 320px thumbnail width. Keep text to right 40% only.
+
+MOOD: Alarming but analytical. A data journalist's chart, not a tabloid screengrab.
