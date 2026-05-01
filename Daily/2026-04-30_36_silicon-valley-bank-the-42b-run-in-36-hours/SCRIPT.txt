@@ -18,7 +18,7 @@ SVB also entered 2022 without a Chief Risk Officer. Laura Izurieta departed in A
 
 On March 10, 2023, California's Department of Financial Protection and Innovation closed Silicon Valley Bank and appointed the FDIC as receiver. It was the second-largest bank failure in U.S. history by assets, behind only Washington Mutual in 2008. On March 12, the FDIC invoked a systemic risk exception, guaranteeing all deposits. That decision reflected an uncomfortable number from the 2022 10-K: approximately 93.8 percent of SVB's deposits exceeded the $250,000 FDIC insurance limit. Verify exact percentage before publish.
 
-The FDIC's post-mortem, published April 28, 2023, called SVB's failure "a textbook case of mismanagement." The Federal Reserve's own review, published the same day, found that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.
+The Federal Reserve's post-mortem, published April 28, 2023, called SVB's failure "a textbook case of mismanagement." The same review documented that supervisors had issued multiple findings against SVB that management had not fully remediated. The bank was not ambushed. It was warned, repeatedly, and the warnings were not acted on.
 
 First Citizens BancShares acquired SVB's deposits and loans from the FDIC on March 27, 2023, at a discount the FDIC estimated would cost the Deposit Insurance Fund approximately $20 billion. Verify DIF cost figure in FDIC press release before publish.
 

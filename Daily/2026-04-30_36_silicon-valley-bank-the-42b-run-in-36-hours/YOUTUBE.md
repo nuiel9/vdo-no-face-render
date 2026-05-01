@@ -34,7 +34,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 2. SVB Financial Group, Form 8-K, filed March 8, 2023. Securities and Exchange Commission EDGAR database. Contains the AFS portfolio sale disclosure, $1.8B loss, and $2.25B capital raise announcement. Same CIK as above; search 8-K filings March 2023 on EDGAR.
 
-3. Federal Deposit Insurance Corporation, "FDIC's Supervision of Silicon Valley Bank," April 28, 2023. Available at fdic.gov under bank regulatory reviews. (Verify direct URL at fdic.gov before publishing)
+3. Federal Reserve Board, "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank" (Vice Chair for Supervision Michael S. Barr), April 28, 2023. https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf
 
 4. S. 2155, "Economic Growth, Regulatory Relief, and Consumer Protection Act," Public Law 115-174, signed May 24, 2018. Full text at congress.gov/bill/115th-congress/senate-bill/2155. (Direct URL available at congress.gov)
 

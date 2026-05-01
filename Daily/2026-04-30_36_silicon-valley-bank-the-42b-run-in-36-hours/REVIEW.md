@@ -16,10 +16,10 @@ Silicon Valley Bank's collapse in March 2023 is told as a story of a Twitter pan
 
 2. **SVB Financial Group Form 8-K**, filed March 8, 2023, via SEC EDGAR. Discloses the $21B AFS portfolio sale, $1.8B after-tax loss, and $2.25B capital raise plan. This is the document that triggered the run. Same CIK as above; search for 8-K filings March 2023.
 
-3. **FDIC: "FDIC's Supervision of Silicon Valley Bank"** (April 28, 2023). Official post-mortem by the FDIC's Office of Inspector General / supervisory review. Identifies management deficiencies, concentration risk, and supervisory failures. Available at fdic.gov/bank/regulatory/material-loss. Quote used in script ("a textbook case of mismanagement") is from this document — verify exact page/section before publish.
+3. **Federal Reserve Board: "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank"** (Vice Chair for Supervision Michael S. Barr, April 28, 2023). The famous "textbook case of mismanagement" line is from this Fed report (NOT FDIC — SVB was Fed-supervised). Documents Fed's own supervisory failures and multiple findings issued against SVB that management had not fully remediated. https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf
 
 **Additional sources (supplement for fact-check):**
-- Federal Reserve: "Review of the Federal Reserve's Supervision of Silicon Valley Bank" (Michael Barr, April 28, 2023). federalreserve.gov. Documents Fed's own supervisory failures and the multiple supervisory findings issued against SVB that were not fully remediated.
+- FDIC: "FDIC's Supervision of Signature Bank" (April 28, 2023, paired release with the Fed's SVB review). fdic.gov. FDIC's own post-mortem covers Signature Bank, the bank FDIC directly supervised pre-failure. Useful contextual backdrop for the contagion story in Part 2 (Signature seized two days after SVB).
 - S. 2155, Public Law 115-174, "Economic Growth, Regulatory Relief, and Consumer Protection Act" (May 24, 2018). Raised the SIFI threshold from $50B to $250B, exempting SVB from DFAST stress testing. Text at congress.gov.
 - SEC Form 4 filings by Gregory W. Becker (February 2023) for the $3.6M stock sale. Search SEC EDGAR for CIK corresponding to Becker as SVB officer.
 
