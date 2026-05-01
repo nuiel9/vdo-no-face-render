@@ -603,16 +603,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "News",
       "target_length_min": 11,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-01",
       "utm_campaign": "business-pm-svb-run",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Published 2026-05-01 to @disclosedch: https://www.youtube.com/watch?v=Qc0rPiBS6_w. Final video 6:28 cinematic gpt-image-2, ~$2 OpenAI total inc. $0.66 sunk on first attempt that hit AI Studio TTS quota. Routine v4.6 fired clean (no AIVDO submit at fire-time); local render.py submitted once with .facts_verified after Fed/Barr quote attribution fix (was wrongly attributed to FDIC). AIVDO v1.8.17 deployed mid-render to migrate Gemini TTS from AI Studio (free-tier 100/day cap) to Vertex AI (project-level quota ~100k+ tokens/day). Production validation of v4.6 + Vertex AI TTS path. Editorial corrections shipped c1af81f + c2db853."
     },
     {
       "#": 37,
@@ -739,7 +739,7 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Pitch Deck",
       "target_length_min": 11,
-      "script_status": "Planned",
+      "script_status": "queue_next",
       "publish_status": "Planned",
       "planned_publish": null,
       "actual_publish": null,
@@ -748,7 +748,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Added 2026-04-23: under-covered replacement after saturation audit. | Queued 2026-05-01 for Monday 05-04 v4.6 fire after SVB ship."
     },
     {
       "#": 45,
