@@ -1,4 +1,8 @@
 # YOUTUBE: Silicon Valley Bank: the $42B run in 36 hours
+
+**Published:** 2026-05-01 to @disclosedch
+**URL:** https://www.youtube.com/watch?v=Qc0rPiBS6_w
+
 **Row #36 | UTM: business-pm-svb-run | Language: English**
 
 ---
