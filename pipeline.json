@@ -807,16 +807,16 @@
       "niche": "Business Case Studies — SEA experiment",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-03",
       "utm_campaign": "business-pm-thai-airways",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #2 added 2026-05-01. Anchor: 2020-05-26 court rehabilitation petition under Thai Bankruptcy Act §90, ฿332B debt at filing, plan approved 2022-06-15, returned to profit FY2023 (~฿28B), exit-from-rehab plan progressed 2024-25. Angle: a flag-carrier that did NOT receive a government bailout — restructured via court process, came back profitable. Underexplored vs. typical 'airline bailout' narrative. Editorial flag: confirm latest exit-from-rehab status at brief time (status moves quarterly)."
+      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=Gy1s1oSiTH4. Title: 'The Flag Carrier That Said No to a Bailout'. Final video 15:28 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; one transient 5-IPM 429 retry on Part 1 compose; both AIVDO jobs eventually first-attempt success after retry). First v4.6.1 ship using bumped word target (~2,059 narration words). EMPIRICAL FINDING: Algieba TTS pace measured at ~133 wpm, not 150. 2,059 words yielded 15:28 stitched, way over the 8:30-10:30 target. Routine patched to v4.6.2 (600-700 words/part) before next fire. Editorial corrections applied pre-render: A380 count 8 to 6 (5 fixes), plan confirmation date 2022 to 2021 (8 fixes). Initial render hit 'No space left on device' at moov-atom write; recovered by clearing 1GB of shipped slugs' part/final mp4s, re-running render.py which used cached part1.mp4+part2.mp4 to skip downloads and re-stitch in 5 min. YOUTUBE.md H1 format quirk: routine emitted '# YOUTUBE.md - Daily #48' with em dash (violating editorial rule 6); youtube_upload.py parser failed; manually fixed to '# YOUTUBE:'; routine prompt v4.6.2 now explicit about format. Original slug context: SEA experiment #2 added 2026-05-01. Anchor: 2020-05-26 court rehabilitation petition under Thai Bankruptcy Act §90, ฿332B debt at filing, plan approved 2022-06-15, returned to profit FY2023 (~฿28B), exit-from-rehab plan progressed 2024-25. Angle: a flag-carrier that did NOT receive a government bailout — restructured via court process, came back profitable. Underexplored vs. typical 'airline bailout' narrative. Editorial flag: confirm latest exit-from-rehab status at brief time (status moves quarterly)."
     },
     {
       "#": 49,
