@@ -790,16 +790,16 @@
       "niche": "Business Case Studies — SEA experiment",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-02",
       "utm_campaign": "business-pm-cp-group",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #1 added 2026-05-01. Anchor: Dhanin Chearavanont (Forbes 2024 ~$14.4B), CP All exclusive 7-Eleven Thailand franchise since 1989, Lotus's acquired from Tesco 2020 ($10.6B), CP Foods world's largest poultry producer, True+DTAC merger 2023. Angle: vertical integration from soybean feed → poultry → 7-Eleven shelf → telecom touches every Thai consumer dollar. Underexplored on English YouTube. Editorial flag: succession dynamics within Chearavanont family — keep narrative on business mechanics, not personal."
+      "notes": "Published 2026-05-02 to @disclosedch: https://www.youtube.com/watch?v=f93ulHLu5dk. Final video 6:25 cinematic gpt-image-2 (standard preset x 2 parts, ~$1.32 OpenAI, both AIVDO jobs first-attempt success — no 5-IPM 429s, heartbeat behaved). First SEA-experiment slug shipped (v4.6 verify-then-render pipeline). Pinned fact-check comment NOT yet posted (YouTube API blocks comments on private videos) — paste manually in Studio after flipping public. Original slug context: SEA experiment #1 added 2026-05-01. Anchor: Dhanin Chearavanont (Forbes 2024 ~$14.4B), CP All exclusive 7-Eleven Thailand franchise since 1989, Lotus's acquired from Tesco 2020 ($10.6B), CP Foods world's largest poultry producer, True+DTAC merger 2023. Angle: vertical integration from soybean feed → poultry → 7-Eleven shelf → telecom touches every Thai consumer dollar. Underexplored on English YouTube. Editorial flag: succession dynamics within Chearavanont family — keep narrative on business mechanics, not personal."
     },
     {
       "#": 48,
