@@ -52,7 +52,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 Sources and fact-check notes for this video:
 
-Thai Airways (SET: THAI) filed for Section 90 court rehabilitation on May 26, 2020 with approximately 332 billion baht in total liabilities. The rehabilitation plan was confirmed by the Central Bankruptcy Court on June 15, 2022. All financial figures cited in this video come from THAI's SET disclosures and annual reports, available at ir.thaiairways.com.
+Thai Airways (SET: THAI) filed for Section 90 court rehabilitation on May 26, 2020 with approximately 332 billion baht in total liabilities. The rehabilitation plan was confirmed by the Central Bankruptcy Court on June 15, 2021. All financial figures cited in this video come from THAI's SET disclosures and annual reports, available at ir.thaiairways.com.
 
 Key figures that require your own verification before relying on them:
 - FY2023 net profit (~฿28B): verify against the published 2023 annual report on SET

@@ -18,14 +18,14 @@ Thai Airways International's 2020 court rehabilitation is the cleanest case stud
 
 2. **Central Bankruptcy Court of Thailand — Rehabilitation Case Record**
    Filed 2020-05-26 under the Thai Bankruptcy Act B.E. 2483 (as amended), Section 90.
-   The court's acceptance order (approx. September 2020) and plan confirmation (June 15, 2022) are on record.
+   The court's acceptance order (approx. September 2020) and plan confirmation (June 15, 2021) are on record.
    Case reference to verify: the filing is publicly indexed under the Central Bankruptcy Court's records; confirm case number via courts.go.th or via THAI's SET disclosure of the filing date.
    The total liabilities figure of 332 billion baht appears in the petition and in THAI's public announcement of the filing.
 
 3. **Thai Airways Rehabilitation Plan — Published Creditor and Investor Documents**
    THAI published summary rehabilitation plan documents in both Thai and English for creditors and SET investors. The plan covers fleet rationalization targets, creditor haircut structure, headcount reduction terms, and financial projections.
    URL to verify: https://ir.thaiairways.com/ (rehabilitation section; also disclosed to SET)
-   Key data to pull: approved fleet target, creditor classes and haircut percentages, employee reduction numbers, plan approval date confirmation of June 15, 2022.
+   Key data to pull: approved fleet target, creditor classes and haircut percentages, employee reduction numbers, plan approval date confirmation of June 15, 2021.
 
 **Fact-check priority items before .facts_verified:**
 - Confirm net profit for FY2023 exact figure (notes cite approximately 28 billion baht; verify against SET filing).
@@ -48,7 +48,7 @@ Malaysia Airlines was re-nationalized and recapitalized by Khazanah Nasional in 
 Membership required maintaining unprofitable longhaul European routes to fulfill alliance connectivity obligations. Alliance logic and national prestige logic coincided to lock THAI into routes that a commercially rational operator would have cut in 2014. These route obligations were only exited cleanly through the rehabilitation plan's route rationalization provisions.
 
 **4. The A380 procurement as a microcosm**
-Eight Airbus A380 aircraft acquired for prestige routes that could never sustain A380 economics. The A380 requires near-80-percent load factors at premium yield to break even on longhaul. THAI's A380 utilization was consistently below that. The rehabilitation plan exited the A380 fleet entirely. This is a documented, quantifiable example of the procurement decision-making pattern that defined THAI's pre-rehabilitation decade.
+Six Airbus A380 aircraft acquired for prestige routes that could never sustain A380 economics. The A380 requires near-80-percent load factors at premium yield to break even on longhaul. THAI's A380 utilization was consistently below that. The rehabilitation plan exited the A380 fleet entirely. This is a documented, quantifiable example of the procurement decision-making pattern that defined THAI's pre-rehabilitation decade.
 
 **5. Government-owned banks taking haircuts on a government-founded airline**
 State-affiliated Thai banks, including Krung Thai Bank, were among THAI's largest unsecured creditors and took haircuts under the rehabilitation plan. This created the unusual dynamic of government-adjacent institutions absorbing losses on a government-adjacent enterprise, precisely because the court process removed the political mechanism by which those losses would typically have been avoided.
@@ -65,7 +65,7 @@ State-affiliated Thai banks, including Krung Thai Bank, were among THAI's larges
 
 4. **THAI carried approximately 29,000 employees at the time of filing** for a fleet of over 100 aircraft, a staffing ratio that was commercially unsustainable relative to the revenue the fleet generated. The rehabilitation plan included a voluntary early retirement program. Source: THAI Annual Report 2019 and management accounts at filing.
 
-5. **The A380 fleet was exited entirely as part of the rehabilitation plan.** All eight aircraft were returned to lessors or otherwise disposed of. The A380 was the most visible symbol of THAI's prestige-over-margin procurement approach: aircraft that required economics the airline consistently failed to achieve. Source: THAI rehabilitation plan fleet schedule; verify exact exit terms.
+5. **The A380 fleet was exited entirely as part of the rehabilitation plan.** All six aircraft were returned to lessors or otherwise disposed of. The A380 was the most visible symbol of THAI's prestige-over-margin procurement approach: aircraft that required economics the airline consistently failed to achieve. Source: THAI rehabilitation plan fleet schedule; verify exact exit terms.
 
 6. **FY2023 was THAI's first profitable year since 2017**, with an approximately 28-billion-baht net profit reported to SET. This came from a combination of the restructured cost base (smaller fleet, reduced headcount, rationalized routes) and post-pandemic travel demand recovery on retained routes. Source: THAI Annual Report 2023 / SET disclosure; verify exact figure.
 
