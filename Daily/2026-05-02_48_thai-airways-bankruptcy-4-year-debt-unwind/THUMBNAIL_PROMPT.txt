@@ -1,0 +1,29 @@
+THUMBNAIL BRIEF — Daily #48: THAI Airways Bankruptcy
+Custom designer brief | No AI face generation for named individuals
+
+---
+
+SELECTED CONCEPT: "The Flag Carrier That Said No to a Bailout"
+
+CORE VISUAL:
+A large commercial wide-body aircraft silhouette (no identifying livery) set against a split background: left half deep crimson red (loss years), right half clean white/sky blue (recovery). The aircraft occupies center-frame, nose pointing right toward the blue side. The split is a hard diagonal line running through the aircraft fuselage.
+
+FOREGROUND TEXT OVERLAY (designer places):
+Top line: "NO BAILOUT." (bold, white, large)
+Bottom line: "BACK TO PROFIT." (bold, white, slightly smaller)
+No more than 4 words total visible on mobile thumbnail preview.
+
+COLOR PALETTE:
+- Deep crimson: #C0182A
+- Clean white: #F8F8F6
+- Sky blue: #1A6FA8
+- Black: #0D0D0D (for shadow/depth elements)
+
+SUPPORTING ELEMENT:
+In the lower-left corner, a small stack of court document icons in dark gray. No text on those icons. Just the visual cue of paperwork. No faces, no named person imagery.
+
+SILHOUETTE NOTE: No human silhouettes in this thumbnail. The aircraft is the only subject. No corporate logos or identifiable airline livery on the aircraft.
+
+MOBILE LEGIBILITY CHECK: Test at 320px width. "NO BAILOUT." must remain readable. The aircraft silhouette must read clearly against both background halves at thumbnail size. Avoid thin-stroke fonts.
+
+FORMAT: 1280x720px, YouTube standard thumbnail aspect ratio.
