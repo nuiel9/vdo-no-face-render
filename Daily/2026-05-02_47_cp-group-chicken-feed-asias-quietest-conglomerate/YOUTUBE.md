@@ -5,7 +5,7 @@ Row #47 | CP Group | UTM: business-pm-cp-group
 
 ## Description (100 words)
 
-In 1921, two brothers from Guangdong opened a seed shop in Bangkok's Chinatown. One hundred years later, their descendants control 14,000 convenience stores, one of the world's largest poultry producers, and Thailand's biggest mobile network. This is CP Group (Charoen Pokphand): a conglomerate operating in 21 countries that most people outside Southeast Asia have never heard of. We trace how a simple vertical integration logic (seeds, feed, protein, retail, telecom) built a structure that Amazon and Alibaba are still trying to replicate. Sources: CP All SET annual filings, Tesco PLC press release December 2020, CP Foods corporate disclosures, NBTC merger records.
+In 1921, two brothers from Guangdong opened a seed shop in Bangkok's Chinatown. One hundred years later, their descendants control 14,000 convenience stores, one of Asia's top three poultry producers, and Thailand's biggest mobile network. This is CP Group (Charoen Pokphand): a conglomerate operating in 21 countries that most people outside Southeast Asia have never heard of. We trace how a simple vertical integration logic (seeds, feed, protein, retail, telecom) built a structure that Amazon and Alibaba are still trying to replicate. Sources: CP All SET annual filings, Tesco PLC March 2020 press release, CP Foods corporate disclosures, NBTC merger records.
 
 ---
 Disclosed is independent commentary and analysis. No affiliation with the companies discussed. All trademarks, logos, and brand assets shown are property of their respective owners and are used for identification, commentary, and educational purposes under nominative fair use.
@@ -29,11 +29,11 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 1. CP All PCL Annual Report 2023 (SET-listed disclosure, investor relations)
    https://www.cpall.co.th/investor-relations/annual-report/
 
-2. Tesco PLC Press Release: "Agreement to sell Asian businesses," 9 December 2020
-   https://www.tescoplc.com/news/2020/agreement-to-sell-asian-businesses/
+2. Tesco PLC Press Release: "Tesco agrees to sell its businesses in Thailand and Malaysia," 9 March 2020
+   https://www.tescoplc.com/tesco-agrees-to-sell-its-businesses-in-thailand-and-malaysia-significant-return-to-shareholders-simplification-and-further-de-risking/
 
 3. CP Foods PCL Corporate Disclosures and Annual Report (cpfworldwide.com)
-   https://www.cpfworldwide.com/en/investor/annual-report
+   https://www.cpfworldwide.com/en/investors/annual
 
 4. True Corporation PCL / DTAC PCL NBTC Merger Regulatory Records, 2022-2023
    https://www.nbtc.go.th/ (search: True DTAC merger)
@@ -56,6 +56,6 @@ FACT-CHECK WINDOW: Three figures in this video move quarterly and should be veri
 
 (3) True+DTAC subscriber count: script uses approximately 52 million. Verify against True Corporation's first post-merger SET quarterly disclosure.
 
-Sources used in this video: CP All PCL SET annual filings, Tesco PLC December 2020 press release, CP Foods annual report, NBTC merger records.
+Sources used in this video: CP All PCL SET annual filings, Tesco PLC March 2020 press release, CP Foods annual report, NBTC merger records.
 
 Corrections welcome in the comments.

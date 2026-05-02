@@ -16,10 +16,10 @@ CP Group (Charoen Pokphand) built the most vertically integrated consumer-econom
    Covers: 7-Eleven store count, daily transaction volumes, CP All revenue, franchise terms.
    HUMAN: Download the 2022 or 2023 AR from the SET portal for exact transaction figures.
 
-2. **Tesco PLC Press Release, 9 December 2020** ("Recommended offer for Tesco's business in Thailand and Malaysia")
-   URL: https://www.tescoplc.com/news/2020/agreement-to-sell-asian-businesses/
-   Covers: £8.2 billion total consideration, buyer (CP Group via affiliate), scope (Tesco Lotus Thailand + Malaysia hypermarkets).
-   HUMAN: Verify exact GBP/USD conversion rate used at announcement. Notes cite $10.6B USD equivalent.
+2. **Tesco PLC Press Release, 9 March 2020** ("Tesco agrees to sell its businesses in Thailand and Malaysia")
+   URL: https://www.tescoplc.com/tesco-agrees-to-sell-its-businesses-in-thailand-and-malaysia-significant-return-to-shareholders-simplification-and-further-de-risking/
+   Covers: £8.2 billion enterprise value, buyer (CP Group via affiliate), scope (Tesco Lotus Thailand + Malaysia hypermarkets). Completion 18 December 2020.
+   HUMAN: USD equivalent ~$10.6B at announcement (Tesco confirmed in PR).
 
 3. **True Corporation PCL / DTAC PCL NBTC merger filing, October 2022**
    URL pattern: https://www.nbtc.go.th/ (search for True-DTAC merger resolution)
@@ -56,8 +56,8 @@ Source: NBTC proceedings, academic coverage of Southeast Asian telecom consolida
 2. CP Group is widely cited as the first foreign company to receive an investment certificate in China's Shenzhen Special Economic Zone after the 1978 reforms, giving it a China-market head start that no other ASEAN-based company replicated at comparable scale.
    Citation: Contemporary accounts including Far Eastern Economic Review; CP Group corporate statements. HUMAN: confirm against China MOFCOM archives or journalistic records from 1979-1980.
 
-3. CP Foods produced over 3 million tons of poultry annually by the early 2020s and is a primary supplier to KFC and McDonald's across Asia, without the CP brand appearing on any consumer-facing packaging in those supply chains.
-   Citation: CP Foods annual report / corporate website (cpfworldwide.com). HUMAN: verify exact tonnage figure and named quick-service restaurant supply contracts.
+3. CP Foods is among Asia's top three poultry producers (Wikipedia: "third largest poultry meat company in Asia") and a primary supplier to KFC across Asia (CP Foods won the KFC Asia Recipe For Good Award 2022 for animal welfare), without the CP brand appearing on consumer-facing packaging.
+   Citation: CP Foods annual report / corporate website (cpfworldwide.com); Wikipedia Charoen Pokphand Foods.
 
 4. CP All's 7-Eleven Thailand network handles over 14 million transactions per day across approximately 14,000 stores, making it the largest 7-Eleven franchise operation outside Japan by store count.
    Citation: CP All PCL Annual Report 2022/2023 (SET filing). HUMAN: extract exact daily transaction figure from filing page.
@@ -121,7 +121,9 @@ Rationale: "Hidden Empire" triggers the Hidden Truth template's core curiosity g
 
 - CP Group founding year: most sources say 1921 for the Thai entity; some say 1919 for a Chinese precursor. Verify which date applies to the Thai legal entity.
 - "First foreign investment certificate in China" claim: well-cited but verify via MOFCOM archive or journalistic primary record before publishing.
-- Forbes 2024 net worth (~$14.4B for Dhanin's family): notes-sourced. Confirm against the specific Forbes Thailand 2024 list entry.
+- Forbes 2024 net worth: corrected to $12.5B (Dhanin individual, Forbes World Billionaires March 2024, ranked 159th globally). Original draft cited $14.4B family figure; not verifiable in primary sources. Family aggregate is much higher (~$35-44B per various 2024-2025 sources).
+- DTAC ownership: corrected to Norwegian-owned (Telenor). Original draft said "Danish-owned" — clear factual error.
+- CP Foods scale claim: softened from "3 million tons of chicken annually" to "among Asia's top three poultry producers" — original tonnage not verifiable in current public sources.
 - Tesco deal: "£8.2 billion" vs "$10.6B" conversion: use the GBP figure as primary (from Tesco press release); note the USD equivalent is FX-dependent.
 - True+DTAC subscriber count (~52M) is post-merger estimate; verify from True Corporation's first post-merger SET quarterly filing.
 - CP Foods tonnage (3M tons/year): confirm against most recent CP Foods annual report.
