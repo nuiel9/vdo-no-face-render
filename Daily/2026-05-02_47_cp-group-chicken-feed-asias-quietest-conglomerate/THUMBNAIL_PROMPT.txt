@@ -1,0 +1,45 @@
+THUMBNAIL BRIEF: CP Group (Row #47)
+Chosen title: "How a Seed Shop Became Asia's Biggest Hidden Empire"
+Template: Hidden Truth | Channel: Disclosed (@disclosedch)
+
+---
+
+CONCEPT: "Seed to Skyline"
+
+Visual composition (16:9 YouTube thumbnail, 1280x720):
+
+LEFT HALF (dark, historical): Close-up macro shot of a single vintage seed packet, partially open, a few seeds spilling onto aged wooden surface. Muted sepia-amber tones. Era marker: 1920s wooden crate texture in background.
+
+RIGHT HALF (bright, corporate): Bangkok CBD skyline silhouette in deep corporate blue, lit from below by city lights. No identifiable specific buildings. Generalized dense urban skyline.
+
+CENTER DIVIDING ELEMENT: A bold vertical timeline arrow running from bottom (1921) to top (TODAY). Arrow rendered in bright gold, cutting between the two halves.
+
+TEXT OVERLAYS (3 layers):
+- TOP LEFT: "1921" in large white serif numerals, slightly faded, on the dark half
+- TOP RIGHT: "TODAY" in large bold sans-serif white, on the bright half
+- BOTTOM CENTER: "HOW A SEED SHOP" on first line, "BECAME ASIA'S HIDDEN EMPIRE" on second line. Large bold all-caps white text. Drop shadow for legibility. Max 5 words per line.
+
+COLOR PALETTE:
+- Background halves: #1A1A2E (dark historical) and #16213E (dark corporate blue)
+- Timeline arrow: #FFD700 (gold)
+- Text: #FFFFFF primary, #FFD700 accent on "HIDDEN EMPIRE"
+- Seed packet: warm sepia tones, #8B6914 range
+
+MOBILE LEGIBILITY CHECK (320px):
+- Both "1921" and "TODAY" must be readable at small sizes: use minimum 60pt bold
+- "HIDDEN EMPIRE" must be legible: use minimum 48pt bold with shadow
+- The dividing arrow must read as a timeline element, not just a decorative line: use 8px minimum width
+
+FACELESS COMPLIANCE:
+- NO real human faces. No silhouettes of named real persons.
+- The seed packet and skyline carry the visual narrative without any person.
+- If a designer wants to add a figure, use a full SILHOUETTE only (unidentifiable).
+
+DESIGNER NOTES:
+- The thumbnail must work without the title text for viewers seeing it in a suggested-video strip: the seed-to-skyline visual should communicate "origin story + big modern outcome" on its own.
+- Do NOT use the CP Group corporate logo or any subsidiary logos (Lotus's, True, 7-Eleven). This is editorial commentary; nominative fair use does not require exact logo reproduction in the thumbnail.
+- The gold arrow is the single most important element: it conveys time passing and upward trajectory. Do not lose it in the composition.
+- Alternatively: if the split-panel concept feels too busy, fall back to a single dark-background shot with the seed packet held above a map of Thailand + neighboring countries, with the gold timeline arrow overlaid and text in white.
+
+AIVDO POSTER MODE NOTE:
+This thumbnail does not map cleanly to a standard AIVDO poster preset. Recommend custom designer build (Canva or Photoshop) using the above brief. Estimated build time: 30 minutes.
