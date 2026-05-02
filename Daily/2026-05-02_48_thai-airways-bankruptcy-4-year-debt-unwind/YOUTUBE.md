@@ -1,4 +1,5 @@
-# YOUTUBE.md — Daily #48: THAI Airways' Bankruptcy and the 4-Year Debt Unwind
+# YOUTUBE: The Flag Carrier That Said No to a Bailout
+Row #48 | THAI Airways | UTM: business-pm-thai-airways
 
 ---
 
