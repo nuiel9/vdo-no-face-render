@@ -790,7 +790,7 @@
       "niche": "Business Case Studies — SEA experiment",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
-      "script_status": "queue_next",
+      "script_status": "pending_human_review",
       "publish_status": "Planned",
       "planned_publish": null,
       "actual_publish": null,
