@@ -34,7 +34,7 @@ Key sources for this episode:
 
 Lululemon FY2013 10-K (SEC EDGAR): net revenue $1.591B, luon recall cost $17.5M gross profit in Q1 FY2013.
 Christine Day CEO departure: Lululemon Form 8-K, June 10, 2013 (SEC EDGAR).
-Chip Wilson quote ("some women's bodies just actually don't work for it"): Bloomberg Television interview, November 2013. Verify exact wording against Bloomberg archive.
+Chip Wilson quote ("Frankly, some women's bodies just don't actually work for it"): Bloomberg Television "Street Smart" with Trish Regan, November 5, 2013.
 Lululemon FY2022 10-K (SEC EDGAR): net revenue $8.111B.
 
 All figures sourced to SEC filings. If you spot an error, note it in the comments with a source link and I will verify and correct.
