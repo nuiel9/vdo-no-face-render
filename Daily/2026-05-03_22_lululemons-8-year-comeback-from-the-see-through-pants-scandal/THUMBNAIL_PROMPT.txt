@@ -1,0 +1,52 @@
+THUMBNAIL BRIEF: Row #22 — Lululemon Scandal and Comeback
+
+SELECTED TITLE: The Yoga Pants That Nearly Destroyed a $10B Company
+(Alternate if market cap unverified: Lululemon's Founder Said the Wrong Thing. The Stock Fell in Half.)
+
+EDITORIAL NOTE: Do NOT render any real person's face or likeness. Chip Wilson = silhouette only.
+Do NOT show the actual Lululemon wordmark or logo in the thumbnail (trademark + copyright risk).
+Use generic premium activewear visual language (black fabric, clean studio aesthetic) without brand identifiers.
+
+---
+
+CONCEPT A (RECOMMENDED): The Scandal Visual
+
+Composition: Split-frame horizontal.
+Left half: Close-up macro of sheer black fabric held up to a bright backlight, the weave visibly transparent, dramatic studio lighting, product photography quality. Text overlay in the left half: "NEARLY DESTROYED IT" in bold white condensed sans-serif, 3-4cm height, subtle dark gradient behind text for legibility.
+Right half: Clean white panel with a stock chart declining steeply in red from upper left to lower right, framing the scandal period, red line prominent, minimal axes, financial terminal aesthetic.
+Bottom center (straddling both halves): Channel name watermark area (handled by YouTube overlay, leave blank).
+Mobile test: text must be legible at 320px width. "NEARLY DESTROYED IT" should fill at least 30% of horizontal space.
+
+Color palette:
+- Background: deep charcoal #1A1A1A (left), pure white #FFFFFF (right)
+- Fabric: black with visible translucency effect
+- Text: white #FFFFFF with 60% opacity black outline
+- Chart line: alert red #E53935
+- Accent: gold data point #F9A825 at peak and trough
+
+---
+
+CONCEPT B (BACKUP): The Empty Boardroom Moment
+
+Composition: Wide-angle interior.
+A corporate boardroom with a vacant chairman's chair at the head of the table, shot from a low angle for drama, single spotlight on the empty chair, rest of room dark. Text overlay at top: "ONE INTERVIEW. HALF THE VALUE." in bold white condensed sans-serif.
+Mood: institutional crisis, power vacuum.
+Color palette: deep navy #0D1B2A, warm gold #F9A825 spotlight, white text.
+
+---
+
+CONCEPT C (FALLBACK): The Numbers Contrast
+
+Composition: Clean data card.
+Two large number blocks side by side: "$1.6B" (2013) on left in muted gray, "$8.1B" (2022) on right in bright teal, large bold sans-serif at least 40% of frame height. Above: "LULULEMON" in small caps (no logo). Below: "AFTER THE SCANDAL" in smaller white text on dark background.
+Purely typographic, zero fabrication risk.
+
+---
+
+PRODUCTION NOTES FOR DESIGNER:
+- Final size: 1280x720px, 72dpi minimum.
+- No Lululemon wordmark, logo, or trademark identifiers (use generic activewear/black fabric).
+- No real person faces. If a person silhouette is used, ensure it is completely non-identifiable (full silhouette, no distinguishing features).
+- Text must pass YouTube mobile legibility check at 320px: test at thumbnail preview size before delivery.
+- Primary CTA in the thumbnail visual: curiosity gap (what nearly destroyed it?) not the resolution.
+- A/B candidate: swap Concept A left text from "NEARLY DESTROYED IT" to "$10B COMPANY" to test number vs. consequence framing.
