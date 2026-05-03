@@ -17,7 +17,7 @@ In March 2013, Lululemon voluntarily pulled roughly 17% of its women's yoga pant
 
 1. **Lululemon Athletica 10-K, Fiscal Year 2013** (SEC EDGAR, CIK 0001397187). States net revenue $1.591B (FY2013 vs $1.370B FY2012); gross profit impact of luon inventory recall stated as $17.5M in Q1 FY2013. VERIFY via: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001397187&type=10-K
 
-2. **Bloomberg Television Interview, Chip Wilson, November 2013.** Wilson stated on-camera: "Quite frankly, some women's bodies just actually don't work for it." Bloomberg Video Archive. VERIFY exact transcript wording and broadcast date against archived clip.
+2. **Bloomberg Television Interview, Chip Wilson, November 2013.** Wilson stated on-camera: "Frankly, some women's bodies just don't actually work for it." Bloomberg Video Archive. VERIFY exact transcript wording and broadcast date against archived clip.
 
 3. **Lululemon Athletica Form 8-K, June 10, 2013** (SEC EDGAR, CIK 0001397187). Announces Christine Day departure as CEO. VERIFY via: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001397187&type=8-K
 
