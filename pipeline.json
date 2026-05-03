@@ -365,16 +365,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 18,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-03",
       "utm_campaign": "business-pm-22",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
+      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=l-OmJGrQ4xI. Title: 'The Yoga Pants That Nearly Destroyed a $10B Company'. Final video 9:19 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; 0 retries; clean run). FIRST v4.6.2 ship validating the corrected word target (1,220 narration words → 9:19 stitched, prediction +9 sec / +1.6% drift). Editorial corrections applied pre-render: removed fabricated Vancouver showroom yoga-instructor downward-dog hook (replaced with sourced March 18 timeline); fixed Wilson direct quote 'Quite frankly, ... just actually don't work' → 'Frankly, ... just don't actually work' (per CBC/Bloomberg transcripts); pinned-comment Wilson quote fixed post-upload. Consumer-brand pivot away from SEA experiment lane to widen audience funnel. Original slug context: None"
     },
     {
       "#": 23,
