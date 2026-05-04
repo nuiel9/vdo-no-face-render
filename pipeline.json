@@ -688,8 +688,8 @@
       "niche": "Business Case Studies",
       "aivdo_template": "News",
       "target_length_min": 11,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Skipped",
+      "publish_status": "Skipped",
       "planned_publish": null,
       "actual_publish": null,
       "utm_campaign": "business-pm-hertz-ch11-2",
@@ -697,7 +697,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "SKIPPED 2026-05-04: routine fired and produced 1,335-word script (job 5e21f8a → daily/2026-05-04_41_*) but premise is fabricated — title 'Hertz Filed for Bankruptcy Twice' assumes a SECOND Chapter 11 filing that does not exist per public records. Hertz filed Chapter 11 ONCE (May 2020), emerged June 2021, and 2024-2025 court activity in news is appellate disputes about make-whole premiums from the ORIGINAL 2020 case, not a new filing. Agent itself flagged at SCRIPT.txt line 5 that 'second Chapter 11 filing details deliberately omitted pending human verification' — agent knew it was making up the premise. Underlying content (2005 Ford-to-PE LBO, 2020 bankruptcy, 2021 Tesla 100k vehicle announcement, Q4 2023 ~$245M EV write-down, Jan 2024 Scherr departure + 20k EV sell-off) is all factually accurate, but cannot ship as 'second bankruptcy' framing. Branch daily/2026-05-04_41_hertz-back-in-chapter-11-four-years-later deleted on origin. No AIVDO cost incurred. Pipeline lesson: original row #41 title 'Hertz: back in Chapter 11 four years later' was a forward-looking analyst prediction (added 2026-04-23 saturation audit) that never materialized — should have been audited before promoting to queue_next. Original slug context: Added 2026-04-23: under-covered replacement after saturation audit."
     },
     {
       "#": 42,
