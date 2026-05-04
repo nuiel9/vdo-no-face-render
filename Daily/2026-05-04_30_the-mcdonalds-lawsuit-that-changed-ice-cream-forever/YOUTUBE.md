@@ -19,7 +19,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 ## Citations
 
-1. FTC "Nixing the Fix: An FTC Report to Congress on Repair Restrictions" (September 2021): https://www.ftc.gov/system/files/documents/reports/nixing-the-fix-ftc-report-congress-repair-restrictions/211008ftc_report_repair_restrictions.pdf [VERIFY URL resolves]
+1. FTC "Nixing the Fix: An FTC Report to Congress on Repair Restrictions" (May 2021): https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions [VERIFY URL resolves]
 2. McBroken.com (Rashiq Zahid, 2020): https://mcbroken.com [VERIFY still live]
 3. McDonald's Franchise Disclosure Document, Item 8 — available via California DFPI franchise registration database: https://dfpi.ca.gov [VERIFY current FDD filing year and direct document link]
 4. Wired reporting by Andy Greenberg on Kytch and McDonald's soft-serve saga (2021): search "Greenberg Kytch McDonald's Wired" for the specific article URL — do not fabricate the direct link without verifying against the Wired archive [HUMAN: pull and paste verified URL here before publish]
@@ -32,7 +32,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 Sources and fact-check notes for this video:
 
-FTC "Nixing the Fix" (Sept 2021), the federal report that examined repair restrictions in food service equipment among other industries: https://www.ftc.gov/system/files/documents/reports/nixing-the-fix-ftc-report-congress-repair-restrictions/211008ftc_report_repair_restrictions.pdf
+FTC "Nixing the Fix" (Sept 2021), the federal report that examined repair restrictions in food service equipment among other industries: https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions
 
 McBroken.com, Rashiq Zahid's machine-outage tracker that started this public conversation: https://mcbroken.com
 

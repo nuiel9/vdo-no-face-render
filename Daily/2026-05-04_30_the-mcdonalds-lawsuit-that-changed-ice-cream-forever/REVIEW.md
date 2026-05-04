@@ -13,8 +13,8 @@ McDonald's broken soft-serve machine was not an equipment problem. It was a fran
 
 ## Primary Sources
 
-1. **FTC Report "Nixing the Fix: An FTC Report to Congress on Repair Restrictions"** (September 2021)
-   URL: https://www.ftc.gov/system/files/documents/reports/nixing-the-fix-ftc-report-congress-repair-restrictions/211008ftc_report_repair_restrictions.pdf
+1. **FTC Report "Nixing the Fix: An FTC Report to Congress on Repair Restrictions"** (May 2021)
+   URL: https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions
    Relevance: Cites food service equipment explicitly as a sector where exclusive-service-network arrangements raise consumer costs without clear safety justification. Published within months of the Kytch case becoming public. VERIFY: confirm current FTC URL resolves and page references used in script.
 
 2. **McDonald's Franchise Disclosure Document (FDD), Item 8 — "Restrictions on What You May Buy"**
