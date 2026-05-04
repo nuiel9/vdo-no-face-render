@@ -1,0 +1,235 @@
+{
+  "text": "In October 2020, a software engineer named Rashiq Zahid built a website called McBroken.com in a single afternoon. The site did one thing: it pinged McDonald's own mobile ordering app every thirty seconds and tested whether each U.S. location could accept a McFlurry order. On a typical day, the map showed roughly one in six American McDonald's locations returning a broken result. Zahid did not access any private system. He queried McDonald's public-facing API, the same endpoint the company's own app used when a customer tried to order dessert. McDonald's had built the very infrastructure that documented its own failure at scale.\n\nMcBroken went viral in under a week. The dataset appeared in the Washington Post, Business Insider, and food service trade publications. It converted a decade of collective frustration into a mapped, timestamped public record. Customers had long suspected the broken soft-serve machine was systemic. McBroken confirmed it was a national pattern with a measurable rate.\n\nBut the machine was not the problem. It was the readable symptom of a structural problem that had been compounding inside McDonald's franchise architecture for years before anyone had the data to say so clearly.\n\nMcDonald's operates more than 40,000 locations globally, with roughly 95 percent of U.S. restaurants owned by independent franchisees. When a franchisee signs a McDonald's franchise agreement, they do not choose their own suppliers. McDonald's requires purchasing from a list of approved vendors, disclosed in the Franchise Disclosure Document under Item 8. For soft-serve equipment, that approved list directed franchisees to Taylor Commercial Foodservice. In practice, across most of the U.S. system, Taylor was the only option on the list.\n\nTaylor's C602 soft-serve machine became the system-wide standard. Every day, food safety regulations require that soft-serve machines run a heat treatment cycle, a pasteurization process that holds the mix at temperature long enough to eliminate pathogens. That requirement is real and codified in FDA food safety rules. What Taylor's implementation added was a layer the FDA does not require: if the cycle encountered any fault, a proprietary reset sequence locked the machine until an authorized Taylor service technician cleared it. A service visit ran hundreds of dollars. Scheduling one could take days. During that window the machine sat broken, and the franchise owner paid.\n\nFranchisees who wanted to switch had signed a contract that made switching a breach. The approved-vendor clause in the McDonald's franchise agreement did not allow franchisees to evaluate competitors on performance or price. It required Taylor. Taylor's service pricing reflected the reality of operating in a market where its customers had no contractual exit.\n\nJeremy O'Sullivan and Melissa Nelson founded a company called Kytch to address exactly that gap. Their device attached to the Taylor C602's internal serial data port, a hardware interface that carried the machine's real-time diagnostic codes. The same codes that Taylor billed thousands of dollars in service contracts to interpret, Kytch translated immediately on a connected phone. Franchise owners who installed Kytch reported their machines remained operational far more consistently. Andy Greenberg's reporting in Wired quoted one owner describing the device as transforming the machine from a black box into something you can manage.\n\nThen, in early 2021, McDonald's issued a communication to franchisees warning them not to use the Kytch device, citing safety concerns. For O'Sullivan and Nelson, that letter was the clearest possible confirmation of what they had built into and why it mattered.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "The McDonald's Ice Cream Machine Saga — Part 1",
+    "description": "How a one-afternoon website exposed a decade-long franchise vendor lock-in, and the startup that tried to break it.",
+    "source_text": "In October 2020, a software engineer named Rashiq Zahid built a website called McBroken.com in a single afternoon. The site did one thing: it pinged McDonald's own mobile ordering app every thirty seconds and tested whether each U.S. location could accept a McFlurry order. On a typical day, the map showed roughly one in six American McDonald's locations returning a broken result. Zahid did not access any private system. He queried McDonald's public-facing API, the same endpoint the company's own app used when a customer tried to order dessert. McDonald's had built the very infrastructure that documented its own failure at scale.\n\nMcBroken went viral in under a week. The dataset appeared in the Washington Post, Business Insider, and food service trade publications. It converted a decade of collective frustration into a mapped, timestamped public record. Customers had long suspected the broken soft-serve machine was systemic. McBroken confirmed it was a national pattern with a measurable rate.\n\nBut the machine was not the problem. It was the readable symptom of a structural problem that had been compounding inside McDonald's franchise architecture for years before anyone had the data to say so clearly.\n\nMcDonald's operates more than 40,000 locations globally, with roughly 95 percent of U.S. restaurants owned by independent franchisees. When a franchisee signs a McDonald's franchise agreement, they do not choose their own suppliers. McDonald's requires purchasing from a list of approved vendors, disclosed in the Franchise Disclosure Document under Item 8. For soft-serve equipment, that approved list directed franchisees to Taylor Commercial Foodservice. In practice, across most of the U.S. system, Taylor was the only option on the list.\n\nTaylor's C602 soft-serve machine became the system-wide standard. Every day, food safety regulations require that soft-serve machines run a heat treatment cycle, a pasteurization process that holds the mix at temperature long enough to eliminate pathogens. That requirement is real and codified in FDA food safety rules. What Taylor's implementation added was a layer the FDA does not require: if the cycle encountered any fault, a proprietary reset sequence locked the machine until an authorized Taylor service technician cleared it. A service visit ran hundreds of dollars. Scheduling one could take days. During that window the machine sat broken, and the franchise owner paid.\n\nFranchisees who wanted to switch had signed a contract that made switching a breach. The approved-vendor clause in the McDonald's franchise agreement did not allow franchisees to evaluate competitors on performance or price. It required Taylor. Taylor's service pricing reflected the reality of operating in a market where its customers had no contractual exit.\n\nJeremy O'Sullivan and Melissa Nelson founded a company called Kytch to address exactly that gap. Their device attached to the Taylor C602's internal serial data port, a hardware interface that carried the machine's real-time diagnostic codes. The same codes that Taylor billed thousands of dollars in service contracts to interpret, Kytch translated immediately on a connected phone. Franchise owners who installed Kytch reported their machines remained operational far more consistently. Andy Greenberg's reporting in Wired quoted one owner describing the device as transforming the machine from a black box into something you can manage.\n\nThen, in early 2021, McDonald's issued a communication to franchisees warning them not to use the Kytch device, citing safety concerns. For O'Sullivan and Nelson, that letter was the clearest possible confirmation of what they had built into and why it mattered.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: McBroken.com Goes Live",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "McBroken.com · Oct 2020",
+          "1-in-6 U.S. locations · broken"
+        ],
+        "narration": {
+          "text": "In October 2020, a software engineer named Rashiq Zahid built a website called McBroken.com in a single afternoon. The site did one thing: it pinged McDonald's own mobile ordering app every thirty seconds and tested whether each U.S. location could accept a McFlurry order. On a typical day, the map showed roughly one in six American McDonald's locations returning a broken result. Zahid did not access any private system. He queried McDonald's public-facing API, the same endpoint the company's own app used when a customer tried to order dessert. McDonald's had built the very infrastructure that documented its own failure at scale.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Broadcast news data visualization. Close-up of a laptop screen displaying a live map of the continental United States dotted with hundreds of small red and green location pins, red pins far outnumbering green, clusters over New York, Chicago, Los Angeles, and Dallas, dark navy data-dashboard background, dramatic studio side-lighting, documentary photojournalism style. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Viral Media Coverage: the Data Lands",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Washington Post · Business Insider",
+          "National pattern · timestamped"
+        ],
+        "narration": {
+          "text": "McBroken went viral in under a week. The dataset appeared in the Washington Post, Business Insider, and food service trade publications. It converted a decade of collective frustration into a mapped, timestamped public record. Customers had long suspected the broken soft-serve machine was systemic. McBroken confirmed it was a national pattern with a measurable rate.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Wide broadcast news studio interior, multiple large LED display screens on the back wall showing abstract trending data charts and heat-map graphics in red and green, cool blue ambient lighting, documentary television aesthetic, no faces visible on screens, no readable headlines. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no soft-serve machine, no ice cream, no food products visible.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "The Real Problem: Franchise Architecture",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Symptom vs. structure",
+          "Franchise system · years in the making"
+        ],
+        "narration": {
+          "text": "But the machine was not the problem. It was the readable symptom of a structural problem that had been compounding inside McDonald's franchise architecture for years before anyone had the data to say so clearly.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Sweeping aerial overhead shot of an American suburban commercial strip, dozens of fast-food restaurant buildings visible below, identical low-profile structures with identical roof geometries repeating in a grid, parking lots surrounding each building, golden hour afternoon light casting long shadows, cinematic documentary drone photography style. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no soft-serve machine, no ice cream, no food products, no branded signage readable.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "McDonald's FDD Item 8: Approved Vendors",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "McDonald's FDD · Item 8",
+          "Approved vendors: required"
+        ],
+        "narration": {
+          "text": "McDonald's operates more than 40,000 locations globally, with roughly 95 percent of U.S. restaurants owned by independent franchisees. When a franchisee signs a McDonald's franchise agreement, they do not choose their own suppliers. McDonald's requires purchasing from a list of approved vendors, disclosed in the Franchise Disclosure Document under Item 8. For soft-serve equipment, that approved list directed franchisees to Taylor Commercial Foodservice. In practice, across most of the U.S. system, Taylor was the only option on the list.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up macro photograph of a thick legal document binder lying open on a dark mahogany desk, printed pages with numbered sections visible, a paper tab labeled 'Section 8' protruding from the pages, single warm overhead desk lamp illuminating the pages, deep shadows on the surrounding surface, documentary legal-record aesthetic. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no soft-serve machine, no ice cream, no food items.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Taylor C602: The Lockout Problem",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Taylor C602 · daily heat cycle",
+          "Service call: hundreds of dollars"
+        ],
+        "narration": {
+          "text": "Taylor's C602 soft-serve machine became the system-wide standard. Every day, food safety regulations require that soft-serve machines run a heat treatment cycle, a pasteurization process that holds the mix at temperature long enough to eliminate pathogens. That requirement is real and codified in FDA food safety rules. What Taylor's implementation added was a layer the FDA does not require: if the cycle encountered any fault, a proprietary reset sequence locked the machine until an authorized Taylor service technician cleared it. A service visit ran hundreds of dollars. Scheduling one could take days. During that window the machine sat broken, and the franchise owner paid.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Industrial commercial kitchen interior, a large stainless steel soft-serve machine standing in isolation against a tiled wall, a single amber fault indicator light glowing on the front panel control board, cool fluorescent overhead lighting, shallow depth of field with the error light in sharp focus, documentary equipment photography style. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "The Captive Market Economics",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "No exit clause · franchise contract",
+          "Captive customer: Taylor's pricing"
+        ],
+        "narration": {
+          "text": "Franchisees who wanted to switch had signed a contract that made switching a breach. The approved-vendor clause in the McDonald's franchise agreement did not allow franchisees to evaluate competitors on performance or price. It required Taylor. Taylor's service pricing reflected the reality of operating in a market where its customers had no contractual exit.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Abstract financial data visualization, glowing bar chart with ascending cost bars rendered in deep red against a dark navy background, a single flat line representing zero growth at the bottom, broadcast infographic aesthetic, cinematic studio lighting with rim-light edge glow on each bar, no readable numbers. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no soft-serve machine, no ice cream, no food products visible.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Kytch: $300 Serial Port Fix",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Kytch device · $300",
+          "Serial port · real-time diagnostics"
+        ],
+        "narration": {
+          "text": "Jeremy O'Sullivan and Melissa Nelson founded a company called Kytch to address exactly that gap. Their device attached to the Taylor C602's internal serial data port, a hardware interface that carried the machine's real-time diagnostic codes. The same codes that Taylor billed thousands of dollars in service contracts to interpret, Kytch translated immediately on a connected phone. Franchise owners who installed Kytch reported their machines remained operational far more consistently. Andy Greenberg's reporting in Wired quoted one owner describing the device as transforming the machine from a black box into something you can manage.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Close-up product photography of a small matte-black electronic enclosure with visible circuit board traces through a translucent top panel, a DB-9 serial connector protruding from one end, a single green status LED glowing, clean white studio lighting from above and left, soft shadow on white background, documentary product-reveal aesthetic. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no ice cream, no soft-serve machine, no food items near the device.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "The Warning Letter (Cliffhanger)",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "McDonald's safety warning · 2021",
+          "Franchisees told: stop using Kytch"
+        ],
+        "narration": {
+          "text": "Then, in early 2021, McDonald's issued a communication to franchisees warning them not to use the Kytch device, citing safety concerns. For O'Sullivan and Nelson, that letter was the clearest possible confirmation of what they had built into and why it mattered.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Dramatic close-up of a formal corporate letter on white letterhead filling the entire frame, bold header text implied by dark typography at the top of the page, text body too small to read but conveying official legal density, harsh directional overhead spotlight creating stark contrast and deep shadow at page edges, broadcast documentary tension aesthetic. No people. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. NEGATIVE: no soft-serve machine, no ice cream, no food items.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

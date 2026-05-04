@@ -1,0 +1,22 @@
+THUMBNAIL BRIEF — Row #30
+Title: "Why McDonald's Ice Cream Is Always Broken (It Was Never About the Machine)"
+Format: 1280x720px, YouTube standard. Must read on mobile at 320px.
+
+CONCEPT (custom designer — not a stock template):
+
+Primary subject: A commercial soft-serve machine rendered in dramatic high-contrast side-lighting, occupying the left 55% of the frame. The machine face shows a single glowing amber fault/error indicator light as the focal point. The machine surface is stainless steel, slightly desaturated to read as institutional rather than appetizing.
+
+Right 45% of frame: Bold typography stack.
+Line 1 (large, 80pt+): "ALWAYS" in white with a thick red strikethrough line crossing it.
+Line 2 (large, 80pt+): "BROKEN?" in McDonald's yellow (#FFC72C), no strikethrough.
+Below that, in smaller type (36pt), dark charcoal: "The real reason."
+
+Background: Deep near-black (#111111) with a very subtle warm vignette from the machine's amber fault light bleeding right. No gradients, no patterns.
+
+Color palette: #111111 (background), #FFC72C (yellow accent), #DA020E (red strikethrough), #F5F5F5 (white text), #E6940A (amber glow from machine fault light).
+
+No human faces. No silhouettes. No food products (no soft-serve, no McFlurry). The machine itself is the only product element.
+
+Mobile legibility check: "ALWAYS BROKEN?" must be readable at 320px — use font weight 900+. Avoid serif fonts. Recommended: Montserrat ExtraBold or similar.
+
+Mood: investigative journalism, not comedy. Think Bloomberg Businessweek cover energy, not meme thumbnail.
