@@ -76,7 +76,7 @@ McDonald's broken soft-serve machine was not an equipment problem. It was a fran
 |---|-------------|--------|
 | 1 | Kytch Files Suit in Alameda County | High |
 | 2 | Taylor's Trade Secret Counter-Claim | Medium |
-| 3 | FTC "Nixing the Fix" (Sept 2021) | Medium |
+| 3 | FTC "Nixing the Fix" (May 2021) | Medium |
 | 4 | What the Report Could Not Do | Low |
 | 5 | Franchise vs. Corporate: The Gap | Medium |
 | 6 | McDonald's Response: Pilots and Firmware | Medium |
