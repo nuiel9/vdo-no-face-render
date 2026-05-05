@@ -501,16 +501,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "News",
       "target_length_min": 18,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-05",
       "utm_campaign": "business-pm-30",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
+      "notes": "Published 2026-05-05 to @disclosedch: https://www.youtube.com/watch?v=cMUJdU2StLM. Title: 'Why McDonald's Ice Cream Is Always Broken (It Was Never About the Machine)'. Final video 9:06 cinematic gpt-image-2. v4.6.2 word target hit (1,293 narration words → 9:06 stitched, prediction +9 sec / +1.6% drift, validating math). Editorial corrections applied pre-render: FTC date 'September 2021' → 'May 2021' (4 places), FTC URL 404 → working URL (3 places), FTC quote 'manufacturers held significant financial incentives' replaced with verbatim 'scant evidence to support manufacturers' justifications', Wired direct quote 'black box into something you can manage' converted to indirect speech (unverifiable). 17+ corrections total. Post-render bug caught: text_overlays still had 'Sept 2021' which got rendered ON-SCREEN in Part 2 Scene 3 — required Part 2 re-render with corrected JSON. Re-render burned through 3 AIVDO submissions due to v1.8.20 worker stall pattern (Cloud Run instance recycle). Jobs 8dfd0f9b + e369c16a both stalled at compose stage; e369c16a eventually completed at 100% after 2+ hours despite render.py giving up earlier. RECOVERY PATTERN: when render.py raises 'Worker stalled' RuntimeError, the underlying AIVDO job may still be running. Direct API poll via curl GET /api/jobs/{id} reveals true progress. Saved $0.66 by recovering existing job rather than fresh resubmit. AIVDO HANDOFF doc filed at /Users/krainats/aivdo/HANDOFF_v1.8.21_worker_stall_pattern.md (severity downgraded from HIGH to MEDIUM after user clarified they were doing AIVDO changes during the stalls — likely correlated, not pure structural). Pinned comment Wilson-quote-style fix and pinned-comment FTC date both fixed via post-upload edit cycle. Original slug context: None"
     },
     {
       "#": 31,
