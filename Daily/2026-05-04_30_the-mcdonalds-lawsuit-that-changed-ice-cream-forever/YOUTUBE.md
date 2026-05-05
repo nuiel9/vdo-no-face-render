@@ -32,7 +32,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 Sources and fact-check notes for this video:
 
-FTC "Nixing the Fix" (Sept 2021), the federal report that examined repair restrictions in food service equipment among other industries: https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions
+FTC "Nixing the Fix" (May 2021), the federal report that examined repair restrictions in food service equipment among other industries: https://www.ftc.gov/reports/nixing-fix-ftc-report-congress-repair-restrictions
 
 McBroken.com, Rashiq Zahid's machine-outage tracker that started this public conversation: https://mcbroken.com
 
