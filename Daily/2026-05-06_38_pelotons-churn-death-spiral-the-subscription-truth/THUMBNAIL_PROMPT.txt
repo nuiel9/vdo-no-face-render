@@ -1,0 +1,38 @@
+THUMBNAIL BRIEF: "The Churn Rate That Broke a $50 Billion Company"
+Topic: Peloton subscription collapse
+Template: Hidden Truth | Format: Standard YouTube thumbnail (1280x720, 16:9)
+
+---
+
+SELECTED CONCEPT: Data-revelation split
+
+Visual structure:
+Left half: a sleek connected fitness bike SILHOUETTE (no face, no brand logos visible) in cool blue-grey tones, backlit, suggesting the premium product promise.
+Right half: a dramatic downward red arrow overlaying a stark bar chart showing two figures: a tall green bar on the left (~$50B peak market cap label) collapsing to a small red bar on the right. The arrow bisects the two halves diagonally.
+
+Foreground text overlay (designer to place):
+Main text: "THE CHURN RATE" in large bold white sans-serif (Impact or Bebas Neue), all caps, left-aligned on the left half.
+Sub text: "That Broke a $50 Billion Company" in medium white text below the main line, slightly smaller weight.
+No em dashes in the title text. Use a period or line break instead.
+
+Color palette:
+Background gradient: deep navy (#0D1B2A) to dark slate (#1C2B3A), left to right.
+Accent: high-contrast red (#E63946) for the downward arrow and the bar chart decline bar.
+Accent: bright amber/green (#2DC653) for the peak bar only.
+Text: pure white (#FFFFFF) with a 2px dark drop shadow for legibility.
+
+FACELESS RULE: No recognizable human faces. No identifiable executive silhouettes. The bike is represented as a SILHOUETTE only, no brand text, no screen content readable.
+
+Mood: analytic authority, not clickbait panic. This thumbnail should read as Bloomberg Businessweek on a channel thumbnail grid, not as a shock-horror reveal. The data visualization does the work.
+
+Mobile legibility check: at 320px width, "THE CHURN RATE" must remain readable as a single line. The downward red arrow must be visible at thumbnail scale. Test the bar chart contrast at 50% zoom.
+
+Alternative concept (backup if selected concept tests poorly):
+Close-up of the Peloton bike SILHOUETTE with a bold red "X" overlaid in the center, overlapping a faint stock chart watermark in the background. Title text: "THE SUBSCRIPTION TRAP" in white above the X. Clean, high-contrast, minimal.
+
+Designer notes:
+- Do not include the Peloton wordmark or any brand logos.
+- Do not include any human faces, even partially cropped.
+- The bike silhouette is used purely as a product category visual handle, not as brand endorsement.
+- All financial figures on the thumbnail ($50B) are approximate and illustrative for thumbnail purposes. Exact figures are in the video narration, which the human will fact-check before render.
+- For the bar chart: the two bars need only communicate "went up dramatically, then collapsed dramatically." Exact axis labels are not required at thumbnail resolution.

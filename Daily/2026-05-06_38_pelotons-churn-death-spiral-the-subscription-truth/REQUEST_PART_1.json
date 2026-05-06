@@ -1,0 +1,235 @@
+{
+  "text": "In September 2019, Peloton went public at $29 a share on the Nasdaq. The pitch was precise: sell a $2,500 stationary bike. Then charge $39 a month for the live-instructor subscription that made the bike worth owning. The hardware got you in the door. The subscription was the business.\n\nBy January 2021, the stock had climbed above $167. The implied market capitalization crossed $50 billion. Peloton had sold more connected fitness products in the prior 12 months than in its entire pre-pandemic history. Revenue for fiscal year 2021 came in at $4.02 billion, more than double the $1.83 billion reported the year before.\n\nThe obvious reading writes itself: COVID locked people at home, people bought Pelotons, then they went back to the gym. That reading is technically accurate. It is also incomplete.\n\nWhat the quarterly SEC filings show is something harder to dismiss. Peloton's model required hardware sales to function. Every new connected fitness subscriber began as a hardware buyer. The IPO prospectus, filed with the SEC in August 2019, had already disclosed that the company had never been profitable: a net loss of approximately $195.6 million in fiscal year 2019 on revenue of approximately $915 million. The business was built on the assumption that subscription revenue would eventually close that gap.\n\nWhen hardware sales grew at over 100 percent in a single fiscal year, the monthly churn rate against that expanding subscriber base looked manageable. According to Peloton's fiscal 2021 annual report filed with the SEC, average net monthly connected fitness churn was approximately 0.73 percent. That is roughly 9 percent annual churn. The subscriber base was only growing because the pandemic was forcing hardware conversions at scale.\n\nA subscriber who paid $2,500 for a bike was presumed to be highly retained. The hardware investment created switching costs. But switching costs and active retention are not the same thing. A subscriber who paid $2,500 and stopped using the bike would keep paying $39 a month only until inertia expired. The churn rate had never been tested against a cohort whose hardware purchase was many months in the past, whose motivation had returned to baseline, and who was now comparing $39 a month to a reopened gym membership.\n\nThe first public warning came not from the balance sheet but from a federal agency. On May 5, 2021, the U.S. Consumer Product Safety Commission and Peloton announced a recall of the Tread+ treadmill following one child death and more than 70 reports of adults, children, and pets being pulled under the machine. The CPSC's preliminary alert, issued 18 days earlier, had described the product as posing a serious risk of injury or death. Peloton had initially called that alert inaccurate and misleading. The company eventually agreed to the recall and took a charge against earnings.\n\nThat same summer, demand began its permanent reset. Vaccination rates climbed. Gyms reopened. Peloton had already committed to purchase orders sized for continued pandemic growth. By the end of calendar year 2021, the company was carrying approximately $1.25 billion in inventory. Consumer demand had moved on. The inventory had not.\n\nIn January 2022, a document obtained by CNBC showed Peloton was planning to halt production of its connected fitness products due to declining demand. The stock fell more than 24 percent in a single day. Co-founder and CEO John Foley called the report misleading in a note to company employees. Weeks later, Peloton confirmed it would pause production.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "Peloton Churn Death Spiral - Part 1",
+    "description": "From $29 IPO to $50B peak to the structural subscription flaw hiding in the SEC filings.",
+    "source_text": "In September 2019, Peloton went public at $29 a share on the Nasdaq. The pitch was precise: sell a $2,500 stationary bike. Then charge $39 a month for the live-instructor subscription that made the bike worth owning. The hardware got you in the door. The subscription was the business.\n\nBy January 2021, the stock had climbed above $167. The implied market capitalization crossed $50 billion. Peloton had sold more connected fitness products in the prior 12 months than in its entire pre-pandemic history. Revenue for fiscal year 2021 came in at $4.02 billion, more than double the $1.83 billion reported the year before.\n\nThe obvious reading writes itself: COVID locked people at home, people bought Pelotons, then they went back to the gym. That reading is technically accurate. It is also incomplete.\n\nWhat the quarterly SEC filings show is something harder to dismiss. Peloton's model required hardware sales to function. Every new connected fitness subscriber began as a hardware buyer. The IPO prospectus, filed with the SEC in August 2019, had already disclosed that the company had never been profitable: a net loss of approximately $195.6 million in fiscal year 2019 on revenue of approximately $915 million. The business was built on the assumption that subscription revenue would eventually close that gap.\n\nWhen hardware sales grew at over 100 percent in a single fiscal year, the monthly churn rate against that expanding subscriber base looked manageable. According to Peloton's fiscal 2021 annual report filed with the SEC, average net monthly connected fitness churn was approximately 0.73 percent. That is roughly 9 percent annual churn. The subscriber base was only growing because the pandemic was forcing hardware conversions at scale.\n\nA subscriber who paid $2,500 for a bike was presumed to be highly retained. The hardware investment created switching costs. But switching costs and active retention are not the same thing. A subscriber who paid $2,500 and stopped using the bike would keep paying $39 a month only until inertia expired. The churn rate had never been tested against a cohort whose hardware purchase was many months in the past, whose motivation had returned to baseline, and who was now comparing $39 a month to a reopened gym membership.\n\nThe first public warning came not from the balance sheet but from a federal agency. On May 5, 2021, the U.S. Consumer Product Safety Commission and Peloton announced a recall of the Tread+ treadmill following one child death and more than 70 reports of adults, children, and pets being pulled under the machine. The CPSC's preliminary alert, issued 18 days earlier, had described the product as posing a serious risk of injury or death. Peloton had initially called that alert inaccurate and misleading. The company eventually agreed to the recall and took a charge against earnings.\n\nThat same summer, demand began its permanent reset. Vaccination rates climbed. Gyms reopened. Peloton had already committed to purchase orders sized for continued pandemic growth. By the end of calendar year 2021, the company was carrying approximately $1.25 billion in inventory. Consumer demand had moved on. The inventory had not.\n\nIn January 2022, a document obtained by CNBC showed Peloton was planning to halt production of its connected fitness products due to declining demand. The stock fell more than 24 percent in a single day. Co-founder and CEO John Foley called the report misleading in a note to company employees. Weeks later, Peloton confirmed it would pause production.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: IPO at $29, stock climbs above $167",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$29 IPO · Sept 2019",
+          "PTON · Nasdaq · peak $167+"
+        ],
+        "narration": {
+          "text": "In September 2019, Peloton went public at $29 a share on the Nasdaq. The pitch was precise: sell a $2,500 stationary bike. Then charge $39 a month for the live-instructor subscription that made the bike worth owning. The hardware got you in the door. The subscription was the business.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: a glowing green stock chart printed on premium matte paper, showing a dramatic hockey-stick price curve rising sharply from left to right. The paper rests on a dark walnut desk, lit by a single angled desk lamp casting warm amber light and precise geometric shadows. A faint 'PTON' ticker label barely readable at the lower corner. No product imagery, no fitness equipment. Documentary still-life aesthetic, Hasselblad medium-format texture. No people. No human silhouettes. NEGATIVE: no Peloton bike, no exercise equipment, no consumer electronics. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "The connected fitness pitch: $2,500 bike, $39/month",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$2,500 hardware · $39/month",
+          "Hardware gets you in. Subscription is the business."
+        ],
+        "narration": {
+          "text": "By January 2021, the stock had climbed above $167. The implied market capitalization crossed $50 billion. Peloton had sold more connected fitness products in the prior 12 months than in its entire pre-pandemic history. Revenue for fiscal year 2021 came in at $4.02 billion, more than double the $1.83 billion reported the year before.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic product portrait: a premium connected fitness indoor cycling bike photographed from three-quarters front angle, studio-lit with cool blue-white light against a minimalist charcoal grey background. The large touchscreen display glows softly. Shallow depth of field isolates the bike against the dark background. Commercial editorial photography, Vogue-level product treatment. No instructor visible on screen. No people in frame. No human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "COVID acceleration: FY2021 $4.02B revenue",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "FY2021 revenue · $4.02B",
+          "+120% year-over-year"
+        ],
+        "narration": {
+          "text": "The obvious reading writes itself: COVID locked people at home, people bought Pelotons, then they went back to the gym. That reading is technically accurate. It is also incomplete.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic infographic: two large vertical bar chart bars side by side printed on textured paper, the left bar noticeably shorter labeled with a smaller figure, the right bar dramatically taller with an upward arrow bridging the gap. The chart sits on a dark walnut conference table under warm editorial lighting. No product imagery, no fitness equipment, no branding elements. NEGATIVE: no Peloton bike, no exercise equipment, no consumer products on or near the table. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "The hidden subscription math: 0.73% monthly churn, S-1 unprofitable at IPO",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "0.73% avg monthly churn · FY2021",
+          "10-K · SEC EDGAR · never profitable at IPO"
+        ],
+        "narration": {
+          "text": "What the quarterly SEC filings show is something harder to dismiss. Peloton's model required hardware sales to function. Every new connected fitness subscriber began as a hardware buyer. The IPO prospectus, filed with the SEC in August 2019, had already disclosed that the company had never been profitable: a net loss of approximately $195.6 million in fiscal year 2019 on revenue of approximately $915 million. The business was built on the assumption that subscription revenue would eventually close that gap.\n\nWhen hardware sales grew at over 100 percent in a single fiscal year, the monthly churn rate against that expanding subscriber base looked manageable. According to Peloton's fiscal 2021 annual report filed with the SEC, average net monthly connected fitness churn was approximately 0.73 percent. That is roughly 9 percent annual churn. The subscriber base was only growing because the pandemic was forcing hardware conversions at scale.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up: a financial analyst's working spreadsheet printed on large-format paper, showing rows of percentage calculations highlighted in yellow marker, with handwritten annotations in blue ink. A precision mechanical pencil rests diagonally across the page. The paper is lit by cold fluorescent overhead light casting sharp blue-white shadows on a grey conference table surface. No graphs, no external documents visible beyond the spreadsheet. NEGATIVE: no Peloton bike, no fitness equipment, no consumer products on the table. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "The switching-cost fallacy: hardware does not equal retention",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Switching costs vs. active retention",
+          "$39/month vs. reopened gyms"
+        ],
+        "narration": {
+          "text": "A subscriber who paid $2,500 for a bike was presumed to be highly retained. The hardware investment created switching costs. But switching costs and active retention are not the same thing. A subscriber who paid $2,500 and stopped using the bike would keep paying $39 a month only until inertia expired. The churn rate had never been tested against a cohort whose hardware purchase was many months in the past, whose motivation had returned to baseline, and who was now comparing $39 a month to a reopened gym membership.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: a simple two-column ledger page photographed from directly above on a pale oak desk. Left column header reads 'Switching Costs', right column header reads 'Active Retention'. The two columns contain rows of contrasting figures. A single red diagonal line is drawn through the left column. Lit by diffused north window light. Clean, analytical register. NEGATIVE: no Peloton bike, no fitness equipment, no cycling imagery. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Tread+ recall: CPSC May 5, 2021, one child death",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "CPSC recall · May 5 2021",
+          "1 child death · 70+ injury reports"
+        ],
+        "narration": {
+          "text": "The first public warning came not from the balance sheet but from a federal agency. On May 5, 2021, the U.S. Consumer Product Safety Commission and Peloton announced a recall of the Tread+ treadmill following one child death and more than 70 reports of adults, children, and pets being pulled under the machine. The CPSC's preliminary alert, issued 18 days earlier, had described the product as posing a serious risk of injury or death. Peloton had initially called that alert inaccurate and misleading. The company eventually agreed to the recall and took a charge against earnings.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: an official government consumer safety recall notice on letter-sized paper, printed with bold block-letter 'RECALL' header in red, dense text body below. The document rests on a stainless steel desk surface, one corner slightly curled, lit by a single harsh overhead white industrial light. No branded logos, no product imagery visible on the document. A blurred red warning symbol softly visible in the extreme background. NEGATIVE: no Peloton bike, no treadmill hardware, no fitness equipment visible. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "The inventory build: $1.25B in purchase orders, then the CNBC leak",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "~$1.25B inventory · end 2021",
+          "CNBC leak · Jan 2022 · stock -24%"
+        ],
+        "narration": {
+          "text": "That same summer, demand began its permanent reset. Vaccination rates climbed. Gyms reopened. Peloton had already committed to purchase orders sized for continued pandemic growth. By the end of calendar year 2021, the company was carrying approximately $1.25 billion in inventory. Consumer demand had moved on. The inventory had not.\n\nIn January 2022, a document obtained by CNBC showed Peloton was planning to halt production of its connected fitness products due to declining demand. The stock fell more than 24 percent in a single day. Co-founder and CEO John Foley called the report misleading in a note to company employees. Weeks later, Peloton confirmed it would pause production.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic aerial drone interior shot: a vast fulfillment warehouse photographed from 40 feet above floor level, showing a precisely organized grid of palletized large-format cardboard boxes extending to the vanishing point. Warm sodium-vapor overhead lighting casts long shadows between pallet rows. No branding, no identifiable logos on the boxes. Forklift wheel tracks visible on the concrete floor. NEGATIVE: no Peloton bike shape visible, no circular bicycle wheels, no handlebars, no exercise equipment, no cycling hardware. The boxes are generic brown kraft-paper containers. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "Cliffhanger: Foley out, the real problem about to be named",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "CEO departure imminent",
+          "The subscription math has no floor"
+        ],
+        "narration": {
+          "text": "The production halt confirmed what the balance sheet had been indicating for quarters. A new CEO was about to be called in. But the production line was not the problem. The subscription model was.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot: an executive leather chair at the head of a long boardroom conference table, photographed from the far end of the room at floor level. The chair is empty. A single glass of water sits at the table's head. Harsh halogen ceiling lights create a cold blue-white wash across the table surface. The room is otherwise entirely empty. Silence and tension in the composition. No people. No human silhouettes. NEGATIVE: no Peloton bike, no fitness equipment, no cycling gear, no athletic wear. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

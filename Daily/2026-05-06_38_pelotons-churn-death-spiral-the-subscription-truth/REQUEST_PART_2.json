@@ -1,0 +1,235 @@
+{
+  "text": "On February 8, 2022, Peloton announced that John Foley would resign as CEO. Barry McCarthy, the former CFO of both Spotify and Netflix, was named his replacement. The same announcement disclosed a restructuring that would eliminate approximately 2,800 positions, roughly 20 percent of the corporate workforce.\n\nMcCarthy's appointment was read as a turnaround play. He had navigated Spotify through its post-IPO volatility and understood subscription economics at scale. What he inherited was not a straightforward turnaround. It was a business whose fundamental unit economics had never been validated under steady-state conditions.\n\nThe Q2 fiscal 2022 earnings release, filed as a Form 8-K with the SEC on February 8, 2022, reported a net loss of $439 million for the quarter ending December 31, 2021. This was a quarter that ended before the production halt announcement, before the CEO departure, before the formal restructuring. The losses had accumulated before any of those events became public.\n\nThe fuller picture emerged in the fiscal 2022 annual report. For the full year ending June 30, 2022, Peloton recorded a net loss of approximately $2.8 billion. Connected fitness hardware revenue had declined from approximately $3.15 billion to approximately $2.26 billion. Subscription revenue held up in the short term, but only because the existing installed base had not yet churned through at the higher rates that were accumulating.\n\nHere is the mechanism. Peloton's subscriber acquisition required hardware sales. When hardware revenue fell by nearly a billion dollars in a single fiscal year, not only did current-period revenue fall: the pipeline of incoming new subscribers dried up entirely. The installed base continued generating subscription revenue only until it churned at rates faster than any new cohort could replace it. At 0.73 percent average monthly churn against a static or shrinking subscriber base, the math compounds in one direction.\n\nMcCarthy moved to break the dependence by decoupling the subscription from hardware. Peloton launched an app-only subscription at $12.99 a month, removing the $2,500 hardware requirement. Hardware prices were cut. The intent was to grow the subscriber base through pathways that did not require a large-ticket purchase decision. The trade-off was structural: the hardware sale, despite its high cost, carried better unit margin than the lower-priced app tier, and removing the hardware incentive further compressed the market for the bike itself.\n\nFull-year fiscal 2022 also produced an inventory write-down of approximately $181 million. The purchase orders placed with optimism in 2021 became a balance sheet problem by 2022. The company had scaled procurement to match demand that had permanently reset lower.\n\nIn October 2023, Barry McCarthy stepped down as CEO. Karen Boone, the board chair, took over alongside Chris Bruzzo as co-CEOs. The company had narrowed its losses and shown progress on cost discipline, but subscriber counts continued their decline from the pandemic peak.\n\nThe Peloton story is taught as a COVID overcorrection. That frame is not wrong. But it papers over the structural question the 10-K filings were quietly answering throughout the same period the stock reached $50 billion. Peloton never demonstrated that its monthly churn rate could hold under steady-state conditions, with a static subscriber base and no pandemic forcing new hardware conversions. The subscription model had no independent floor.\n\nFor anyone building a hardware-software subscription hybrid today, the Peloton annual reports are worth reading in full. Not for the headlines. For the footnotes on connected fitness churn, subscriber cohort retention, and the cost of acquiring a subscriber through a product that requires a $2,500 hardware purchase to activate. The business case was always conditional on perpetual hardware demand. When hardware demand normalized, the subscription model had nothing underneath it.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "Peloton Churn Death Spiral - Part 2",
+    "description": "The $439M quarterly loss that predated the crisis, the flywheel in reverse, and the structural lesson for hardware-subscription hybrids.",
+    "source_text": "On February 8, 2022, Peloton announced that John Foley would resign as CEO. Barry McCarthy, the former CFO of both Spotify and Netflix, was named his replacement. The same announcement disclosed a restructuring that would eliminate approximately 2,800 positions, roughly 20 percent of the corporate workforce.\n\nMcCarthy's appointment was read as a turnaround play. He had navigated Spotify through its post-IPO volatility and understood subscription economics at scale. What he inherited was not a straightforward turnaround. It was a business whose fundamental unit economics had never been validated under steady-state conditions.\n\nThe Q2 fiscal 2022 earnings release, filed as a Form 8-K with the SEC on February 8, 2022, reported a net loss of $439 million for the quarter ending December 31, 2021. This was a quarter that ended before the production halt announcement, before the CEO departure, before the formal restructuring. The losses had accumulated before any of those events became public.\n\nThe fuller picture emerged in the fiscal 2022 annual report. For the full year ending June 30, 2022, Peloton recorded a net loss of approximately $2.8 billion. Connected fitness hardware revenue had declined from approximately $3.15 billion to approximately $2.26 billion. Subscription revenue held up in the short term, but only because the existing installed base had not yet churned through at the higher rates that were accumulating.\n\nHere is the mechanism. Peloton's subscriber acquisition required hardware sales. When hardware revenue fell by nearly a billion dollars in a single fiscal year, not only did current-period revenue fall: the pipeline of incoming new subscribers dried up entirely. The installed base continued generating subscription revenue only until it churned at rates faster than any new cohort could replace it. At 0.73 percent average monthly churn against a static or shrinking subscriber base, the math compounds in one direction.\n\nMcCarthy moved to break the dependence by decoupling the subscription from hardware. Peloton launched an app-only subscription at $12.99 a month, removing the $2,500 hardware requirement. Hardware prices were cut. The intent was to grow the subscriber base through pathways that did not require a large-ticket purchase decision. The trade-off was structural: the hardware sale, despite its high cost, carried better unit margin than the lower-priced app tier, and removing the hardware incentive further compressed the market for the bike itself.\n\nFull-year fiscal 2022 also produced an inventory write-down of approximately $181 million. The purchase orders placed with optimism in 2021 became a balance sheet problem by 2022. The company had scaled procurement to match demand that had permanently reset lower.\n\nIn October 2023, Barry McCarthy stepped down as CEO. Karen Boone, the board chair, took over alongside Chris Bruzzo as co-CEOs. The company had narrowed its losses and shown progress on cost discipline, but subscriber counts continued their decline from the pandemic peak.\n\nThe Peloton story is taught as a COVID overcorrection. That frame is not wrong. But it papers over the structural question the 10-K filings were quietly answering throughout the same period the stock reached $50 billion. Peloton never demonstrated that its monthly churn rate could hold under steady-state conditions, with a static subscriber base and no pandemic forcing new hardware conversions. The subscription model had no independent floor.\n\nFor anyone building a hardware-software subscription hybrid today, the Peloton annual reports are worth reading in full. Not for the headlines. For the footnotes on connected fitness churn, subscriber cohort retention, and the cost of acquiring a subscriber through a product that requires a $2,500 hardware purchase to activate. The business case was always conditional on perpetual hardware demand. When hardware demand normalized, the subscription model had nothing underneath it.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "McCarthy arrives: Feb 2022, 2,800 layoffs",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Barry McCarthy · CEO · Feb 8 2022",
+          "~2,800 positions eliminated · ~20% workforce"
+        ],
+        "narration": {
+          "text": "On February 8, 2022, Peloton announced that John Foley would resign as CEO. Barry McCarthy, the former CFO of both Spotify and Netflix, was named his replacement. The same announcement disclosed a restructuring that would eliminate approximately 2,800 positions, roughly 20 percent of the corporate workforce.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: a freshly printed corporate press release on crisp white letterhead paper, photographed from directly above on a dark mahogany desk. The document is lit by a single angled desk lamp casting a precise rectangular shadow across the lower portion. A bold headline is visible but not fully readable. The page edges are perfectly sharp. No people visible. No human silhouettes. NEGATIVE: no Peloton bike, no fitness equipment, no cycling gear, no athletic imagery. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Q2 FY2022 earnings: $439M net loss before the public crisis",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Q2 FY2022 net loss · $439M",
+          "8-K filed · Feb 8 2022 · SEC EDGAR"
+        ],
+        "narration": {
+          "text": "McCarthy's appointment was read as a turnaround play. He had navigated Spotify through its post-IPO volatility and understood subscription economics at scale. What he inherited was not a straightforward turnaround. It was a business whose fundamental unit economics had never been validated under steady-state conditions.\n\nThe Q2 fiscal 2022 earnings release, filed as a Form 8-K with the SEC on February 8, 2022, reported a net loss of $439 million for the quarter ending December 31, 2021. This was a quarter that ended before the production halt announcement, before the CEO departure, before the formal restructuring. The losses had accumulated before any of those events became public.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic extreme close-up: a quarterly investor earnings summary printed on glossy paper, tilted 15 degrees on a glass desk surface. A red pen circle highlights a large negative number in the middle column of figures. The page is partially backlit through frosted glass creating a halo of diffused white light around the document edges. Sharp documentary focus on the circled figure. NEGATIVE: no Peloton bike, no fitness product, no cycling imagery, no athletic equipment. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "Churn rate trajectory: 10-K disclosures",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Avg monthly churn · rising FY2022",
+          "Source: 10-K · SEC EDGAR · CIK 0001639825"
+        ],
+        "narration": {
+          "text": "The fuller picture emerged in the fiscal 2022 annual report. For the full year ending June 30, 2022, Peloton recorded a net loss of approximately $2.8 billion. Connected fitness hardware revenue had declined from approximately $3.15 billion to approximately $2.26 billion. Subscription revenue held up in the short term, but only because the existing installed base had not yet churned through at the higher rates that were accumulating.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic infographic: a dual-line area chart printed on matte paper, showing two diverging trend lines crossing at a mid-point: an orange rising line (churn rate increasing) and a blue descending line (hardware revenue declining). The chart is photographed from a low angle on a glass conference table with a blurred city skyline visible through floor-to-ceiling windows behind. Clean data visualization aesthetic. NEGATIVE: no Peloton bike, no fitness equipment, no exercise room imagery, no cycling hardware. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Flywheel in reverse: no hardware sale, no new subscriber",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Hardware sale = only subscriber pipeline",
+          "Flywheel stalls · churn compounds"
+        ],
+        "narration": {
+          "text": "Here is the mechanism. Peloton's subscriber acquisition required hardware sales. When hardware revenue fell by nearly a billion dollars in a single fiscal year, not only did current-period revenue fall: the pipeline of incoming new subscribers dried up entirely. The installed base continued generating subscription revenue only until it churned at rates faster than any new cohort could replace it. At 0.73 percent average monthly churn against a static or shrinking subscriber base, the math compounds in one direction.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic abstract macro: a single precision steel gear mechanism photographed in extreme macro at f/2.8, isolated on a reflective black surface under a cold tungsten spotlight. The gear teeth are in razor-sharp focus. The surrounding background dissolves completely to black. The gear appears suspended, motionless, suggesting stalled mechanism. Industrial texture, cool metallic tones. NEGATIVE: no Peloton bike, no fitness equipment, no cycling or sports imagery, no circular bicycle wheel. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "App-only pivot: $12.99 tier, hardware price cuts",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "App-only subscription · $12.99/month",
+          "Hardware price cuts · 2022"
+        ],
+        "narration": {
+          "text": "McCarthy moved to break the dependence by decoupling the subscription from hardware. Peloton launched an app-only subscription at $12.99 a month, removing the $2,500 hardware requirement. Hardware prices were cut. The intent was to grow the subscriber base through pathways that did not require a large-ticket purchase decision. The trade-off was structural: the hardware sale, despite its high cost, carried better unit margin than the lower-priced app tier, and removing the hardware incentive further compressed the market for the bike itself.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: a modern smartphone propped upright on a minimalist white stand, photographed from slightly above at a clean 3/4 angle. The screen displays a clean fitness app subscription payment interface with a $12.99 pricing figure prominently visible in a white card UI on a light grey background. The phone is the single object on a matte white surface, lit by a soft diffused studio box light. NEGATIVE: no Peloton bike visible in frame or screen reflection, no cycling hardware, no fitness equipment beyond the smartphone. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "FY2022 full year: $2.8B loss, $181M inventory write-down",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "FY2022 net loss · ~$2.8B",
+          "Inventory write-down · ~$181M"
+        ],
+        "narration": {
+          "text": "Full-year fiscal 2022 also produced an inventory write-down of approximately $181 million. The purchase orders placed with optimism in 2021 became a balance sheet problem by 2022. The company had scaled procurement to match demand that had permanently reset lower.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro: a corporate annual report opened flat to its financial summary page, photographed from 18 inches above at a 30-degree tilt angle. Several figures in the right-hand figures column are underlined in red ink. The report lies on a pale oak conference table under diffused north-facing window light. Calm, analytical register. Muted tones. NEGATIVE: no Peloton bike, no fitness product, no branding marks or logos visible, no cycling equipment. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "McCarthy departure October 2023, co-CEOs named",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Barry McCarthy · resigned Oct 2023",
+          "Co-CEOs: Karen Boone + Chris Bruzzo"
+        ],
+        "narration": {
+          "text": "In October 2023, Barry McCarthy stepped down as CEO. Karen Boone, the board chair, took over alongside Chris Bruzzo as co-CEOs. The company had narrowed its losses and shown progress on cost discipline, but subscriber counts continued their decline from the pandemic peak.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic interior: a glass-walled corner office photographed from outside through the glass, late evening. The interior is lit by a single standing floor lamp. The desk is clear except for a framed certificate lying flat on the surface. City lights blur softly through the far window. Multiple reflections overlap in the glass panels, creating layered transparency. Mood of departure and transition. No people. No human silhouettes. NEGATIVE: no Peloton bike, no fitness equipment, no exercise room elements, no cycling gear. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "The structural lesson: hardware-subscription hybrids and the 10-K footnotes",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Hardware-subscription hybrids",
+          "Read the churn footnotes · 10-K"
+        ],
+        "narration": {
+          "text": "The Peloton story is taught as a COVID overcorrection. That frame is not wrong. But it papers over the structural question the 10-K filings were quietly answering throughout the same period the stock reached $50 billion. Peloton never demonstrated that its monthly churn rate could hold under steady-state conditions, with a static subscriber base and no pandemic forcing new hardware conversions. The subscription model had no independent floor.\n\nFor anyone building a hardware-software subscription hybrid today, the Peloton annual reports are worth reading in full. Not for the headlines. For the footnotes on connected fitness churn, subscriber cohort retention, and the cost of acquiring a subscriber through a product that requires a $2,500 hardware purchase to activate. The business case was always conditional on perpetual hardware demand. When hardware demand normalized, the subscription model had nothing underneath it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot: a large whiteboard in an empty business school classroom photographed from 25 feet away at floor level. On the whiteboard in precise architectural lettering: a simple three-step equation: 'Hardware Sales' rightward arrow to 'New Subscribers' downward arrow to 'Churn Math.' The classroom is lit by overhead fluorescent lighting. Rows of empty wooden chairs recede into the background. No people, no silhouettes. NEGATIVE: no Peloton bike, no fitness equipment, no cycling or sports imagery. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}
