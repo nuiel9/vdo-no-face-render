@@ -72,8 +72,8 @@ Primary source: McCarthy's public statements (shareholder letters, earnings call
 5. **Peloton carried approximately $1.25 billion in inventory at its peak,** having placed purchase orders during 2021 sized for continued elevated demand. When demand reset, this inventory became a write-down item: the company recorded an inventory write-down of approximately $181 million in FY2022.
    Source: Peloton FY2022 10-K, balance sheet and MD&A. HUMAN VERIFY: confirm both the peak inventory level and the write-down amount.
 
-6. **Barry McCarthy stepped down as CEO in October 2023,** less than two years into his tenure. He was replaced by co-CEOs Karen Boone (board chair) and Chris Bruzzo. McCarthy had previously served as CFO at both Spotify and Netflix, and his appointment was widely interpreted as a subscription-economics rescue mission. His departure left the turnaround incomplete.
-   Source: Peloton press release / SEC 8-K filing, October 2023. HUMAN VERIFY: confirm exact departure date and co-CEO announcement via the 8-K.
+6. **Barry McCarthy stepped down as CEO in May 2024,** less than two years into his tenure. He was replaced by co-CEOs Karen Boone (board chair) and Chris Bruzzo. McCarthy had previously served as CFO at both Spotify and Netflix, and his appointment was widely interpreted as a subscription-economics rescue mission. His departure left the turnaround incomplete.
+   Source: Peloton press release / SEC 8-K filing, May 2024. HUMAN VERIFY: confirm exact departure date and co-CEO announcement via the 8-K.
 
 ---
 
@@ -100,7 +100,7 @@ Primary source: McCarthy's public statements (shareholder letters, earnings call
 | 4 | Flywheel in reverse: the acquisition pipeline collapse | medium |
 | 5 | App-only pivot: $12.99 tier, hardware price cuts | medium |
 | 6 | FY2022 full year: $2.8B net loss, $181M write-down | low |
-| 7 | McCarthy departure October 2023, co-CEOs named | medium |
+| 7 | McCarthy departure May 2024, co-CEOs named | medium |
 | 8 | The structural lesson: hardware-subscription hybrids | high |
 
 ---
@@ -124,7 +124,7 @@ Primary source: McCarthy's public statements (shareholder letters, earnings call
 - [x] **Primary sources named in script**: Peloton 10-K (FY2021, FY2022), 8-K Q2 FY2022, CPSC recall press release, Peloton S-1
 - [x] **No AI filler phrases**: reviewed SCRIPT.txt; "delve," "buckle up," "dive in," "it's important to note," "fast-paced world" do not appear
 - [x] **Hook specificity is real, not fabricated**: IPO at $29/September 2019/Nasdaq PTON are all verifiable facts from the S-1. Stock peak figure flagged for human verification.
-- [x] **2024+ conservatism applied**: McCarthy departure (October 2023) flagged for human verification via 8-K; no post-2023 subscriber counts or financial figures stated without flag
+- [x] **2024+ conservatism applied**: McCarthy departure (May 2024) flagged for human verification via 8-K; no post-2023 subscriber counts or financial figures stated without flag
 
 ---
 
