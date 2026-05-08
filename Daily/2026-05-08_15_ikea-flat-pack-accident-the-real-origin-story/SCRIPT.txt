@@ -1,0 +1,37 @@
+In 1956, a table called the Lovet was sitting in pieces on a parking lot in Älmhult, Sweden. Gillis Lundgren, one of IKEA's first employees, was trying to fit it into his car. It would not go. The legs were in the way. So he said something that would reshape global retail: remove the legs. Pack it flat. You can reassemble it at home.
+
+That one sentence was not IKEA's origin story. It was confirmation of one.
+
+Ingvar Kamprad founded IKEA in 1943 in the small town of Älmhult in southern Sweden. He was 17 years old. The name was an acronym: I for Ingvar, K for Kamprad, E for Elmtaryd, his family farm, A for Agunnaryd, his home parish. The business began as a mail-order catalog. He sold pens, picture frames, table runners, and costume jewelry, anything he could source cheaply and sell at a profit through the Swedish postal system.
+
+By 1951, furniture had entered the catalog. Not because Kamprad had a design vision, but because a local furniture supplier was offering prices below what established retailers charged. The catalog gave him reach across Sweden. The price gap gave him a margin. The combination worked. Furniture became the product line that pulled the rest of the catalog forward.
+
+By 1955, IKEA was making enough furniture sales to threaten established retailers. Manufacturers, under pressure from the Swedish furniture trade association, stopped selling to him. They were protecting retail price floors. Kamprad responded by sourcing from manufacturers outside Sweden, including suppliers in Poland. When that supply chain also tightened, he began designing his own products and contracting manufacturing directly. This forced the structural move that made IKEA: vertical integration from design to sale.
+
+The Lovet table incident in 1956 had a specific context. Lundgren has said in multiple interviews that the idea was immediate and practical. He recalled the moment in accounts preserved in IKEA's own corporate history: they simply removed the legs. The table fit under the car's luggage rack. The legs traveled separately.
+
+At the warehouse, the savings were immediate: freight costs dropped, breakage dropped, and storage density improved. Flat-packed furniture shipped in a fraction of the volume of pre-assembled pieces. Kamprad grasped the implication immediately. Lundgren went on to design more than four hundred IKEA products over his career. The first insight compounded into an entire design philosophy: every product had to be shippable flat and assemblable without specialized tools.
+
+But here is what the origin story usually skips. The real insight was not about logistics. It was about labor. When you hand a customer a flat box and an Allen key, you transfer the assembly cost from the factory to the buyer. You also transfer something else: ownership psychology. The customer who builds the table values it differently than the customer who buys one already assembled. They are completing a project. Behavioral economists at Harvard Business School documented this in 2012, in a paper they called the IKEA Effect. Participants in the study rated self-assembled objects as highly as objects made by experts. The labor created the attachment.
+
+Kamprad had not read that paper. It would not be written for another 56 years. But his 1976 internal document, The Testament of a Furniture Dealer, suggests he understood the principle intuitively. He wrote: we have decided once and for all to side with the many. That sentence was not marketing copy. It was a supply chain decision. The many could assemble things. The many did not need white-glove delivery. The many would do the work if the price was low enough, and in doing so, they would own the result more completely.
+
+===PART_BREAK===
+
+The flat-pack insight did not immediately produce a global empire. It produced a store. In 1958, IKEA opened its first physical location in Älmhult, Sweden. The model was unusual for retail at the time: a large showroom where customers could walk through fully assembled room displays, then collect the flat-boxed versions from a warehouse section.
+
+Kamprad had taken the catalog's job, showing the product, and given it to the store. He had taken the store's job, inventory and fulfillment, and given it to the warehouse floor, which customers walked through themselves. The single-route showroom layout was designed to maximize product exposure before reaching the exit. If a customer navigates the full floor, they encounter product categories they did not plan to buy. Dwell time is a revenue lever.
+
+By 1963, IKEA had expanded outside Sweden, opening in Norway. By 1969, Denmark. By 1973, Switzerland. Each market had a variation of the same model: low price, flat-pack, self-service, showroom-as-maze. The format traveled without modification because the core mechanic, transferring labor to the customer, did not depend on local language or custom.
+
+The franchise structure IKEA developed separated the retail operations from the intellectual property. INGKA Group, controlled by a Dutch foundation, operated the stores. Inter IKEA Group, a separate entity, owned the concept and collected franchise royalties. This arrangement, documented in corporate filings and reported in detail by the Financial Times, allowed IKEA to channel significant earnings through structures in low-tax jurisdictions. The frugality Kamprad preached was structural, not just personal.
+
+The Billy bookcase launched in 1979. It was designed by Gillis Lundgren, the same man who had suggested removing the Lovet's legs twenty-three years earlier. It was designed to be assembled in under thirty minutes. It has sold more than 110 million units globally, according to IKEA's own published figures, making it one of the highest-volume furniture products in manufacturing history.
+
+The competitors who tried to copy IKEA copied the wrong thing. They built large stores. They sourced flat-pack furniture. They ran catalogs. What they could not replicate was the 1943-to-1956 arc: a founder who had built a mail-order business in a small Swedish town, been frozen out by the trade association, been forced into direct manufacturing, and arrived at the flat-pack insight having already understood that his customer was someone who received things by post and assembled them at home. The insight was not born in a parking lot. The parking lot was the last test in a sequence of constraints.
+
+The IKEA Effect researchers found that labor enhances valuation only when it leads to successful completion. The key word is successful. IKEA's actual moat is not the flat-pack. It is the tolerance for a product that is good enough to complete, priced low enough that failure feels less costly, and documented clearly enough that most people finish. That is a tighter engineering brief than it sounds.
+
+Kamprad died on January 27, 2018, near Stockholm. He was 91. He flew economy when he traveled. He drove a Volvo that was decades old. Whether this was genuine frugality or carefully managed mythology, the financial architecture he built did not require him to be poor. It required his customers to feel, correctly, that they had gotten a deal. And it required them to do the work.
+
+There are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.

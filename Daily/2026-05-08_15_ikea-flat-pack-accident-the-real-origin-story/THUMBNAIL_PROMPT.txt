@@ -1,0 +1,28 @@
+THUMBNAIL BRIEF — Row #15
+Title: "Why Every IKEA Customer Does the Work for Free"
+Style: Custom designer (not AIVDO poster mode — needs high-contrast photo-real treatment)
+
+CONCEPT
+Hero object: a single hexagonal Allen key lying on a half-unfolded IKEA-style assembly instruction sheet. The instruction sheet shows a simplified furniture diagram (no specific model name, generic enough for fair use). The Allen key is chrome, catching a hard single-source light from the upper left. The instruction sheet has a slight crumple, suggesting it has been used.
+
+BACKGROUND
+Deep navy blue (#0a1628), textured like dark brushed metal. No gradient. No bokeh.
+
+TEXT OVERLAY (add in Canva or Photoshop)
+Top line: "WHY YOU DO THE WORK" — white, bold condensed sans-serif, all-caps, 80pt, no shadow
+Bottom line: "for free" — yellow (#FFD700), same font, 60pt, left-aligned under top line
+No channel name on thumbnail (YouTube overlay handles that).
+
+COLOR PALETTE
+- Background: #0a1628 (deep navy)
+- Accent: #FFD700 (yellow, matches IKEA brand association without using logo)
+- Text: #FFFFFF
+- Allen key: chrome silver with cool blue reflection
+
+SILHOUETTE NOTE
+No named real persons. No IKEA logo. Generic instruction diagram only.
+
+MOBILE LEGIBILITY
+At 320px: the Allen key must remain the dominant object. Text must be readable. Test at 120x67px thumbnail preview size before finalizing.
+
+CTR TARGET: High. The Allen key is the cognitive hook — viewers recognize it instantly as IKEA. The question headline creates curiosity gap without stating the answer.
