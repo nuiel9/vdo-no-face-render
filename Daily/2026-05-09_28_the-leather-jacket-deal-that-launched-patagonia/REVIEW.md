@@ -37,7 +37,7 @@ Patagonia did not succeed despite its anti-consumerism stance. It succeeded beca
 
 3. Patagonia has donated 1% of total sales (not profits) to environmental organizations since 1986, sixteen years before Chouinard co-founded the 1% for the Planet network with Craig Mathews in 2002. CITATION: 1percentfortheplanet.org; Patagonia company history.
 
-4. The "Don't Buy This Jacket" full-page ad ran in the New York Times on Black Friday, November 25, 2011. Patagonia's revenue reportedly grew from approximately $540 million that year to more than $600 million the following year. CITATION: Patagonia press release; trade press. FLAG: Revenue figures are from trade reporting (company is private); verify best available sourcing.
+4. The "Don't Buy This Jacket" full-page ad ran in the New York Times on Black Friday, November 25, 2011. Patagonia's revenue reportedly grew from approximately $400 million that year to $543 million the following year. CITATION: Patagonia press release; trade press. FLAG: Revenue figures are from trade reporting (company is private); verify best available sourcing.
 
 5. The 2022 ownership transfer gave all profits and dividends to the Holdfast Collective (501(c)(4)) while the Patagonia Purpose Trust, controlled by the Chouinard family, retained all voting shares. Governance control remained with the family. CITATION: Patagonia press release, September 14, 2022.
 
