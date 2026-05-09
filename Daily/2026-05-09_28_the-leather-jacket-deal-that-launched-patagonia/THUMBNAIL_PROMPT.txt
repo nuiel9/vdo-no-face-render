@@ -1,0 +1,32 @@
+THUMBNAIL BRIEF: The Company That Asked You Not to Buy Its Jacket
+Daily #28 | Patagonia origin story | Story template
+
+CONCEPT: The "Don't Buy This Jacket" moment rendered as a documentary newspaper macro. The viewer should feel like they are holding a piece of counterintuitive corporate history.
+
+COMPOSITION:
+- Background: a worn newsprint texture, slightly off-white, aged paper feel, fills the frame
+- Hero element: a large, high-contrast black headline in bold editorial serif font reads "DON'T BUY THIS JACKET" across the upper two-thirds of the frame
+- Below the headline: a clean silhouette of an outdoor fleece jacket in muted slate grey or dark navy, centered, facing forward, no branding, no logo
+- Lower third: a thin horizontal band in deep charcoal with the Disclosed channel name in clean white sans-serif
+
+COLOR PALETTE:
+- Background: warm off-white / aged newsprint (#F5F0E8)
+- Headline text: near-black (#1A1A1A)
+- Jacket silhouette: dark slate (#3A3F4A)
+- Accent band: deep charcoal (#222222)
+- Text on band: white (#FFFFFF)
+
+TYPOGRAPHY NOTE:
+- Headline font: bold condensed editorial serif, high contrast thick-thin strokes (think broadsheet masthead weight)
+- No handwritten fonts, no script, no neon
+
+MOBILE LEGIBILITY CHECK:
+- At 320px width, the headline text must remain readable as 3 distinct words on 2 lines: "DON'T BUY" / "THIS JACKET"
+- The jacket silhouette must be identifiable at thumbnail scale
+- No text smaller than 36pt equivalent at full resolution
+
+PERSONS: No real human likenesses. No face. The jacket is a silhouette only.
+
+STYLE: Newspaper broadsheet editorial, documentary, slightly desaturated, not glossy. Should read as investigative journalism, not lifestyle brand. No gradients. Flat, high-contrast.
+
+AIVDO POSTER MODE: Not applicable. Send to custom designer.
