@@ -467,16 +467,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 18,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-09",
       "utm_campaign": "business-pm-28",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
+      "notes": "Published 2026-05-09 to @disclosedch: https://www.youtube.com/watch?v=WPEr3psnIIw. Title: 'The Company That Asked You Not to Buy Its Jacket' (NOT 'leather jacket deal' — pipeline title was structurally wrong). Pipeline title 'leather jacket deal that launched Patagonia' was fabricated/incorrect — Patagonia's founding clothing was rugby shirts, not leather jackets. Agent caught this during research and pivoted the script to use the 2011 'Don't Buy This Jacket' NYT Black Friday campaign as the title hook (real, well-documented event). Final ship is solid. Final video [duration TBD] cinematic gpt-image-2. v4.6.3 ship — narration includes mandatory subscribe CTA at end of Part 2. Voice Algieba. Editorial corrections applied pre-render: GHG 'drive 45 miles' → '20 pounds CO2' (the 45 number was actually about water needs of 45 people, fabricated cross-mapping), waste '60 percent' → 'two-thirds' (verbatim from ad), revenue 2011→2012 '$540M → $600M+' → '$400M → $543M' (actual trade-press figures). 9 corrections across 3 files. Recovery saga: Part 1 job 70db276424... stalled in compose stage at 85%, render.py timed out at 130min, but AIVDO server actually completed the job in background (status=completed, progress=100%). Recovered by direct API poll → manual Part 1 download → re-run render.py with cached Part 1 → fresh Part 2 submit (job 0fb8c0cb...) → stitch → upload. Same pattern as #30 McDonald's recovery. Net cost: $0 wasted (refunded). Original slug context: None"
     },
     {
       "#": 29,
