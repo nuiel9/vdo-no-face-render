@@ -59,3 +59,23 @@ Avoid: numeric-suffix titles, identical thumbnail templates across 5+ videos, re
 ## Local fallback only
 
 `render.py` standalone is the documented fallback. Default path is the scheduled routines via Drive — don't suggest local `render.py` as the primary way to ship a video.
+
+## Hook taxonomy + conversion signals (as of 2026-05-10)
+
+Three hook patterns now have empirical performance data on Disclosed. Use this when ranking slug candidates:
+
+| Hook pattern | Format that works | Data point |
+|---|---|---|
+| consumer-grievance | long-form (needs structural payoff) | McDonald's #30 = 659 long-form views; Short version only 18 |
+| bankruptcy-reversal | Short (single concrete reversal fits 60s) | Thai Airways Short = 48 views/18h, beat McDonald's Short |
+| structural-truth | both, biased to long-form | 28% of Browse traffic engages here |
+
+**v4.6.3 subscribe-CTA is the conversion structural unlock.** Pre-CTA channel state was ~541 views with ~0 subs. Post-CTA + Shorts batch: 802 views (28d), +2 subs (28d), 5 subs realtime in last 48h. The narration CTA ("subscribe to Disclosed, we ship three a week") plus the Shorts UI affordance is what flipped the conversion math. **Do not ship a long-form slug that loses the in-narration CTA.**
+
+**Distribution lane mix** (28-day):
+- Browse = 79% of views (631) — volume driver, 2:46 avg watch
+- Suggested = highest stickiness (3:33 avg, +28% vs Browse) — optimize titles/thumbs to be a strong follow-up to other case-study channels
+- Search = nascent but real (SVB #36 picked up "bank run") — SEO-tune descriptions
+
+When ranking unscheduled slugs, prefer those that hit ≥2 of the three working hook patterns. Apple-Sun-style "Hidden Truth" near-misses fit none of the three and should not be the highest-leverage next ship in this surge.
+
