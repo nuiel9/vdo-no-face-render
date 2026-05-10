@@ -34,7 +34,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Skipped 2026-05-01: saturated on YouTube (Cold Fusion / Company Man / How Money Works / Modern MBA / Logically Answered / Wendover / Coffeezilla / Patrick Boyle all have viral Costco hot-dog videos). Original Daily pipeline run 2026-04-22 draft + 2026-04-24 + 2026-04-28 routine rebuilds (artifacts deleted as orphan, ~$0.30 sunk on routine compute). Rejected per STEP 2.5 saturation gate matching pattern of #4/#5/#10/#12-14/#16/#19-21. If revisited: pivot to under-covered Costco angle (gold-bar arbitrage 2024, Costco Korea highest-revenue store, or Kirkland Manhattan distribution war) — NOT the hot-dog angle."
+      "notes": "Skipped 2026-05-01: saturated on YouTube (Cold Fusion / Company Man / How Money Works / Modern MBA / Logically Answered / Wendover / Coffeezilla / Patrick Boyle all have viral Costco hot-dog videos). Original Daily pipeline run 2026-04-22 draft + 2026-04-24 + 2026-04-28 routine rebuilds (artifacts deleted as orphan, ~$0.30 sunk on routine compute). Rejected per STEP 2.5 saturation gate matching pattern of #4/#5/#10/#12-14/#16/#19-21. If revisited: pivot to under-covered Costco angle (gold-bar arbitrage 2024, Costco Korea highest-revenue store, or Kirkland Manhattan distribution war) \u2014 NOT the hot-dog angle."
     },
     {
       "#": 3,
@@ -140,7 +140,7 @@
     },
     {
       "#": 9,
-      "title_working_draft": "Shopee Live crushed TikTok Shop in SEA — why",
+      "title_working_draft": "Shopee Live crushed TikTok Shop in SEA \u2014 why",
       "niche": "Business Case Studies",
       "aivdo_template": "Product-pip",
       "target_length_min": 18,
@@ -191,7 +191,7 @@
     },
     {
       "#": 12,
-      "title_working_draft": "The Sears catalog that predicted Amazon — and lost",
+      "title_working_draft": "The Sears catalog that predicted Amazon \u2014 and lost",
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 18,
@@ -242,7 +242,7 @@
     },
     {
       "#": 15,
-      "title_working_draft": "IKEA's flat-pack accident — the real origin story",
+      "title_working_draft": "IKEA's flat-pack accident \u2014 the real origin story",
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 18,
@@ -255,7 +255,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-09 to @disclosedch: https://www.youtube.com/watch?v=1WWALTEzhcY. Title: 'Why Every IKEA Customer Does the Work for Free'. Final video 8:43 cinematic gpt-image-2. **First v4.6.3 ship** — narration includes mandatory subscribe CTA at end of Part 2: 'There are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.' Voice Algieba (verified, NOT Fenrir despite earlier .env.production drift scare). Script 1,177 words at 133 wpm → predicted 8:50, actual 8:43 (drift -1.3%). Editorial corrections applied pre-render: 'near Stockholm' → 'in Småland' (Kamprad died in Småland not Stockholm), 'Behavioral economists at Harvard Business School documented this' → 'Norton, Mochon, and Ariely (Harvard, Yale, and Duke) documented this' (only Norton is HBS). 8 corrections across 3 files. Production saga context: required GitHub OAuth re-authorization on Nuielo account before this run could clone the repo. Routine fired cleanly with v4.6.3 prompt; first organic test of subscribe CTA in narration — no agent re-prompting needed. Consumer-brand pivot continues post-McDonald's #30 (541 views in 3 days). IKEA is universally recognized + has a contrarian hook ('does the work for free') + behavioral-economics primary source (IKEA Effect 2012). Strong CTR+retention candidate. Original slug context: None"
+      "notes": "Published 2026-05-09 to @disclosedch: https://www.youtube.com/watch?v=1WWALTEzhcY. Title: 'Why Every IKEA Customer Does the Work for Free'. Final video 8:43 cinematic gpt-image-2. **First v4.6.3 ship** \u2014 narration includes mandatory subscribe CTA at end of Part 2: 'There are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.' Voice Algieba (verified, NOT Fenrir despite earlier .env.production drift scare). Script 1,177 words at 133 wpm \u2192 predicted 8:50, actual 8:43 (drift -1.3%). Editorial corrections applied pre-render: 'near Stockholm' \u2192 'in Sm\u00e5land' (Kamprad died in Sm\u00e5land not Stockholm), 'Behavioral economists at Harvard Business School documented this' \u2192 'Norton, Mochon, and Ariely (Harvard, Yale, and Duke) documented this' (only Norton is HBS). 8 corrections across 3 files. Production saga context: required GitHub OAuth re-authorization on Nuielo account before this run could clone the repo. Routine fired cleanly with v4.6.3 prompt; first organic test of subscribe CTA in narration \u2014 no agent re-prompting needed. Consumer-brand pivot continues post-McDonald's #30 (541 views in 3 days). IKEA is universally recognized + has a contrarian hook ('does the work for free') + behavioral-economics primary source (IKEA Effect 2012). Strong CTR+retention candidate. Original slug context: None"
     },
     {
       "#": 16,
@@ -344,7 +344,7 @@
     },
     {
       "#": 21,
-      "title_working_draft": "Fyre Festival — the 3 emails that should have stopped it",
+      "title_working_draft": "Fyre Festival \u2014 the 3 emails that should have stopped it",
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 18,
@@ -374,7 +374,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=l-OmJGrQ4xI. Title: 'The Yoga Pants That Nearly Destroyed a $10B Company'. Final video 9:19 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; 0 retries; clean run). FIRST v4.6.2 ship validating the corrected word target (1,220 narration words → 9:19 stitched, prediction +9 sec / +1.6% drift). Editorial corrections applied pre-render: removed fabricated Vancouver showroom yoga-instructor downward-dog hook (replaced with sourced March 18 timeline); fixed Wilson direct quote 'Quite frankly, ... just actually don't work' → 'Frankly, ... just don't actually work' (per CBC/Bloomberg transcripts); pinned-comment Wilson quote fixed post-upload. Consumer-brand pivot away from SEA experiment lane to widen audience funnel. Original slug context: None"
+      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=l-OmJGrQ4xI. Title: 'The Yoga Pants That Nearly Destroyed a $10B Company'. Final video 9:19 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; 0 retries; clean run). FIRST v4.6.2 ship validating the corrected word target (1,220 narration words \u2192 9:19 stitched, prediction +9 sec / +1.6% drift). Editorial corrections applied pre-render: removed fabricated Vancouver showroom yoga-instructor downward-dog hook (replaced with sourced March 18 timeline); fixed Wilson direct quote 'Quite frankly, ... just actually don't work' \u2192 'Frankly, ... just don't actually work' (per CBC/Bloomberg transcripts); pinned-comment Wilson quote fixed post-upload. Consumer-brand pivot away from SEA experiment lane to widen audience funnel. Original slug context: None"
     },
     {
       "#": 23,
@@ -399,16 +399,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 18,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": null,
-      "actual_publish": null,
+      "actual_publish": "2026-05-10",
       "utm_campaign": "business-pm-24",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Promoted 2026-05-10: data-aligned pick — fits McDonald's consumer-grievance pattern (659 views) + Thai Airways Short bankruptcy-reversal pattern (48 Short views in 18h)."
+      "notes": "Promoted 2026-05-10: data-aligned pick (3-of-3 hook patterns) \u2014 fits McDonald's consumer-grievance + Thai Airways Short bankruptcy-reversal + structural-truth on DIVX/appliance-exit thesis. Editorial gate: 4 fabrications caught (press-release verbatim, Wurtzel prior business, book publisher, $1.51 wage figure); 17 atomic replacements via propagate_correction.py. Re-stitch needed (first final.mp4 lost moov atom \u2014 Monitor 60-min timeout killed ffmpeg). Published https://www.youtube.com/watch?v=MHvZ_tl-k_I 2026-05-10."
     },
     {
       "#": 25,
@@ -476,7 +476,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-09 to @disclosedch: https://www.youtube.com/watch?v=WPEr3psnIIw. Title: 'The Company That Asked You Not to Buy Its Jacket' (NOT 'leather jacket deal' — pipeline title was structurally wrong). Pipeline title 'leather jacket deal that launched Patagonia' was fabricated/incorrect — Patagonia's founding clothing was rugby shirts, not leather jackets. Agent caught this during research and pivoted the script to use the 2011 'Don't Buy This Jacket' NYT Black Friday campaign as the title hook (real, well-documented event). Final ship is solid. Final video [duration TBD] cinematic gpt-image-2. v4.6.3 ship — narration includes mandatory subscribe CTA at end of Part 2. Voice Algieba. Editorial corrections applied pre-render: GHG 'drive 45 miles' → '20 pounds CO2' (the 45 number was actually about water needs of 45 people, fabricated cross-mapping), waste '60 percent' → 'two-thirds' (verbatim from ad), revenue 2011→2012 '$540M → $600M+' → '$400M → $543M' (actual trade-press figures). 9 corrections across 3 files. Recovery saga: Part 1 job 70db276424... stalled in compose stage at 85%, render.py timed out at 130min, but AIVDO server actually completed the job in background (status=completed, progress=100%). Recovered by direct API poll → manual Part 1 download → re-run render.py with cached Part 1 → fresh Part 2 submit (job 0fb8c0cb...) → stitch → upload. Same pattern as #30 McDonald's recovery. Net cost: $0 wasted (refunded). Original slug context: None"
+      "notes": "Published 2026-05-09 to @disclosedch: https://www.youtube.com/watch?v=WPEr3psnIIw. Title: 'The Company That Asked You Not to Buy Its Jacket' (NOT 'leather jacket deal' \u2014 pipeline title was structurally wrong). Pipeline title 'leather jacket deal that launched Patagonia' was fabricated/incorrect \u2014 Patagonia's founding clothing was rugby shirts, not leather jackets. Agent caught this during research and pivoted the script to use the 2011 'Don't Buy This Jacket' NYT Black Friday campaign as the title hook (real, well-documented event). Final ship is solid. Final video [duration TBD] cinematic gpt-image-2. v4.6.3 ship \u2014 narration includes mandatory subscribe CTA at end of Part 2. Voice Algieba. Editorial corrections applied pre-render: GHG 'drive 45 miles' \u2192 '20 pounds CO2' (the 45 number was actually about water needs of 45 people, fabricated cross-mapping), waste '60 percent' \u2192 'two-thirds' (verbatim from ad), revenue 2011\u21922012 '$540M \u2192 $600M+' \u2192 '$400M \u2192 $543M' (actual trade-press figures). 9 corrections across 3 files. Recovery saga: Part 1 job 70db276424... stalled in compose stage at 85%, render.py timed out at 130min, but AIVDO server actually completed the job in background (status=completed, progress=100%). Recovered by direct API poll \u2192 manual Part 1 download \u2192 re-run render.py with cached Part 1 \u2192 fresh Part 2 submit (job 0fb8c0cb...) \u2192 stitch \u2192 upload. Same pattern as #30 McDonald's recovery. Net cost: $0 wasted (refunded). Original slug context: None"
     },
     {
       "#": 29,
@@ -510,7 +510,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-05 to @disclosedch: https://www.youtube.com/watch?v=cMUJdU2StLM. Title: 'Why McDonald's Ice Cream Is Always Broken (It Was Never About the Machine)'. Final video 9:06 cinematic gpt-image-2. v4.6.2 word target hit (1,293 narration words → 9:06 stitched, prediction +9 sec / +1.6% drift, validating math). Editorial corrections applied pre-render: FTC date 'September 2021' → 'May 2021' (4 places), FTC URL 404 → working URL (3 places), FTC quote 'manufacturers held significant financial incentives' replaced with verbatim 'scant evidence to support manufacturers' justifications', Wired direct quote 'black box into something you can manage' converted to indirect speech (unverifiable). 17+ corrections total. Post-render bug caught: text_overlays still had 'Sept 2021' which got rendered ON-SCREEN in Part 2 Scene 3 — required Part 2 re-render with corrected JSON. Re-render burned through 3 AIVDO submissions due to v1.8.20 worker stall pattern (Cloud Run instance recycle). Jobs 8dfd0f9b + e369c16a both stalled at compose stage; e369c16a eventually completed at 100% after 2+ hours despite render.py giving up earlier. RECOVERY PATTERN: when render.py raises 'Worker stalled' RuntimeError, the underlying AIVDO job may still be running. Direct API poll via curl GET /api/jobs/{id} reveals true progress. Saved $0.66 by recovering existing job rather than fresh resubmit. AIVDO HANDOFF doc filed at /Users/krainats/aivdo/HANDOFF_v1.8.21_worker_stall_pattern.md (severity downgraded from HIGH to MEDIUM after user clarified they were doing AIVDO changes during the stalls — likely correlated, not pure structural). Pinned comment Wilson-quote-style fix and pinned-comment FTC date both fixed via post-upload edit cycle. Original slug context: None"
+      "notes": "Published 2026-05-05 to @disclosedch: https://www.youtube.com/watch?v=cMUJdU2StLM. Title: 'Why McDonald's Ice Cream Is Always Broken (It Was Never About the Machine)'. Final video 9:06 cinematic gpt-image-2. v4.6.2 word target hit (1,293 narration words \u2192 9:06 stitched, prediction +9 sec / +1.6% drift, validating math). Editorial corrections applied pre-render: FTC date 'September 2021' \u2192 'May 2021' (4 places), FTC URL 404 \u2192 working URL (3 places), FTC quote 'manufacturers held significant financial incentives' replaced with verbatim 'scant evidence to support manufacturers' justifications', Wired direct quote 'black box into something you can manage' converted to indirect speech (unverifiable). 17+ corrections total. Post-render bug caught: text_overlays still had 'Sept 2021' which got rendered ON-SCREEN in Part 2 Scene 3 \u2014 required Part 2 re-render with corrected JSON. Re-render burned through 3 AIVDO submissions due to v1.8.20 worker stall pattern (Cloud Run instance recycle). Jobs 8dfd0f9b + e369c16a both stalled at compose stage; e369c16a eventually completed at 100% after 2+ hours despite render.py giving up earlier. RECOVERY PATTERN: when render.py raises 'Worker stalled' RuntimeError, the underlying AIVDO job may still be running. Direct API poll via curl GET /api/jobs/{id} reveals true progress. Saved $0.66 by recovering existing job rather than fresh resubmit. AIVDO HANDOFF doc filed at /Users/krainats/aivdo/HANDOFF_v1.8.21_worker_stall_pattern.md (severity downgraded from HIGH to MEDIUM after user clarified they were doing AIVDO changes during the stalls \u2014 likely correlated, not pure structural). Pinned comment Wilson-quote-style fix and pinned-comment FTC date both fixed via post-upload edit cycle. Original slug context: None"
     },
     {
       "#": 31,
@@ -548,7 +548,7 @@
     },
     {
       "#": 33,
-      "title_working_draft": "DocuSign's pandemic overshoot — signatures to layoffs",
+      "title_working_draft": "DocuSign's pandemic overshoot \u2014 signatures to layoffs",
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
@@ -616,7 +616,7 @@
     },
     {
       "#": 37,
-      "title_working_draft": "OpenSea's 95% collapse — NFT marketplace math",
+      "title_working_draft": "OpenSea's 95% collapse \u2014 NFT marketplace math",
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
@@ -633,7 +633,7 @@
     },
     {
       "#": 38,
-      "title_working_draft": "Peloton's churn death spiral — the subscription truth",
+      "title_working_draft": "Peloton's churn death spiral \u2014 the subscription truth",
       "niche": "Business Case Studies",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
@@ -646,7 +646,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-08 to @disclosedch: https://www.youtube.com/watch?v=-Up3dqFNnuI. Title: 'The Churn Rate That Broke a $50 Billion Company'. Final video 9:15 cinematic gpt-image-2 (1,247 narration words at Algieba 133 wpm — predicted 9:22, actual 9:15, drift -1.3%). Editorial corrections applied pre-render: McCarthy departure date 'October 2023' → 'May 2024' (off by 7 months — high-risk 2024+ event), CPSC quote 'a serious risk of injury or death' → verbatim 'serious risks to children for abrasions, fractures, and death', Boone/Bruzzo phrasing fixed (interim co-CEOs). 17 corrections across 4 files. Production saga: AIVDO Gemini API key expired 2026-05-07; required Secret Manager update + Cloud Run redeploy via cloudbuild (build d3d319d, ~7 min). Caught Algieba→Fenrir voice scare in .env.production drift before push (saved by update-secrets.sh diff). YouTube OAuth token revoked by Eduverse→Nuielo account switch; re-authed via custom run_local_server helper (first attempt had state mismatch CSRF). Performance reference: McDonald's #30 hit 541 views in 3 days vs Lululemon #22 at 40 views in 5 days — confirms consumer-meme brand selection drives algorithm. Original slug context: Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Published 2026-05-08 to @disclosedch: https://www.youtube.com/watch?v=-Up3dqFNnuI. Title: 'The Churn Rate That Broke a $50 Billion Company'. Final video 9:15 cinematic gpt-image-2 (1,247 narration words at Algieba 133 wpm \u2014 predicted 9:22, actual 9:15, drift -1.3%). Editorial corrections applied pre-render: McCarthy departure date 'October 2023' \u2192 'May 2024' (off by 7 months \u2014 high-risk 2024+ event), CPSC quote 'a serious risk of injury or death' \u2192 verbatim 'serious risks to children for abrasions, fractures, and death', Boone/Bruzzo phrasing fixed (interim co-CEOs). 17 corrections across 4 files. Production saga: AIVDO Gemini API key expired 2026-05-07; required Secret Manager update + Cloud Run redeploy via cloudbuild (build d3d319d, ~7 min). Caught Algieba\u2192Fenrir voice scare in .env.production drift before push (saved by update-secrets.sh diff). YouTube OAuth token revoked by Eduverse\u2192Nuielo account switch; re-authed via custom run_local_server helper (first attempt had state mismatch CSRF). Performance reference: McDonald's #30 hit 541 views in 3 days vs Lululemon #22 at 40 views in 5 days \u2014 confirms consumer-meme brand selection drives algorithm. Original slug context: Added 2026-04-23: under-covered replacement after saturation audit."
     },
     {
       "#": 39,
@@ -697,7 +697,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SKIPPED 2026-05-04: routine fired and produced 1,335-word script (job 5e21f8a → daily/2026-05-04_41_*) but premise is fabricated — title 'Hertz Filed for Bankruptcy Twice' assumes a SECOND Chapter 11 filing that does not exist per public records. Hertz filed Chapter 11 ONCE (May 2020), emerged June 2021, and 2024-2025 court activity in news is appellate disputes about make-whole premiums from the ORIGINAL 2020 case, not a new filing. Agent itself flagged at SCRIPT.txt line 5 that 'second Chapter 11 filing details deliberately omitted pending human verification' — agent knew it was making up the premise. Underlying content (2005 Ford-to-PE LBO, 2020 bankruptcy, 2021 Tesla 100k vehicle announcement, Q4 2023 ~$245M EV write-down, Jan 2024 Scherr departure + 20k EV sell-off) is all factually accurate, but cannot ship as 'second bankruptcy' framing. Branch daily/2026-05-04_41_hertz-back-in-chapter-11-four-years-later deleted on origin. No AIVDO cost incurred. Pipeline lesson: original row #41 title 'Hertz: back in Chapter 11 four years later' was a forward-looking analyst prediction (added 2026-04-23 saturation audit) that never materialized — should have been audited before promoting to queue_next. Original slug context: Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "SKIPPED 2026-05-04: routine fired and produced 1,335-word script (job 5e21f8a \u2192 daily/2026-05-04_41_*) but premise is fabricated \u2014 title 'Hertz Filed for Bankruptcy Twice' assumes a SECOND Chapter 11 filing that does not exist per public records. Hertz filed Chapter 11 ONCE (May 2020), emerged June 2021, and 2024-2025 court activity in news is appellate disputes about make-whole premiums from the ORIGINAL 2020 case, not a new filing. Agent itself flagged at SCRIPT.txt line 5 that 'second Chapter 11 filing details deliberately omitted pending human verification' \u2014 agent knew it was making up the premise. Underlying content (2005 Ford-to-PE LBO, 2020 bankruptcy, 2021 Tesla 100k vehicle announcement, Q4 2023 ~$245M EV write-down, Jan 2024 Scherr departure + 20k EV sell-off) is all factually accurate, but cannot ship as 'second bankruptcy' framing. Branch daily/2026-05-04_41_hertz-back-in-chapter-11-four-years-later deleted on origin. No AIVDO cost incurred. Pipeline lesson: original row #41 title 'Hertz: back in Chapter 11 four years later' was a forward-looking analyst prediction (added 2026-04-23 saturation audit) that never materialized \u2014 should have been audited before promoting to queue_next. Original slug context: Added 2026-04-23: under-covered replacement after saturation audit."
     },
     {
       "#": 42,
@@ -718,7 +718,7 @@
     },
     {
       "#": 43,
-      "title_working_draft": "Lazada vs Shopee Philippines — the regional playbook",
+      "title_working_draft": "Lazada vs Shopee Philippines \u2014 the regional playbook",
       "niche": "Business Case Studies",
       "aivdo_template": "Product-pip",
       "target_length_min": 11,
@@ -748,11 +748,11 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-02 ~03:00 Bangkok to @disclosedch: https://www.youtube.com/watch?v=Eh1_6rRDtTE. Manual fire of v4.6 routine on Friday 2026-05-01 (jumped Monday queue). Editorial gate caught 1 internal-notes error: REVIEW.md said Top Shine bond was '~$862M', actual is HK$862.5M (~US$110M) — error contained in research notes only, never reached narration. 5/5 web-verified claims clean (HCCW 179/2022, Linda Chan, Jan 29 2024, three red lines ratios, Aug 2020, RMB 1.96T H1 2021, Dec 2021 default). Triggered AIVDO v1.8.19 + v1.8.20 — Part 2 stuck-at-21% diagnosed by AIVDO terminal as composition heartbeat bug (Redis-only progress, DB row stale → sweeper false-positive). 3 Part 2 jobs submitted (6e58, bf3ca239, 23faf6fa). First two false-positive swept but actually completed in background (output_url valid). Third (post-v1.8.20) genuinely failed at 30 min — heartbeat fix didn't fire on this code path OR worker actually died AND v1.8.20 disabled the latent Celery-redelivery safety net. Recovery: downloaded 6e58's output_url directly, saved as part2.mp4, ran render.py for local crossfade stitch only. Final mp4 223 MB. Side-finding: OpenAI input-images-per-minute cap of 5/min hit 3/8 scenes with 429 — separate AIVDO handoff candidate. Editorial corrections: e182871 (HKCFI 363 cite + REVIEW.md HK$ fix). YOUTUBE.md description/tags didn't parse via youtube_upload.py — pasted manually in Studio (parser regex bug worth fixing on Monday)."
+      "notes": "Published 2026-05-02 ~03:00 Bangkok to @disclosedch: https://www.youtube.com/watch?v=Eh1_6rRDtTE. Manual fire of v4.6 routine on Friday 2026-05-01 (jumped Monday queue). Editorial gate caught 1 internal-notes error: REVIEW.md said Top Shine bond was '~$862M', actual is HK$862.5M (~US$110M) \u2014 error contained in research notes only, never reached narration. 5/5 web-verified claims clean (HCCW 179/2022, Linda Chan, Jan 29 2024, three red lines ratios, Aug 2020, RMB 1.96T H1 2021, Dec 2021 default). Triggered AIVDO v1.8.19 + v1.8.20 \u2014 Part 2 stuck-at-21% diagnosed by AIVDO terminal as composition heartbeat bug (Redis-only progress, DB row stale \u2192 sweeper false-positive). 3 Part 2 jobs submitted (6e58, bf3ca239, 23faf6fa). First two false-positive swept but actually completed in background (output_url valid). Third (post-v1.8.20) genuinely failed at 30 min \u2014 heartbeat fix didn't fire on this code path OR worker actually died AND v1.8.20 disabled the latent Celery-redelivery safety net. Recovery: downloaded 6e58's output_url directly, saved as part2.mp4, ran render.py for local crossfade stitch only. Final mp4 223 MB. Side-finding: OpenAI input-images-per-minute cap of 5/min hit 3/8 scenes with 429 \u2014 separate AIVDO handoff candidate. Editorial corrections: e182871 (HKCFI 363 cite + REVIEW.md HK$ fix). YOUTUBE.md description/tags didn't parse via youtube_upload.py \u2014 pasted manually in Studio (parser regex bug worth fixing on Monday)."
     },
     {
       "#": 45,
-      "title_working_draft": "AirAsia: grounded to $1B — the pandemic recovery arc",
+      "title_working_draft": "AirAsia: grounded to $1B \u2014 the pandemic recovery arc",
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
@@ -782,12 +782,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-04-29 to @disclosedch: https://www.youtube.com/watch?v=GkWZZc5q8-I — Final video 8:53 cinematic gpt-image-2, ~$3.32 OpenAI total inc. AIVDO-bug retries. Editorial corrections shipped 27dbd34 + 3917b8a (Strub title, Variety→Spy Culture, GI Jane accuracy, eight-page claim dropped). First production exercise of v4.5 routine + AIVDO v1.8.16 (which shipped Fix A/B/C to unblock this slug). Brief at briefs/2026-04-30_46_pentagon-entertainment-liaison-office.md. Disclosure Day SEO ride window: now → 2026-06-12 release."
+      "notes": "Published 2026-04-29 to @disclosedch: https://www.youtube.com/watch?v=GkWZZc5q8-I \u2014 Final video 8:53 cinematic gpt-image-2, ~$3.32 OpenAI total inc. AIVDO-bug retries. Editorial corrections shipped 27dbd34 + 3917b8a (Strub title, Variety\u2192Spy Culture, GI Jane accuracy, eight-page claim dropped). First production exercise of v4.5 routine + AIVDO v1.8.16 (which shipped Fix A/B/C to unblock this slug). Brief at briefs/2026-04-30_46_pentagon-entertainment-liaison-office.md. Disclosure Day SEO ride window: now \u2192 2026-06-12 release."
     },
     {
       "#": 47,
       "title_working_draft": "CP Group: the chicken-feed company that became Asia's quietest conglomerate",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
       "script_status": "Done",
@@ -799,12 +799,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-02 to @disclosedch: https://www.youtube.com/watch?v=f93ulHLu5dk. Final video 6:25 cinematic gpt-image-2 (standard preset x 2 parts, ~$1.32 OpenAI, both AIVDO jobs first-attempt success — no 5-IPM 429s, heartbeat behaved). First SEA-experiment slug shipped (v4.6 verify-then-render pipeline). Pinned fact-check comment NOT yet posted (YouTube API blocks comments on private videos) — paste manually in Studio after flipping public. Original slug context: SEA experiment #1 added 2026-05-01. Anchor: Dhanin Chearavanont (Forbes 2024 ~$14.4B), CP All exclusive 7-Eleven Thailand franchise since 1989, Lotus's acquired from Tesco 2020 ($10.6B), CP Foods world's largest poultry producer, True+DTAC merger 2023. Angle: vertical integration from soybean feed → poultry → 7-Eleven shelf → telecom touches every Thai consumer dollar. Underexplored on English YouTube. Editorial flag: succession dynamics within Chearavanont family — keep narrative on business mechanics, not personal."
+      "notes": "Published 2026-05-02 to @disclosedch: https://www.youtube.com/watch?v=f93ulHLu5dk. Final video 6:25 cinematic gpt-image-2 (standard preset x 2 parts, ~$1.32 OpenAI, both AIVDO jobs first-attempt success \u2014 no 5-IPM 429s, heartbeat behaved). First SEA-experiment slug shipped (v4.6 verify-then-render pipeline). Pinned fact-check comment NOT yet posted (YouTube API blocks comments on private videos) \u2014 paste manually in Studio after flipping public. Original slug context: SEA experiment #1 added 2026-05-01. Anchor: Dhanin Chearavanont (Forbes 2024 ~$14.4B), CP All exclusive 7-Eleven Thailand franchise since 1989, Lotus's acquired from Tesco 2020 ($10.6B), CP Foods world's largest poultry producer, True+DTAC merger 2023. Angle: vertical integration from soybean feed \u2192 poultry \u2192 7-Eleven shelf \u2192 telecom touches every Thai consumer dollar. Underexplored on English YouTube. Editorial flag: succession dynamics within Chearavanont family \u2014 keep narrative on business mechanics, not personal."
     },
     {
       "#": 48,
       "title_working_draft": "THAI Airways' bankruptcy and the 4-year debt unwind",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
       "script_status": "Done",
@@ -816,12 +816,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=Gy1s1oSiTH4. Title: 'The Flag Carrier That Said No to a Bailout'. Final video 15:28 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; one transient 5-IPM 429 retry on Part 1 compose; both AIVDO jobs eventually first-attempt success after retry). First v4.6.1 ship using bumped word target (~2,059 narration words). EMPIRICAL FINDING: Algieba TTS pace measured at ~133 wpm, not 150. 2,059 words yielded 15:28 stitched, way over the 8:30-10:30 target. Routine patched to v4.6.2 (600-700 words/part) before next fire. Editorial corrections applied pre-render: A380 count 8 to 6 (5 fixes), plan confirmation date 2022 to 2021 (8 fixes). Initial render hit 'No space left on device' at moov-atom write; recovered by clearing 1GB of shipped slugs' part/final mp4s, re-running render.py which used cached part1.mp4+part2.mp4 to skip downloads and re-stitch in 5 min. YOUTUBE.md H1 format quirk: routine emitted '# YOUTUBE.md - Daily #48' with em dash (violating editorial rule 6); youtube_upload.py parser failed; manually fixed to '# YOUTUBE:'; routine prompt v4.6.2 now explicit about format. Original slug context: SEA experiment #2 added 2026-05-01. Anchor: 2020-05-26 court rehabilitation petition under Thai Bankruptcy Act §90, ฿332B debt at filing, plan approved 2022-06-15, returned to profit FY2023 (~฿28B), exit-from-rehab plan progressed 2024-25. Angle: a flag-carrier that did NOT receive a government bailout — restructured via court process, came back profitable. Underexplored vs. typical 'airline bailout' narrative. Editorial flag: confirm latest exit-from-rehab status at brief time (status moves quarterly)."
+      "notes": "Published 2026-05-03 to @disclosedch: https://www.youtube.com/watch?v=Gy1s1oSiTH4. Title: 'The Flag Carrier That Said No to a Bailout'. Final video 15:28 cinematic gpt-image-2 (standard preset x 2 parts; ~$1.32 OpenAI; one transient 5-IPM 429 retry on Part 1 compose; both AIVDO jobs eventually first-attempt success after retry). First v4.6.1 ship using bumped word target (~2,059 narration words). EMPIRICAL FINDING: Algieba TTS pace measured at ~133 wpm, not 150. 2,059 words yielded 15:28 stitched, way over the 8:30-10:30 target. Routine patched to v4.6.2 (600-700 words/part) before next fire. Editorial corrections applied pre-render: A380 count 8 to 6 (5 fixes), plan confirmation date 2022 to 2021 (8 fixes). Initial render hit 'No space left on device' at moov-atom write; recovered by clearing 1GB of shipped slugs' part/final mp4s, re-running render.py which used cached part1.mp4+part2.mp4 to skip downloads and re-stitch in 5 min. YOUTUBE.md H1 format quirk: routine emitted '# YOUTUBE.md - Daily #48' with em dash (violating editorial rule 6); youtube_upload.py parser failed; manually fixed to '# YOUTUBE:'; routine prompt v4.6.2 now explicit about format. Original slug context: SEA experiment #2 added 2026-05-01. Anchor: 2020-05-26 court rehabilitation petition under Thai Bankruptcy Act \u00a790, \u0e3f332B debt at filing, plan approved 2022-06-15, returned to profit FY2023 (~\u0e3f28B), exit-from-rehab plan progressed 2024-25. Angle: a flag-carrier that did NOT receive a government bailout \u2014 restructured via court process, came back profitable. Underexplored vs. typical 'airline bailout' narrative. Editorial flag: confirm latest exit-from-rehab status at brief time (status moves quarterly)."
     },
     {
       "#": 49,
       "title_working_draft": "LINE Thailand: how Japan's messaging app lost everywhere except here",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -833,12 +833,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #3 added 2026-05-01. Anchor: ~50M Thai users (~70% pop., 2024 data), origin in 2011 Fukushima earthquake (NAVER Japan team built it for emergency comms), lost Indonesia (to WhatsApp), Spain (to WhatsApp), India (never landed). Thailand the only major non-Japan stronghold. LINE MAN delivery + LINE PAY → super-app pivot. Angle: hyper-localization that worked here, didn't elsewhere — why? Editorial flag: avoid speculating on cultural reasons; stick to product timing + competitor data."
+      "notes": "SEA experiment #3 added 2026-05-01. Anchor: ~50M Thai users (~70% pop., 2024 data), origin in 2011 Fukushima earthquake (NAVER Japan team built it for emergency comms), lost Indonesia (to WhatsApp), Spain (to WhatsApp), India (never landed). Thailand the only major non-Japan stronghold. LINE MAN delivery + LINE PAY \u2192 super-app pivot. Angle: hyper-localization that worked here, didn't elsewhere \u2014 why? Editorial flag: avoid speculating on cultural reasons; stick to product timing + competitor data."
     },
     {
       "#": 50,
       "title_working_draft": "Sea Limited: the $200B SEA unicorn that lost 80% in one year",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -850,12 +850,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #4 added 2026-05-01. Anchor: NYSE 2017 IPO at $15, peak 2021-10-19 ~$367/share (~$200B mcap), Free Fire banned in India 2022-02-14 (alleged China data concerns via Tencent stake), Sept 2022 layoffs ~7,000 staff, stock bottomed ~$40 late 2022, recovery to $130s by 2025. Angle: how a single regulatory wall (India ban) cut deeper than the broader tech selloff — Free Fire was 32% of digital entertainment GMV. Editorial flag: distinguish 'India banned Free Fire' (verified) from 'India banned Sea over China ties' (alleged/inferred); cite MeitY order specifically."
+      "notes": "SEA experiment #4 added 2026-05-01. Anchor: NYSE 2017 IPO at $15, peak 2021-10-19 ~$367/share (~$200B mcap), Free Fire banned in India 2022-02-14 (alleged China data concerns via Tencent stake), Sept 2022 layoffs ~7,000 staff, stock bottomed ~$40 late 2022, recovery to $130s by 2025. Angle: how a single regulatory wall (India ban) cut deeper than the broader tech selloff \u2014 Free Fire was 32% of digital entertainment GMV. Editorial flag: distinguish 'India banned Free Fire' (verified) from 'India banned Sea over China ties' (alleged/inferred); cite MeitY order specifically."
     },
     {
       "#": 51,
       "title_working_draft": "Forex-3D: the $1.6B Thai Ponzi that ran on monk endorsements",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Hidden Truth",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -867,12 +867,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #5 added 2026-05-01. Anchor: ~9,800 victims, ฿70B+ alleged loss (~$1.9B at 2022 rates), SEC Thailand criminal complaints filed 2022, defendant Apirak Kothi (a.k.a. 'Apirak F3D'), 2018-2021 operating window, monk-celebrity endorsement pattern. Angle: how religious authority + Thai-style trust networks amplified a textbook 'guaranteed FX returns' Ponzi. **EDITORIAL FLAG: Thai legal proceedings ongoing as of brief time. Phrase as 'alleged', 'charged with', 'indicted on' — NEVER 'convicted' until verdict confirmed via official Thai court records. Cross-check via SEC Thailand press releases + Bangkok Post court reporting only.**"
+      "notes": "SEA experiment #5 added 2026-05-01. Anchor: ~9,800 victims, \u0e3f70B+ alleged loss (~$1.9B at 2022 rates), SEC Thailand criminal complaints filed 2022, defendant Apirak Kothi (a.k.a. 'Apirak F3D'), 2018-2021 operating window, monk-celebrity endorsement pattern. Angle: how religious authority + Thai-style trust networks amplified a textbook 'guaranteed FX returns' Ponzi. **EDITORIAL FLAG: Thai legal proceedings ongoing as of brief time. Phrase as 'alleged', 'charged with', 'indicted on' \u2014 NEVER 'convicted' until verdict confirmed via official Thai court records. Cross-check via SEC Thailand press releases + Bangkok Post court reporting only.**"
     },
     {
       "#": 52,
       "title_working_draft": "GoTo: Indonesia's $30B merger that disappointed everyone",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Pitch Deck",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -889,7 +889,7 @@
     {
       "#": 53,
       "title_working_draft": "SCB X: when Thailand's biggest bank tried to become a tech holdco",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -901,12 +901,12 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #7 added 2026-05-01. Anchor: SCB X holding company restructure announced 2021-09-22, Robinhood Thailand zero-fee broker launched 2020-07, Robinhood shutdown announced 2025-01 (~฿200M cumulative loss, sold to Tisco), CardX consumer credit, AISCB JV with AIS, share price ~24% decline 2022-23 vs SET banking index. Angle: a 119-year-old bank that announced 'tech mothership' transformation, killed its consumer brokerage 4 years later, retreated to traditional banking. Editorial flag: SCB is publicly traded SET-listed; stick to SET filings + audited financials."
+      "notes": "SEA experiment #7 added 2026-05-01. Anchor: SCB X holding company restructure announced 2021-09-22, Robinhood Thailand zero-fee broker launched 2020-07, Robinhood shutdown announced 2025-01 (~\u0e3f200M cumulative loss, sold to Tisco), CardX consumer credit, AISCB JV with AIS, share price ~24% decline 2022-23 vs SET banking index. Angle: a 119-year-old bank that announced 'tech mothership' transformation, killed its consumer brokerage 4 years later, retreated to traditional banking. Editorial flag: SCB is publicly traded SET-listed; stick to SET filings + audited financials."
     },
     {
       "#": 54,
       "title_working_draft": "Vietjet's $4B IPO and the SEA low-cost carrier squeeze",
-      "niche": "Business Case Studies — SEA experiment",
+      "niche": "Business Case Studies \u2014 SEA experiment",
       "aivdo_template": "Story",
       "target_length_min": 11,
       "script_status": "Planned",
@@ -918,7 +918,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "SEA experiment #8 added 2026-05-01. Anchor: Nguyen Thi Phuong Thao founded Vietjet 2007, first flight 2011, IPO Ho Chi Minh exchange 2017-02-28 (~$1.4B mcap, peak ~$4B), Madame Thao becomes SEA's first female self-made billionaire (Forbes 2017), fleet ~105 aircraft 2024, post-COVID recovery 2023. The 'bikini calendar' PR strategy 2012-2018 — controversial but built awareness against AirAsia/Lion Air on a thin budget. Angle: how an LCC outflanked AirAsia on Vietnamese home turf via aggressive PR + low-cost ops. Editorial flag: cover the bikini-ad strategy as a marketing/PR case-study lens (it's well-documented and Thao herself defended it on the record); avoid editorializing on appropriateness."
+      "notes": "SEA experiment #8 added 2026-05-01. Anchor: Nguyen Thi Phuong Thao founded Vietjet 2007, first flight 2011, IPO Ho Chi Minh exchange 2017-02-28 (~$1.4B mcap, peak ~$4B), Madame Thao becomes SEA's first female self-made billionaire (Forbes 2017), fleet ~105 aircraft 2024, post-COVID recovery 2023. The 'bikini calendar' PR strategy 2012-2018 \u2014 controversial but built awareness against AirAsia/Lion Air on a thin budget. Angle: how an LCC outflanked AirAsia on Vietnamese home turf via aggressive PR + low-cost ops. Editorial flag: cover the bikini-ad strategy as a marketing/PR case-study lens (it's well-documented and Thao herself defended it on the record); avoid editorializing on appropriateness."
     }
   ]
 }
