@@ -10,7 +10,7 @@ In March 2007, Circuit City's corporate headquarters in Richmond, Virginia sent 
 
 This story gets told as a simple parable: a company fires its best people, goes bankrupt a year later, gets what it deserves. That framing is satisfying and incomplete. The firing was not the mistake. The firing was the final move of a management team that had spent six years stripping the company of every advantage it had built over five decades. To understand why Circuit City lost, you have to go back to when it was winning.
 
-Samuel Wurtzel opened the first store in Richmond in 1949. He had no background in electronics. His previous business was fur. What he understood was retail math: high-traffic location, trained salespeople, defensible margin. By the 1980s, Circuit City had invented the consumer electronics superstore format, a model Best Buy would later adopt and improve upon. The core differentiation was expertise. The salespeople knew the products. Customers paid a modest premium to buy from someone who could explain what they were actually purchasing. That premium was the moat.
+Samuel Wurtzel opened the first store in Richmond in 1949. He had no background in electronics. His previous business was an import-export firm in New York. What he understood was retail math: high-traffic location, trained salespeople, defensible margin. By the 1980s, Circuit City had invented the consumer electronics superstore format, a model Best Buy would later adopt and improve upon. The core differentiation was expertise. The salespeople knew the products. Customers paid a modest premium to buy from someone who could explain what they were actually purchasing. That premium was the moat.
 
 Then the company started filling the moat.
 
@@ -22,13 +22,13 @@ By 2006, Philip Schoonover had been named CEO with a mandate to close the profit
 
 The board approved the plan.
 
-Across the store network, Circuit City had a cohort of hourly workers who knew how to walk a customer through a 50-inch television purchase, explain the difference between 720p and 1080p, and close a service contract on the same visit. These workers were paid between $0.50 and $1.51 above the company's internal wage ceiling. They were above average because they performed above average. In a retail business with no pricing power and no appliance margin to absorb competitive pressure, that expertise was the only thing keeping customers from driving to Best Buy or ordering online.
+Across the store network, Circuit City had a cohort of hourly workers who knew how to walk a customer through a 50-inch television purchase, explain the difference between 720p and 1080p, and close a service contract on the same visit. These workers were paid above the company's internal wage ceiling. They were above average because they performed above average. In a retail business with no pricing power and no appliance margin to absorb competitive pressure, that expertise was the only thing keeping customers from driving to Best Buy or ordering online.
 
 In spring 2007, with HDTV adoption accelerating and a once-in-a-decade upsell window opening for any retailer capable of explaining the technology to a confused consumer, Circuit City removed the people capable of explaining it.
 
 ===PART_BREAK===
 
-The press release used careful language. Circuit City said it was "eliminating positions held by associates who are compensated above the market-based salary range for their role." By the end of that week, every wire service had also reported that the company had confirmed those terminated employees could reapply for the same positions at lower wages after ten weeks. That confirmation was not leaked by a disgruntled manager. Circuit City volunteered it publicly.
+The press release used careful language. Circuit City said it was "eliminating positions held by associates who are compensated well above the market-based salary range for their role." By the end of that week, every wire service had also reported that the company had confirmed those terminated employees could reapply for the same positions at lower wages after ten weeks. That confirmation was not leaked by a disgruntled manager. Circuit City volunteered it publicly.
 
 The customer experience degraded through 2007. This is not anecdotal. Trade publications covering the electronics retail sector catalogued increasing consumer complaints about Circuit City service in the months following the layoffs. The company had replaced thousands of trained salespeople with new hires who cost less and knew less about the product the market was actively buying. Flat-panel television was the defining consumer electronics purchase of 2007 and 2008. Circuit City had removed the staff trained to sell it in the quarter before adoption peaked.
 

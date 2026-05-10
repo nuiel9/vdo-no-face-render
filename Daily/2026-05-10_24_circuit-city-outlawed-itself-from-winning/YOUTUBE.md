@@ -34,7 +34,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 2. U.S. Bankruptcy Court, Eastern District of Virginia (Richmond Division), Case No. 08-35653, filed November 10, 2008. Accessible via PACER (pacer.gov) or contemporaneous AP/Reuters court wire reports.
 
-3. W. Alan Wurtzel, "Good to Great to Gone: The 60 Year Rise and Fall of Circuit City" (2012, PublicAffairs Books). Available via major libraries and booksellers.
+3. W. Alan Wurtzel, "Good to Great to Gone: The 60 Year Rise and Fall of Circuit City" (2012, Diversion Books). Available via major libraries and booksellers.
 
 4. Associated Press wire report, March 28, 2007: Coverage of Circuit City workforce reduction announcement and company confirmation of the rehire policy.
 
@@ -52,6 +52,6 @@ Sources behind this video:
 
 The 3,400 figure and the rehire-at-lower-wage policy were confirmed by Circuit City in a March 28, 2007 press release and reported that day by AP. The $114 million DIVX write-off appears in Circuit City's FY1999 10-K filed with the SEC (EDGAR, CIK for Circuit City Stores Inc.). The bankruptcy case number is 08-35653, Eastern District of Virginia, Richmond Division, filed November 10, 2008.
 
-The best long-form primary source on this: "Good to Great to Gone" by W. Alan Wurtzel (2012, PublicAffairs). Wurtzel was Circuit City's CEO during the growth decades and the founder's son. He had access to board records no outside analyst has seen. It reads like a 300-page autopsy written by someone who had skin in it.
+The best long-form primary source on this: "Good to Great to Gone" by W. Alan Wurtzel (2012, Diversion Books). Wurtzel was Circuit City's CEO during the growth decades and the founder's son. He had access to board records no outside analyst has seen. It reads like a 300-page autopsy written by someone who had skin in it.
 
 Flag anything you believe is incorrect in the comments and I will correct and pin the correction.

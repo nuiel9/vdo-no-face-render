@@ -18,7 +18,7 @@ Circuit City did not die because Amazon appeared or because Best Buy outspent it
 2. **U.S. Bankruptcy Court, Eastern District of Virginia (Richmond Division), Case No. 08-35653**
    Filed November 10, 2008. Court docket includes the First Day Motions, debtor-in-possession financing terms, and the final liquidation order. Accessible via PACER (pacer.gov) or contemporaneous Reuters/AP court wire coverage.
 
-3. **"Good to Great to Gone: The 60 Year Rise and Fall of Circuit City" by W. Alan Wurtzel (2012, PublicAffairs Books)**
+3. **"Good to Great to Gone: The 60 Year Rise and Fall of Circuit City" by W. Alan Wurtzel (2012, Diversion Books)**
    The founder's son served as CEO through the 1970s and 1980s rise. He provides chapter-by-chapter autopsy of strategic decisions with access to board minutes and internal memos no trade reporter had. Google Books preview available; full text via library systems.
 
 ---
@@ -41,7 +41,7 @@ Circuit City did not die because Amazon appeared or because Best Buy outspent it
 
 ## 6 Lesser-Known Facts
 
-1. Samuel Wurtzel, Circuit City's founder, had no electronics background. He came from the fur trade before opening "Wards Company" in Richmond, Virginia in 1949. (Source: Wurtzel, "Good to Great to Gone," Chapter 1)
+1. Samuel Wurtzel, Circuit City's founder, had no electronics background. He came from the import-export trade before opening "Wards Company" in Richmond, Virginia in 1949. (Source: Wurtzel, "Good to Great to Gone," Chapter 1)
 2. Circuit City invented the consumer electronics superstore format, operating it decades before Best Buy adopted a version of it. (Source: trade press + Wurtzel book; contrast to Best Buy's 1966 founding as a single audio store)
 3. The company's proprietary DIVX disc format (not to be confused with the open video codec) was abandoned in June 1999 after approximately $114 million in losses. (Source: Circuit City FY1999 10-K, write-off disclosure)
 4. The 3,400 workers fired in March 2007 were explicitly told they could reapply for their jobs at a lower wage after a 10-week waiting period. The company confirmed this publicly. (Source: contemporary AP and Reuters wire coverage, March 28, 2007)
