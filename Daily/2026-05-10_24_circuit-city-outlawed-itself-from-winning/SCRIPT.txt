@@ -1,0 +1,52 @@
+SCRIPT: Circuit City Outlawed Itself from Winning
+Row #24 | Rise and Fall | Voice: Algieba | Target: 9-10 min | v4.6.3
+
+Word target: 600-700 per part | ~1,270 total at Algieba 133 wpm = ~9:33 stitched
+FACT-CHECK FLAG: Circuit City press release quote (Part 2 para 1) — verify verbatim against original March 28, 2007 wire copy. Alan Wurtzel conclusion is paraphrase, not direct quote.
+
+---
+
+In March 2007, Circuit City's corporate headquarters in Richmond, Virginia sent a message to district managers across the United States. Three thousand four hundred employees, the company's highest-paid hourly workers, were being terminated effective immediately. Not because they underperformed. Not because their stores were closing. Because they cost too much per hour. The company publicly confirmed that these same workers could reapply for their positions after a ten-week waiting period, at a lower wage. That detail, reported by the Associated Press on March 28, tells you almost everything about how Circuit City's management understood its competitive position.
+
+This story gets told as a simple parable: a company fires its best people, goes bankrupt a year later, gets what it deserves. That framing is satisfying and incomplete. The firing was not the mistake. The firing was the final move of a management team that had spent six years stripping the company of every advantage it had built over five decades. To understand why Circuit City lost, you have to go back to when it was winning.
+
+Samuel Wurtzel opened the first store in Richmond in 1949. He had no background in electronics. His previous business was fur. What he understood was retail math: high-traffic location, trained salespeople, defensible margin. By the 1980s, Circuit City had invented the consumer electronics superstore format, a model Best Buy would later adopt and improve upon. The core differentiation was expertise. The salespeople knew the products. Customers paid a modest premium to buy from someone who could explain what they were actually purchasing. That premium was the moat.
+
+Then the company started filling the moat.
+
+In 1997, Circuit City co-developed a proprietary disc format called DIVX. Not the open-source video codec of the same name: a separate product, a pay-per-view DVD variant requiring a special disc and a special player. Stores carried it, the company marketed it nationally, and then Circuit City abandoned the project in June 1999. The write-off was approximately $114 million. That was capital the company could not redeploy into price competition or store renovation at exactly the moment Best Buy was accelerating its expansion across the country. The DIVX episode is almost never mentioned in Circuit City postmortems. It should be mentioned first.
+
+The next decision was more consequential. Around 2000, Circuit City exited the major appliances business entirely: refrigerators, washers, dryers, all gone. Management framed it as simplification. What it removed was the segment that generated consistent, service-contract-anchored revenue regardless of consumer electronics cycles. Without appliances, Circuit City competed in a pure electronics lane where Best Buy held scale advantages and Walmart was encroaching from the low end. The stable revenue floor disappeared.
+
+By 2006, Philip Schoonover had been named CEO with a mandate to close the profitability gap. The gap was real. The method his team chose was to reclassify Circuit City's most experienced hourly workforce as a cost problem rather than a revenue asset.
+
+The board approved the plan.
+
+Across the store network, Circuit City had a cohort of hourly workers who knew how to walk a customer through a 50-inch television purchase, explain the difference between 720p and 1080p, and close a service contract on the same visit. These workers were paid between $0.50 and $1.51 above the company's internal wage ceiling. They were above average because they performed above average. In a retail business with no pricing power and no appliance margin to absorb competitive pressure, that expertise was the only thing keeping customers from driving to Best Buy or ordering online.
+
+In spring 2007, with HDTV adoption accelerating and a once-in-a-decade upsell window opening for any retailer capable of explaining the technology to a confused consumer, Circuit City removed the people capable of explaining it.
+
+===PART_BREAK===
+
+The press release used careful language. Circuit City said it was "eliminating positions held by associates who are compensated above the market-based salary range for their role." By the end of that week, every wire service had also reported that the company had confirmed those terminated employees could reapply for the same positions at lower wages after ten weeks. That confirmation was not leaked by a disgruntled manager. Circuit City volunteered it publicly.
+
+The customer experience degraded through 2007. This is not anecdotal. Trade publications covering the electronics retail sector catalogued increasing consumer complaints about Circuit City service in the months following the layoffs. The company had replaced thousands of trained salespeople with new hires who cost less and knew less about the product the market was actively buying. Flat-panel television was the defining consumer electronics purchase of 2007 and 2008. Circuit City had removed the staff trained to sell it in the quarter before adoption peaked.
+
+The quarterly filings show the trajectory. Revenue continued to decline through 2007 and into 2008. The cost reductions did not produce the profitability improvement Schoonover's team had projected. Operating conditions continued to deteriorate. Schoonover resigned in September 2008.
+
+On November 10, 2008, Circuit City Stores Inc. filed for Chapter 11 bankruptcy protection in the United States Bankruptcy Court for the Eastern District of Virginia, Richmond Division, under Case Number 08-35653. The filing listed billions in liabilities. Management stated publicly that they intended to restructure and emerge as a smaller chain.
+
+No acquirer came forward willing to take the business as a going concern. Best Buy, which had the most to gain from acquiring Circuit City's lease portfolio and remaining customer relationships, evaluated the assets and passed. Other potential buyers conducted similar reviews and reached similar conclusions. The company could not find a credible operator willing to bet on the brand, the locations, or what remained of the workforce.
+
+By March 2009, Circuit City began liquidating all of its approximately 560 remaining stores. The chain that had invented the consumer electronics superstore format, that had operated for sixty years, that had founded what became CarMax before spinning it out in 2002, closed permanently. Best Buy absorbed some of the strongest remaining locations.
+
+W. Alan Wurtzel, the founder's son who had led the company through its growth decades, published "Good to Great to Gone" in 2012. His conclusion, drawn from internal documents and board records, was that Circuit City's failure followed a consistent pattern: each individual decision was made to look defensible on a spreadsheet, and each individual decision made the next crisis more likely. The DIVX write-off weakened the balance sheet. The appliance exit removed the margin buffer. The 2007 layoffs destroyed the service differentiation. None of these decisions was irrational in isolation. Taken together, they were a systematic dismantling of everything that justified Circuit City's right to exist as a premium-priced alternative to a discount competitor.
+
+Circuit City did not lose a technology war. It was not outspent by a better-funded rival. Its management team voted, board meeting by board meeting, to remove the things that made the company worth choosing. The retailers that survive disruption are the ones that protect what makes them hard to replace. Circuit City decided that advantage was a cost center, and it was right about one thing: the advantage had a cost. It just had the math backwards.
+
+There are more case studies like this one queued. If that is your taste, subscribe to Disclosed. We ship three a week.
+
+---
+PART 1 word count (estimated): ~655 words
+PART 2 word count (estimated): ~615 words
+TOTAL (estimated): ~1,270 words | at 133 wpm = ~9:33 stitched

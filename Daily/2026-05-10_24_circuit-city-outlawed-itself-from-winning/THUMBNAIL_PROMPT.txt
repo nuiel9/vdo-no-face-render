@@ -1,0 +1,27 @@
+THUMBNAIL BRIEF: Circuit City Fired Its Best Workers and Called It a Strategy
+Row #24 | Rise and Fall | Disclosed channel
+
+---
+
+SELECTED CONCEPT: Corporate termination notice over a closing store
+
+Visual structure: Split composition. Left two-thirds: a Circuit City store exterior at dusk, closing sale banners across the windows, parking lot empty, late winter light. Right third: a bold typographic block in Circuit City red (#CC0000) on white showing "3,400 FIRED" stacked in two lines. The text sits in the corner as a data callout rather than floating over the image.
+
+No real persons in the thumbnail. No faces. No silhouettes.
+
+Color palette:
+- Circuit City red: #CC0000 (brand-accurate, recognizable without the logo)
+- Off-white: #F5F5F0 (text callout background)
+- Dark gray sky: #2A2D35 (behind the store facade)
+
+Typography: Bold condensed sans-serif (Impact or Bebas Neue weight). "3,400" in large numeral. "FIRED" below it, same size. No em dashes in text overlays. No punctuation beyond the numeral.
+
+Mobile legibility check (320px): The number 3,400 must be readable at thumbnail size. Minimum 80pt equivalent at final render resolution. The store exterior carries the visual story; the number carries the hook.
+
+Text overlay on image (max 4 words): "3,400 FIRED" in the typographic block. Channel name "Disclosed" in small white text at bottom-right corner above the YouTube watermark zone.
+
+Emotional register: Corporate cold. The store facade communicates institutional failure. The red numeral communicates a specific, unjust act. The viewer should feel the irony before reading the title.
+
+Designer note: Do NOT use a stock photo of a person in a blue retail vest. The human-interest angle is implied by the number, not shown as a face. This keeps the thumbnail policy-safe and faceless-channel compliant.
+
+Alternative: If store exterior with signage is not available at rights-clear quality, substitute a close-up of a printed termination letter on a desk, the "3,400" callout overlaid bottom-right, same color palette.
