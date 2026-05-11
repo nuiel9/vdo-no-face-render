@@ -1,0 +1,241 @@
+{
+  "text": "By the back half of 2018, the consumer story and the investor story were both visibly broken. MoviePass introduced surge pricing. It introduced blackout periods on new releases. It rotated the list of titles eligible for redemption. Each restriction was announced, walked back, then reintroduced. The original promise, any cinema any movie one ticket a day, no longer held in practice. Subscribers churned. Helios and Matheson Analytics did multiple reverse stock splits during this period to maintain its Nasdaq listing minimum.\n\nBy September 2019 the service stopped operating. The parent company entered Chapter Seven bankruptcy in January 2020. The trade press treated this as the obvious endpoint of an obviously broken model.\n\nThe legal story arrived later. In November 2022 the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of New York announced parallel civil and criminal cases against Mitch Lowe and Ted Farnsworth. The complaints allege a coordinated effort to make materially misleading statements to investors about the MoviePass business while Helios and Matheson Analytics was raising hundreds of millions of dollars in capital. The specific allegations target statements about subscriber economics, statements about the company's cash position, and statements about anticipated revenue streams that had no operational basis.\n\nThis is the part of the MoviePass story most viewers do not have. The subscribers who paid nine ninety-five a month got cheap movies. Most of them got their money's worth before the service collapsed. The investors who bought Helios and Matheson Analytics stock during the same window did not. The retail cohort holding the dilution and the reverse splits is the population the federal cases describe as defrauded.\n\nStacy Spikes, the original founder, repurchased the MoviePass brand out of the bankruptcy estate in 2022 and relaunched the product under a different operating entity. The relaunched MoviePass is a different company from the one Lowe and Farnsworth ran. The brand survived. The investors who funded its first explosion did not recover their capital.\n\nThe lesson of MoviePass is not that subscription pricing is hard. Plenty of subscription businesses with worse unit economics have raised capital and survived. The lesson is that the customer-facing story and the investor-facing story have to match, and the federal securities laws exist for the gap between them. When a business plan requires lying to the people funding it, the regulator eventually arrives. The only question is how much capital has been raised before they do.\n\nThere are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "MoviePass Did Not Defraud Subscribers. It Defrauded Investors. (Part 2)",
+    "description": "Part 2 of a 2-part case study on the MoviePass collapse and the federal securities cases against its executives.",
+    "source_text": "By the back half of 2018, the consumer story and the investor story were both visibly broken. MoviePass introduced surge pricing. It introduced blackout periods on new releases. It rotated the list of titles eligible for redemption. Each restriction was announced, walked back, then reintroduced. The original promise, any cinema any movie one ticket a day, no longer held in practice. Subscribers churned. Helios and Matheson Analytics did multiple reverse stock splits during this period to maintain its Nasdaq listing minimum.\n\nBy September 2019 the service stopped operating. The parent company entered Chapter Seven bankruptcy in January 2020. The trade press treated this as the obvious endpoint of an obviously broken model.\n\nThe legal story arrived later. In November 2022 the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of New York announced parallel civil and criminal cases against Mitch Lowe and Ted Farnsworth. The complaints allege a coordinated effort to make materially misleading statements to investors about the MoviePass business while Helios and Matheson Analytics was raising hundreds of millions of dollars in capital. The specific allegations target statements about subscriber economics, statements about the company's cash position, and statements about anticipated revenue streams that had no operational basis.\n\nThis is the part of the MoviePass story most viewers do not have. The subscribers who paid nine ninety-five a month got cheap movies. Most of them got their money's worth before the service collapsed. The investors who bought Helios and Matheson Analytics stock during the same window did not. The retail cohort holding the dilution and the reverse splits is the population the federal cases describe as defrauded.\n\nStacy Spikes, the original founder, repurchased the MoviePass brand out of the bankruptcy estate in 2022 and relaunched the product under a different operating entity. The relaunched MoviePass is a different company from the one Lowe and Farnsworth ran. The brand survived. The investors who funded its first explosion did not recover their capital.\n\nThe lesson of MoviePass is not that subscription pricing is hard. Plenty of subscription businesses with worse unit economics have raised capital and survived. The lesson is that the customer-facing story and the investor-facing story have to match, and the federal securities laws exist for the gap between them. When a business plan requires lying to the people funding it, the regulator eventually arrives. The only question is how much capital has been raised before they do.\n\nThere are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 9,
+        "title": "Restrictions, Blackouts, Surge Pricing",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "H2 2018",
+          "Surge pricing",
+          "Blackout periods",
+          "Title rotation"
+        ],
+        "narration": {
+          "text": "By the back half of 2018, the consumer story and the investor story were both visibly broken. MoviePass introduced surge pricing. It introduced blackout periods on new releases. It rotated the list of titles eligible for redemption. Each restriction was announced, walked back, then reintroduced. The original promise, any cinema any movie one ticket a day, no longer held in practice.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A theater lobby ticket-pricing board with multiple paper notices taped over each other, prices crossed out and rewritten, words 'BLACKOUT', 'SURGE', and 'UNAVAILABLE' visible across different layers, fluorescent lobby lighting, slightly disorganized, editorial illustration style. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 10,
+        "title": "Cash Burn Becomes Public",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "HMNY: multiple reverse splits",
+          "Nasdaq listing minimum"
+        ],
+        "narration": {
+          "text": "Subscribers churned. Helios and Matheson Analytics did multiple reverse stock splits during this period to maintain its Nasdaq listing minimum.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A financial terminal display in a darkened trading desk, the HMNY ticker price visible as a steep declining red line on a candlestick chart, the Nasdaq logo glowing softly in the background, deep navy and red color palette, cinematic finance aesthetic. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 11,
+        "title": "September 2019: The Shutdown",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "September 2019",
+          "Service stopped operating"
+        ],
+        "narration": {
+          "text": "By September 2019 the service stopped operating.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "An empty late-night cinema lobby with the ticket counter window closed, a single paper notice taped to the glass reading 'Service Unavailable', overhead fluorescent lights dimmed, abandoned popcorn machine in the background, melancholic editorial illustration. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 12,
+        "title": "January 2020: Chapter 7",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "January 2020",
+          "Chapter 7 bankruptcy",
+          "Helios and Matheson Analytics"
+        ],
+        "narration": {
+          "text": "The parent company entered Chapter Seven bankruptcy in January 2020. The trade press treated this as the obvious endpoint of an obviously broken model.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A close-up of an official-looking U.S. Bankruptcy Court filing cover page on a wooden bench, the visible header text reading 'Chapter 7' in bold serif, a brass court stamp partially visible, formal archival lighting, single frame composition, editorial seriousness. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 13,
+        "title": "November 2022: The Indictments",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "November 2022",
+          "SEC + SDNY",
+          "U.S. v. Lowe and Farnsworth"
+        ],
+        "narration": {
+          "text": "The legal story arrived later. In November 2022 the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of New York announced parallel civil and criminal cases against Mitch Lowe and Ted Farnsworth.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "The neoclassical exterior of the Daniel Patrick Moynihan United States Courthouse in Lower Manhattan at dusk, soft golden hour light on the stone facade, an American flag visible above the entrance, formal civic architecture, editorial photojournalism composition. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 14,
+        "title": "What the Complaints Actually Allege",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Subscriber economics",
+          "Cash position",
+          "Anticipated revenue"
+        ],
+        "narration": {
+          "text": "The complaints allege a coordinated effort to make materially misleading statements to investors about the MoviePass business while Helios and Matheson Analytics was raising hundreds of millions of dollars in capital. The specific allegations target statements about subscriber economics, statements about the company's cash position, and statements about anticipated revenue streams that had no operational basis.\n\nThis is the part of the MoviePass story most viewers do not have. The subscribers who paid nine ninety-five a month got cheap movies. Most of them got their money's worth before the service collapsed. The investors who bought Helios and Matheson Analytics stock during the same window did not. The retail cohort holding the dilution and the reverse splits is the population the federal cases describe as defrauded.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Three vertically stacked sheets of a legal complaint document on a polished walnut desk, each sheet showing partially redacted text with the bullet phrases 'subscriber economics', 'cash position', and 'anticipated revenue' visible across the three pages, a brass paperweight holding them in place, single light source. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 15,
+        "title": "Spikes Returns",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "2022: brand bought out of bankruptcy",
+          "Different operating entity",
+          "Different company"
+        ],
+        "narration": {
+          "text": "Stacy Spikes, the original founder, repurchased the MoviePass brand out of the bankruptcy estate in 2022 and relaunched the product under a different operating entity. The relaunched MoviePass is a different company from the one Lowe and Farnsworth ran. The brand survived. The investors who funded its first explosion did not recover their capital.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A modern minimalist tech-startup lobby with a fresh wall-mounted MoviePass logo in clean black on white, the original brand mark restored, a single potted plant by a glass door, soft morning light, an aesthetic of careful relaunch and second act, editorial illustration. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 16,
+        "title": "Lessons + Subscribe CTA",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "The customer story and the investor story have to match",
+          "Subscribe to Disclosed"
+        ],
+        "narration": {
+          "text": "The lesson of MoviePass is not that subscription pricing is hard. Plenty of subscription businesses with worse unit economics have raised capital and survived. The lesson is that the customer-facing story and the investor-facing story have to match, and the federal securities laws exist for the gap between them. When a business plan requires lying to the people funding it, the regulator eventually arrives. The only question is how much capital has been raised before they do.\n\nThere are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A close-up split-frame illustration with one half showing a glowing movie marquee with cheerful neon letters and the other half showing a stark Securities and Exchange Commission document, the two images joined by a clean vertical hairline, editorial duotone aesthetic, soft golden-hour light bleeding across the divide, single frame composition. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

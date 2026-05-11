@@ -1,0 +1,44 @@
+SCRIPT: MoviePass Did Not Defraud Subscribers. It Defrauded Investors.
+Row #17 | Hidden Truth | Voice: Algieba | Target: 9-10 min | v4.6.3
+
+Word target: 600-700 per part | ~1,250 total at Algieba 133 wpm = ~9:24 stitched
+FACT-CHECK FLAG: All specific dates, dollar figures, and case numbers in this script are recall-based. Verify each against SEC litigation releases, SDNY PACER docket, and Helios and Matheson Analytics EDGAR filings before render. The 2022 indictment date, the precise charge counts, and any plea or trial outcomes are 2024-or-later events and should be treated as high-risk for fabrication. The human fact-checks during REVIEW pass.
+
+---
+
+In August 2017, a small public company called Helios and Matheson Analytics announced it had taken a majority stake in MoviePass and was relaunching the subscription product at a new price. Nine dollars and ninety-five cents a month, unlimited movies. One ticket per day, any cinema, no theater partnerships required. Within months the subscriber base grew from roughly twenty thousand to over one million. By summer 2018 it crossed three million. The financial press treated the story as a question about unit economics. Theaters were charging MoviePass close to the full retail ticket price. Subscribers were redeeming nearly every day. The math did not work, and analysts said so on the day of the launch.
+
+This story gets told as a parable about a business model that was obviously broken. That framing is satisfying and incomplete. The price was the bait. The fraud was somewhere else.
+
+MoviePass was founded in 2011 by Stacy Spikes and Hamet Watt. The version of the company Spikes ran experimented with multiple price points and partnership models. None of them produced runaway growth, and none of them produced the kind of headlines that would move a public company stock. When Helios and Matheson Analytics took majority control in 2017, Spikes was no longer running the business. The new operator was Mitch Lowe, a veteran of Netflix and Redbox, with two prior consumer-subscription operator credits on his resume. The new chairman of the parent company was Ted Farnsworth.
+
+The nine ninety-five plan launched on August fifteenth of that year. It was not designed to break even on subscriber revenue alone. The internal logic, as later described in federal filings, was that subscriber count itself was the asset. Three million paying users could be monetized through advertising, data, studio partnerships, and a planned expansion into film distribution. The cash burn was a marketing budget. The lifetime value would come from everything else.
+
+That theory required two things to be true. It required the company to be honest with investors about the burn while it raised the capital to fund it. And it required the rate of customer growth to outpace the rate at which the cash on hand was being consumed. Neither held.
+
+Helios and Matheson Analytics raised capital repeatedly through 2017 and 2018. Each raise required filings with the Securities and Exchange Commission describing the business, the subscriber economics, and the cash position. The federal cases that arrived in late 2022 turn on the gap between what those filings said and what the company's internal records showed at the time. The Securities and Exchange Commission alleges that statements made about subscriber growth rates, about cost-control measures, and about expected paths to profitability were not consistent with what executives knew internally.
+
+A subscriber paying nine ninety-five a month and going to four movies generated roughly forty-six dollars in cost against ten dollars in revenue. The internal projections used to support the public filings assumed lower redemption rates and lower per-ticket costs than the company was actually running. The investor narrative and the operating reality diverged.
+
+In July 2018, MoviePass briefly lost access to its movie ticket processor. Subscribers could not redeem. The company secured an emergency loan, the service came back, and the stock collapsed.
+
+===PART_BREAK===
+
+By the back half of 2018, the consumer story and the investor story were both visibly broken. MoviePass introduced surge pricing. It introduced blackout periods on new releases. It rotated the list of titles eligible for redemption. Each restriction was announced, walked back, then reintroduced. The original promise, any cinema any movie one ticket a day, no longer held in practice. Subscribers churned. Helios and Matheson Analytics did multiple reverse stock splits during this period to maintain its Nasdaq listing minimum.
+
+By September 2019 the service stopped operating. The parent company entered Chapter Seven bankruptcy in January 2020. The trade press treated this as the obvious endpoint of an obviously broken model.
+
+The legal story arrived later. In November 2022 the Securities and Exchange Commission and the U.S. Attorney's Office for the Southern District of New York announced parallel civil and criminal cases against Mitch Lowe and Ted Farnsworth. The complaints allege a coordinated effort to make materially misleading statements to investors about the MoviePass business while Helios and Matheson Analytics was raising hundreds of millions of dollars in capital. The specific allegations target statements about subscriber economics, statements about the company's cash position, and statements about anticipated revenue streams that had no operational basis.
+
+This is the part of the MoviePass story most viewers do not have. The subscribers who paid nine ninety-five a month got cheap movies. Most of them got their money's worth before the service collapsed. The investors who bought Helios and Matheson Analytics stock during the same window did not. The retail cohort holding the dilution and the reverse splits is the population the federal cases describe as defrauded.
+
+Stacy Spikes, the original founder, repurchased the MoviePass brand out of the bankruptcy estate in 2022 and relaunched the product under a different operating entity. The relaunched MoviePass is a different company from the one Lowe and Farnsworth ran. The brand survived. The investors who funded its first explosion did not recover their capital.
+
+The lesson of MoviePass is not that subscription pricing is hard. Plenty of subscription businesses with worse unit economics have raised capital and survived. The lesson is that the customer-facing story and the investor-facing story have to match, and the federal securities laws exist for the gap between them. When a business plan requires lying to the people funding it, the regulator eventually arrives. The only question is how much capital has been raised before they do.
+
+There are more case studies like this one in the queue. If that is your taste, subscribe to Disclosed. We ship three a week.
+
+---
+PART 1 word count (estimated): ~625 words
+PART 2 word count (estimated): ~625 words
+TOTAL (estimated): ~1,250 words | at 133 wpm = ~9:24 stitched

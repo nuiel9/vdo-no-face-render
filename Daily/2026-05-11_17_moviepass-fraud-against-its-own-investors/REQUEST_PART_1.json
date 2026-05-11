@@ -1,0 +1,241 @@
+{
+  "text": "In August 2017, a small public company called Helios and Matheson Analytics announced it had taken a majority stake in MoviePass and was relaunching the subscription product at a new price. Nine dollars and ninety-five cents a month, unlimited movies. One ticket per day, any cinema, no theater partnerships required. Within months the subscriber base grew from roughly twenty thousand to over one million. By summer 2018 it crossed three million. The financial press treated the story as a question about unit economics. Theaters were charging MoviePass close to the full retail ticket price. Subscribers were redeeming nearly every day. The math did not work, and analysts said so on the day of the launch.\n\nThis story gets told as a parable about a business model that was obviously broken. That framing is satisfying and incomplete. The price was the bait. The fraud was somewhere else.\n\nMoviePass was founded in 2011 by Stacy Spikes and Hamet Watt. The version of the company Spikes ran experimented with multiple price points and partnership models. None of them produced runaway growth, and none of them produced the kind of headlines that would move a public company stock. When Helios and Matheson Analytics took majority control in 2017, Spikes was no longer running the business. The new operator was Mitch Lowe, a veteran of Netflix and Redbox, with two prior consumer-subscription operator credits on his resume. The new chairman of the parent company was Ted Farnsworth.\n\nThe nine ninety-five plan launched on August fifteenth of that year. It was not designed to break even on subscriber revenue alone. The internal logic, as later described in federal filings, was that subscriber count itself was the asset. Three million paying users could be monetized through advertising, data, studio partnerships, and a planned expansion into film distribution. The cash burn was a marketing budget. The lifetime value would come from everything else.\n\nThat theory required two things to be true. It required the company to be honest with investors about the burn while it raised the capital to fund it. And it required the rate of customer growth to outpace the rate at which the cash on hand was being consumed. Neither held.\n\nHelios and Matheson Analytics raised capital repeatedly through 2017 and 2018. Each raise required filings with the Securities and Exchange Commission describing the business, the subscriber economics, and the cash position. The federal cases that arrived in late 2022 turn on the gap between what those filings said and what the company's internal records showed at the time. The Securities and Exchange Commission alleges that statements made about subscriber growth rates, about cost-control measures, and about expected paths to profitability were not consistent with what executives knew internally.\n\nA subscriber paying nine ninety-five a month and going to four movies generated roughly forty-six dollars in cost against ten dollars in revenue. The internal projections used to support the public filings assumed lower redemption rates and lower per-ticket costs than the company was actually running. The investor narrative and the operating reality diverged.\n\nIn July 2018, MoviePass briefly lost access to its movie ticket processor. Subscribers could not redeem. The company secured an emergency loan, the service came back, and the stock collapsed.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "edited_script": {
+    "title": "MoviePass Did Not Defraud Subscribers. It Defrauded Investors. (Part 1)",
+    "description": "Part 1 of a 2-part case study on the MoviePass collapse and the federal securities cases against its executives.",
+    "source_text": "In August 2017, a small public company called Helios and Matheson Analytics announced it had taken a majority stake in MoviePass and was relaunching the subscription product at a new price. Nine dollars and ninety-five cents a month, unlimited movies. One ticket per day, any cinema, no theater partnerships required. Within months the subscriber base grew from roughly twenty thousand to over one million. By summer 2018 it crossed three million. The financial press treated the story as a question about unit economics. Theaters were charging MoviePass close to the full retail ticket price. Subscribers were redeeming nearly every day. The math did not work, and analysts said so on the day of the launch.\n\nThis story gets told as a parable about a business model that was obviously broken. That framing is satisfying and incomplete. The price was the bait. The fraud was somewhere else.\n\nMoviePass was founded in 2011 by Stacy Spikes and Hamet Watt. The version of the company Spikes ran experimented with multiple price points and partnership models. None of them produced runaway growth, and none of them produced the kind of headlines that would move a public company stock. When Helios and Matheson Analytics took majority control in 2017, Spikes was no longer running the business. The new operator was Mitch Lowe, a veteran of Netflix and Redbox, with two prior consumer-subscription operator credits on his resume. The new chairman of the parent company was Ted Farnsworth.\n\nThe nine ninety-five plan launched on August fifteenth of that year. It was not designed to break even on subscriber revenue alone. The internal logic, as later described in federal filings, was that subscriber count itself was the asset. Three million paying users could be monetized through advertising, data, studio partnerships, and a planned expansion into film distribution. The cash burn was a marketing budget. The lifetime value would come from everything else.\n\nThat theory required two things to be true. It required the company to be honest with investors about the burn while it raised the capital to fund it. And it required the rate of customer growth to outpace the rate at which the cash on hand was being consumed. Neither held.\n\nHelios and Matheson Analytics raised capital repeatedly through 2017 and 2018. Each raise required filings with the Securities and Exchange Commission describing the business, the subscriber economics, and the cash position. The federal cases that arrived in late 2022 turn on the gap between what those filings said and what the company's internal records showed at the time. The Securities and Exchange Commission alleges that statements made about subscriber growth rates, about cost-control measures, and about expected paths to profitability were not consistent with what executives knew internally.\n\nA subscriber paying nine ninety-five a month and going to four movies generated roughly forty-six dollars in cost against ten dollars in revenue. The internal projections used to support the public filings assumed lower redemption rates and lower per-ticket costs than the company was actually running. The investor narrative and the operating reality diverged.\n\nIn July 2018, MoviePass briefly lost access to its movie ticket processor. Subscribers could not redeem. The company secured an emergency loan, the service came back, and the stock collapsed.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: The August 2017 Headline",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Aug 2017",
+          "$9.95 / month",
+          "Unlimited movies"
+        ],
+        "narration": {
+          "text": "In August 2017, a small public company called Helios and Matheson Analytics announced it had taken a majority stake in MoviePass and was relaunching the subscription product at a new price. Nine dollars and ninety-five cents a month, unlimited movies. One ticket per day, any cinema, no theater partnerships required. Within months the subscriber base grew from roughly twenty thousand to over one million. By summer 2018 it crossed three million. The financial press treated the story as a question about unit economics. Theaters were charging MoviePass close to the full retail ticket price. Subscribers were redeeming nearly every day. The math did not work, and analysts said so on the day of the launch.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A vintage paper movie ticket stub on a dark wooden table, with bold price text '$9.95 / month' stamped across it in red ink, a small spotlight illuminating it from above, cinematic noir lighting, shallow depth of field, single frame composition. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "The Reframe and the Spikes Era",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Founded 2011",
+          "Stacy Spikes + Hamet Watt"
+        ],
+        "narration": {
+          "text": "This story gets told as a parable about a business model that was obviously broken. That framing is satisfying and incomplete. The price was the bait. The fraud was somewhere else.\n\nMoviePass was founded in 2011 by Stacy Spikes and Hamet Watt. The version of the company Spikes ran experimented with multiple price points and partnership models. None of them produced runaway growth, and none of them produced the kind of headlines that would move a public company stock.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "An abstract illustration of a small early-2010s startup workspace, exposed brick wall, two empty wooden desks with closed laptops, a whiteboard in the background covered in pricing-tier diagrams and crossed-out experiment notes, soft morning light through industrial windows, muted color palette. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "HMNY Takes Control",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Helios + Matheson Analytics",
+          "HMNY",
+          "Majority stake 2017"
+        ],
+        "narration": {
+          "text": "When Helios and Matheson Analytics took majority control in 2017, Spikes was no longer running the business. The new operator was Mitch Lowe, a veteran of Netflix and Redbox, with two prior consumer-subscription operator credits on his resume. The new chairman of the parent company was Ted Farnsworth.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A formal corporate document on a glass conference table, the document header reading 'Acquisition Agreement, Helios and Matheson Analytics, Inc.', a fountain pen lying beside it, framed by the soft glow of a Bloomberg-style screen in the blurred background showing the ticker HMNY rising, modern office setting, no figures present. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "The $9.95 Plan and Its Logic",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Aug 15, 2017",
+          "Subscriber count = the asset"
+        ],
+        "narration": {
+          "text": "The nine ninety-five plan launched on August fifteenth of that year. It was not designed to break even on subscriber revenue alone. The internal logic, as later described in federal filings, was that subscriber count itself was the asset. Three million paying users could be monetized through advertising, data, studio partnerships, and a planned expansion into film distribution. The cash burn was a marketing budget. The lifetime value would come from everything else.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A retro neon cinema marquee at night with the text 'UNLIMITED MOVIES $9.95' glowing brightly, light rain on wet pavement reflecting the sign, mid-2010s downtown street, deep saturated blues and reds, dramatic low-angle cinematic shot, empty street. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "Two Conditions, Neither Held",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Condition 1: honesty with investors",
+          "Condition 2: growth > burn",
+          "Neither held"
+        ],
+        "narration": {
+          "text": "That theory required two things to be true. It required the company to be honest with investors about the burn while it raised the capital to fund it. And it required the rate of customer growth to outpace the rate at which the cash on hand was being consumed. Neither held.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A split-screen abstract financial illustration, the left side showing a rising orange line chart labeled 'Subscriber Growth', the right side showing a falling red line chart labeled 'Cash Reserves', both rendered on a clean white grid background with thin black axis lines, minimalist editorial business graphic. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "What HMNY Told Investors",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "2017-2018 capital raises",
+          "SEC filings",
+          "Late 2022: federal cases"
+        ],
+        "narration": {
+          "text": "Helios and Matheson Analytics raised capital repeatedly through 2017 and 2018. Each raise required filings with the Securities and Exchange Commission describing the business, the subscriber economics, and the cash position. The federal cases that arrived in late 2022 turn on the gap between what those filings said and what the company's internal records showed at the time. The Securities and Exchange Commission alleges that statements made about subscriber growth rates, about cost-control measures, and about expected paths to profitability were not consistent with what executives knew internally.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "An overhead view of an open SEC filing document on a polished wooden desk, the visible page showing tabular financial disclosures with line items partially highlighted in yellow marker, a brass desk lamp casting a warm pool of light, the rest of the desk in shadow, archival serious editorial tone. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "The Math Diverged",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$46 cost",
+          "$10 revenue",
+          "Per subscriber, per month"
+        ],
+        "narration": {
+          "text": "A subscriber paying nine ninety-five a month and going to four movies generated roughly forty-six dollars in cost against ten dollars in revenue. The internal projections used to support the public filings assumed lower redemption rates and lower per-ticket costs than the company was actually running. The investor narrative and the operating reality diverged.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A close-up of a vintage adding machine printing out a long curling paper tape with the numbers 46 and 10 visible side by side, the tape lit from above by a single hanging incandescent bulb, deep shadows, accountant-noir aesthetic, no figures, single frame composition. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "July 2018: The First Crack",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "July 2018",
+          "Processor outage",
+          "Emergency loan"
+        ],
+        "narration": {
+          "text": "In July 2018, MoviePass briefly lost access to its movie ticket processor. Subscribers could not redeem. The company secured an emergency loan, the service came back, and the stock collapsed.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "A point-of-sale terminal screen at a movie theater concession counter showing a red 'TRANSACTION DECLINED' error message in stark white sans-serif type, the screen glowing in an otherwise dark counter area, popcorn bag blurred in the foreground, single frame, cold blue tone. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

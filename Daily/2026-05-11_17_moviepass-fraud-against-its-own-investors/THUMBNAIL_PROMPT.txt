@@ -1,0 +1,21 @@
+THUMBNAIL: MoviePass Did Not Defraud Subscribers. It Defrauded Investors.
+
+Designer brief, English, 1280x720 (16:9), high CTR target.
+
+Composition:
+- Left half (about 55% of frame): a glowing retro cinema marquee at dusk with the text "$9.95 / month UNLIMITED" in bold yellow neon letters against a deep magenta sky. Slight rain-slicked sidewalk reflection underneath. Warm, inviting, consumer-facing tone.
+- Right half (about 45% of frame): the stark grey-blue facade of a U.S. federal courthouse, neoclassical columns visible, a small American flag detail above the entrance, cool overcast lighting. Use a silhouette of the building, not a photograph; render in editorial illustration style.
+- Hairline vertical divider between the two halves: a thin clean white line, slight grain texture, suggests a "before and after" / "consumer side and legal side" contrast.
+
+Text overlay (no narration spoken, on-canvas only):
+- Top-left corner small badge: "DISCLOSED" in clean sans-serif white type
+- Center-bottom of the right half, in bold red 80-pt Impact-style condensed sans-serif: the single word "FRAUD" stamped slightly off-angle as if applied with a rubber stamp
+- A small white sans-serif tag in the bottom-right corner reading "SEC + SDNY 2022"
+
+Color palette: dusk magenta and warm yellow on the left; cool grey-blue and slate on the right; one accent of stamp-red on "FRAUD". Avoid pure black or white backgrounds.
+
+Style: editorial split-screen, single frame, no people, no human silhouettes. Use the courthouse silhouette and the marquee as the visual subjects. Cinematic depth.
+
+Mobile preview safety: the words "$9.95" on the left and "FRAUD" on the right should both be readable at 360-pixel-wide preview. Test the thumbnail at 360 pixel width before finalizing.
+
+Faceless compliance: no AI-generated likenesses of named real persons (Mitch Lowe, Ted Farnsworth, Stacy Spikes). The thumbnail communicates the story through institutional architecture and brand chrome only.
