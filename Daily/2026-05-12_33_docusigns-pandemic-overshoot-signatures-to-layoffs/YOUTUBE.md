@@ -33,6 +33,6 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 #DocuSign #SaaSEconomics #SubscriptionMath #BusinessCaseStudy #LayoffsExplained #TechIPO #ElliottManagement #PrivateEquity
 
-## Pinned-comment draft
+## Pinned Comment (draft)
 
 Editorial note: figures cited from 2024 (Elliott Management's reported $1B position, the Bain Capital and Hellman & Friedman exploration near $16B, the second layoff round percentage) come from contemporaneous Reuters and Wall Street Journal reporting and should be treated as approximate pending official disclosure. The structural retention math is the load-bearing claim of this analysis, not any single dollar figure. The same arithmetic appears in our Peloton analysis from earlier this week if you want the consumer-vertical version of this story: https://www.youtube.com/watch?v=-Up3dqFNnuI. SEC EDGAR direct link for the DocuSign 10-K filings is in the description.
