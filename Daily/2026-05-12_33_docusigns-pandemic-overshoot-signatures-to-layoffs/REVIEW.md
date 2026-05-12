@@ -33,7 +33,7 @@ DocuSign confused pandemic-era pull-forward demand with permanent secular shift.
 
 **Part 1 — Boom**
 1. The 2020 pull-forward — high
-2. 175M users, fiscal 2021 — high
+2. Customer base nearly doubles by Q4 FY2021 — high
 3. Springer hires through the spike — medium
 4. The stock at $310 — high
 5. Billings deceleration: the early signal — medium

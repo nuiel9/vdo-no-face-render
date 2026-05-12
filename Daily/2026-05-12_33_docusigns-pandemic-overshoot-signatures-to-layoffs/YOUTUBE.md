@@ -16,7 +16,7 @@ Disclosed is independent commentary and analysis. No affiliation with the compan
 
 00:00 The peak and the trough: $29 to $310 to $39
 01:15 The 10-K arc: $701M to $2.1B in three fiscal years
-02:30 175M users and the Agreement Cloud bet
+02:30 Customer base nearly doubles and the Agreement Cloud bet
 03:45 Billings deceleration: the early signal
 05:00 Springer out, Thygesen in (from Google Ads)
 06:30 The math under the layoffs: CAC paid up front
