@@ -1,0 +1,235 @@
+{
+  "text": "Thygesen's first full earnings call was in March 2023, reporting fourth quarter fiscal 2023. The same call announced a layoff of roughly 10% of the workforce. The company framed the reduction as an operating-efficiency measure. The 10-K filed alongside the call told a more specific story. DocuSign had grown total operating expenses by more than 40% between fiscal 2021 and fiscal 2022, hiring against a demand curve that was already, in retrospect, peaking. The remediation began too late.\n\nThe math behind the layoffs is the structural lesson of this story. In subscription businesses, customer acquisition cost is paid up front. A customer brought in during a demand spike costs roughly the same to acquire as a customer brought in during a normal period. The difference shows up in retention. Customers who arrived because remote-work policy forced them into a product retain at lower rates than customers who chose the product on its merits. The CAC payback math assumes a baseline retention curve. When that curve breaks for a specific cohort, the cost is already booked. The revenue never arrives.\n\nDocuSign was the largest publicly visible case of this dynamic in B2B SaaS. It was not the only one. The same pattern broke Peloton's subscription math. The Disclosed analysis of Peloton's churn, published earlier this week, describes the same fundamental dynamic in a consumer context. Different vertical, same arithmetic.\n\nThe 2024 sequence compounded the picture. In February 2024, DocuSign announced a second layoff round, reported at roughly 6% of staff. The phrasing in the filing was identical in structure to the 2023 round: a citation of operating discipline, a one-time charge for severance, a forward-looking commitment to efficiency. In spring 2024, the activist investor Elliott Management disclosed a position reported in the range of $1 billion and called for a strategic review. Elliott's playbook in software is well documented. Take a large position. Push for a sale process. Capture the premium. If the sale fails, push for board seats and operational changes that lift margin in the near term.\n\nBy March 2024, Reuters and the Wall Street Journal reported that Bain Capital and Hellman and Friedman were exploring a take-private transaction at a valuation near $16 billion. The talks collapsed over price. That valuation was a discount of more than 70% to DocuSign's 2021 peak market capitalization. The bidders walked anyway. The signal in that walk was that sophisticated capital, with full diligence access, could not underwrite the unit economics at that price. The public-market valuation continued to drift.\n\nThe 2025 state is a company that survived. DocuSign remains profitable on a non-GAAP basis. The cash position is healthy. The product is entrenched in enterprise workflows that do not unwind. Banks, real estate brokerages, and law firms have built procurement processes around it. The equity story has changed. Investors no longer model DocuSign as a hyper-growth platform. They model it as a mature B2B business with single-digit billings growth and a subscription base that requires active management of gross retention. The compensation philosophy has shifted from stock-based incentives tied to growth multiples to cash-and-equity packages weighted toward operational metrics.\n\nThe structural lesson is the lesson the pandemic delivered to every subscription business that grew through it. Net retention above 100% can mask gross retention deterioration. A platform with 110% net retention can be losing customers at 15% gross while expanding inside existing accounts. That math compounds over thirty-six months. By the time the layoff round is announced, the cohort damage is already booked. The financial calendar is the slowest measurement system in the company.\n\nIf that is the kind of analysis you want more of, subscribe to Disclosed. We ship three case studies a week.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "edited_script": {
+    "title": "DocuSign Part 2: The Reckoning",
+    "description": "From the March 2023 layoff through Elliott Management's spring 2024 activist position, the failed Bain + Hellman & Friedman take-private bid, and the structural retention-math lesson that links DocuSign to Peloton.",
+    "source_text": "Thygesen's first full earnings call was in March 2023, reporting fourth quarter fiscal 2023. The same call announced a layoff of roughly 10% of the workforce. The company framed the reduction as an operating-efficiency measure. The 10-K filed alongside the call told a more specific story. DocuSign had grown total operating expenses by more than 40% between fiscal 2021 and fiscal 2022, hiring against a demand curve that was already, in retrospect, peaking. The remediation began too late.\n\nThe math behind the layoffs is the structural lesson of this story. In subscription businesses, customer acquisition cost is paid up front. A customer brought in during a demand spike costs roughly the same to acquire as a customer brought in during a normal period. The difference shows up in retention. Customers who arrived because remote-work policy forced them into a product retain at lower rates than customers who chose the product on its merits. The CAC payback math assumes a baseline retention curve. When that curve breaks for a specific cohort, the cost is already booked. The revenue never arrives.\n\nDocuSign was the largest publicly visible case of this dynamic in B2B SaaS. It was not the only one. The same pattern broke Peloton's subscription math. The Disclosed analysis of Peloton's churn, published earlier this week, describes the same fundamental dynamic in a consumer context. Different vertical, same arithmetic.\n\nThe 2024 sequence compounded the picture. In February 2024, DocuSign announced a second layoff round, reported at roughly 6% of staff. The phrasing in the filing was identical in structure to the 2023 round: a citation of operating discipline, a one-time charge for severance, a forward-looking commitment to efficiency. In spring 2024, the activist investor Elliott Management disclosed a position reported in the range of $1 billion and called for a strategic review. Elliott's playbook in software is well documented. Take a large position. Push for a sale process. Capture the premium. If the sale fails, push for board seats and operational changes that lift margin in the near term.\n\nBy March 2024, Reuters and the Wall Street Journal reported that Bain Capital and Hellman and Friedman were exploring a take-private transaction at a valuation near $16 billion. The talks collapsed over price. That valuation was a discount of more than 70% to DocuSign's 2021 peak market capitalization. The bidders walked anyway. The signal in that walk was that sophisticated capital, with full diligence access, could not underwrite the unit economics at that price. The public-market valuation continued to drift.\n\nThe 2025 state is a company that survived. DocuSign remains profitable on a non-GAAP basis. The cash position is healthy. The product is entrenched in enterprise workflows that do not unwind. Banks, real estate brokerages, and law firms have built procurement processes around it. The equity story has changed. Investors no longer model DocuSign as a hyper-growth platform. They model it as a mature B2B business with single-digit billings growth and a subscription base that requires active management of gross retention. The compensation philosophy has shifted from stock-based incentives tied to growth multiples to cash-and-equity packages weighted toward operational metrics.\n\nThe structural lesson is the lesson the pandemic delivered to every subscription business that grew through it. Net retention above 100% can mask gross retention deterioration. A platform with 110% net retention can be losing customers at 15% gross while expanding inside existing accounts. That math compounds over thirty-six months. By the time the layoff round is announced, the cohort damage is already booked. The financial calendar is the slowest measurement system in the company.\n\nIf that is the kind of analysis you want more of, subscribe to Disclosed. We ship three case studies a week.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 9,
+        "title": "March 2023: 10% layoff, 40% opex growth",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "March 2023 \u00b7 Q4 FY2023 earnings call",
+          "10% layoff \u00b7 40%+ opex growth FY21 to FY22"
+        ],
+        "narration": {
+          "text": "Thygesen's first full earnings call was in March 2023, reporting fourth quarter fiscal 2023. The same call announced a layoff of roughly 10% of the workforce. The company framed the reduction as an operating-efficiency measure. The 10-K filed alongside the call told a more specific story. DocuSign had grown total operating expenses by more than 40% between fiscal 2021 and fiscal 2022, hiring against a demand curve that was already, in retrospect, peaking. The remediation began too late.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a Q4 fiscal 2023 earnings call presentation slide projected on a large screen in a dimly lit executive briefing room. The slide displays a stark workforce-reduction headline metric, 10% layoff, and a chart showing operating-expense growth of more than 40% across two fiscal years. The presentation deck has a clean corporate aesthetic, dark navy background with white and red highlight colors. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 10,
+        "title": "The CAC math under the layoffs",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "CAC paid up front",
+          "Retention determines outcome"
+        ],
+        "narration": {
+          "text": "The math behind the layoffs is the structural lesson of this story. In subscription businesses, customer acquisition cost is paid up front. A customer brought in during a demand spike costs roughly the same to acquire as a customer brought in during a normal period. The difference shows up in retention. Customers who arrived because remote-work policy forced them into a product retain at lower rates than customers who chose the product on its merits.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a financial analyst whiteboard at dusk, covered in handwritten unit-economics math: a CAC payback equation, two retention curves shown side by side with one decaying faster than the other, annotations marking the gap. A single overhead lamp casts a focused circle of light on the board. The rest of the room fades into shadow. Documentary-style aesthetic, sharp typography. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 11,
+        "title": "Peloton cross-reference: same arithmetic",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Different vertical, same arithmetic",
+          "See: Disclosed analysis of Peloton churn"
+        ],
+        "narration": {
+          "text": "The CAC payback math assumes a baseline retention curve. When that curve breaks for a specific cohort, the cost is already booked. The revenue never arrives. DocuSign was the largest publicly visible case of this dynamic in B2B SaaS. It was not the only one. The same pattern broke Peloton's subscription math. The Disclosed analysis of Peloton's churn, published earlier this week, describes the same fundamental dynamic in a consumer context. Different vertical, same arithmetic.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a split-screen comparison composition. Left half: a stylized B2B software dashboard with subscription metrics declining. Right half: a stylized consumer fitness equipment subscription chart also declining. Both halves share the same underlying retention-curve overlay drawn in red, emphasizing that the math is identical. Background a single unified dark gradient ties both sides together visually. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 12,
+        "title": "February 2024: the second layoff round",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "February 2024 \u00b7 ~6% layoff",
+          "Same filing structure as 2023"
+        ],
+        "narration": {
+          "text": "The 2024 sequence compounded the picture. In February 2024, DocuSign announced a second layoff round, reported at roughly 6% of staff. The phrasing in the filing was identical in structure to the 2023 round: a citation of operating discipline, a one-time charge for severance, a forward-looking commitment to efficiency.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an SEC Form 8-K filing page on a dark mahogany desk, the document open to a workforce-reduction disclosure with the 2024 date prominently visible. Adjacent on the desk is a folded 2023 filing showing nearly identical structural language, both highlighted in matching marker. A single desk lamp casts focused light on the documents. Sober legal-document aesthetic, sharp text focus. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 13,
+        "title": "Elliott Management's ~$1B position",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Spring 2024 \u00b7 Elliott Management",
+          "~$1B position \u00b7 strategic review"
+        ],
+        "narration": {
+          "text": "In spring 2024, the activist investor Elliott Management disclosed a position reported in the range of $1 billion and called for a strategic review. Elliott's playbook in software is well documented. Take a large position. Push for a sale process. Capture the premium. If the sale fails, push for board seats and operational changes that lift margin in the near term.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an activist investor briefing-deck cover page resting on a polished glass conference table, the cover showing the position-size figure in bold serif type. Around the document on the table are research binders and a tablet displaying a sell-side equity report. Light streams in from a tall window behind the table, suggesting a downtown Manhattan high-rise office. Formal Wall Street aesthetic. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 14,
+        "title": "The $16B take-private that died",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "March 2024 \u00b7 Bain Capital and Hellman & Friedman",
+          "~$16B bid \u00b7 talks collapsed over price"
+        ],
+        "narration": {
+          "text": "By March 2024, Reuters and the Wall Street Journal reported that Bain Capital and Hellman and Friedman were exploring a take-private transaction at a valuation near $16 billion. The talks collapsed over price. That valuation was a discount of more than 70% to DocuSign's 2021 peak market capitalization. The bidders walked anyway. The signal in that walk was that sophisticated capital, with full diligence access, could not underwrite the unit economics at that price. The public-market valuation continued to drift.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an empty private-equity boardroom at night, a long marble conference table dominated by a single closed leather portfolio at the head, the cover discreetly embossed but unreadable. Floor-to-ceiling windows show a rain-streaked Manhattan financial-district skyline. Two empty water glasses, an unopened folder, and an untouched coffee service suggest negotiations that ended without agreement. Cinematic widescreen composition, moody contrast. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 15,
+        "title": "The 2025 state: a company that survived",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Profitable non-GAAP \u00b7 cash healthy",
+          "Single-digit billings growth"
+        ],
+        "narration": {
+          "text": "The 2025 state is a company that survived. DocuSign remains profitable on a non-GAAP basis. The cash position is healthy. The product is entrenched in enterprise workflows that do not unwind. Banks, real estate brokerages, and law firms have built procurement processes around it. The equity story has changed. Investors no longer model DocuSign as a hyper-growth platform. They model it as a mature B2B business with single-digit billings growth and a subscription base that requires active management of gross retention. The compensation philosophy has shifted from stock-based incentives tied to growth multiples to cash-and-equity packages weighted toward operational metrics.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a corporate quarterly results dashboard projected on a wall in a modern analyst office. The dashboard shows steady single-digit billings-growth bars next to a healthy cash-position figure and a flat-line headcount metric. The aesthetic is sober: no celebratory greens, no dramatic reds, just a steady-state mature-business presentation. Soft daylight from a side window. Modern fintech dashboard look. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 16,
+        "title": "Structural lesson + subscribe CTA",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Net retention >100% can mask gross deterioration",
+          "Subscribe to Disclosed \u00b7 three case studies a week"
+        ],
+        "narration": {
+          "text": "The structural lesson is the lesson the pandemic delivered to every subscription business that grew through it. Net retention above 100% can mask gross retention deterioration. A platform with 110% net retention can be losing customers at 15% gross while expanding inside existing accounts. That math compounds over thirty-six months. By the time the layoff round is announced, the cohort damage is already booked. The financial calendar is the slowest measurement system in the company. If that is the kind of analysis you want more of, subscribe to Disclosed. We ship three case studies a week.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a dual-axis chart hanging on a wall in a quiet finished analyst office. One axis shows Net Retention holding above 100%, the other shows Gross Retention quietly trending below the safe line. The gap between the two curves widens dramatically over a 36-month horizon. A small embossed Disclosed channel mark rests in the lower-right corner of the frame as a subtle finishing detail. Clean modern data-visualization aesthetic. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  },
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true
+}

@@ -1,0 +1,21 @@
+{
+  "row_num": 33,
+  "slug_folder": "2026-05-12_33_docusigns-pandemic-overshoot-signatures-to-layoffs",
+  "date": "2026-05-12",
+  "topic": "DocuSign's pandemic overshoot: signatures to layoffs",
+  "template": "Rise and Fall",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "utm_campaign": "business-pm-docusign",
+  "part1_job_id": null,
+  "part2_job_id": null,
+  "submitted_at": null,
+  "status": "pending_human_review"
+}

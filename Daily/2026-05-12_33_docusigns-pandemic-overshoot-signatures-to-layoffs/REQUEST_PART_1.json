@@ -1,0 +1,235 @@
+{
+  "text": "On April 27, 2018, DocuSign opened on NASDAQ at $29 a share. Three and a half years later, in September 2021, the stock touched $310. The pandemic had remade DocuSign from a steady B2B e-signature company into one of the most valuable software stocks of the COVID era. Then the demand curve normalized. Eighteen months later, DocuSign traded at $39. The company had cycled through two CEOs, three rounds of layoffs, an activist investor, and a collapsed take-private bid. This video is about the math underneath that arc. It is not a video about e-signature. It is a video about the gap between subscription growth and subscription health.\n\nDocuSign filed its first 10-K as a public company in March 2019. Annual revenue was $701 million, up 35% year over year. That was the steady SaaS profile. Two fiscal years later, the company reported $1.453 billion in revenue, up 49%. By fiscal 2022, the year that ended January 2022, revenue had reached $2.107 billion, up another 45%. Headcount tracked the curve. From roughly 3,600 employees at the IPO, DocuSign grew past 7,300 by early 2023. Most of that hiring landed in sales, customer success, and engineering. Each new salesperson was assumed to ramp within four to six quarters. Each engineer was building against a product roadmap drawn at peak demand. Then-CEO Dan Springer told investors on multiple earnings calls that the demand environment had structurally shifted.\n\n175 million users by fiscal 2021. That was the metric Springer named on the Q4 fiscal 2021 earnings call in March 2021. DocuSign had added more users in eighteen months than it had in its first fifteen years combined. Enterprise customers, the higher-margin tier, grew 51% year over year. Contract durations stretched. Average contract value rose. Every leading indicator on the dashboard was pointing up. The Agreement Cloud rebrand, announced at the 2019 investor day, had positioned the company to capture an addressable market beyond e-signature. The pandemic delivered the demand without requiring the strategic execution.\n\nThe early signal was billings, not revenue. Billings are the leading indicator in a subscription business. They reflect contracts signed in the current period, not revenue ratably recognized from prior periods. By the second quarter of fiscal 2023, reported in September 2022, DocuSign billings growth had dropped into the single digits while revenue growth was still in the low twenties. The gap was the lag. Customers who had signed expensive long-term contracts in 2020 were renewing at lower seat counts or not renewing at all. The unit economics modeled at peak demand were drawn from cohorts that had been forced into the product by remote-work mandate, not by deliberate choice.\n\nInside DocuSign, the change was felt in the quarterly planning cycle. Revenue targets that had been raised through 2021 began holding flat. Hiring requisitions slowed and then froze. The product roadmap shifted from growth features to retention features. Sales compensation plans were rewritten to weight renewal performance over new logo acquisition. By the time the public financial statements caught up, the strategic posture had already changed inside the building.\n\nIn June 2022, Dan Springer stepped down. The official language was a mutual decision with the board. The substantive change came four months later. In October 2022, DocuSign announced Allan Thygesen as the new chief executive. Thygesen had spent fifteen years at Google, most recently running the Americas advertising business. DocuSign was reportedly his first public-company CEO role. The hiring of an ads operator to run a sales-led B2B SaaS company was itself a signal. The board was no longer optimizing for hyper-growth. It was optimizing for go-to-market efficiency.",
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "edited_script": {
+    "title": "DocuSign Part 1: The Pandemic Overshoot",
+    "description": "From the 2018 IPO through the 2021 demand peak to the October 2022 CEO transition: the boom phase and the early signals of overshoot.",
+    "source_text": "On April 27, 2018, DocuSign opened on NASDAQ at $29 a share. Three and a half years later, in September 2021, the stock touched $310. The pandemic had remade DocuSign from a steady B2B e-signature company into one of the most valuable software stocks of the COVID era. Then the demand curve normalized. Eighteen months later, DocuSign traded at $39. The company had cycled through two CEOs, three rounds of layoffs, an activist investor, and a collapsed take-private bid. This video is about the math underneath that arc. It is not a video about e-signature. It is a video about the gap between subscription growth and subscription health.\n\nDocuSign filed its first 10-K as a public company in March 2019. Annual revenue was $701 million, up 35% year over year. That was the steady SaaS profile. Two fiscal years later, the company reported $1.453 billion in revenue, up 49%. By fiscal 2022, the year that ended January 2022, revenue had reached $2.107 billion, up another 45%. Headcount tracked the curve. From roughly 3,600 employees at the IPO, DocuSign grew past 7,300 by early 2023. Most of that hiring landed in sales, customer success, and engineering. Each new salesperson was assumed to ramp within four to six quarters. Each engineer was building against a product roadmap drawn at peak demand. Then-CEO Dan Springer told investors on multiple earnings calls that the demand environment had structurally shifted.\n\n175 million users by fiscal 2021. That was the metric Springer named on the Q4 fiscal 2021 earnings call in March 2021. DocuSign had added more users in eighteen months than it had in its first fifteen years combined. Enterprise customers, the higher-margin tier, grew 51% year over year. Contract durations stretched. Average contract value rose. Every leading indicator on the dashboard was pointing up. The Agreement Cloud rebrand, announced at the 2019 investor day, had positioned the company to capture an addressable market beyond e-signature. The pandemic delivered the demand without requiring the strategic execution.\n\nThe early signal was billings, not revenue. Billings are the leading indicator in a subscription business. They reflect contracts signed in the current period, not revenue ratably recognized from prior periods. By the second quarter of fiscal 2023, reported in September 2022, DocuSign billings growth had dropped into the single digits while revenue growth was still in the low twenties. The gap was the lag. Customers who had signed expensive long-term contracts in 2020 were renewing at lower seat counts or not renewing at all. The unit economics modeled at peak demand were drawn from cohorts that had been forced into the product by remote-work mandate, not by deliberate choice.\n\nInside DocuSign, the change was felt in the quarterly planning cycle. Revenue targets that had been raised through 2021 began holding flat. Hiring requisitions slowed and then froze. The product roadmap shifted from growth features to retention features. Sales compensation plans were rewritten to weight renewal performance over new logo acquisition. By the time the public financial statements caught up, the strategic posture had already changed inside the building.\n\nIn June 2022, Dan Springer stepped down. The official language was a mutual decision with the board. The substantive change came four months later. In October 2022, DocuSign announced Allan Thygesen as the new chief executive. Thygesen had spent fifteen years at Google, most recently running the Americas advertising business. DocuSign was reportedly his first public-company CEO role. The hiring of an ads operator to run a sales-led B2B SaaS company was itself a signal. The board was no longer optimizing for hyper-growth. It was optimizing for go-to-market efficiency.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: $29 to $310",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "April 27, 2018 \u00b7 NASDAQ IPO",
+          "$29 \u2192 $310 (September 2021)"
+        ],
+        "narration": {
+          "text": "On April 27, 2018, DocuSign opened on NASDAQ at $29 a share. Three and a half years later, in September 2021, the stock touched $310. The pandemic had remade DocuSign from a steady B2B e-signature company into one of the most valuable software stocks of the COVID era.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic establishing shot of a NASDAQ trading floor electronic ticker board at dawn, the giant LED display showing a stock chart rising on a steep green candle pattern from $29 to $310. The DocuSign ticker symbol DOCU is visible in white on the board. Strong perspective from below looking up at the screen, blue and electric green color palette, photorealistic financial-news aesthetic, late-2010s glass-and-steel financial-district architecture. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Hook: Then $39 and the thesis",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$310 \u2192 $39 (eighteen months)",
+          "Two CEOs \u00b7 three layoff rounds"
+        ],
+        "narration": {
+          "text": "Then the demand curve normalized. Eighteen months later, DocuSign traded at $39. The company had cycled through two CEOs, three rounds of layoffs, an activist investor, and a collapsed take-private bid. This video is about the math underneath that arc. It is not a video about e-signature. It is a video about the gap between subscription growth and subscription health.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a darkened modern corporate office at night, a large wall-mounted screen dominating the frame, displaying a dramatic stock chart with a sharp peak followed by a steep eighteen-month decline. The chart shows a clearly labeled peak point and a labeled trough point with a red downtrend line. Annotations show percentage drop. Moody contrast lighting, deep blue ambient with red accent from the chart. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "The 10-K and the revenue arc",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "10-K \u00b7 FY2019 \u00b7 SEC EDGAR",
+          "$701M \u2192 $1.45B \u2192 $2.11B"
+        ],
+        "narration": {
+          "text": "DocuSign filed its first 10-K as a public company in March 2019. Annual revenue was $701 million, up 35% year over year. That was the steady SaaS profile. Two fiscal years later, the company reported $1.453 billion in revenue, up 49%. By fiscal 2022, the year that ended January 2022, revenue had reached $2.107 billion, up another 45%.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an SEC Form 10-K filing document on a polished wooden executive desk, partially open, with key revenue figures highlighted on the visible page. A green-ledger column shows ascending dollar amounts $701M, $1.45B, $2.11B in a clean financial typeface. A warm brass reading lamp casts a focused glow on the document. Background blurred to a dark wood-paneled office. Vintage business-document aesthetic, sharp typography focus. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Headcount tracked the curve",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "3,600 \u2192 7,300+ employees",
+          "Hired against peak demand"
+        ],
+        "narration": {
+          "text": "Headcount tracked the curve. From roughly 3,600 employees at the IPO, DocuSign grew past 7,300 by early 2023. Most of that hiring landed in sales, customer success, and engineering. Each new salesperson was assumed to ramp within four to six quarters. Each engineer was building against a product roadmap drawn at peak demand. Then-CEO Dan Springer told investors on multiple earnings calls that the demand environment had structurally shifted.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a sleek modern corporate headquarters at twilight, twelve to fifteen stories of glass and steel, with abundant lit interior windows suggesting a busy growing company expanding across multiple floors. The DocuSign brand mark is visible at the top of the building. Sky deep blue gradient. Architectural photography aesthetic, sharp lines, wide angle. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "175 million users and the Agreement Cloud bet",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "175M users \u00b7 Q4 FY2021",
+          "Agreement Cloud rebrand \u00b7 2019"
+        ],
+        "narration": {
+          "text": "175 million users by fiscal 2021. That was the metric Springer named on the Q4 fiscal 2021 earnings call in March 2021. DocuSign had added more users in eighteen months than it had in its first fifteen years combined. Enterprise customers, the higher-margin tier, grew 51% year over year. Contract durations stretched. Average contract value rose. Every leading indicator on the dashboard was pointing up. The Agreement Cloud rebrand, announced at the 2019 investor day, had positioned the company to capture an addressable market beyond e-signature. The pandemic delivered the demand without requiring the strategic execution.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an abstract upward-sloping data visualization, a single dominant line chart titled Active Users rising from 80 million to 175 million across an 18-month timeline. Annotations along the curve mark key milestones. Background is a deep navy gradient with subtle data grid lines. Single hero subject is the rising line itself, drawn in vivid cyan. Modern fintech data-visualization aesthetic, clean typography, high contrast. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Billings versus revenue: the early signal",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Q2 FY2023 \u00b7 September 2022",
+          "Billings: single digits | Revenue: low twenties"
+        ],
+        "narration": {
+          "text": "The early signal was billings, not revenue. Billings are the leading indicator in a subscription business. They reflect contracts signed in the current period, not revenue ratably recognized from prior periods. By the second quarter of fiscal 2023, reported in September 2022, DocuSign billings growth had dropped into the single digits while revenue growth was still in the low twenties. The gap was the lag. Customers who had signed expensive long-term contracts in 2020 were renewing at lower seat counts or not renewing at all. The unit economics modeled at peak demand were drawn from cohorts that had been forced into the product by remote-work mandate, not by deliberate choice.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of a split-screen financial dashboard projected on a wall in a dimly lit analyst workspace. Left half shows a chart labeled Billings Growth trending sharply downward into single digits. Right half shows a chart labeled Revenue Growth still trending upward in the low twenties. The visible divergence between the two charts is the focal point. Crisp dashboard aesthetic, dark theme with vivid red and green chart lines. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Inside the planning cycle",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Targets flat \u00b7 hiring frozen",
+          "Roadmap: growth \u2192 retention"
+        ],
+        "narration": {
+          "text": "Inside DocuSign, the change was felt in the quarterly planning cycle. Revenue targets that had been raised through 2021 began holding flat. Hiring requisitions slowed and then froze. The product roadmap shifted from growth features to retention features. Sales compensation plans were rewritten to weight renewal performance over new logo acquisition. By the time the public financial statements caught up, the strategic posture had already changed inside the building.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an empty corporate strategic planning room at twilight. Multiple whiteboards on the walls are covered in crossed-out revenue targets, rewritten projections, and sticky notes peeling at the corners. An empty conference table holds half-finished coffee cups and a closed laptop. Dramatic side lighting from a single overhead fixture, the rest of the room in shadow. Documentary-style aesthetic, melancholy mood. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "Cliffhanger: Springer out, Thygesen in",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "June 2022 \u00b7 Springer steps down",
+          "October 2022 \u00b7 Thygesen (ex-Google) in"
+        ],
+        "narration": {
+          "text": "In June 2022, Dan Springer stepped down. The official language was a mutual decision with the board. The substantive change came four months later. In October 2022, DocuSign announced Allan Thygesen as the new chief executive. Thygesen had spent fifteen years at Google, most recently running the Americas advertising business. DocuSign was reportedly his first public-company CEO role. The hiring of an ads operator to run a sales-led B2B SaaS company was itself a signal. The board was no longer optimizing for hyper-growth. It was optimizing for go-to-market efficiency.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic illustration of an empty modern corporate boardroom at golden hour, a long polished wooden conference table flanked by high-backed leather chairs, floor-to-ceiling windows on one side framing a downtown San Francisco skyline. One chair at the head of the table is dramatically empty and pulled back from the table. A single closed leather folder rests at the head position. Cinematic widescreen composition, warm light filtering through the windows. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite. No people. No human silhouettes.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  },
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true
+}

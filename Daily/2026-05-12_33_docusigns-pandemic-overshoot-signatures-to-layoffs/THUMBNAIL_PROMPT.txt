@@ -1,0 +1,13 @@
+CUSTOM YOUTUBE THUMBNAIL DESIGNER BRIEF — DocuSign #33
+
+Composition: split-frame, 1280x720, designed for high-CTR on Browse and Suggested. Left half (60%) is the dramatic visual hook. Right half (40%) is the title text.
+
+LEFT HALF (visual hook):
+Stylized DocuSign-style e-signature line drawn as a downward-trending stock-chart curve. The signature begins at a peak labeled $310 in muted gold serif type, and descends in a sharp curve to a labeled trough at $39 in muted red. Around the descending line, three small office-worker silhouettes diminish in height from full standing to half-height, evoking the layoff rounds without identifying any named person. Use SILHOUETTE forms only, no facial features, no recognizable individuals. Background: gradient from deep navy at top to slate gray at bottom, signaling a sober B2B-finance aesthetic, not sensationalist. A small grayed-out DocuSign brand mark sits in the lower-left, recognizable but unobtrusive.
+
+RIGHT HALF (title text):
+Three lines, top-aligned, large bold sans-serif, white text on the navy gradient. Line 1: "DOCUSIGN" in slightly tighter tracking. Line 2: "The math under" (smaller weight). Line 3: "$310 → $39" (largest, most contrast). Below the third line, in small italic gold: "Subscription growth ≠ subscription health".
+
+Disclosed channel mark (small D in a circle) sits in the bottom-right corner.
+
+NOT AIVDO default poster mode. Must be Studio-designed.
