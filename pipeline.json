@@ -552,7 +552,7 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Rise and Fall",
       "target_length_min": 11,
-      "script_status": "Planned",
+      "script_status": "queue_next",
       "publish_status": "Planned",
       "planned_publish": null,
       "actual_publish": null,
@@ -561,7 +561,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Added 2026-04-23: under-covered replacement after saturation audit. Promoted to queue_next 2026-05-12 (13th ship candidate; 3-hit slug: consumer-grievance via layoffs + structural-truth subscription math + bankruptcy-reversal-adjacent; cross-refs Peloton #38 subscription overshoot)."
     },
     {
       "#": 34,
