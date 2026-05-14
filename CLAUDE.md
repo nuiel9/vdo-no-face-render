@@ -72,10 +72,24 @@ Three hook patterns now have empirical performance data on Disclosed. Use this w
 
 **v4.6.3 subscribe-CTA is the conversion structural unlock.** Pre-CTA channel state was ~541 views with ~0 subs. Post-CTA + Shorts batch: 802 views (28d), +2 subs (28d), 5 subs realtime in last 48h. The narration CTA ("subscribe to Disclosed, we ship three a week") plus the Shorts UI affordance is what flipped the conversion math. **Do not ship a long-form slug that loses the in-narration CTA.**
 
-**Distribution lane mix** (28-day):
-- Browse = 79% of views (631) — volume driver, 2:46 avg watch
-- Suggested = highest stickiness (3:33 avg, +28% vs Browse) — optimize titles/thumbs to be a strong follow-up to other case-study channels
-- Search = nascent but real (SVB #36 picked up "bank run") — SEO-tune descriptions
+**Distribution model — Browse impressions are rationed per-channel (verified 2026-05-14 via Analytics API + Studio Reach tabs).**
 
-When ranking unscheduled slugs, prefer those that hit ≥2 of the three working hook patterns. Apple-Sun-style "Hidden Truth" near-misses fit none of the three and should not be the highest-leverage next ship in this surge.
+The channel's view engine is the Browse/Home feed (~88-93% of views on videos that scale). YouTube gives each upload an initial Browse impression test batch, watches CTR + early retention, then decides whether to scale. The critical finding: **that impression ration is per-channel, and cadence dilutes it.**
+
+Evidence from the 2026-05-05 → 2026-05-13 ships:
+
+| Video | Impressions | CTR | Views | Avg view | Outcome |
+|---|---|---|---|---|---|
+| McDonald's #30 (5/05) | 12,100 | 4.2% | 673 | 2:58 | scaled |
+| Peloton #38 (5/08) | 9,000 | 3.2% | 453 | 2:01 | scaled |
+| MoviePass #17 (5/11) | 193 | 1.6% | 4 | 3:28 | starved |
+| DocuSign #33 (5/12) | 713 | 0.7% | 10 | 0:56 | starved |
+
+McDonald's and Peloton shipped when the channel was uploading slowly — they got 9-12K-impression test batches, cleared the bar, scaled. The 5/08-5/13 cluster (6 videos in 6 days) split one channel's Browse ration six ways: each got 200-700 impressions, a batch too small to evaluate. **MoviePass had the best retention of all four (3:28) and still died at 193 impressions** — proof the failure is allocation, not content quality.
+
+**The ≤3 videos/week cap is an impression-budget constraint, not just a YouTube-policy guard.** Shipping ≤3/week is what lets each video get a real (~9-12K) test batch. Flooding guarantees every video starves regardless of hook quality or packaging.
+
+CTR still matters at the margin: McDonald's/Peloton cleared ~3-4%, DocuSign's 0.7% is genuinely weak packaging (and YouTube routed it to Suggested, not Browse, as a result). Suggested ≈ 1-7% of traffic and Search is nascent — neither is the lever. The lever is: **(1) cadence discipline so each video gets a real Browse test, (2) thumbnail/title CTR to clear ~3% on that test, (3) broad topical curiosity** ("why are McDonald's ice cream machines always broken" is universally curious; dry B2B/finance topics test worse on Browse).
+
+When ranking unscheduled slugs: weight broad topical curiosity alongside the ≥2-hook-pattern rule. A perfect-hook slug shipped into a flooded week still gets 200 impressions.
 
