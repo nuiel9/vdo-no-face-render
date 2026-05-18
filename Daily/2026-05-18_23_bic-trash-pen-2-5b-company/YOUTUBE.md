@@ -1,9 +1,9 @@
-# YOUTUBE: The trash pen Bic made 120 billion times
+# YOUTUBE: The trash pen Bic made 100 billion times
 Row #23 | Bic | UTM: business-pm-23
 
 ## Description
 
-In December 1950 Marcel Bich licensed a rejected ballpoint patent from László Bíró and opened a factory in Clichy, just north of Paris. Seventy-six years later, the company he built posted 2.19 billion euros in revenue and his Cristal pen has sold more than 120 billion units. The genius was not the pen. It was the manufacturing cost-collapse that made disposability a feature, then the same playbook applied to lighters in 1973 and shavers in 1975. This is the story of how cheap became the floor instead of the race to the bottom.
+In December 1950 Marcel Bich licensed a ballpoint patent from László Bíró and opened a factory in Clichy, just north of Paris. Seventy-six years later, the company he built posted 2.19 billion euros in revenue and his Cristal pen has sold well over 100 billion units. The genius was not the pen. It was the manufacturing cost-collapse that made disposability a feature, then the same playbook applied to lighters in 1973 and shavers in 1975. This is the story of how cheap became the floor instead of the race to the bottom.
 
 ## Chapters
 
@@ -18,8 +18,8 @@ In December 1950 Marcel Bich licensed a rejected ballpoint patent from László 
 
 1. BIC 2024 Universal Registration Document (annual report filed with AMF): https://mediabic.bic.com/image/upload/v1743083441/BIC_2024_URD_EN_BAT_MEL_d814d9e7f4.pdf
 2. BIC Q4 & Full Year 2024 Results press release, Euronext Paris, February 18 2025: https://live.euronext.com/en/products/equities/company-news/2025-02-18-bic-q4-full-year-2024-results
-3. MoMA permanent collection: Bic Cristal Pen (acquired 2001): https://www.moma.org/collection/works/2848
-4. Société BIC corporate history: https://corporate.bic.com/en-us/our-history
+3. MoMA permanent collection: Bic Cristal Pen, Décolletage Plastique Design Team (in collection by 2004): https://www.moma.org/collection/works/82141
+4. Société BIC Corp historical encyclopedia entry (corporate history): https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/bic-corp
 
 ## Hashtags
 
