@@ -382,16 +382,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Product-pip",
       "target_length_min": 11,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": "2026-05-18",
-      "actual_publish": null,
+      "actual_publish": "2026-05-18",
       "utm_campaign": "business-pm-23",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Promoted to queue_next 2026-05-18 (Tier-A curiosity restart after 2026-05-08–05-13 cluster starve; broad household-object curiosity per McDonald's-test rerank). Manual routine fire executed 2026-05-18: artifacts on branch daily/2026-05-18_23_bic-trash-pen-2-5b-company. 14th ship target."
+      "notes": "Published 2026-05-18 (uploaded private, awaiting Studio QC + thumbnail + pinned comment + public flip): https://www.youtube.com/watch?v=arlTD2ulSQ4. Title: The trash pen Bic made 100 billion times. 14th ship; Tier-A curiosity restart after 2026-05-08–05-13 cluster starve, first cleanly-spaced ship after 5/13 DocuSign (5-day quiet period). Final video 8:32 cinematic gpt-image-2 (1080p, 214 MB stitched), 1152 narration words at measured 134.6 wpm, clean render in 63.3 min wall clock (no deploy-stall, no post-completion timeout). 5 editorial corrections applied pre-render via propagate_correction.py: hook 120B→well over 100B units, late 120B mention removed, MoMA 2001→by 2004, MoMA URL /works/2848→/works/82141, dead corporate.bic.com URL→encyclopedia.com. Subscribe CTA preserved in narration close. Cross-reference to McDonald's #30 baked into scene 16 narration. Editorial gate (lint_urls): 3 PASS, 1 MoMA WARN (expected bot-block, URL verified). Artifacts on branch daily/2026-05-18_23_bic-trash-pen-2-5b-company."
     {
       "#": 24,
       "title_working_draft": "Circuit City outlawed itself from winning",
