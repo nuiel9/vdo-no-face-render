@@ -1,0 +1,21 @@
+{
+  "row_num": 23,
+  "slug_folder": "2026-05-18_23_bic-trash-pen-2-5b-company",
+  "date": "2026-05-18",
+  "topic": "Bic turned a trash pen into a $2.5B company",
+  "template": "Product-pip",
+  "language": "en-US",
+  "voice": "Algieba",
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "acknowledged_no_editorial": false,
+  "facts_verified": false,
+  "utm_campaign": "business-pm-23",
+  "part1_job_id": null,
+  "part2_job_id": null,
+  "submitted_at": null,
+  "status": "pending_human_review"
+}

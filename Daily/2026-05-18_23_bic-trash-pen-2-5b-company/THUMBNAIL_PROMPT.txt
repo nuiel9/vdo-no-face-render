@@ -1,0 +1,13 @@
+Custom designer brief (NOT AIVDO poster mode default)
+
+Concept: a single transparent hex-barreled Bic Cristal ballpoint pen, photographed top-down on a textured matte off-white surface, with the absurd number "120,000,000,000" overlaid in bold black sans-serif type next to the pen. The pen is centered slightly off the rule-of-thirds left, the number floats to the right of it. A subtle film-grain overlay and a faint warm vignette give the image an editorial-magazine feel rather than a generic stock-photo look.
+
+Typography: number set in a bold geometric sans-serif (Akzidenz Grotesk Bold or Inter Display ExtraBold), kerned tight, all numerals. Below the number, a smaller secondary line in the same family: "ONE PEN. ONE BET." in tracked uppercase.
+
+Color palette: matte off-white background #F4F1EA, brass pen tip #B8895A, transparent blue ink #2A3A75, type in #1A1A1A. Avoid pure white. Avoid pure black.
+
+Mobile legibility check: the number must read at 320px width. Number target height: at least 22% of total thumbnail height.
+
+Avoid: AIVDO default poster mode template, generic Bic-brand logo treatments, stock photo aesthetic, person holding pen, gradient backgrounds, text drop shadows.
+
+The curiosity comes from the absurdity of the number against the smallness of the object. Do not overdesign it.
