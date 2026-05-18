@@ -381,18 +381,17 @@
       "title_working_draft": "Bic turned a trash pen into a $2.5B company",
       "niche": "Business Case Studies",
       "aivdo_template": "Product-pip",
-      "target_length_min": 18,
-      "script_status": "Planned",
+      "target_length_min": 11,
+      "script_status": "queue_next",
       "publish_status": "Planned",
-      "planned_publish": null,
+      "planned_publish": "2026-05-18",
       "actual_publish": null,
       "utm_campaign": "business-pm-23",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
-    },
+      "notes": "Promoted to queue_next 2026-05-18 (Tier-A curiosity restart after 2026-05-08–05-13 cluster starve; broad household-object curiosity per McDonald's-test rerank). Original 5/17 ship slipped one day; firing 5/18 keeps 2-day spacing to planned #11 Zara on 5/20. 14th ship target."
     {
       "#": 24,
       "title_working_draft": "Circuit City outlawed itself from winning",
