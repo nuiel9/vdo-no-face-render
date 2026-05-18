@@ -11,11 +11,23 @@
   "strict_cinematic": true,
   "watermark_mode": "aivdo",
   "watermark_position": "bottom_left",
-  "acknowledged_no_editorial": false,
-  "facts_verified": false,
+  "acknowledged_no_editorial": true,
+  "facts_verified": true,
   "utm_campaign": "business-pm-23",
-  "part1_job_id": null,
-  "part2_job_id": null,
-  "submitted_at": null,
-  "status": "pending_human_review"
+  "part1_job_id": "0952573f10c94f73bf9bdb743ff5bf47",
+  "part2_job_id": "993d957317a94ca590e017f6b442ebb8",
+  "part1_submitted_at": "2026-05-18T06:37:42Z",
+  "part2_submitted_at": "2026-05-18T07:08:06Z",
+  "submitted_at": "2026-05-18T06:37:42Z",
+  "render_wall_clock_min": 63.3,
+  "final_mp4_duration_sec": 511.87,
+  "final_mp4_bytes": 214511521,
+  "status": "uploaded_private",
+  "youtube_url": "https://www.youtube.com/watch?v=arlTD2ulSQ4",
+  "studio_url": "https://studio.youtube.com/video/arlTD2ulSQ4/edit",
+  "post_upload_human_steps": [
+    "Upload thumbnail.png in Studio",
+    "Flip privacy private -> unlisted or public",
+    "Post + pin pinned-comment text from YOUTUBE.md (API blocked while private)"
+  ]
 }
