@@ -76,3 +76,52 @@ The Bic Cristal is not a great pen. It is a deliberate exercise in manufacturing
 4. **Custom thumbnail** — Brief in `THUMBNAIL_PROMPT.txt`, NOT AIVDO default poster mode.
 5. **Pinned comment with editorial note or source link** — Draft in `YOUTUBE.md`, includes URL to BIC 2024 Universal Registration Document.
 6. **Cadence ≤3/week** — 2nd ship in rolling 7d window (DocuSign 5/13 + Bic 5/18). Well under cap. 5-day quiet period since cluster ended.
+
+---
+
+## Post-publish diagnosis (2026-05-19, 18h checkpoint)
+
+Pulled from Studio Reach + Engagement tabs. Bic landed in starved-tier — not because of content quality, because the channel was re-classified out of Browse and into a wrong-topical Suggested cluster.
+
+| Metric | Value | Read |
+|---|---|---|
+| Impressions (18h) | 538 | Starved (vs McDonald's 12,100 / Peloton 9,000) |
+| CTR | 2.0% | Borderline (vs scaled 3-4%, vs DocuSign 0.7% disaster) |
+| Views (18h) | 18 | On MoviePass/DocuSign trajectory, not McDonald's/Peloton |
+| Channel-wide AVD | 2:22 (27.7%) | On par with channel average — content quality fine |
+| Impression-cohort AVD | 1:45 (20.5%) | Below the ~30% promote threshold — cold audience drops |
+| Traffic: Suggested videos | **66.7%** | Routed away from Browse |
+| Traffic: Browse features | 11.1% | Only ~60 Home-feed impressions |
+| External (Gmail) | 5.6% | Direct shares |
+| Suggested adjacencies | Uni Pin Fineliner review, fountain pen how-to, Apple Notes, Inside Undersea Cables | **Pen/object/design cluster, not business cluster** |
+
+**Diagnosis:** the 2026-05-08→05-13 cluster exhausted the newcomer-bonus Browse phase. Channel is now in small-channel Suggested-tier (~500-700 impressions per upload). Bic's single-pen thumbnail + "trash pen" title reinforced object-curiosity framing, causing YouTube to cluster Bic alongside pen-review content rather than business-analysis content.
+
+**Hypothesis the data rejects:** 5-day quiet period restores Browse-tier impressions. It does not.
+
+**Hypothesis the data supports:** packaging signals classification cluster; channel-level promotion requires sub/watch-hour growth, not cadence resets.
+
+## Phase 3 repackage plan (slated for 2026-05-27 to 2026-05-29)
+
+**Do NOT repackage before Blackberry #7 ships and settles** — repackaging Bic concurrent with the Blackberry experiment confounds the variable (can't isolate "did new package work on fresh video" from "did repackage work on existing video").
+
+Sequencing:
+- **Phase 1 (now → 5/22):** Bic stays as-is. Baseline data.
+- **Phase 2 (5/22 ship Blackberry):** Test whether business-cluster packaging avoids misclassification on a *fresh* video.
+- **Phase 3 (5/27-5/29, repackage Bic):** If Blackberry succeeded with business-cluster packaging, test whether the same playbook can re-route an *existing* video's classification.
+- **Phase 3 SKIPPED if Blackberry also starved:** confirms packaging isn't the lever, focus shifts to subscriber growth, no point repackaging.
+
+**Title swap candidate (when Phase 3 fires):**
+- Current: *"The trash pen Bic made 100 billion times"* (object-frame)
+- Repackage: *"How Bic sold 100 billion pens without raising the price"* (pricing/business-frame; same number, different cluster)
+
+**Thumbnail swap concept (when Phase 3 fires):**
+- Current: single Bic Cristal + "100,000,000,000" (single-object hero, signals object cluster)
+- Repackage option A: 1950 franc coin next to a Bic Cristal, with "1 franc → 0.20€" overlay (price-history frame)
+- Repackage option B: horizontal 1950 → 2026 timeline with a flat price line over a faded Bic Cristal silhouette
+- Repackage option C: Bic Cristal next to a graph showing Bic Group revenue 1953 → 2024 (€2.19B), business-frame
+- **Hard constraint: hero subject cannot be a single pen.** That's what put Bic in pen-review adjacencies.
+
+**Expected outcome if repackage works:** Suggested-cluster mix shifts from pen-reviews to business-analysis adjacencies (Modern MBA, How Money Works, Cold Fusion). Impressions may not grow much (the per-upload ration is set by channel size), but CTR within the new cluster should rise — those viewers actually want business analysis.
+
+**Expected outcome if repackage fails:** classification is "sticky" once set, and Phase 3's finding is that mid-flight repackaging doesn't move classification. Action then is to focus on pre-publish packaging discipline for future ships only.
