@@ -109,18 +109,17 @@
       "title_working_draft": "The Blackberry meeting where they ignored the touchscreen",
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
-      "target_length_min": 18,
-      "script_status": "Planned",
+      "target_length_min": 8,
+      "script_status": "queue_next",
       "publish_status": "Planned",
-      "planned_publish": null,
+      "planned_publish": "2026-05-22",
       "actual_publish": null,
       "utm_campaign": "business-pm-07",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
-    },
+      "notes": "Promoted to queue_next 2026-05-21 (15th ship, Patagonia-learned restart). Bic #23 failed Browse-tier test at 72h (564 imp, 21 views, Suggested cluster routed to pen-reviews). Patagonia anomaly diagnosis: same channel can earn Browse promotion per-video when script is SCENE-FIRST (not argument-first) + thumbnail is TEXT-AS-HERO (not scene-as-hero) + title has counter-intuitive paradox. Blackberry plan: scene-first cold open with Jim Balsillie + Lazaridis watching iPhone keynote, real quote 'We'll be fine' from McNish & Silcoff Losing the Signal (2015), thumbnail text 'WE'LL BE FINE.' newsprint template per Patagonia, 7:30-8:30 runtime (length wasn't Bic's lever)."
     {
       "#": 8,
       "title_working_draft": "Theranos: the documents nobody read",
