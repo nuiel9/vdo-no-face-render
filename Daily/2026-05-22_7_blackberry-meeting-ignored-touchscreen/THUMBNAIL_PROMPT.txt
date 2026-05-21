@@ -1,0 +1,39 @@
+THUMBNAIL BRIEF: The Blackberry meeting where they ignored the touchscreen
+Daily #7 | BlackBerry rise and fall | Story template
+
+CONCEPT: Direct application of the Patagonia #28 text-as-hero template (which earned Browse-tier promotion). The "We'll be fine" quote from Jim Balsillie should function the same way Patagonia's "DON'T BUY THIS JACKET" did — a counter-intuitive provocative phrase as the hero, with the product as silhouette context only.
+
+COMPOSITION:
+- Background: warm off-white aged newsprint texture, slightly desaturated, fills the frame
+- Hero element: a large, high-contrast black headline in bold editorial serif font reads "WE'LL BE FINE." across the upper two-thirds of the frame, including quotation marks if visually clean. Keep the period for finality.
+- Below the headline: a clean silhouette of a classic BlackBerry device with full QWERTY keyboard, in dark slate, centered, small enough to read as supporting context not as the hero
+- Lower third: a thin horizontal band in deep charcoal with the Disclosed channel name in clean white sans-serif
+
+COLOR PALETTE:
+- Background: warm off-white / aged newsprint (#F5F0E8)
+- Headline text: near-black (#1A1A1A)
+- BlackBerry silhouette: dark slate (#3A3F4A)
+- Accent band: deep charcoal (#222222)
+- Text on band: white (#FFFFFF)
+
+TYPOGRAPHY:
+- Headline font: bold condensed editorial serif, high contrast thick-thin strokes (broadsheet masthead weight). Same family as Patagonia thumbnail.
+- Quotation marks: included around "WE'LL BE FINE." to mark it as spoken language, not editorial assertion
+- No handwritten fonts, no script, no neon, no gradients
+
+MOBILE LEGIBILITY CHECK:
+- At 320px width, "WE'LL BE FINE." must remain readable. The four-syllable phrase should sit on one or two lines at thumbnail scale.
+- The BlackBerry silhouette must be identifiable as a phone-with-keyboard at thumbnail scale
+- No text smaller than 36pt equivalent at full resolution
+- Headline takes ~50-60% of vertical frame height
+
+PERSONS: No real human likenesses. No face. The BlackBerry is a silhouette only. No Lazaridis or Balsillie portrait.
+
+STYLE: Newspaper broadsheet editorial, documentary, slightly desaturated, not glossy. Should read as investigative journalism, not tech-product marketing. No gradients. Flat, high-contrast.
+
+WHY THIS TEMPLATE (per 2026-05-21 Patagonia anomaly analysis):
+- The Patagonia thumbnail earned 6.6K Browse impressions + 2.8% CTR + sustained promotion. Bic's complex single-object thumbnail earned 564 Suggested impressions + 2.1% CTR + dead at 72h.
+- Patagonia's thumbnail signaled "investigative news story" to YouTube's classifier. Bic's signaled "object/product trivia."
+- This thumbnail deliberately signals "investigative news story" the same way: newsprint texture + bold serif quote + minimal product silhouette.
+
+AIVDO POSTER MODE: Not applicable. Send to custom designer.
