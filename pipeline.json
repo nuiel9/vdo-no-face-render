@@ -110,16 +110,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 8,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": "2026-05-22",
-      "actual_publish": null,
+      "actual_publish": "2026-05-22",
       "utm_campaign": "business-pm-07",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Promoted to queue_next 2026-05-21. Manual routine fire 2026-05-21: artifacts on branch daily/2026-05-22_7_blackberry-meeting-ignored-touchscreen. 15th ship, Patagonia-learned restart. Bic #23 failed Browse-tier test at 72h (564 imp, 21 views, Suggested cluster routed to pen-reviews). Patagonia anomaly diagnosis: same channel can earn Browse promotion per-video when script is SCENE-FIRST (not argument-first) + thumbnail is TEXT-AS-HERO (not scene-as-hero) + title has counter-intuitive paradox. Blackberry plan: scene-first cold open with Jim Balsillie + Lazaridis watching iPhone keynote, real quote 'We'll be fine' from McNish & Silcoff Losing the Signal (2015), thumbnail text 'WE'LL BE FINE.' newsprint template per Patagonia, 7:30-8:30 runtime (length wasn't Bic's lever)."
+      "notes": "Published 2026-05-22 (uploaded private, awaiting Studio QC + thumbnail + pinned comment + public flip): https://www.youtube.com/watch?v=B1PMZkYQoak. Title: The Blackberry meeting where they ignored the touchscreen. 15th ship, Patagonia-learned scene-first restart. Final video 8:21 cinematic gpt-image-2 (1080p, 192 MB stitched, 1180 narration words at ~141 wpm Algieba). Part 1 clean render. Part 2 first attempt (7b176ade) stalled at 21% for 30 min after Veo 3.1 Fast → Veo 3.1 Lite config deploy at ~10:45 BKK recycled Cloud Run worker mid-render — exact deploy-stall pattern from DocuSign #33 + Evergrande #44. AIVDO auto-failed with explicit message, credits refunded. Resubmitted as b0bf1fac, completed clean in 27 min on post-deploy revision. 3 editorial corrections applied pre-render via propagate_correction.py: 'fifteen years' → 'more than a decade' (RIM age), '50% of mobile email' → 'a majority' (unverified stat), 'end of 2007 iPhone 20% US' → 'by 2008' (timing softening). Subscribe CTA preserved. Cross-reference to Patagonia #28 baked into scene 16 narration (inverted-outcome framing). Editorial gate (lint_urls): 3 PASS, 1 SEC.gov 403 expected bot-block (URL verified valid). Thumbnail: TEXT-AS-HERO 'WE'LL BE FINE.' newsprint template per Patagonia (handled by user in Studio). Artifacts on branch daily/2026-05-22_7_blackberry-meeting-ignored-touchscreen."
     },
     {
       "#": 8,
