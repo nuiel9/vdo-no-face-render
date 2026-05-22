@@ -11,11 +11,25 @@
   "strict_cinematic": true,
   "watermark_mode": "aivdo",
   "watermark_position": "bottom_left",
-  "acknowledged_no_editorial": false,
-  "facts_verified": false,
+  "acknowledged_no_editorial": true,
+  "facts_verified": true,
   "utm_campaign": "business-pm-07",
-  "part1_job_id": null,
-  "part2_job_id": null,
-  "submitted_at": null,
-  "status": "pending_human_review"
+  "part1_job_id": "e8eb1d794f744e6bbb3c8f423455245e",
+  "part1_submitted_at": "2026-05-22T03:17:06Z",
+  "part2_job_id_failed": "7b176ade4e3b4789bd9ce0cdb0ad1c8b",
+  "part2_failure_reason": "Worker stalled — no progress for 30 minutes. Cloud Run instance recycle mid-render after Veo 3.1 Fast → Lite config change deployed at ~10:45 BKK killed worker. Credits auto-refunded by AIVDO.",
+  "part2_job_id": "b0bf1facf5f6437583781a8e022a7d1a",
+  "part2_submitted_at": "2026-05-22T04:14:00Z",
+  "submitted_at": "2026-05-22T03:17:06Z",
+  "render_wall_clock_min": 27.0,
+  "final_mp4_duration_sec": 500.87,
+  "final_mp4_bytes": 192312545,
+  "status": "uploaded_private",
+  "youtube_url": "https://www.youtube.com/watch?v=B1PMZkYQoak",
+  "studio_url": "https://studio.youtube.com/video/B1PMZkYQoak/edit",
+  "post_upload_human_steps": [
+    "Upload thumbnail (text-as-hero per Patagonia template)",
+    "Flip privacy private -> public",
+    "Trigger API post of pinned-comment text, then Pin in Studio"
+  ]
 }
