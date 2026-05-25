@@ -669,18 +669,18 @@
       "#": 40,
       "title_working_draft": "Tupperware's 75-year direct-sales collapse",
       "niche": "Business Case Studies",
-      "aivdo_template": "Rise and Fall",
-      "target_length_min": 11,
-      "script_status": "Planned",
+      "aivdo_template": "Story",
+      "target_length_min": 9,
+      "script_status": "pending_human_review",
       "publish_status": "Planned",
-      "planned_publish": null,
+      "planned_publish": "2026-05-25",
       "actual_publish": null,
       "utm_campaign": "business-pm-tupperware",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Added 2026-04-23: under-covered replacement after saturation audit."
+      "notes": "Promoted to queue_next + manual routine fire 2026-05-25 (16th ship). First ship explicitly selected against the 5/23 cultural-touchstone model — Tupperware is a top-tier American household-brand touchstone for the McDonald's-demographic (55-65+ American males). Blackberry #7 72h diagnostic (5/25): Search share grew 30% → 41.7% (search-evergreen signal confirming for named-entity topics), subtitle language flipped 100% Thai → 8.3% Thai + 58.3% no-subs + 16.7% English (channel reclassification active), retention cliff at 0:30 confirmed as channel-norm (not fixable per-ship). Tupperware ships into improving conditions. Patagonia-style scene-first script + text-as-hero 'PARTY'S OVER.' thumbnail per template. 1219 narration words / 9:17 stitched. Cross-reference to Patagonia #28 in scene 16 as inverted-outcome companion. Artifacts on branch daily/2026-05-25_40_tupperware-party-thats-over."
     },
     {
       "#": 41,
