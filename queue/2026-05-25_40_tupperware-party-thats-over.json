@@ -11,11 +11,21 @@
   "strict_cinematic": true,
   "watermark_mode": "aivdo",
   "watermark_position": "bottom_left",
-  "acknowledged_no_editorial": false,
-  "facts_verified": false,
+  "acknowledged_no_editorial": true,
+  "facts_verified": true,
   "utm_campaign": "business-pm-40",
-  "part1_job_id": null,
-  "part2_job_id": null,
-  "submitted_at": null,
-  "status": "pending_human_review"
+  "part1_job_id": "d02d96ae23a44f7ba3486760e499f58d",
+  "part2_job_id": "82c5b04ec443469588ec2327eac49f5f",
+  "submitted_at": "2026-05-25T03:19:00Z",
+  "render_wall_clock_min": 57.3,
+  "final_mp4_duration_sec": 519.6,
+  "final_mp4_bytes": 222810486,
+  "status": "uploaded_private",
+  "youtube_url": "https://www.youtube.com/watch?v=7y8yirKsa_o",
+  "studio_url": "https://studio.youtube.com/video/7y8yirKsa_o/edit",
+  "post_upload_human_steps": [
+    "Upload thumbnail (text-as-hero 'PARTY'S OVER.' per Patagonia template)",
+    "Flip privacy private -> public",
+    "Trigger API post of pinned-comment text, then Pin in Studio"
+  ]
 }
