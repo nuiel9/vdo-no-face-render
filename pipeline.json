@@ -671,16 +671,16 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 9,
-      "script_status": "pending_human_review",
-      "publish_status": "Planned",
+      "script_status": "Done",
+      "publish_status": "Published",
       "planned_publish": "2026-05-25",
-      "actual_publish": null,
+      "actual_publish": "2026-05-25",
       "utm_campaign": "business-pm-tupperware",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Promoted to queue_next + manual routine fire 2026-05-25 (16th ship). First ship explicitly selected against the 5/23 cultural-touchstone model — Tupperware is a top-tier American household-brand touchstone for the McDonald's-demographic (55-65+ American males). Blackberry #7 72h diagnostic (5/25): Search share grew 30% → 41.7% (search-evergreen signal confirming for named-entity topics), subtitle language flipped 100% Thai → 8.3% Thai + 58.3% no-subs + 16.7% English (channel reclassification active), retention cliff at 0:30 confirmed as channel-norm (not fixable per-ship). Tupperware ships into improving conditions. Patagonia-style scene-first script + text-as-hero 'PARTY'S OVER.' thumbnail per template. 1219 narration words / 9:17 stitched. Cross-reference to Patagonia #28 in scene 16 as inverted-outcome companion. Artifacts on branch daily/2026-05-25_40_tupperware-party-thats-over."
+      "notes": "Published 2026-05-25 (uploaded private, awaiting Studio QC + thumbnail + pinned comment + public flip): https://www.youtube.com/watch?v=7y8yirKsa_o. Title: The 65-Year Tupperware Party Is Over. 16th ship; first ship explicitly selected against the 5/23 cultural-touchstone model (Tupperware = top-tier American household-brand touchstone for the McDonald's 55-65+ demographic). Final video 8:39 cinematic gpt-image-2 (1080p, 222MB stitched, 1219 narration words at measured ~141wpm Algieba). Clean 57.3min render — no deploy-stall, no Veo config changes during. Cross-reference to Patagonia #28 baked into scene 16 (inverted-outcome companion: Patagonia bet against own product and won; Tupperware bet against retail stores for 65 years and won until it didn't). Editorial gate (lint_urls): 3 PASS, 1 SEC.gov 403 expected bot-block. Thumbnail: text-as-hero 'PARTY'S OVER.' newsprint template per Patagonia (handled by user in Studio). Blackberry 72h diagnostic this morning confirmed: Search share grew 30%→41.7%, subtitle language flipped 100% Thai → 8.3% Thai + 58.3% no-subs + 16.7% English (channel reclassification active), retention cliff at 0:30 confirmed as channel-norm. Artifacts on branch daily/2026-05-25_40_tupperware-party-thats-over."
     },
     {
       "#": 41,
