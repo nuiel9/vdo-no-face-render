@@ -1,0 +1,41 @@
+THUMBNAIL BRIEF: The 65-Year Tupperware Party Is Over
+Daily #40 | Tupperware rise + 2024 Chapter 11 collapse | Story template
+
+CONCEPT: Patagonia #28 + Blackberry #7 text-as-hero template applied to Tupperware. The "PARTY'S OVER." phrase serves three functions simultaneously: (1) the literal end of the home-party-sales era, (2) the double meaning of "party" as bankruptcy, (3) editorial finality with the period punctuation. Plus a small iconic Tupperware container silhouette as supporting context.
+
+COMPOSITION:
+- Background: warm off-white aged newsprint texture, slightly desaturated, fills the frame (same template as Patagonia "DON'T BUY THIS JACKET" and Blackberry "WE'LL BE FINE.")
+- Hero element: a large, high-contrast black headline in bold editorial serif font reads "PARTY'S OVER." across the upper two-thirds of the frame, with the period included for finality
+- Below the headline: a clean silhouette of an iconic round Tupperware container with lid (the classic Wonder Bowl shape, with the small recessed button on the lid suggesting the burping seal). Centered, small enough to read as supporting context not as the hero.
+- Lower third: a thin horizontal band in deep charcoal with the Disclosed channel name in clean white sans-serif
+
+COLOR PALETTE:
+- Background: warm off-white / aged newsprint (#F5F0E8)
+- Headline text: near-black (#1A1A1A)
+- Tupperware silhouette: dark slate (#3A3F4A) or a slightly milky-translucent light blue if the artist wants to evoke the classic pastel-Tupperware aesthetic (#A8B5C5 with low opacity)
+- Accent band: deep charcoal (#222222)
+- Text on band: white (#FFFFFF)
+
+TYPOGRAPHY:
+- Headline font: bold condensed editorial serif, high contrast thick-thin strokes (broadsheet masthead weight). Same family as the Patagonia + Blackberry thumbnails.
+- Apostrophe in "PARTY'S" should be a proper curly apostrophe (typographic quote), not a straight quote
+- Period after OVER included for finality. Mirrors the period in Blackberry's "WE'LL BE FINE."
+- No handwritten fonts, no script, no neon
+
+MOBILE LEGIBILITY CHECK:
+- At 320px width, "PARTY'S OVER." must remain readable. Two short words + period, should hold easily.
+- The Tupperware container silhouette must be identifiable as a vintage food container at thumbnail scale
+- No text smaller than 36pt equivalent at full resolution
+- Headline takes ~50-60% of vertical frame height
+
+PERSONS: No human likenesses. No face. No Brownie Wise portrait (she's not iconic enough to recognize at thumbnail scale, and the script gives her the dramatic credit in the narration).
+
+STYLE: Newspaper broadsheet editorial, documentary, slightly desaturated, not glossy. Should read as investigative obituary, not lifestyle brand. No gradients. Flat, high-contrast.
+
+WHY THIS TEMPLATE (per 2026-05-23 cultural-touchstone analysis):
+- The Patagonia thumbnail earned 6.6K Browse impressions on the same channel that starved Bic's product-hero thumbnail at 564 impressions.
+- Tupperware is a top-tier American cultural touchstone for the older-American-male audience that consumed McDonald's #30 (78% US, 49.5% English subs).
+- "PARTY'S OVER." carries simultaneous meanings: the home-party era literally ended, AND it's bankruptcy slang. The double-meaning is the click hook.
+- The Tupperware silhouette is the most recognizable food-container shape in American consumer history. It will land instantly at thumbnail scale for the 55+ demographic.
+
+AIVDO POSTER MODE: Not applicable. Send to custom designer or generate via ChatGPT image-gen with this brief (Blackberry's thumbnail was generated this way successfully).
