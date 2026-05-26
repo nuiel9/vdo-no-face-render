@@ -20,12 +20,19 @@
   "render_wall_clock_min": 57.3,
   "final_mp4_duration_sec": 519.6,
   "final_mp4_bytes": 222810486,
-  "status": "uploaded_private",
+  "status": "published",
   "youtube_url": "https://www.youtube.com/watch?v=7y8yirKsa_o",
   "studio_url": "https://studio.youtube.com/video/7y8yirKsa_o/edit",
-  "post_upload_human_steps": [
-    "Upload thumbnail (text-as-hero 'PARTY'S OVER.' per Patagonia template)",
-    "Flip privacy private -> public",
-    "Trigger API post of pinned-comment text, then Pin in Studio"
-  ]
+  "short_youtube_url": "https://www.youtube.com/shorts/F3EqCet9zFw",
+  "short_studio_url": "https://studio.youtube.com/video/F3EqCet9zFw/edit",
+  "short_cut": {
+    "source_start": "3:56",
+    "source_end": "4:56",
+    "duration_sec": 60,
+    "hook_line": "In January 1958, Tupper fired Brownie Wise.",
+    "narrative_angle": "Brownie Wise firing scene + start of $16M Rexall sale",
+    "rendered_via": "make_short.py blurred-bg letterbox 9:16 reframe",
+    "uploaded_at": "2026-05-27T05:00:00Z",
+    "title": "Tupperware Fired the Woman Who Built It #Shorts"
+  }
 }
