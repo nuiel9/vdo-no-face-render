@@ -1,0 +1,55 @@
+THUMBNAIL BRIEF: Why Is Costco Selling $200 Million a Month in Gold Bars?
+Daily #55 | Costco gold-bar arbitrage 2024 | Story template
+
+CONCEPT: **McDonald's-style** (the gold-standard ship for this channel). NOT Patagonia/newsprint-editorial. Bright tabloid news-poster energy. Yellow text on busy gold-bar/warehouse-club scene, question mark prominent, heavy condensed sans-serif typography.
+
+Reason for the style choice: Patagonia-style newsprint-editorial thumbnails were tested on Bic + Blackberry + Tupperware and underperformed (2.0-2.8% CTR range). McDonald's-style yellow-on-busy thumbnail earned 4.2% CTR. Costco gold bars is a McDonald's-demographic-matched topic (older American males, consumer-curiosity, alternative-investments), exact target for the McDonald's thumbnail template.
+
+OUTPUT FORMAT: 1280×720 (16:9). YouTube thumbnail. JPG/PNG under 2 MB.
+
+COMPOSITION:
+- Background fills full frame: a 2024-era American suburban warehouse-club aisle interior with multiple unbranded rectangular gold-toned bars sealed in clear assay cards stacked irregularly on a shelf (the "scarcity rush" visual cue), industrial fluorescent ceiling lighting, polished concrete floor, slight depth-of-field blur on the deep background. Era-correct 2024 suburban-American setting.
+
+- Foreground HERO text dominates upper 60% of frame:
+  - Two lines:
+    - Line 1: "$200 MILLION" (heavy condensed display sans-serif, all caps, sized to fill horizontal width)
+    - Line 2: "A MONTH?" (slightly smaller, with the question mark oversized and slightly off-center)
+  - Text color: bright YELLOW (#FFD400)
+  - Black outline (#1A1A1A) around every letter, 3-4 px thick
+  - Slight outer drop shadow (deep navy #1A1A2E, soft 8px blur)
+  - Font feel: heavy condensed display sans-serif (Anton, Bebas Neue, Impact, Oswald Bold class). NOT editorial serif. Should read like a 1970s movie poster or supermarket-tabloid headline.
+
+- Lower-right corner (small, NOT a full band): tiny channel watermark "Disclosed" in clean white sans-serif at ~3% of frame width.
+
+COLOR PALETTE:
+- Hero text: bright yellow (#FFD400)
+- Text outline: deep black (#1A1A1A)
+- Text shadow: deep navy (#1A1A2E)
+- Background warehouse: industrial grey concrete (#8B8B8B), fluorescent cool-white (#F0F4F8), polished steel
+- Gold bars: warm burnished gold (#D4A852), assay-card translucent plastic (#E8E5DC)
+- Disclosed wordmark: clean white (#FFFFFF)
+
+TYPOGRAPHY:
+- Heavy condensed display sans-serif at ~30% vertical frame height for "$200 MILLION" line, ~22% for "A MONTH?" line
+- Question mark sized ~110% of the surrounding letter height (visual tension)
+- All caps throughout
+- Letter-spacing tight (condensed feel)
+
+STYLE:
+- Tabloid news-poster energy. People-magazine-cover vibe. 1970s consumer-warning bulletin.
+- High visual contrast everywhere — bright text, busy background, sharp outline
+- The visual chaos of multiple gold bars in the background reinforces "scarcity / rush" without needing to be Costco-branded
+- Mobile-legible at 320px: "$200 MILLION" must be the dominant visual element at thumbnail size
+
+WHAT TO AVOID:
+- Editorial newsprint backgrounds (Patagonia template — we tested it three times, underperformed)
+- Thin serif typography
+- Single-bar minimalist composition (we want visual abundance / scarcity-rush feel)
+- Faces or people (faceless channel, hard rule)
+- Realistic stock-photo feel — leaning illustrated/punchy poster is fine
+- Costco logos or brand text (avoid trademark issues; the warehouse-aisle context is enough)
+- Period at the end of "A MONTH?" — the question mark does the punctuation work alone
+
+INSPIRATION REFERENCE: McDonald's #30 channel-best thumbnail (yellow "ALWAYS BROKEN?" text on busy dark background of ice cream machines). Same energy applied to Costco/gold.
+
+DELIVERABLE: one 1280×720 thumbnail image, JPG or PNG, under 2MB.
