@@ -429,20 +429,20 @@
     },
     {
       "#": 26,
-      "title_working_draft": "Amazon killed Whole Foods' founder in 3 meetings",
+      "title_working_draft": "Amazon promised to fix Whole Foods' prices. Your bill went up anyway.",
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
-      "target_length_min": 18,
-      "script_status": "Planned",
+      "target_length_min": 8,
+      "script_status": "queue_next",
       "publish_status": "Planned",
-      "planned_publish": null,
+      "planned_publish": "2026-06-03",
       "actual_publish": null,
       "utm_campaign": "business-pm-26",
       "thumbnail_ctr_pct": null,
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": null
+      "notes": "Grievance-archetype reframe (was 'Amazon killed Whole Foods founder in 3 meetings' = finance-curiosity trap, per Costco #55 Day-4 diagnostic). Cleared saturation audit 2026-06-01: zero major-faceless-channel coverage. FRAMING DISCIPLINE: business-postmortem (why Amazon promised price cuts in 2017 and why they reversed - supplier contracts expiring, inflation pass-through, centralization), NOT consumer shopping-tip. McDonald's-style yellow thumbnail. Subscribe CTA in close."
     },
     {
       "#": 27,
