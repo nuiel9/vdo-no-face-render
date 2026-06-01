@@ -1,0 +1,210 @@
+{
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "text": "On August 28th, 2017, Amazon officially took ownership of Whole Foods Market. It had paid thirteen point seven billion dollars. And on that very first morning, it did something the grocery industry had been waiting years to see. It cut prices. Fresh Atlantic salmon dropped from fifteen dollars a pound to ten. Organic avocados fell by almost half. On some items the cuts ran as deep as forty-three percent. The message was simple. The era of Whole Paycheck was over.\n\nThat was the promise. Amazon, the most ruthless price-cutter in the history of retail, had bought the most expensive grocery chain in America, and it was going to fix the one thing everyone complained about. Seven years later, the nickname is still there, and your bill at Whole Foods is higher than it was the day Amazon walked in. This is the story of why the company that destroyed pricing in every other category could not destroy it here.\n\nTo understand the promise, you have to understand the nickname. Whole Foods was founded in Austin, Texas in 1980 by a man named John Mackey. Over the next three decades it became the temple of organic groceries. Polished produce, hand-lettered chalkboard signs, grass-fed everything. It also became famous for prices so high that shoppers gave it a nickname. Whole Paycheck. The joke was that one bag of groceries could cost you exactly that.\n\nOn June 16th, 2017, Amazon announced it would buy the chain for forty-two dollars a share. For Amazon it was a way into a business it had failed to crack for a decade. Physical grocery. More than four hundred and fifty stores, most of them in wealthy neighborhoods, handed over almost overnight. Wall Street understood the threat immediately. The day the deal was announced, shares of every major grocery competitor fell.\n\nThen came the price cuts, and they were real. Bloomberg documented reductions of as much as forty-three percent on the first day. Bananas, eggs, salmon, avocados. Amazon put up bright signs in the stores. It was doing exactly what it had done to books, to electronics, to everything it touched. Drive the price down, take the customer, worry about profit later.\n\nIn May of 2018, Amazon went further. Prime members would get an extra ten percent off sale items at Whole Foods, marked with yellow signs throughout the store. Sign in with your Amazon account, scan a code at checkout, save more. The two companies were fusing. The richest data engine in the world now knew exactly what was in your grocery cart.\n\nSo the logic seemed airtight. The cheapest operator in retail now owned the most expensive grocer in America. Whole Paycheck was a dead brand walking. There was only one problem with that story. When analysts actually went into the stores, week after week, and added up the receipts, the numbers told them something nobody expected.",
+  "edited_script": {
+    "title": "Whole Foods Part 1: the promise to kill 'Whole Paycheck'",
+    "description": "Aug 28 2017 Amazon closes its $13.7B purchase and cuts prices up to 43%. The 1980 Austin origin of the 'Whole Paycheck' nickname, why Amazon wanted physical grocery, and the Prime-discount integration.",
+    "source_text": "On August 28th, 2017, Amazon officially took ownership of Whole Foods Market. It had paid thirteen point seven billion dollars. And on that very first morning, it did something the grocery industry had been waiting years to see. It cut prices. Fresh Atlantic salmon dropped from fifteen dollars a pound to ten. Organic avocados fell by almost half. On some items the cuts ran as deep as forty-three percent. The message was simple. The era of Whole Paycheck was over.\n\nThat was the promise. Amazon, the most ruthless price-cutter in the history of retail, had bought the most expensive grocery chain in America, and it was going to fix the one thing everyone complained about. Seven years later, the nickname is still there, and your bill at Whole Foods is higher than it was the day Amazon walked in. This is the story of why the company that destroyed pricing in every other category could not destroy it here.\n\nTo understand the promise, you have to understand the nickname. Whole Foods was founded in Austin, Texas in 1980 by a man named John Mackey. Over the next three decades it became the temple of organic groceries. Polished produce, hand-lettered chalkboard signs, grass-fed everything. It also became famous for prices so high that shoppers gave it a nickname. Whole Paycheck. The joke was that one bag of groceries could cost you exactly that.\n\nOn June 16th, 2017, Amazon announced it would buy the chain for forty-two dollars a share. For Amazon it was a way into a business it had failed to crack for a decade. Physical grocery. More than four hundred and fifty stores, most of them in wealthy neighborhoods, handed over almost overnight. Wall Street understood the threat immediately. The day the deal was announced, shares of every major grocery competitor fell.\n\nThen came the price cuts, and they were real. Bloomberg documented reductions of as much as forty-three percent on the first day. Bananas, eggs, salmon, avocados. Amazon put up bright signs in the stores. It was doing exactly what it had done to books, to electronics, to everything it touched. Drive the price down, take the customer, worry about profit later.\n\nIn May of 2018, Amazon went further. Prime members would get an extra ten percent off sale items at Whole Foods, marked with yellow signs throughout the store. Sign in with your Amazon account, scan a code at checkout, save more. The two companies were fusing. The richest data engine in the world now knew exactly what was in your grocery cart.\n\nSo the logic seemed airtight. The cheapest operator in retail now owned the most expensive grocer in America. Whole Paycheck was a dead brand walking. There was only one problem with that story. When analysts actually went into the stores, week after week, and added up the receipts, the numbers told them something nobody expected.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: Aug 28 2017, $13.7B, day-one cuts",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Aug 28 2017 \u00b7 $13.7B",
+          "Salmon $15 to $10/lb"
+        ],
+        "narration": {
+          "text": "On August 28th, 2017, Amazon officially took ownership of Whole Foods Market. It had paid thirteen point seven billion dollars. And on that very first morning, it did something the grocery industry had been waiting years to see. It cut prices. Fresh Atlantic salmon dropped from fifteen dollars a pound to ten. Organic avocados fell by almost half. On some items the cuts ran as deep as forty-three percent. The message was simple. The era of Whole Paycheck was over.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide exterior of an upscale American organic supermarket storefront at early morning in late summer, large plate-glass windows, abundant fresh produce displays glowing behind the glass, a bright bold promotional price sign propped in the window, warm 2017-era morning daylight, empty clean sidewalk. Color palette forest green signage, warm morning gold, crisp white. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Thesis: the price-cutter met its limit",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "$13.7 billion deal",
+          "'Whole Paycheck' still here"
+        ],
+        "narration": {
+          "text": "That was the promise. Amazon, the most ruthless price-cutter in the history of retail, had bought the most expensive grocery chain in America, and it was going to fix the one thing everyone complained about. Seven years later, the nickname is still there, and your bill at Whole Foods is higher than it was the day Amazon walked in. This is the story of why the company that destroyed pricing in every other category could not destroy it here.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead close-up of a very long printed store receipt curling across a dark matte table under a single hard spotlight, the paper coiling at one end, deep shadow around the edges, faint dust in the beam. Color palette stark white paper, charcoal background, cold spotlight. NEGATIVE: no readable numbers or text, no faces, no people, no produce, no grocery aisle, no storefront. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "What 'Whole Paycheck' meant: Austin 1980",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Whole Foods \u00b7 Austin \u00b7 1980",
+          "'Whole Paycheck'"
+        ],
+        "narration": {
+          "text": "To understand the promise, you have to understand the nickname. Whole Foods was founded in Austin, Texas in 1980 by a man named John Mackey. Over the next three decades it became the temple of organic groceries. Polished produce, hand-lettered chalkboard signs, grass-fed everything. It also became famous for prices so high that shoppers gave it a nickname. Whole Paycheck. The joke was that one bag of groceries could cost you exactly that.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic interior of an upscale organic grocery produce hall, polished wooden crates overflowing with glistening colorful vegetables and fruit, blank hand-lettered chalkboard signs on small stands, warm directional overhead spotlights, lush abundant greens, soft film grain. Color palette rich green, earthy wood brown, warm tungsten glow. NEGATIVE: no readable text, no faces, no people, no human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "Why Amazon wanted it: June 16 2017",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "June 16 2017 \u00b7 $42/share",
+          "450+ stores acquired"
+        ],
+        "narration": {
+          "text": "On June 16th, 2017, Amazon announced it would buy the chain for forty-two dollars a share. For Amazon it was a way into a business it had failed to crack for a decade. Physical grocery. More than four hundred and fifty stores, most of them in wealthy neighborhoods, handed over almost overnight. Wall Street understood the threat immediately. The day the deal was announced, shares of every major grocery competitor fell.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of a sleek modern glass corporate headquarters atrium at dusk, minimalist architecture, a single long polished black conference table down the center, city lights glittering through floor-to-ceiling windows, cool reflective floor. Color palette cool steel blue, black glass, distant warm city gold. NEGATIVE: no faces, no people, no human silhouettes, no grocery products, no produce, no storefront, no shopping cart. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "The day-one cuts were real",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Up to 43% off \u00b7 day one",
+          "Bananas \u00b7 eggs \u00b7 salmon"
+        ],
+        "narration": {
+          "text": "Then came the price cuts, and they were real. Bloomberg documented reductions of as much as forty-three percent on the first day. Bananas, eggs, salmon, avocados. Amazon put up bright signs in the stores. It was doing exactly what it had done to books, to electronics, to everything it touched. Drive the price down, take the customer, worry about profit later.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic dramatic close-up of a supermarket shelf edge lined with bold blank reduced-price sign cards and tags, fresh packaged goods softly out of focus behind, a single hard spotlight raking across the bright sign cards, shallow depth of field. Color palette bright sale-red and yellow card stock, cool shadowed shelving. NEGATIVE: no readable text or numbers, no faces, no people. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Prime integration: May 2018",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "May 2018 \u00b7 Prime",
+          "Extra 10% off"
+        ],
+        "narration": {
+          "text": "In May of 2018, Amazon went further. Prime members would get an extra ten percent off sale items at Whole Foods, marked with yellow signs throughout the store. Sign in with your Amazon account, scan a code at checkout, save more. The two companies were fusing. The richest data engine in the world now knew exactly what was in your grocery cart.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic macro of a smartphone held in a dim store aisle, the glowing screen showing an abstract scannable barcode, a self-checkout terminal scanner casting cool blue light, soft motion-blurred bright yellow sale signage far in the background. Color palette cool digital blue, warm yellow bokeh, deep aisle shadow. NEGATIVE: no faces, no people, no hands in focus, no produce in focus, no storefront, no readable text. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Cliffhanger: the receipts disagreed",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Analysts priced the baskets",
+          "The receipts disagreed"
+        ],
+        "narration": {
+          "text": "So the logic seemed airtight. The cheapest operator in retail now owned the most expensive grocer in America. Whole Paycheck was a dead brand walking. There was only one problem with that story. When analysts actually went into the stores, week after week, and added up the receipts, the numbers told them something nobody expected.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead shot of a research analyst's dark desk under one focused lamp, a thick stack of long grocery receipts, a calculator, printed spreadsheets, and a pen frozen mid-annotation, late-night mood. Color palette warm pool of lamp light, deep surrounding dark, white paper. NEGATIVE: no readable text or numbers, no faces, no people, no produce, no storefront, no grocery aisle. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

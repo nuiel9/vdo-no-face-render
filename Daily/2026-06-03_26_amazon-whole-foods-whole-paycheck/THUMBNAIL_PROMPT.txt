@@ -1,0 +1,38 @@
+THUMBNAIL BRIEF: Why Couldn't Amazon Make Whole Foods Cheap?
+Daily #26 | Amazon / Whole Foods "Whole Paycheck" | Story template
+
+CONCEPT: McDonald's #30 / Costco #55 YELLOW tabloid template (NOT the Patagonia newsprint editorial template). Per the 2026-06-01 Costco Day-4 read, the bright-yellow high-contrast text-as-hero thumbnail posted the channel's best-ever CTR (6.1%); the Patagonia editorial-newsprint style underperformed across three consecutive ships. Default to yellow tabloid.
+
+The phrase "STILL WHOLE PAYCHECK?" does the heavy lift: it names the universal American grievance everyone recognizes, poses it as a question (curiosity gap), and implies the paradox (Amazon was supposed to fix this).
+
+COMPOSITION:
+- Background: a slightly desaturated photographic grocery scene (an abundant produce section or a long checkout receipt curling) pushed back and darkened so text pops. NOT a clean studio shot.
+- Hero element: massive bold YELLOW headline "STILL WHOLE PAYCHECK?" stacked across the upper two-thirds, heavy condensed sans, thick black outline/drop shadow for mobile legibility. Yellow (#FFD400) on the darkened photo.
+- Optional supporting element: a small green shopping basket or a price tag silhouette in a lower corner as context, kept subordinate to the text.
+- Lower-third: thin deep-charcoal band with "Disclosed" in clean white sans-serif.
+
+COLOR PALETTE:
+- Headline: tabloid yellow (#FFD400) with near-black outline (#111111)
+- Background photo: desaturated grocery greens/wood, darkened ~40%
+- Accent band: deep charcoal (#222222), white text (#FFFFFF)
+
+TYPOGRAPHY:
+- Heavy condensed sans (Anton / Impact-class), all caps, tight leading. NOT the editorial serif used on Patagonia/Blackberry/Tupperware.
+- Question mark included (curiosity gap). Proper punctuation.
+- Two-line stack: "STILL" / "WHOLE PAYCHECK?" so each line is huge at 320px.
+
+MOBILE LEGIBILITY CHECK:
+- At 320px, "STILL WHOLE PAYCHECK?" must read instantly. Three words, two lines, yellow-on-dark = passes.
+- Headline occupies ~55-65% of vertical frame.
+- No element smaller than 36pt-equivalent at full res.
+
+PERSONS: No human likenesses. No face. No Bezos, no Mackey. Environment/objects only (faceless rule).
+
+STYLE: Bright, high-contrast, tabloid-curiosity (McDonald's/Costco lineage), NOT glossy lifestyle, NOT muted editorial. Flat bold yellow text is the hero.
+
+WHY THIS TEMPLATE:
+- Costco #55 yellow "$200 MILLION / A MONTH?" thumbnail = channel-best 6.1% CTR (2026-06-01 data).
+- Whole Foods "Whole Paycheck" is a top-tier American consumer grievance for the McDonald's 55-65+ demographic; the yellow tabloid frame is built for exactly that wide-curiosity click.
+- Question-form ("STILL...?") matches the title's curiosity-gap and the verified grievance-archetype model.
+
+AIVDO POSTER MODE: Not applicable. Custom designer or ChatGPT image-gen with this brief (same path as Costco #55 and Blackberry #7).

@@ -1,0 +1,234 @@
+{
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "text": "A research firm called Gordon Haskett did something simple. It sent people into a Whole Foods in Princeton, New Jersey, and priced the same basket of goods over and over. About a year after the Amazon deal, it found that a basket of a hundred and eight items had fallen by all of forty cents. Not forty cents an item. Forty cents total. From four hundred and eight dollars and twenty-three cents, to four hundred and seven dollars and eighty-three cents. The firm's analyst, Chuck Grom, put it plainly. Many of the aggressive price actions from Whole Foods, he wrote, have been more bark than bite.\n\nThe cuts that did happen were narrow. They hit the commodities you could compare anywhere. Bananas, eggs, the things with a known price. But by the summer of 2018, a basket of sixty everyday items at Whole Foods still cost a hundred and ninety-five dollars. About thirteen percent more than a conventional supermarket. Protein was twenty-eight percent more expensive. The store still cost a whole paycheck, because Amazon had only cut the prices that were easy to cut.\n\nThen the prices started going back up. In early 2019, Whole Foods confirmed it was raising them. Roughly seven hundred supplier contracts that had locked in lower prices were expiring. Hundreds of items went up, by an average of sixty-six cents each. Crackers, soap, cookies, ice cream. The company blamed its suppliers, saying it had absorbed inflation in materials, labor, and transportation. The most powerful retailer on earth was now explaining to customers why their groceries cost more.\n\nHere is the part most coverage missed. Amazon never actually failed. It did exactly what it knows how to do. It cut the price of commodities to the bone. But Whole Foods was never expensive because of its bananas. It was expensive because of what it was. Small-batch organic suppliers, strict quality standards, prime real estate, higher labor costs, a supply chain built for premium, not for volume. You cannot data-optimize your way out of that. The cost was baked into the product.\n\nWhich means Whole Paycheck was never a mistake to be fixed. It was the business. People who shopped at Whole Foods were, on some level, paying to shop at Whole Foods. Amazon bought a brand whose entire identity was being expensive, and then promised to make it cheap. Those two things could not both survive.\n\nIn September of 2022, John Mackey retired. Forty-two years after he opened the first store. The founder was gone. Amazon had full control. And the chain he built still sat where it always had. At the top of the price chart.\n\nToday, Whole Foods holds about one percent of the American grocery market. Walmart holds roughly twenty. The price war that Amazon supposedly entered in 2017, it is winning almost nowhere, and certainly not through Whole Foods. What Amazon actually got for its thirteen point seven billion dollars was the real estate, the Prime members, and the data. The low prices it promised at the register never really arrived.\n\nWe covered Costco a few days ago. A company whose entire model is built on selling things at almost no margin on purpose. Costco is cheap because being cheap is the product. Whole Foods is the mirror image. It is expensive because being expensive is the product. Amazon, for all its power, could not change which kind of company it had bought. The lesson is older than e-commerce. Sometimes a company's greatest weakness is just its actual product, wearing a different coat. There are more case studies like this one already in the queue. If that is your format, subscribe to Disclosed. We publish three a week.",
+  "edited_script": {
+    "title": "Whole Foods Part 2: why the cuts reversed",
+    "description": "Gordon Haskett's basket studies show the cuts were narrow; early-2019 supplier-contract expirations push prices back up; the structural reason a premium brand stayed expensive; Mackey retires 2022; Walmart wins the price war.",
+    "source_text": "A research firm called Gordon Haskett did something simple. It sent people into a Whole Foods in Princeton, New Jersey, and priced the same basket of goods over and over. About a year after the Amazon deal, it found that a basket of a hundred and eight items had fallen by all of forty cents. Not forty cents an item. Forty cents total. From four hundred and eight dollars and twenty-three cents, to four hundred and seven dollars and eighty-three cents. The firm's analyst, Chuck Grom, put it plainly. Many of the aggressive price actions from Whole Foods, he wrote, have been more bark than bite.\n\nThe cuts that did happen were narrow. They hit the commodities you could compare anywhere. Bananas, eggs, the things with a known price. But by the summer of 2018, a basket of sixty everyday items at Whole Foods still cost a hundred and ninety-five dollars. About thirteen percent more than a conventional supermarket. Protein was twenty-eight percent more expensive. The store still cost a whole paycheck, because Amazon had only cut the prices that were easy to cut.\n\nThen the prices started going back up. In early 2019, Whole Foods confirmed it was raising them. Roughly seven hundred supplier contracts that had locked in lower prices were expiring. Hundreds of items went up, by an average of sixty-six cents each. Crackers, soap, cookies, ice cream. The company blamed its suppliers, saying it had absorbed inflation in materials, labor, and transportation. The most powerful retailer on earth was now explaining to customers why their groceries cost more.\n\nHere is the part most coverage missed. Amazon never actually failed. It did exactly what it knows how to do. It cut the price of commodities to the bone. But Whole Foods was never expensive because of its bananas. It was expensive because of what it was. Small-batch organic suppliers, strict quality standards, prime real estate, higher labor costs, a supply chain built for premium, not for volume. You cannot data-optimize your way out of that. The cost was baked into the product.\n\nWhich means Whole Paycheck was never a mistake to be fixed. It was the business. People who shopped at Whole Foods were, on some level, paying to shop at Whole Foods. Amazon bought a brand whose entire identity was being expensive, and then promised to make it cheap. Those two things could not both survive.\n\nIn September of 2022, John Mackey retired. Forty-two years after he opened the first store. The founder was gone. Amazon had full control. And the chain he built still sat where it always had. At the top of the price chart.\n\nToday, Whole Foods holds about one percent of the American grocery market. Walmart holds roughly twenty. The price war that Amazon supposedly entered in 2017, it is winning almost nowhere, and certainly not through Whole Foods. What Amazon actually got for its thirteen point seven billion dollars was the real estate, the Prime members, and the data. The low prices it promised at the register never really arrived.\n\nWe covered Costco a few days ago. A company whose entire model is built on selling things at almost no margin on purpose. Costco is cheap because being cheap is the product. Whole Foods is the mirror image. It is expensive because being expensive is the product. Amazon, for all its power, could not change which kind of company it had bought. The lesson is older than e-commerce. Sometimes a company's greatest weakness is just its actual product, wearing a different coat. There are more case studies like this one already in the queue. If that is your format, subscribe to Disclosed. We publish three a week.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 8,
+        "title": "First crack: Gordon Haskett, 108 items, -40c",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "108 items \u00b7 minus $0.40",
+          "$408.23 to $407.83"
+        ],
+        "narration": {
+          "text": "A research firm called Gordon Haskett did something simple. It sent people into a Whole Foods in Princeton, New Jersey, and priced the same basket of goods over and over. About a year after the Amazon deal, it found that a basket of a hundred and eight items had fallen by all of forty cents. Not forty cents an item. Forty cents total. From four hundred and eight dollars and twenty-three cents, to four hundred and seven dollars and eighty-three cents. The firm's analyst, Chuck Grom, put it plainly. Many of the aggressive price actions from Whole Foods, he wrote, have been more bark than bite.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of a printed financial research note resting on a desk beside a line chart on paper showing an almost perfectly flat horizontal line, a red pen circling the flat segment, focused desk lamp, late evening shadows. Color palette warm paper cream, red ink, dark wood. NEGATIVE: no readable text or numbers, no faces, no people, no produce, no grocery store, no storefront. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 9,
+        "title": "Still whole paycheck: $195, 13% above",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "60-item basket \u00b7 $195",
+          "Protein 28% pricier"
+        ],
+        "narration": {
+          "text": "The cuts that did happen were narrow. They hit the commodities you could compare anywhere. Bananas, eggs, the things with a known price. But by the summer of 2018, a basket of sixty everyday items at Whole Foods still cost a hundred and ninety-five dollars. About thirteen percent more than a conventional supermarket. Protein was twenty-eight percent more expensive. The store still cost a whole paycheck, because Amazon had only cut the prices that were easy to cut.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead close-up of a long grocery receipt unrolled across a dark wood table beside a cup of black coffee, the paper gently curled at the end, soft cool morning light from one side. Color palette white paper, espresso brown, muted morning grey. NEGATIVE: no readable text or numbers, no faces, no people, no produce, no grocery aisle, no storefront. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 10,
+        "title": "The reversal: early 2019, prices rise",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Early 2019 \u00b7 prices rise",
+          "~700 contracts expired"
+        ],
+        "narration": {
+          "text": "Then the prices started going back up. In early 2019, Whole Foods confirmed it was raising them. Roughly seven hundred supplier contracts that had locked in lower prices were expiring. Hundreds of items went up, by an average of sixty-six cents each. Crackers, soap, cookies, ice cream. The company blamed its suppliers, saying it had absorbed inflation in materials, labor, and transportation. The most powerful retailer on earth was now explaining to customers why their groceries cost more.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic still life of a small blank price tag standing on a dark textured surface, a faint upward-trending red line projected on the wall behind it, dramatic low side lighting throwing a long shadow. Color palette deep charcoal, glowing red, single warm highlight. NEGATIVE: no readable text or numbers, no faces, no people, no produce, no grocery aisle, no storefront, no shopping cart. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 11,
+        "title": "The structural why: cost baked in",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Premium sourcing \u00b7 prime rent",
+          "Cost baked into product"
+        ],
+        "narration": {
+          "text": "Here is the part most coverage missed. Amazon never actually failed. It did exactly what it knows how to do. It cut the price of commodities to the bone. But Whole Foods was never expensive because of its bananas. It was expensive because of what it was. Small-batch organic suppliers, strict quality standards, prime real estate, higher labor costs, a supply chain built for premium, not for volume. You cannot data-optimize your way out of that. The cost was baked into the product.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of a small artisanal organic farm at golden hour, neat hand-tended rows of leafy crops, a single weathered wooden harvest crate in the foreground, a distant barn under warm low sun, long shadows. Color palette golden field green, warm sunset amber, soft brown earth. NEGATIVE: no faces, no people, no human silhouettes, no supermarket, no storefront, no shopping cart, no packaged products. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 12,
+        "title": "Reframe: expensive WAS the product",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Expensive WAS the product"
+        ],
+        "narration": {
+          "text": "Which means Whole Paycheck was never a mistake to be fixed. It was the business. People who shopped at Whole Foods were, on some level, paying to shop at Whole Foods. Amazon bought a brand whose entire identity was being expensive, and then promised to make it cheap. Those two things could not both survive.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic still life of a single elegant premium kraft-paper grocery bag standing upright on a minimalist polished concrete pedestal under a clean museum-style spotlight, dark seamless background, reverent gallery lighting. Color palette warm kraft brown, neutral concrete grey, deep black backdrop. NEGATIVE: no readable text or logos, no faces, no people, no produce visible, no storefront, no shopping cart. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 13,
+        "title": "Founder out: Mackey retires, Sept 2022",
+        "target_duration": 0,
+        "energy_level": "low",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Sept 2022 \u00b7 Mackey retires",
+          "42 years"
+        ],
+        "narration": {
+          "text": "In September of 2022, John Mackey retired. Forty-two years after he opened the first store. The founder was gone. Amazon had full control. And the chain he built still sat where it always had. At the top of the price chart.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic shot of an empty executive corner office at dusk, a leather chair pushed back from a cleared desk, a single open cardboard box of personal items on the desktop, floor-to-ceiling windows with fading blue light over a city skyline. Color palette cool dusk blue, warm leather brown, dim interior. NEGATIVE: no faces, no people, no human silhouettes, no produce, no storefront, no readable text. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 14,
+        "title": "Where it stands: ~1% vs Walmart ~20%",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Whole Foods about 1%",
+          "Walmart about 20%"
+        ],
+        "narration": {
+          "text": "Today, Whole Foods holds about one percent of the American grocery market. Walmart holds roughly twenty. The price war that Amazon supposedly entered in 2017, it is winning almost nowhere, and certainly not through Whole Foods. What Amazon actually got for its thirteen point seven billion dollars was the real estate, the Prime members, and the data. The low prices it promised at the register never really arrived.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of a clean bar chart printed on heavy paper, one tiny short bar dwarfed beside a single towering bar, stark studio lighting, deep dramatic shadows, shallow focus. Color palette white paper, slate grey bars, hard black shadow. NEGATIVE: no readable text or numbers, no faces, no people, no produce, no storefront. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 15,
+        "title": "Close: Costco mirror + caveat + CTA",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Costco: cheap is the product",
+          "Subscribe \u00b7 Disclosed"
+        ],
+        "narration": {
+          "text": "We covered Costco a few days ago. A company whose entire model is built on selling things at almost no margin on purpose. Costco is cheap because being cheap is the product. Whole Foods is the mirror image. It is expensive because being expensive is the product. Amazon, for all its power, could not change which kind of company it had bought. The lesson is older than e-commerce. Sometimes a company's greatest weakness is just its actual product, wearing a different coat. There are more case studies like this one already in the queue. If that is your format, subscribe to Disclosed. We publish three a week.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide exterior of the same upscale organic supermarket storefront now at dusk, warm interior light glowing through the plate-glass windows and spilling onto an empty clean sidewalk, end-of-day calm, a faint price sign still in the window, deep blue evening sky above. Color palette forest green, warm amber interior glow, deep dusk blue. NEGATIVE: no readable logos or text, no faces, no people, no human silhouettes. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}
