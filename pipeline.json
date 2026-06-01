@@ -433,7 +433,7 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 8,
-      "script_status": "queue_next",
+      "script_status": "Done",
       "publish_status": "Planned",
       "planned_publish": "2026-06-03",
       "actual_publish": null,
@@ -442,7 +442,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "Grievance-archetype reframe (was 'Amazon killed Whole Foods founder in 3 meetings' = finance-curiosity trap, per Costco #55 Day-4 diagnostic). Cleared saturation audit 2026-06-01: zero major-faceless-channel coverage. FRAMING DISCIPLINE: business-postmortem (why Amazon promised price cuts in 2017 and why they reversed - supplier contracts expiring, inflation pass-through, centralization), NOT consumer shopping-tip. McDonald's-style yellow thumbnail. Subscribe CTA in close."
+      "notes": "18th ship. Uploaded PRIVATE 2026-06-01, awaiting Studio QC + custom yellow thumbnail + hand-typed pinned comment + public flip (target public 2026-06-03): https://www.youtube.com/watch?v=W0Q_l-vyPl8. Title: Why Couldn't Amazon Make Whole Foods Cheap? First deliberate grievance-archetype test after Costco #55 Path-A diagnostic. Grievance reframe (was 'Amazon killed Whole Foods founder in 3 meetings' = finance-curiosity trap). Cleared saturation audit 2026-06-01: zero major-faceless-channel coverage; business-postmortem framing (price-cut promise -> 2019 reversal -> structural why), NOT consumer shopping-tip. Final video 7:32 cinematic gpt-image-2 (1080p, 203.8MB stitched, 1114 narration words at ~141wpm Algieba). Part 1 clean; Part 2 hit the deploy-stall/worker-recycle pattern (job 11a7952 stalled 25min) but the AIVDO retry recovered it to 90% server-side, so resumed-and-downloaded WITHOUT resubmit (no extra OpenAI spend), per the recovery memory. Editorial gate: 6 URL pass, 1 Bloomberg 403 bot-block (verified real), 0 fail; every spoken specific logged in REVIEW.md ledger (WF 8-K, Bloomberg, Gordon Haskett/Inquirer, Fortune, CNBC, Numerator). Cross-reference to Costco #55 baked into scene 15 (cheap-is-the-product mirror). Pinned comment SUPPRESSED on upload (--no-pinned-comment) per AI-detection rule. Artifacts on branch daily/2026-06-03_26_amazon-whole-foods-whole-paycheck."
     },
     {
       "#": 27,
