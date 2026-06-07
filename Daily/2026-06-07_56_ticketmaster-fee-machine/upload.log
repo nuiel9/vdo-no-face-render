@@ -1,0 +1,24 @@
+Parsed YOUTUBE.md:
+  title: Ticketmaster Just Lost. Why Won't Your Fees Drop?
+  description: 2063 chars
+  tags: []
+  pinned comment: 0 chars
+
+video: final.mp4 (199.5 MB)
+thumbnail: (none — none of ('thumbnail.png', 'thumbnail.jpg', 'thumb.png', 'thumb.jpg') found in slug folder)
+privacy: private
+category_id: 27
+
+Authenticating with YouTube…
+
+Uploading final.mp4…
+  upload progress: 20%
+  upload progress: 40%
+  upload progress: 60%
+  upload progress: 80%
+
+✓ Uploaded: https://www.youtube.com/watch?v=hQ34iQvr1EA
+  Studio:   https://studio.youtube.com/video/hQ34iQvr1EA/edit
+
+Next: open Studio, QC, flip privacy → public when ready, then update pipeline.json:
+  python3 -c "..." or hand-edit notes URL = https://www.youtube.com/watch?v=hQ34iQvr1EA

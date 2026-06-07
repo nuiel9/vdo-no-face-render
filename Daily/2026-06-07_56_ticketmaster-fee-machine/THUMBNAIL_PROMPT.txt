@@ -1,36 +1,35 @@
-THUMBNAIL BRIEF (DATA-VIZ / Peloton-style): Ticketmaster Just Lost. Why Won't Your Fees Drop?
+THUMBNAIL BRIEF (McDONALD'S-YELLOW TABLOID): Ticketmaster Just Lost. Why Won't Your Fees Drop?
 Daily #56 | Ticketmaster / Live Nation fee machine | Story template
-Style reference: Peloton #38 "THE CHURN RATE" data-viz thumbnail + the #26 THUMBNAIL_PROMPT_v2 lineage. This ship is the CLEAN test of the data-viz style (the #26 one was untested at 19 imp — let this one get a real impression window before judging the style).
 
-CONCEPT: dark cinematic data-viz. A price bar that starts at FACE VALUE and stacks UP with fees to a much higher FINAL price — the markup IS the visual. Green = the face value you thought you'd pay; red = what the fees actually cost. Heavy condensed white headline lower-left.
+DECISION 2026-06-07: use the McDONALD'S-YELLOW TABLOID template, NOT the data-viz (Peloton) style.
+Rationale: #56 is the first clean-window GRIEVANCE-ARCHETYPE test in weeks. Hold every non-topic variable at known-good so the archetype is the only new variable. Yellow is the only validated thumbnail (Costco 6.1% / McDonald's 4.2% CTR; "stop testing style"). The data-viz/chart aesthetic risks re-routing to the finance-curiosity sub-audience (the Costco Path-A trap: 40% US, 0 subs) — exactly what the grievance pivot is escaping. Yellow tabloid signals "wide consumer grievance," which is the McDonald's audience (78% US, converts) the topic is chasing. Test data-viz LATER on its own ship. (Prior data-viz brief retained in git history at commit 0a00d2b.)
 
-THE VISUAL IRONY (load-bearing): the company was just ruled an illegal monopoly (April 2026) and the fee still stands. So the chart shows the fee STACKING UP, not falling — a verdict that changed nothing.
+CONCEPT: McDonald's #30 / Costco #55 YELLOW tabloid — bright high-contrast yellow text-as-hero over a darkened photo. The grievance number does the heavy lift: everyone has felt a ticket price balloon at checkout; putting the jump on the thumbnail names the universal grievance and poses the paradox (the company was just ruled a monopoly, the fee still stands).
+
+HEADLINE (chosen): "$90 TICKET." / "$130 TOTAL." — the grievance number right on the thumbnail, two-line stack, huge.
+  Alternates if you prefer a question: "STILL PAYING THE FEE?"  or  "GUILTY. FEES STILL RISING."
 
 COMPOSITION:
-- Background: dark, desaturated photographic concert scene — an arena crowd silhouette from behind / stage lights / OR a phone showing a checkout-queue screen — darkened ~50% so graphics pop. Faint chart gridlines overlaid.
-- Hero chart: a vertical bar built in two stacked segments — a short GREEN base segment (face value) with a tall RED segment stacked on top (the fees), an up-arrow on the red. The red dwarfs the green.
-- Green callout (base): "$90 FACE" with small caption "WHAT THE TICKET SAYS".
-- Red callout (top of stack): "+58% FEES" with small caption "GAO: UP TO". (58% = the GAO-18-347 max; the average is 27%. Using the MAX as the shock number is sourced and honest if captioned "up to." Alternate if you prefer the average: "+27% FEES / GAO AVG".)
-- Headline lower-left, heavy condensed all-caps white w/ thick black outline, two lines:
-    "THE FEE MACHINE"
-    "That Won in Court"
-- Lower-third: thin deep-charcoal band, "Disclosed" in clean white sans.
+- Background: a slightly desaturated photographic concert/arena scene — a crowd silhouette facing a brightly lit stage, OR a single paper event ticket on a dark surface — pushed back and darkened ~40% so text pops. NOT a clean studio shot, NOT a chart.
+- Hero element: massive bold YELLOW headline stacked across the upper two-thirds, heavy condensed sans, thick black outline/drop shadow for mobile legibility. Tabloid yellow (#FFD400) on the darkened photo.
+- Optional supporting element: a small torn ticket stub or a phone showing a checkout/queue screen in a lower corner as context, subordinate to the text.
+- Lower-third: thin deep-charcoal band with "Disclosed" in clean white sans-serif.
 
 COLOR PALETTE:
-- Green callout/base: bright chart green #37C837 (the "promise" color).
-- Red callout/stack: alert red #E01E1E (the "reality" color), soft glow.
-- Headline: white #FFFFFF, heavy black outline for 320px legibility.
-- Background: desaturated arena blues/blacks, darkened ~50%.
-- Band: charcoal #1A1A1A, white text.
+- Headline: tabloid yellow (#FFD400) with near-black outline (#111111)
+- Background photo: desaturated arena blues/blacks, darkened ~40%
+- Accent band: deep charcoal (#222222), white text (#FFFFFF)
 
-TYPOGRAPHY: heavy condensed sans (Anton / Impact-class), all caps, tight leading. NOT editorial serif, NOT the yellow tabloid.
+TYPOGRAPHY:
+- Heavy condensed sans (Anton / Impact-class), all caps, tight leading. NOT editorial serif, NOT a data-viz chart.
+- Two-line stack so each line is huge at 320px.
 
-DATA ACCURACY (do NOT alter): the "$90 face" is an illustrative round number (matches the script's generic example); the "+58% / up to" and "27% avg" are GAO-18-347 figures — keep the "up to" / "avg" qualifier so the number is honest. Do not present 58% as a typical or specific-event fee.
+MOBILE LEGIBILITY (320px): "$90 TICKET. $130 TOTAL." reads instantly — two short lines, yellow-on-dark. Headline occupies ~55-65% of vertical frame. No element smaller than 36pt-equivalent at full res.
 
-MOBILE LEGIBILITY (320px): headline three short words + two glanceable callouts ("$90 FACE" green / "+58% FEES" red). The green-small / red-tall stack reads as one gesture: fees dwarf the ticket. Three text zones max.
+DATA NOTE: "$90 → $130" is an illustrative round example of the GAO-18-347 fee range (avg 27%, up to 58% in fees); it matches the script's generic checkout example. Honest as illustration; do not present it as a specific event's price.
 
-PERSONS: No human likenesses, no faces, NO Taylor Swift, no executives. Arena/crowd-from-behind silhouettes, stage lights, phone screens, chart — environment only (faceless rule).
+PERSONS: No human likenesses, no faces, NO Taylor Swift, no executives. Crowd-from-behind silhouettes, stage lights, ticket/phone props only (faceless rule).
 
-WHY: Ticketmaster junk fees = top-tier universal American grievance; the stacked-fee chart encodes the whole thesis (you pay far more than face, and a monopoly verdict didn't change it) in one glance — the Peloton-collapse equivalent. Question-form title supplies the paradox the thumbnail answers.
+WHY THIS TEMPLATE: yellow tabloid posted the channel's best-ever CTR (Costco 6.1%, McDonald's 4.2%) and pulls the wide-American-grievance Browse click — the exact audience #56's grievance topic is built for. Question/paradox title supplies the curiosity the number on the thumbnail confirms.
 
-PRODUCTION PATH: custom designer or ChatGPT image-gen with this brief (same path as Peloton #38 / Costco #55). AIVDO poster mode not applicable.
+PRODUCTION PATH: custom designer or ChatGPT image-gen with this brief (same path as Costco #55 / McDonald's #30). AIVDO poster mode not applicable.
