@@ -1,0 +1,36 @@
+THUMBNAIL BRIEF (DATA-VIZ / Peloton-style): Ticketmaster Just Lost. Why Won't Your Fees Drop?
+Daily #56 | Ticketmaster / Live Nation fee machine | Story template
+Style reference: Peloton #38 "THE CHURN RATE" data-viz thumbnail + the #26 THUMBNAIL_PROMPT_v2 lineage. This ship is the CLEAN test of the data-viz style (the #26 one was untested at 19 imp — let this one get a real impression window before judging the style).
+
+CONCEPT: dark cinematic data-viz. A price bar that starts at FACE VALUE and stacks UP with fees to a much higher FINAL price — the markup IS the visual. Green = the face value you thought you'd pay; red = what the fees actually cost. Heavy condensed white headline lower-left.
+
+THE VISUAL IRONY (load-bearing): the company was just ruled an illegal monopoly (April 2026) and the fee still stands. So the chart shows the fee STACKING UP, not falling — a verdict that changed nothing.
+
+COMPOSITION:
+- Background: dark, desaturated photographic concert scene — an arena crowd silhouette from behind / stage lights / OR a phone showing a checkout-queue screen — darkened ~50% so graphics pop. Faint chart gridlines overlaid.
+- Hero chart: a vertical bar built in two stacked segments — a short GREEN base segment (face value) with a tall RED segment stacked on top (the fees), an up-arrow on the red. The red dwarfs the green.
+- Green callout (base): "$90 FACE" with small caption "WHAT THE TICKET SAYS".
+- Red callout (top of stack): "+58% FEES" with small caption "GAO: UP TO". (58% = the GAO-18-347 max; the average is 27%. Using the MAX as the shock number is sourced and honest if captioned "up to." Alternate if you prefer the average: "+27% FEES / GAO AVG".)
+- Headline lower-left, heavy condensed all-caps white w/ thick black outline, two lines:
+    "THE FEE MACHINE"
+    "That Won in Court"
+- Lower-third: thin deep-charcoal band, "Disclosed" in clean white sans.
+
+COLOR PALETTE:
+- Green callout/base: bright chart green #37C837 (the "promise" color).
+- Red callout/stack: alert red #E01E1E (the "reality" color), soft glow.
+- Headline: white #FFFFFF, heavy black outline for 320px legibility.
+- Background: desaturated arena blues/blacks, darkened ~50%.
+- Band: charcoal #1A1A1A, white text.
+
+TYPOGRAPHY: heavy condensed sans (Anton / Impact-class), all caps, tight leading. NOT editorial serif, NOT the yellow tabloid.
+
+DATA ACCURACY (do NOT alter): the "$90 face" is an illustrative round number (matches the script's generic example); the "+58% / up to" and "27% avg" are GAO-18-347 figures — keep the "up to" / "avg" qualifier so the number is honest. Do not present 58% as a typical or specific-event fee.
+
+MOBILE LEGIBILITY (320px): headline three short words + two glanceable callouts ("$90 FACE" green / "+58% FEES" red). The green-small / red-tall stack reads as one gesture: fees dwarf the ticket. Three text zones max.
+
+PERSONS: No human likenesses, no faces, NO Taylor Swift, no executives. Arena/crowd-from-behind silhouettes, stage lights, phone screens, chart — environment only (faceless rule).
+
+WHY: Ticketmaster junk fees = top-tier universal American grievance; the stacked-fee chart encodes the whole thesis (you pay far more than face, and a monopoly verdict didn't change it) in one glance — the Peloton-collapse equivalent. Question-form title supplies the paradox the thumbnail answers.
+
+PRODUCTION PATH: custom designer or ChatGPT image-gen with this brief (same path as Peloton #38 / Costco #55). AIVDO poster mode not applicable.

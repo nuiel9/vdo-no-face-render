@@ -1,0 +1,235 @@
+{
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "text": "On January twenty-fourth, 2023, a company executive sat down in front of the Senate Judiciary Committee. It was one of the rare days in Washington when both parties agreed on something. Senators from the left and the right took turns describing the same experience. Their constituents, their staff, themselves, all crushed by the same fees and the same frozen screens. The company blamed bots and scalpers. The senators were not convinced.\n\nOn May twenty-third, 2024, the Justice Department, joined by roughly forty states and the District of Columbia, filed suit. The goal was blunt. They wanted to break the company apart, to pull the ticketing arm back out of the concert empire. Their argument was the flywheel itself. A single firm controlling promotion, venues, and ticketing, they said, was not a competitor that had won. It was a monopoly that had locked the doors.\n\nThe case described a system where the parts protected each other. Use our ticketing, or you might not get our tours. Play our venues, or lose access to the biggest acts. The Justice Department called it illegal bundling, tying one service to another so that no rival could ever compete on just a single piece. The toll was not a price. It was a trap.\n\nThen, in March of 2026, the federal case took a turn. The Justice Department settled. The company agreed to about two hundred million dollars for the states and a set of structural changes, but it would not be broken up. The single most important demand, splitting the ticketing arm back off, was gone. For the company, it looked like survival. But not every plaintiff signed. Several states refused the deal and pressed on alone.\n\nThose states went to trial. And on April fifteenth, 2026, the jury came back. The two companies were liable on every antitrust count, found to have illegally monopolized ticketing and overcharged the public. It was the verdict fans had wanted for a decade. The company that built the toll had finally been told, in a court of law, that the toll was illegal. And still, the fees did not move.\n\nHere is why. A guilty verdict can punish a company. It cannot, by itself, un-build a structure. As long as the same firm promotes the show, owns the venue, and sells the ticket, the fee is simply how that structure makes money. It is not bolted onto the business. It is the business. To actually lower the fee, someone has to take the machine apart, and that fight, over the remedy, is still being decided by a judge.\n\nWe have seen this exact shape before on this channel. When Amazon bought Whole Foods, everyone expected the high prices to fall, and they did not, because the premium was never a flaw. It was the product. Ticketmaster is the same lesson in a different costume. The fee you hate is not the company failing to serve you. It is the company doing exactly what its structure was built to do.\n\nSo the next time a ninety dollar ticket rings up at a hundred and thirty, remember that the number is not a mistake. It is a monopoly, found guilty, still standing, waiting on a judge to decide whether anything actually changes. If you want more stories about the machines hiding behind the prices we all pay, subscribe to Disclosed. We publish three a week. And we will be watching what that judge decides.",
+  "edited_script": {
+    "title": "Ticketmaster Part 2: ruled a monopoly, fees still won't drop",
+    "description": "Jan 24 2023 Senate hearing, the May 23 2024 DOJ+states suit, illegal bundling, the March 2026 DOJ settlement (~$200M, no breakup), the April 15 2026 states' jury verdict (liable all counts), and the structural reason a verdict doesn't lower the fee.",
+    "source_text": "On January twenty-fourth, 2023, a company executive sat down in front of the Senate Judiciary Committee. It was one of the rare days in Washington when both parties agreed on something. Senators from the left and the right took turns describing the same experience. Their constituents, their staff, themselves, all crushed by the same fees and the same frozen screens. The company blamed bots and scalpers. The senators were not convinced.\n\nOn May twenty-third, 2024, the Justice Department, joined by roughly forty states and the District of Columbia, filed suit. The goal was blunt. They wanted to break the company apart, to pull the ticketing arm back out of the concert empire. Their argument was the flywheel itself. A single firm controlling promotion, venues, and ticketing, they said, was not a competitor that had won. It was a monopoly that had locked the doors.\n\nThe case described a system where the parts protected each other. Use our ticketing, or you might not get our tours. Play our venues, or lose access to the biggest acts. The Justice Department called it illegal bundling, tying one service to another so that no rival could ever compete on just a single piece. The toll was not a price. It was a trap.\n\nThen, in March of 2026, the federal case took a turn. The Justice Department settled. The company agreed to about two hundred million dollars for the states and a set of structural changes, but it would not be broken up. The single most important demand, splitting the ticketing arm back off, was gone. For the company, it looked like survival. But not every plaintiff signed. Several states refused the deal and pressed on alone.\n\nThose states went to trial. And on April fifteenth, 2026, the jury came back. The two companies were liable on every antitrust count, found to have illegally monopolized ticketing and overcharged the public. It was the verdict fans had wanted for a decade. The company that built the toll had finally been told, in a court of law, that the toll was illegal. And still, the fees did not move.\n\nHere is why. A guilty verdict can punish a company. It cannot, by itself, un-build a structure. As long as the same firm promotes the show, owns the venue, and sells the ticket, the fee is simply how that structure makes money. It is not bolted onto the business. It is the business. To actually lower the fee, someone has to take the machine apart, and that fight, over the remedy, is still being decided by a judge.\n\nWe have seen this exact shape before on this channel. When Amazon bought Whole Foods, everyone expected the high prices to fall, and they did not, because the premium was never a flaw. It was the product. Ticketmaster is the same lesson in a different costume. The fee you hate is not the company failing to serve you. It is the company doing exactly what its structure was built to do.\n\nSo the next time a ninety dollar ticket rings up at a hundred and thirty, remember that the number is not a mistake. It is a monopoly, found guilty, still standing, waiting on a judge to decide whether anything actually changes. If you want more stories about the machines hiding behind the prices we all pay, subscribe to Disclosed. We publish three a week. And we will be watching what that judge decides.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 9,
+        "title": "Senate Judiciary hearing Jan 24 2023",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Jan 24 2023",
+          "Senate Judiciary Committee"
+        ],
+        "narration": {
+          "text": "On January twenty-fourth, 2023, a company executive sat down in front of the Senate Judiciary Committee. It was one of the rare days in Washington when both parties agreed on something. Senators from the left and the right took turns describing the same experience. Their constituents, their staff, themselves, all crushed by the same fees and the same frozen screens. The company blamed bots and scalpers. The senators were not convinced.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of an empty United States Senate hearing room, a long curved polished wood dais with rows of vacant high-backed leather chairs, a lone witness table with a single microphone facing it, cold daylight from tall windows, motes of dust in the air. Color palette honey oak wood, deep green leather, pale grey daylight. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 10,
+        "title": "DOJ + 40 states sue: May 23 2024",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "May 23 2024",
+          "DOJ + ~40 states sue"
+        ],
+        "narration": {
+          "text": "On May twenty-third, 2024, the Justice Department, joined by roughly forty states and the District of Columbia, filed suit. The goal was blunt. They wanted to break the company apart, to pull the ticketing arm back out of the concert empire. Their argument was the flywheel itself. A single firm controlling promotion, venues, and ticketing, they said, was not a competitor that had won. It was a monopoly that had locked the doors.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic low-angle shot of the towering neoclassical stone facade of a federal justice building, massive fluted columns rising into an overcast sky, broad empty granite steps in the foreground, cold flat morning light, a sense of institutional weight. Color palette pale limestone grey, slate sky, cold blue shadow. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 11,
+        "title": "The case: monopolization + illegal bundling",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Monopolized primary ticketing",
+          "Illegal bundling"
+        ],
+        "narration": {
+          "text": "The case described a system where the parts protected each other. Use our ticketing, or you might not get our tours. Play our venues, or lose access to the biggest acts. The Justice Department called it illegal bundling, tying one service to another so that no rival could ever compete on just a single piece. The toll was not a price. It was a trap.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of three heavy steel boxes bound tightly together by thick interlocking chains and a single padlock, the chains pulled taut under hard side light, cold concrete floor beneath, deep shadow behind. Color palette industrial grey steel, black chain, harsh white key light. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 12,
+        "title": "March 2026: DOJ settles, no breakup",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "March 2026: DOJ settles",
+          "~$200M, no breakup"
+        ],
+        "narration": {
+          "text": "Then, in March of 2026, the federal case took a turn. The Justice Department settled. The company agreed to about two hundred million dollars for the states and a set of structural changes, but it would not be broken up. The single most important demand, splitting the ticketing arm back off, was gone. For the company, it looked like survival. But not every plaintiff signed. Several states refused the deal and pressed on alone.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead close-up of a thick bound legal settlement document on a dark desk, a heavy black fountain pen resting in the gutter of the open page, one corner of the paper lifted as if just signed, a narrow band of warm lamp light across it, the rest in shadow. Color palette cream paper, black ink, warm pooled lamplight. NEGATIVE: no readable text, no faces, no people, no logos, no chains. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 13,
+        "title": "April 15 2026: jury liable on every count",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "April 15 2026",
+          "Liable on every count"
+        ],
+        "narration": {
+          "text": "Those states went to trial. And on April fifteenth, 2026, the jury came back. The two companies were liable on every antitrust count, found to have illegally monopolized ticketing and overcharged the public. It was the verdict fans had wanted for a decade. The company that built the toll had finally been told, in a court of law, that the toll was illegal. And still, the fees did not move.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic shot of an empty courtroom jury box, twelve vacant wooden chairs behind a low rail, tall arched windows pouring cold hard daylight across the polished floor, a single chair turned slightly outward, profound stillness. Color palette warm oak, cold white window light, long grey shadows. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 14,
+        "title": "Structural truth: the fee is the business model",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "The fee is the business model",
+          "Not a bug to fix"
+        ],
+        "narration": {
+          "text": "Here is why. A guilty verdict can punish a company. It cannot, by itself, un-build a structure. As long as the same firm promotes the show, owns the venue, and sells the ticket, the fee is simply how that structure makes money. It is not bolted onto the business. It is the business. To actually lower the fee, someone has to take the machine apart, and that fight, over the remedy, is still being decided by a judge.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic shot of a single automated toll-booth gate arm lowered across an empty night highway lane, a hard red lamp glowing above it, painted lane markings vanishing into the dark distance, no vehicles, faint mist. Color palette red signal glow, wet asphalt black, pale lane-paint white. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 15,
+        "title": "Cross-ref: the thing you hate is the model (Whole Foods)",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "The thing you hate is the model",
+          "See: Whole Foods on Disclosed"
+        ],
+        "narration": {
+          "text": "We have seen this exact shape before on this channel. When Amazon bought Whole Foods, everyone expected the high prices to fall, and they did not, because the premium was never a flaw. It was the product. Ticketmaster is the same lesson in a different costume. The fee you hate is not the company failing to serve you. It is the company doing exactly what its structure was built to do.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of an upscale organic grocery produce display under warm store light, glossy stacked fruit and a small blank price-card holder on a stem, the background softly blurred into an out-of-focus glow that subtly resembles distant stage lights. Color palette fresh green produce, warm market gold, soft bokeh. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 16,
+        "title": "Close + subscribe CTA",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Remedy pending before a judge",
+          "Subscribe to Disclosed"
+        ],
+        "narration": {
+          "text": "So the next time a ninety dollar ticket rings up at a hundred and thirty, remember that the number is not a mistake. It is a monopoly, found guilty, still standing, waiting on a judge to decide whether anything actually changes. If you want more stories about the machines hiding behind the prices we all pay, subscribe to Disclosed. We publish three a week. And we will be watching what that judge decides.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic intimate close-up of a single event ticket standing upright on a dark reflective surface, lit by one warm spotlight that throws a long dramatic shadow across the table toward the viewer, soft falloff into black around it. Color palette warm amber ticket, black mirror surface, single gold light. NEGATIVE: no readable text, no faces, no people, no logos. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

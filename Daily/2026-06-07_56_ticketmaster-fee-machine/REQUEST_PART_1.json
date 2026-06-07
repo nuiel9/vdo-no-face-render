@@ -1,0 +1,235 @@
+{
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "text": "On the morning of November fifteenth, 2022, three and a half million people sat refreshing the same website. They were all trying to buy tickets to see one artist. Within an hour, the site buckled. Fans were frozen in endless queues, logged out, locked in digital waiting rooms that never moved. By the end of the day the company had sold two point four million tickets, a record, and enraged almost everyone who tried. But this was not a glitch. This was the machine working exactly as designed.\n\nThree and a half years later, in April of 2026, a federal jury reached a verdict. The ticketing company and its parent had operated an illegal monopoly. The company lost on every count. And here is the strange part. Even now, your fees are not going down. This is the story of how the most hated checkout screen in America was built, and why winning in a courtroom cannot take it apart.\n\nYou already know the feeling. The ticket says ninety dollars. Then comes the service fee, the facility fee, the order processing fee, and somehow you are paying a hundred and thirty. In 2018, the Government Accountability Office studied this. On primary ticket sales, fees averaged twenty-seven percent of the ticket price. On some events they ran as high as fifty-eight percent. The real question is why no competitor ever undercut it.\n\nThe answer starts on January twenty-fifth, 2010. That day, the Justice Department cleared a merger between the two giants of live music. One side controlled the ticketing. The other controlled the concerts, the tours, and a vast network of venues. Regulators were nervous enough that they forced the combined company to sign a ten-year consent decree, a written promise not to abuse its power. The promise, it turned out, was the easy part.\n\nWhat the merger created was a flywheel. The company promotes the tour. It books that tour into venues it owns or controls. Those venues are ticketed by its own platform. And every ticket carries the fees. An artist who wants the biggest stages, and a fan who wants the biggest shows, both end up inside the same machine. There is no rival checkout to click over to. When you control every step, the fee is not competition. It is a toll.\n\nThe consent decree was supposed to stop exactly this. It did not. By 2019, the Justice Department had identified five separate violations, conduct it said was repeated over years, including pressure on venues that dared to use a different ticketer. The penalty, in 2020, was to extend the decree to 2025 and charge the company three million dollars. For a business this size, it was a parking ticket. The machine kept turning.\n\nWhich brings us back to that morning in November 2022. The company had invited three and a half million people into a presale it called Verified Fan, a system meant to keep the bots out and let real fans in. Instead, the site crashed within the hour. But the fans who got through were not paying the price on the ticket. They were paying the price, plus the toll.\n\nTwo days later, the company did something almost unheard of. It canceled the general public sale entirely, blaming extraordinarily high demand and not enough tickets left. Millions of people who had done nothing wrong were simply shut out. For the first time, the country was not just annoyed at a checkout screen. It was asking a much bigger question. How did one company end up holding the only door into live music?",
+  "edited_script": {
+    "title": "Ticketmaster Part 1: how the fee machine was built",
+    "description": "The Nov 15 2022 Eras Tour presale meltdown, the GAO fee data (avg 27%, up to 58%), the Jan 25 2010 merger + 10-yr consent decree, the promotion-venues-ticketing flywheel, the 5 decree violations, and the canceled general sale.",
+    "source_text": "On the morning of November fifteenth, 2022, three and a half million people sat refreshing the same website. They were all trying to buy tickets to see one artist. Within an hour, the site buckled. Fans were frozen in endless queues, logged out, locked in digital waiting rooms that never moved. By the end of the day the company had sold two point four million tickets, a record, and enraged almost everyone who tried. But this was not a glitch. This was the machine working exactly as designed.\n\nThree and a half years later, in April of 2026, a federal jury reached a verdict. The ticketing company and its parent had operated an illegal monopoly. The company lost on every count. And here is the strange part. Even now, your fees are not going down. This is the story of how the most hated checkout screen in America was built, and why winning in a courtroom cannot take it apart.\n\nYou already know the feeling. The ticket says ninety dollars. Then comes the service fee, the facility fee, the order processing fee, and somehow you are paying a hundred and thirty. In 2018, the Government Accountability Office studied this. On primary ticket sales, fees averaged twenty-seven percent of the ticket price. On some events they ran as high as fifty-eight percent. The real question is why no competitor ever undercut it.\n\nThe answer starts on January twenty-fifth, 2010. That day, the Justice Department cleared a merger between the two giants of live music. One side controlled the ticketing. The other controlled the concerts, the tours, and a vast network of venues. Regulators were nervous enough that they forced the combined company to sign a ten-year consent decree, a written promise not to abuse its power. The promise, it turned out, was the easy part.\n\nWhat the merger created was a flywheel. The company promotes the tour. It books that tour into venues it owns or controls. Those venues are ticketed by its own platform. And every ticket carries the fees. An artist who wants the biggest stages, and a fan who wants the biggest shows, both end up inside the same machine. There is no rival checkout to click over to. When you control every step, the fee is not competition. It is a toll.\n\nThe consent decree was supposed to stop exactly this. It did not. By 2019, the Justice Department had identified five separate violations, conduct it said was repeated over years, including pressure on venues that dared to use a different ticketer. The penalty, in 2020, was to extend the decree to 2025 and charge the company three million dollars. For a business this size, it was a parking ticket. The machine kept turning.\n\nWhich brings us back to that morning in November 2022. The company had invited three and a half million people into a presale it called Verified Fan, a system meant to keep the bots out and let real fans in. Instead, the site crashed within the hour. But the fans who got through were not paying the price on the ticket. They were paying the price, plus the toll.\n\nTwo days later, the company did something almost unheard of. It canceled the general public sale entirely, blaming extraordinarily high demand and not enough tickets left. Millions of people who had done nothing wrong were simply shut out. For the first time, the country was not just annoyed at a checkout screen. It was asking a much bigger question. How did one company end up holding the only door into live music?",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: Nov 15 2022 Eras Tour presale meltdown",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Nov 15 2022",
+          "3.5 million fans, one website"
+        ],
+        "narration": {
+          "text": "On the morning of November fifteenth, 2022, three and a half million people sat refreshing the same website. They were all trying to buy tickets to see one artist. Within an hour, the site buckled. Fans were frozen in endless queues, logged out, locked in digital waiting rooms that never moved. By the end of the day the company had sold two point four million tickets, a record, and enraged almost everyone who tried. But this was not a glitch. This was the machine working exactly as designed.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic extreme close-up of a single smartphone held in a dark room, the screen glowing with an endless circular loading spinner and a long digital waiting-queue bar, faint reflections of many other identical phone screens receding into the shadows behind it, cold blue device light on fingertips at the edge of frame. Color palette electric blue screen glow, deep black room, faint white reflections. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Thesis: ruled a monopoly, fees still won't drop",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "April 15 2026: ruled a monopoly",
+          "The fees still won't drop"
+        ],
+        "narration": {
+          "text": "Three and a half years later, in April of 2026, a federal jury reached a verdict. The ticketing company and its parent had operated an illegal monopoly. The company lost on every count. And here is the strange part. Even now, your fees are not going down. This is the story of how the most hated checkout screen in America was built, and why winning in a courtroom cannot take it apart.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of a vast empty concert hall seen from the rear balcony, thousands of dark vacant seats descending toward a distant unlit stage, a single shaft of cold light falling across the empty rows, dust suspended in the beam, heavy silence. Color palette deep crimson velvet seats darkened, charcoal shadow, one pale cold spotlight. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "The fee everyone knows: GAO avg 27%, up to 58%",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Service + facility + processing fees",
+          "GAO 2018: avg 27%, up to 58%"
+        ],
+        "narration": {
+          "text": "You already know the feeling. The ticket says ninety dollars. Then comes the service fee, the facility fee, the order processing fee, and somehow you are paying a hundred and thirty. In 2018, the Government Accountability Office studied this. On primary ticket sales, fees averaged twenty-seven percent of the ticket price. On some events they ran as high as fifty-eight percent. The real question is why no competitor ever undercut it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead close-up of a single printed event ticket lying on a dark matte table, beside it a long narrow paper itemized receipt curling and stacking far longer than the ticket itself, lit by one hard overhead spotlight, deep shadow at the edges. Color palette warm cream paper, black background, hard white light. NEGATIVE: no readable numbers or text, no faces, no people, no logos, no concert stage. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "How the machine was built: Jan 25 2010 merger",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Jan 25 2010",
+          "Ticketing + concerts merge"
+        ],
+        "narration": {
+          "text": "The answer starts on January twenty-fifth, 2010. That day, the Justice Department cleared a merger between the two giants of live music. One side controlled the ticketing. The other controlled the concerts, the tours, and a vast network of venues. Regulators were nervous enough that they forced the combined company to sign a ten-year consent decree, a written promise not to abuse its power. The promise, it turned out, was the easy part.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic dusk shot of two tall glass corporate office towers standing close together, their reflective facades merging into a single unbroken mirrored wall where they meet, cold overcast sky behind, low golden sunset catching one edge. Color palette steel blue glass, grey sky, thin gold rim light. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "The flywheel: promotion -> venues -> ticketing",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Promotion -> venues -> ticketing",
+          "No rival checkout"
+        ],
+        "narration": {
+          "text": "What the merger created was a flywheel. The company promotes the tour. It books that tour into venues it owns or controls. Those venues are ticketed by its own platform. And every ticket carries the fees. An artist who wants the biggest stages, and a fan who wants the biggest shows, both end up inside the same machine. There is no rival checkout to click over to. When you control every step, the fee is not competition. It is a toll.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of three massive interlocking industrial steel gears turning together in dramatic side light, polished teeth meshing tightly, faint sparks where they grind, a sense of unstoppable mechanical motion, dark factory haze behind. Color palette gunmetal steel, amber rim light, smoky black. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "Consent decree violations: 5 found, 2020 extended $3M",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "5 violations found",
+          "2020: decree extended, $3M"
+        ],
+        "narration": {
+          "text": "The consent decree was supposed to stop exactly this. It did not. By 2019, the Justice Department had identified five separate violations, conduct it said was repeated over years, including pressure on venues that dared to use a different ticketer. The penalty, in 2020, was to extend the decree to 2025 and charge the company three million dollars. For a business this size, it was a parking ticket. The machine kept turning.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of a thick formal legal document on a dark wooden desk, a heavy brass rubber stamp resting on its corner casting a long shadow, a single banker's lamp throwing warm light across the page, the rest of the room in deep shadow. Color palette aged paper cream, warm brass, mahogany dark. NEGATIVE: no readable text, no faces, no people, no logos, no gears. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Eras Tour mechanics: Verified Fan, site crashed",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Verified Fan presale",
+          "Site crashed within the hour"
+        ],
+        "narration": {
+          "text": "Which brings us back to that morning in November 2022. The company had invited three and a half million people into a presale it called Verified Fan, a system meant to keep the bots out and let real fans in. Instead, the site crashed within the hour. But the fans who got through were not paying the price on the ticket. They were paying the price, plus the toll.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of an enormous empty stadium stage at night, towering rigs of concert lights blazing white and casting long beams over a vast dark empty floor where a crowd should be, fog drifting across the boards, no performers. Color palette blinding white stage light, deep blue night, smoke grey. NEGATIVE: no readable brand logos, no readable text, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "General sale canceled: the mask slips",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "General sale canceled",
+          "'Insufficient inventory'"
+        ],
+        "narration": {
+          "text": "Two days later, the company did something almost unheard of. It canceled the general public sale entirely, blaming extraordinarily high demand and not enough tickets left. Millions of people who had done nothing wrong were simply shut out. For the first time, the country was not just annoyed at a checkout screen. It was asking a much bigger question. How did one company end up holding the only door into live music?",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic shot of a single shuttered venue box-office window at night, a metal roll-down grille pulled down behind the glass, a small unlit hand-lettered placard hanging crooked inside, a lone street lamp casting a cold pool of light on the empty pavement out front. Color palette sodium-lamp amber, wet black pavement, steel grille grey. NEGATIVE: no readable text, no faces, no people, no logos. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}
