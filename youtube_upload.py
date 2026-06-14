@@ -247,6 +247,11 @@ def upload_video(
             "description": meta["description"],
             "tags": meta["tags"],
             "categoryId": category_id,
+            # Declare English explicitly so YouTube doesn't guess the language
+            # (legacy Thai-default channel mis-routes untagged uploads to the
+            # Thai cluster; backfilled all videos 2026-06-14).
+            "defaultLanguage": "en",
+            "defaultAudioLanguage": "en",
         },
         "status": {
             "privacyStatus": privacy,
