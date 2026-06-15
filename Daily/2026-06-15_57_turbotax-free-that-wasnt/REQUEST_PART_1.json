@@ -1,0 +1,235 @@
+{
+  "duration_preset": "standard",
+  "custom_seconds": 0,
+  "resolution": "1080p",
+  "voice_name": "Algieba",
+  "language": "en-US",
+  "images_only": true,
+  "visual_style": "illustration",
+  "watermark_mode": "aivdo",
+  "watermark_position": "bottom_left",
+  "webhook_url": null,
+  "reference_images": null,
+  "speaking_style": "normal",
+  "subtitles_enabled": false,
+  "music_mood": "none",
+  "template_id": null,
+  "narrator_persona": "storyteller",
+  "presenter_mode": false,
+  "avatar_image": null,
+  "presenter_layout": "center-bottom",
+  "pace_to_narration": true,
+  "render_mode": "cinematic",
+  "video_intent": "faceless_youtube",
+  "strict_cinematic": true,
+  "text": "Every spring, the ads came back. Free. Free, free, free. A jingle promising that this year, finally, you could do your taxes for nothing. So you sat down, opened the software, and started typing in your life. A job. A student loan. Maybe a little freelance work. And somewhere in the middle, the word free quietly disappeared, replaced by a charge. Ninety dollars. This was not a glitch. It was the entire design.\n\nLast year, the government finally built a tool that let people file their taxes truly free. About two hundred and ninety-six thousand Americans used it. This year, that number is zero. The most trusted name in tax software spent millions of dollars to make sure of it. This is the story of how a single company turned the word free into the most expensive word of tax season, and then spent a fortune protecting it.\n\nStart with the ads. For years the company advertised a product it called free. But the Federal Trade Commission later found that roughly two-thirds of taxpayers could not actually use it. The free version worked only for the simplest returns. Add a student loan deduction, a freelance form, retirement income, and the screen would stop you, and offer to upgrade. The word free was the door. The charge was the room behind it.\n\nTo understand why, go back to 2002. The tax software companies struck a deal with the I-R-S. They would offer free filing to lower-income Americans through a program called Free File. And in exchange, the government agreed to one thing. It would not build its own free filing tool to compete with them. The companies promised to handle free. So the government stepped back. That promise would shape the next two decades.\n\nFor years it seemed to work. Then in 2019, the newsroom ProPublica found something. The company had added code to its own website that hid the genuinely free filing page from search engines. If you searched for free tax filing, you would not find the real one. You would find the paid product, the one most people could not use for free. The free version still existed. You just were not supposed to find it.\n\nThe reckoning came in pieces. In May of 2022, the company agreed to pay one hundred and forty-one million dollars to settle with the attorneys general of all fifty states. The complaint said it had steered roughly four point four million customers into paying for tax prep when they qualified to file for free. Each affected person would get a small check. For the company, the total was a fraction of a single year's profit.\n\nThen came the federal case. In January of 2024, the F-T-C issued a final order in a separate action. It ruled that the company had run deceptive ads for at least six years, and barred it from advertising anything as free unless it was free for everyone, or it clearly told people who would not qualify. Regulators had finally named the trick. But naming it did not undo it.\n\nAnd here is the thing about all of it. A hundred and forty-one million dollars, an F-T-C order, embarrassing headlines. For a company earning billions, these were survivable. Annoying, but survivable. Because the ads were never the real battle. The real battle was making sure that a truly free option, one the company did not control, never managed to exist at all. And on that front, it was winning.",
+  "edited_script": {
+    "title": "TurboTax Part 1: how 'free' became the most expensive word",
+    "description": "The 'free, free, free' ads, the FTC finding ~2/3 couldn't qualify, the 2002 IRS Free File deal, ProPublica's 2019 finding that the real free page was hidden from search, the $141M 50-state settlement, and the Jan 2024 FTC order.",
+    "source_text": "Every spring, the ads came back. Free. Free, free, free. A jingle promising that this year, finally, you could do your taxes for nothing. So you sat down, opened the software, and started typing in your life. A job. A student loan. Maybe a little freelance work. And somewhere in the middle, the word free quietly disappeared, replaced by a charge. Ninety dollars. This was not a glitch. It was the entire design.\n\nLast year, the government finally built a tool that let people file their taxes truly free. About two hundred and ninety-six thousand Americans used it. This year, that number is zero. The most trusted name in tax software spent millions of dollars to make sure of it. This is the story of how a single company turned the word free into the most expensive word of tax season, and then spent a fortune protecting it.\n\nStart with the ads. For years the company advertised a product it called free. But the Federal Trade Commission later found that roughly two-thirds of taxpayers could not actually use it. The free version worked only for the simplest returns. Add a student loan deduction, a freelance form, retirement income, and the screen would stop you, and offer to upgrade. The word free was the door. The charge was the room behind it.\n\nTo understand why, go back to 2002. The tax software companies struck a deal with the I-R-S. They would offer free filing to lower-income Americans through a program called Free File. And in exchange, the government agreed to one thing. It would not build its own free filing tool to compete with them. The companies promised to handle free. So the government stepped back. That promise would shape the next two decades.\n\nFor years it seemed to work. Then in 2019, the newsroom ProPublica found something. The company had added code to its own website that hid the genuinely free filing page from search engines. If you searched for free tax filing, you would not find the real one. You would find the paid product, the one most people could not use for free. The free version still existed. You just were not supposed to find it.\n\nThe reckoning came in pieces. In May of 2022, the company agreed to pay one hundred and forty-one million dollars to settle with the attorneys general of all fifty states. The complaint said it had steered roughly four point four million customers into paying for tax prep when they qualified to file for free. Each affected person would get a small check. For the company, the total was a fraction of a single year's profit.\n\nThen came the federal case. In January of 2024, the F-T-C issued a final order in a separate action. It ruled that the company had run deceptive ads for at least six years, and barred it from advertising anything as free unless it was free for everyone, or it clearly told people who would not qualify. Regulators had finally named the trick. But naming it did not undo it.\n\nAnd here is the thing about all of it. A hundred and forty-one million dollars, an F-T-C order, embarrassing headlines. For a company earning billions, these were survivable. Annoying, but survivable. Because the ads were never the real battle. The real battle was making sure that a truly free option, one the company did not control, never managed to exist at all. And on that front, it was winning.",
+    "language": "en",
+    "target_total_duration": 0,
+    "scenes": [
+      {
+        "scene_number": 1,
+        "title": "Hook: 'free, free, free' that became $90",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "'Free. Free. Free.'",
+          "Somehow: $90"
+        ],
+        "narration": {
+          "text": "Every spring, the ads came back. Free. Free, free, free. A jingle promising that this year, finally, you could do your taxes for nothing. So you sat down, opened the software, and started typing in your life. A job. A student loan. Maybe a little freelance work. And somewhere in the middle, the word free quietly disappeared, replaced by a charge. Ninety dollars. This was not a glitch. It was the entire design.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of a laptop glowing in a dark room at night, the screen showing an abstract softly-blurred financial form interface with faint grid rows, a cold cup of coffee beside it casting a long shadow, late-night blue light. Color palette electric blue screen glow, deep black room, warm desk-lamp edge. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "title": "Thesis: 296,000 free filers last year, zero now",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "296,000 filed free last year",
+          "This year: zero"
+        ],
+        "narration": {
+          "text": "Last year, the government finally built a tool that let people file their taxes truly free. About two hundred and ninety-six thousand Americans used it. This year, that number is zero. The most trusted name in tax software spent millions of dollars to make sure of it. This is the story of how a single company turned the word free into the most expensive word of tax season, and then spent a fortune protecting it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic wide shot of a vast empty government office hall at dusk, long rows of dark vacant desks receding toward tall windows, a single overhead light on at the far end, cold institutional stillness, dust in the light. Color palette grey-green institutional walls, cold blue dusk, one warm distant lamp. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "title": "The two-thirds couldn't actually file free",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "FTC: ~2/3 couldn't file free",
+          "'Free' had limits"
+        ],
+        "narration": {
+          "text": "Start with the ads. For years the company advertised a product it called free. But the Federal Trade Commission later found that roughly two-thirds of taxpayers could not actually use it. The free version worked only for the simplest returns. Add a student loan deduction, a freelance form, retirement income, and the screen would stop you, and offer to upgrade. The word free was the door. The charge was the room behind it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic overhead close-up of a printed tax form on a dark wooden desk with faint unreadable grid lines, a fountain pen resting on it, a small brass key lying on the paper catching a hard spotlight, deep shadow at the edges. Color palette cream paper, black desk, hard white light, brass glint. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "title": "2002: the IRS Free File deal",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "2002: IRS Free File deal",
+          "IRS agrees NOT to compete"
+        ],
+        "narration": {
+          "text": "To understand why, go back to 2002. The tax software companies struck a deal with the I-R-S. They would offer free filing to lower-income Americans through a program called Free File. And in exchange, the government agreed to one thing. It would not build its own free filing tool to compete with them. The companies promised to handle free. So the government stepped back. That promise would shape the next two decades.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of two formal documents lying side by side on a dark mahogany desk, a brass wax seal and a heavy pen between them, a single banker's lamp throwing warm light across the papers, the rest of the room in deep shadow. Color palette aged cream paper, warm brass, mahogany dark. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 5,
+        "title": "ProPublica 2019: the hidden free page",
+        "target_duration": 0,
+        "energy_level": "high",
+        "reference_image_id": null,
+        "text_overlays": [
+          "ProPublica, 2019",
+          "Code hid the real free page"
+        ],
+        "narration": {
+          "text": "For years it seemed to work. Then in 2019, the newsroom ProPublica found something. The company had added code to its own website that hid the genuinely free filing page from search engines. If you searched for free tax filing, you would not find the real one. You would find the paid product, the one most people could not use for free. The free version still existed. You just were not supposed to find it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of a computer screen in the dark showing an abstract search-results list as faint horizontal bars, a magnifying glass held over it, one bar near the top dissolving into shadow and vanishing, cold blue screen light. Color palette cold blue screen, black surround, faint white bars. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 6,
+        "title": "May 2022: $141M, 50 states",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "May 2022: 50 states",
+          "$141M, ~4.4M customers"
+        ],
+        "narration": {
+          "text": "The reckoning came in pieces. In May of 2022, the company agreed to pay one hundred and forty-one million dollars to settle with the attorneys general of all fifty states. The complaint said it had steered roughly four point four million customers into paying for tax prep when they qualified to file for free. Each affected person would get a small check. For the company, the total was a fraction of a single year's profit.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic low-angle shot of a neoclassical state courthouse facade at dawn, tall stone columns and broad empty granite steps, an unlit lantern beside the door, cold flat morning light, institutional weight. Color palette pale limestone grey, slate dawn sky, cold blue shadow. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 7,
+        "title": "Jan 2024: FTC barred 'free' ads",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "Jan 2024: FTC final order",
+          "Banned from saying 'free'"
+        ],
+        "narration": {
+          "text": "Then came the federal case. In January of 2024, the F-T-C issued a final order in a separate action. It ruled that the company had run deceptive ads for at least six years, and barred it from advertising anything as free unless it was free for everyone, or it clearly told people who would not qualify. Regulators had finally named the trick. But naming it did not undo it.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of an empty federal podium with a blank round official seal on its front, a single microphone bent toward an absent speaker, cold daylight from tall windows behind, a long shadow across the floor. Color palette deep navy and brass seal, cold grey daylight, polished dark wood. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      },
+      {
+        "scene_number": 8,
+        "title": "The fines were affordable; the real game was elsewhere",
+        "target_duration": 0,
+        "energy_level": "medium",
+        "reference_image_id": null,
+        "text_overlays": [
+          "The fines were affordable",
+          "The real game was elsewhere"
+        ],
+        "narration": {
+          "text": "And here is the thing about all of it. A hundred and forty-one million dollars, an F-T-C order, embarrassing headlines. For a company earning billions, these were survivable. Annoying, but survivable. Because the ads were never the real battle. The real battle was making sure that a truly free option, one the company did not control, never managed to exist at all. And on that front, it was winning.",
+          "language": "en",
+          "estimated_duration": 0
+        },
+        "visuals": [
+          {
+            "visual_type": "image",
+            "prompt": "Cinematic close-up of an enormous towering stack of banded paper currency under hard side light, and beside it a single tiny torn paper slip dwarfed by the stack, deep shadow behind, sense of vast scale difference. Color palette muted green banknotes, black background, hard white key light. NEGATIVE: no readable text, no readable numbers, no brand logos, no faces, no people, no human silhouettes, no celebrity likeness. Single hero subject. One unified cinematic frame. No collage, no multi-panel layout, no grid composition, no magazine-style composite.",
+            "description": "",
+            "duration": 0,
+            "zoom_pan": true
+          }
+        ]
+      }
+    ]
+  }
+}

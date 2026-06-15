@@ -1,0 +1,71 @@
+# SCRIPT #57 — TurboTax / Intuit: the 'free' that was never for you
+# 1137 narration words @ ~141 wpm -> ~8.06 min predicted
+# Cold open scene-first. Subscribe CTA scene 16. Cross-ref Ticketmaster #56 + Whole Foods #26 in scene 15.
+
+===== PART 1 =====
+
+[Scene 1 | high] Hook: 'free, free, free' that became $90
+OVERLAYS: 'Free. Free. Free.' | Somehow: $90
+Every spring, the ads came back. Free. Free, free, free. A jingle promising that this year, finally, you could do your taxes for nothing. So you sat down, opened the software, and started typing in your life. A job. A student loan. Maybe a little freelance work. And somewhere in the middle, the word free quietly disappeared, replaced by a charge. Ninety dollars. This was not a glitch. It was the entire design.
+
+[Scene 2 | medium] Thesis: 296,000 free filers last year, zero now
+OVERLAYS: 296,000 filed free last year | This year: zero
+Last year, the government finally built a tool that let people file their taxes truly free. About two hundred and ninety-six thousand Americans used it. This year, that number is zero. The most trusted name in tax software spent millions of dollars to make sure of it. This is the story of how a single company turned the word free into the most expensive word of tax season, and then spent a fortune protecting it.
+
+[Scene 3 | medium] The two-thirds couldn't actually file free
+OVERLAYS: FTC: ~2/3 couldn't file free | 'Free' had limits
+Start with the ads. For years the company advertised a product it called free. But the Federal Trade Commission later found that roughly two-thirds of taxpayers could not actually use it. The free version worked only for the simplest returns. Add a student loan deduction, a freelance form, retirement income, and the screen would stop you, and offer to upgrade. The word free was the door. The charge was the room behind it.
+
+[Scene 4 | medium] 2002: the IRS Free File deal
+OVERLAYS: 2002: IRS Free File deal | IRS agrees NOT to compete
+To understand why, go back to 2002. The tax software companies struck a deal with the I-R-S. They would offer free filing to lower-income Americans through a program called Free File. And in exchange, the government agreed to one thing. It would not build its own free filing tool to compete with them. The companies promised to handle free. So the government stepped back. That promise would shape the next two decades.
+
+[Scene 5 | high] ProPublica 2019: the hidden free page
+OVERLAYS: ProPublica, 2019 | Code hid the real free page
+For years it seemed to work. Then in 2019, the newsroom ProPublica found something. The company had added code to its own website that hid the genuinely free filing page from search engines. If you searched for free tax filing, you would not find the real one. You would find the paid product, the one most people could not use for free. The free version still existed. You just were not supposed to find it.
+
+[Scene 6 | medium] May 2022: $141M, 50 states
+OVERLAYS: May 2022: 50 states | $141M, ~4.4M customers
+The reckoning came in pieces. In May of 2022, the company agreed to pay one hundred and forty-one million dollars to settle with the attorneys general of all fifty states. The complaint said it had steered roughly four point four million customers into paying for tax prep when they qualified to file for free. Each affected person would get a small check. For the company, the total was a fraction of a single year's profit.
+
+[Scene 7 | medium] Jan 2024: FTC barred 'free' ads
+OVERLAYS: Jan 2024: FTC final order | Banned from saying 'free'
+Then came the federal case. In January of 2024, the F-T-C issued a final order in a separate action. It ruled that the company had run deceptive ads for at least six years, and barred it from advertising anything as free unless it was free for everyone, or it clearly told people who would not qualify. Regulators had finally named the trick. But naming it did not undo it.
+
+[Scene 8 | medium] The fines were affordable; the real game was elsewhere
+OVERLAYS: The fines were affordable | The real game was elsewhere
+And here is the thing about all of it. A hundred and forty-one million dollars, an F-T-C order, embarrassing headlines. For a company earning billions, these were survivable. Annoying, but survivable. Because the ads were never the real battle. The real battle was making sure that a truly free option, one the company did not control, never managed to exist at all. And on that front, it was winning.
+
+===== PART 2 =====
+
+[Scene 9 | medium] Millions in lobbying, every year
+OVERLAYS: Millions in lobbying, yearly | $3.7M+ in 2024 alone
+Every year, the company spent millions of dollars lobbying Washington. More than three million in 2021. A record of nearly four million in 2024. Much of it aimed at a single goal. Stopping the government from letting Americans file their taxes directly, for free, without any software company in the middle. It was not hiding this. It argued, openly, that the government had no business in the tax preparation market.
+
+[Scene 10 | medium] 2021: quit the Free File program
+OVERLAYS: 2021: quit Free File program | Freed to fight the bigger threat
+In 2021, the company quit the Free File program entirely. Its main rival had left the year before. The company said it left because the program was too limiting, not because it wanted to end free filing. But the timing mattered. Out of the old agreement, it was no longer bound by the promise to offer free at all, and it was free to fight the thing it feared most.
+
+[Scene 11 | high] 2024: IRS Direct File arrives
+OVERLAYS: 2024: IRS Direct File | File free, direct with the gov't
+Because in 2024, the threat finally arrived. The I-R-S launched a program called Direct File. You could file a simple return online, for free, directly with the government. No software company. No upsell. No disappearing free button. It started small, then expanded to twenty-five states and more than thirty million eligible people. And the Americans who tried it tended to love it.
+
+[Scene 12 | medium] 296,000: a small beachhead
+OVERLAYS: ~296,000 filed with Direct File | A small beachhead
+Last year, about two hundred and ninety-six thousand people used Direct File. In a country of well over a hundred million taxpayers, that is tiny. But it was never about the number. It was about the proof. For the first time, there was hard evidence that the government could simply offer this, that filing your taxes could be free and direct and not particularly hard. That proof was dangerous.
+
+[Scene 13 | high] This year: zero. Direct File killed.
+OVERLAYS: This year: 0 users | Direct File shut down
+So this year, the number is zero. After that record lobbying blitz, and a shift in priorities in Washington, Direct File was shut down before this tax season began. The free tool that worked, the one hundreds of thousands of people had used and liked, simply was not there anymore. Two hundred and ninety-six thousand, then nothing. The beachhead was gone, and the middleman was still standing.
+
+[Scene 14 | medium] Structural truth: the product was the belief
+OVERLAYS: The product was never software | It was the belief taxes must be paid
+Here is why none of the fines ever mattered. The company's real product was never tax software. It was a belief. The belief that filing your taxes has to be confusing, and that getting through it has to cost money. Every deceptive ad, every lobbying dollar, every year the free option stayed buried, all of it protected that one idea. A fine is just the rent you pay to keep a belief that lucrative alive.
+
+[Scene 15 | medium] Cross-ref: the friction is the product
+OVERLAYS: The friction IS the product | See: Ticketmaster, Whole Foods
+We have seen this shape on this channel before. Ticketmaster's fee that survived a monopoly verdict. The Whole Foods price that Amazon, of all companies, could not bring down. The pattern is always the same. The thing you hate is not the company failing to serve you. It is the company carefully protecting the exact friction that makes it rich. With taxes, that friction is the whole business.
+
+[Scene 16 | medium] Close + subscribe CTA
+OVERLAYS: 'Free' was never for you | Subscribe to Disclosed
+So next April, when the word free slowly turns into ninety dollars, remember that it is not a mistake, and it is not your fault for missing the fine print. It is a company that spent decades, and many millions of dollars, making sure the free version stayed just out of your reach. If you want more stories about the machinery behind the prices we all pay, subscribe to Disclosed. We publish three a week.

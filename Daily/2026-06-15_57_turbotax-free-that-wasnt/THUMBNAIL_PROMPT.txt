@@ -1,0 +1,29 @@
+THUMBNAIL BRIEF (McDONALD'S-YELLOW TABLOID): Why Does 'Free' TurboTax Cost $90?
+Daily #57 | TurboTax / Intuit "free that wasn't" | Story template
+
+TEMPLATE: McDonald's-yellow tabloid (the validated control style — Costco 6.1% / McDonald's 4.2% CTR). NOT data-viz. This is a routing-test ship; hold packaging at known-good so the only variables under test are the metadata fix + topic. (Per the #56 thumbnail-control decision.)
+
+HEADLINE (chosen): "'FREE'" / "COST $90." — the grievance paradox in three words, two-line stack, huge yellow.
+  Alternates: "THEY HID THE FREE BUTTON"  or  "FREE WAS NEVER FOR YOU"
+
+CONCEPT: bright yellow text-as-hero over a darkened photo. Everyone has felt "free" turn into a charge at tax time; putting the paradox on the thumbnail names the universal grievance and poses the question the title answers.
+
+COMPOSITION:
+- Background: a slightly desaturated photographic scene — a laptop on a desk showing a generic tax-filing form, OR a paper tax form + pen + an April calendar — pushed back and darkened ~40% so text pops. NOT a clean studio shot, NOT a chart.
+- Hero: massive bold YELLOW headline stacked upper two-thirds, heavy condensed sans (Anton/Impact), thick near-black outline + drop shadow for 320px legibility. Tabloid yellow #FFD400.
+- Optional small supporting element lower corner: a torn dollar bill or a "$90" price tag silhouette, subordinate to the text.
+- Lower-third: thin deep-charcoal band, "Disclosed" in clean white sans.
+
+COLOR PALETTE: headline yellow #FFD400 + near-black outline #111111; background desaturated desk/form, darkened ~40%; accent band charcoal #222222, white text.
+
+TYPOGRAPHY: heavy condensed sans, all caps, tight leading, two-line stack so each line is huge at 320px. NOT editorial serif, NOT a chart.
+
+DATA NOTE: "$90" is an illustrative round figure for a typical paid TurboTax upsell (matches the script's generic example) — not a specific SKU price. Honest as illustration.
+
+MOBILE LEGIBILITY (320px): "'FREE' COST $90." reads instantly — two short lines, yellow-on-dark. Headline ~55-65% of vertical frame.
+
+PERSONS: no faces, no people, no executives, no TurboTax/Intuit logos (readable-logo = faceless violation). Forms/laptop/calendar/money props only.
+
+WHY: tax-filing "free" rage is a top-tier universal American grievance for the McDonald's daytime demographic; yellow tabloid pulls that wide-grievance Browse click (the audience the routing test wants). Question-form title supplies the curiosity the thumbnail confirms.
+
+PRODUCTION PATH: custom designer or ChatGPT image-gen with this brief. AIVDO poster mode not applicable.
