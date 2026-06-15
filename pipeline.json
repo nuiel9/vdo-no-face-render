@@ -960,7 +960,7 @@
       "niche": "Business Case Studies",
       "aivdo_template": "Story",
       "target_length_min": 8,
-      "script_status": "In Progress",
+      "script_status": "Done",
       "publish_status": "Planned",
       "planned_publish": null,
       "actual_publish": null,
@@ -969,7 +969,7 @@
       "views_7d": null,
       "views_30d": null,
       "aivdo_trials_attributed": null,
-      "notes": "MANUALLY FIRED 2026-06-15 as the ROUTING-TEST ship after the 2026-06-14 metadata fix (all videos defaultAudioLanguage=en). Slam-dunk universal-American grievance chosen so a starve is unambiguously the channel-trust/behavioral ceiling, not topic. Ship CLEAN (NO Reddit injection) = pure read on whether corrected metadata routes a fresh upload to American Browse; if it works -> metadata helped, resume shipping; if it starves -> escalate to injection. Render-ready 8:06 / 16 cinematic faceless scenes. Editorial gate 4 pass / 4 warn (FTC.gov network + 3 OpenSecrets Cloudflare 403, all real) / 0 fail. LANDMINES handled: three distinct 'free' things (2002 Free File program vs TurboTax paid-'free' product vs 2024 IRS Direct File) kept separate; $141M state settlement (May 2022) vs FTC order (Jan 2024) kept distinct; '296k->0 Direct File' per Fortune 2026-04-15; no named people/logos. Spine: ProPublica-2019 hidden free page -> fines affordable -> real game = lobbying to kill IRS Direct File. Cross-ref #56 Ticketmaster + #26 Whole Foods. THUMBNAIL: McDonald's-yellow tabloid control ('FREE' COST $90.). See feedback_channel_rescue_metadata_2026_06_14."
+      "notes": "UPLOADED PRIVATE 2026-06-15: https://www.youtube.com/watch?v=8CmlrY6l2js (20th ship; ROUTING-TEST post metadata-fix, uploaded with defaultAudioLanguage=en via patched uploader). Render: Part 2 hit the Cloud-Run worker-recycle stall (job 4ac57055 failed 21%, credits refunded), recovered by clearing dead job from state + fresh resubmit (Part 1 cached, no re-cost); final 7:52/168MB clean. Upload token revoked again -> yt_reauth re-consent. PENDING (owner): yellow thumbnail (FREE COST 90), hand-typed pinned comment (ProPublica+FTC+Fortune links), flip PUBLIC into clean window ~9am ET CLEAN (no injection). Watch Day1-4 impressions vs #56=11imp: break past -> metadata fix worked; starve -> escalate to Reddit injection. MANUALLY FIRED 2026-06-15 as the ROUTING-TEST ship after the 2026-06-14 metadata fix (all videos defaultAudioLanguage=en). Slam-dunk universal-American grievance chosen so a starve is unambiguously the channel-trust/behavioral ceiling, not topic. Ship CLEAN (NO Reddit injection) = pure read on whether corrected metadata routes a fresh upload to American Browse; if it works -> metadata helped, resume shipping; if it starves -> escalate to injection. Render-ready 8:06 / 16 cinematic faceless scenes. Editorial gate 4 pass / 4 warn (FTC.gov network + 3 OpenSecrets Cloudflare 403, all real) / 0 fail. LANDMINES handled: three distinct 'free' things (2002 Free File program vs TurboTax paid-'free' product vs 2024 IRS Direct File) kept separate; $141M state settlement (May 2022) vs FTC order (Jan 2024) kept distinct; '296k->0 Direct File' per Fortune 2026-04-15; no named people/logos. Spine: ProPublica-2019 hidden free page -> fines affordable -> real game = lobbying to kill IRS Direct File. Cross-ref #56 Ticketmaster + #26 Whole Foods. THUMBNAIL: McDonald's-yellow tabloid control ('FREE' COST $90.). See feedback_channel_rescue_metadata_2026_06_14."
     }
   ]
 }

@@ -1,0 +1,23 @@
+Parsed YOUTUBE.md:
+  title: Why Does 'Free' TurboTax Cost $90?
+  description: 2040 chars
+  tags: []
+  pinned comment: 0 chars
+
+video: final.mp4 (167.8 MB)
+thumbnail: (none — none of ('thumbnail.png', 'thumbnail.jpg', 'thumb.png', 'thumb.jpg') found in slug folder)
+privacy: private
+category_id: 27
+
+Authenticating with YouTube…
+
+Uploading final.mp4…
+  upload progress: 85%
+  upload progress: 90%
+  upload progress: 95%
+
+✓ Uploaded: https://www.youtube.com/watch?v=8CmlrY6l2js
+  Studio:   https://studio.youtube.com/video/8CmlrY6l2js/edit
+
+Next: open Studio, QC, flip privacy → public when ready, then update pipeline.json:
+  python3 -c "..." or hand-edit notes URL = https://www.youtube.com/watch?v=8CmlrY6l2js
