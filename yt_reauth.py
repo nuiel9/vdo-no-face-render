@@ -11,7 +11,9 @@ from pathlib import Path
 from datetime import date
 
 CRED = Path.home() / ".config" / "youtube-upload"
-TOKEN = CRED / "token.json"
+# Optional arg: token filename (e.g. token_newchannel.json) to mint a token for a
+# DIFFERENT channel — select that channel/brand during the browser consent.
+TOKEN = CRED / (sys.argv[1] if len(sys.argv) > 1 else "token.json")
 CLIENT_SECRET = CRED / "client_secret.json"
 SCOPES = [
     "https://www.googleapis.com/auth/youtube.upload",
@@ -26,10 +28,10 @@ if not CLIENT_SECRET.exists():
 
 # 1. move the revoked token aside (so the flow doesn't try to refresh it)
 if TOKEN.exists():
-    bak = CRED / f"token.json.revoked.{date.today().isoformat()}.bak"
+    bak = CRED / f"{TOKEN.name}.revoked.{date.today().isoformat()}.bak"
     i = 1
     while bak.exists():
-        bak = CRED / f"token.json.revoked.{date.today().isoformat()}.{i}.bak"
+        bak = CRED / f"{TOKEN.name}.revoked.{date.today().isoformat()}.{i}.bak"
         i += 1
     TOKEN.rename(bak)
     print(f"backed up revoked token -> {bak.name}")
