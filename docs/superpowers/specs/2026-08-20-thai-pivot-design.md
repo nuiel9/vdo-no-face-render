@@ -209,19 +209,27 @@ Script length must be scoped against the **corrected Thai rate**, never English 
 
 ### 7.1 Phase 1 — Thai remakes of the proven catalog, daily
 
-**Twenty published videos already have verified scripts, propagated corrections, and source checks.** A Thai remake needs a *translation-fidelity* check, not a fresh 17-prompt research cycle.
+**Up to twenty published videos already have verified scripts, propagated corrections, and source checks.** A Thai remake needs a *translation-fidelity + register* check, not a fresh 17-prompt research cycle.
 
 This is what resolves the tension between daily cadence and a real editorial gate.
 
+⚠️ **The supply figure is unverified and load-bearing.** `pipeline.json` shows 20 published rows, but the disk holds 18 `Daily/` directories and only 2 `.facts_verified` markers — the earliest ships likely predate the `Daily/` convention and may have no local script to remake from. **First task of the implementation plan: inventory which published slugs are actually remake-able.** If the real number is 12 rather than 20, Phase 2 has to start sooner.
+
 Ordering: grievance / *"why is X expensive"* first — double-validated as the benchmark's top performer **and** Disclosed's only hit. TurboTax, Ticketmaster, McDonald's, Costco gold bars, Amazon–Whole Foods lead.
 
-Supply: ~20 episodes ≈ 3 weeks of daily shipping.
+Supply: ~20 episodes ≈ 3 weeks of daily shipping, **subject to the inventory above**.
 
 ### 7.2 Phase 2 — fresh Thai research lane, 2–3/week
 
 Ramps behind Phase 1 as the catalog depletes. Draws on the widened scope (tech + business + curiosity), not business alone.
 
-### 7.3 Saturation audit — new target list
+### 7.3 Shorts
+
+Shorts are cut from the prior day's long-form via `make_short.py`, with a Veo hook on the first 3–5s (§6.3) and the character-anchored injustice angle that the existing Shorts pattern already uses. No pinned comment.
+
+**Cadence is not yet decided** (§13) — §11 budgets ~30/month, which assumes daily. If Shorts ship less often, that line item drops proportionally.
+
+### 7.4 Saturation audit — new target list
 
 The audit previously ran against Modern MBA / Cold Fusion / Company Man. In Thai it runs against:
 
@@ -325,5 +333,7 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 ## 13. Open items
 
 - Thai channel display name and rewritten Thai channel description (§4, §5.3) — not yet chosen.
-- Voice: female `th-TH-Chirp3-HD-Achernar` vs male variant — not yet chosen.
-- Disposition order for unlisting the 30 English videos on `@disclosedch` (§4) — do it before or after the first Thai ships?
+- Voice: female `th-TH-Chirp3-HD-Achernar` vs male variant (§5.5) — not yet chosen. Permanent once picked.
+- Disposition order for unlisting the 30 English videos on `@disclosedch` (§4) — before or after the first Thai ships?
+- **Shorts cadence** (§7.3) — daily, or less? §11 currently budgets daily.
+- **Stale documentation.** This spec supersedes `CLAUDE.md`'s distribution model, slug-selection heuristic, `≤3/week` cap, Algieba voice, and 8-minute runtime — but `CLAUDE.md` is **not yet updated**, so those still read as current instructions. Several memory files are likewise superseded. Both are updated after this spec is approved: `CLAUDE.md` rewrite belongs in the implementation plan, and superseded memories get **marked superseded, not deleted** (they hold the audit trail for why the English run was abandoned).
