@@ -88,6 +88,14 @@ No third channel.
 
 This retires the stalled clean-channel test honestly — it answered its question, and gives Business Postmortems a second-order use instead of abandonment.
 
+**Sequencing: unlist the English catalogue BEFORE the first Thai episode ships.** The first Thai upload is the strongest classification signal the channel will send, and it should land on a channel that reads unambiguously Thai rather than one still showing 30 English business videos. Ordering:
+
+1. Unlist the 30 English long-form videos on `@disclosedch`
+2. Rewrite channel display name + description in Thai (§5.3)
+3. Ship Thai EP01
+
+⚠️ **This is a prerequisite with a dependency:** bulk-unlisting needs a working YouTube token, and all three are dead (§9.1). Either the OAuth publishing-status fix lands first, or the unlisting is done by hand in Studio. It cannot be scripted until §9.1 is resolved.
+
 **Follow-up:** AIVDO's README names `@disclosedch` as its showcase (McDonald's, BIC). Some of those videos were already unlisted during the June test. Showcase links repoint to Business Postmortems.
 
 ---
@@ -126,7 +134,7 @@ It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer i
 |---|---|---|
 | Runtime | 15–20 min | up from 8 |
 | Title formula | `ทำไม X ถึง Y?` question-paradox | Ports 1:1 from existing English titles; matches benchmark's top performers |
-| Voice | `th-TH-Chirp3-HD-Achernar` (or male variant) — **pick one, permanently** | AIVDO defaults to `th-TH` and auto-agrees Thai particles to voice gender (`e2775e9`). Voice consistency is a franchise asset across hundreds of episodes. **Algieba is retired.** |
+| Voice | **`th-TH-Chirp3-HD-Achernar` (female) — locked, permanent** | AIVDO defaults to `th-TH` and auto-agrees Thai particles to voice gender (`e2775e9`), so narration uses **ค่ะ**, never ครับ. Voice consistency is a franchise asset across hundreds of episodes; do not change it once episodes ship. **Algieba is retired.** |
 | Subscribe CTA in narration | Retained | The one conversion unlock that empirically held (v4.6.3) |
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
 | Cadence | ~1/day, 7 days | Routine A currently runs weekdays only |
@@ -136,8 +144,8 @@ It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer i
 Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 - `language_code` defaults to `th-TH`
-- `th-TH-Chirp3-HD-Achernar` (female) and a male variant
-- Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*)
+- **Voice locked: `th-TH-Chirp3-HD-Achernar` (female)**
+- Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*), so every episode closes in **ค่ะ**. Script review checks this rather than assuming it.
 - Thai speaking rate corrected (`2382bea` — the prior guess was +72% wrong)
 
 **The register rule — the biggest quality risk in this design.**
@@ -269,9 +277,11 @@ Ramps behind Phase 1 as the catalog depletes. Draws on the widened scope (tech +
 
 ### 7.3 Shorts
 
-Shorts are cut from the prior day's long-form via `make_short.py`, with a Veo hook on the first 3–5s (§6.3) and the character-anchored injustice angle that the existing Shorts pattern already uses. No pinned comment.
+**Daily**, cut from the prior day's long-form via `make_short.py`, with a Veo hook on the first 3–5s (§6.3) and the character-anchored injustice angle the existing Shorts pattern already uses. No pinned comment.
 
-**Cadence is not yet decided** (§13) — §11 budgets ~30/month, which assumes daily. If Shorts ship less often, that line item drops proportionally.
+This means **two uploads per day** — one long-form, one Short. Both count toward the editorial-attention budget (§8), and the Short's ~10 minutes of work is additive to the long-form gate, not included in it.
+
+The §11 Veo line (~30/month) assumes exactly this cadence.
 
 ### 7.4 Saturation audit — new target list
 
@@ -368,22 +378,21 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Channel | Revive `@disclosedch` in Thai; Business Postmortems becomes English archive + showcase |
 | Goal | $10K/mo **mixed** (ads + sponsorship + AIVDO), not AdSense-only |
 | Primary KPI | `aivdo_trials_attributed` per video |
-| Cadence | ~1/day, 7 days/week |
+| Cadence | ~1/day long-form + 1/day Short, 7 days/week |
 | Runtime | 15–20 min |
 | Series tag | `Disclosed` + EP counter; lanes split later |
 | Scope | Tech + business + curiosity |
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
 | Motion | Veo hook (3–5s) on Shorts only; Omni for identity-held; `zoom_pan` bodies |
+| Voice | `th-TH-Chirp3-HD-Achernar` (female), locked permanently |
+| Sequencing | Unlist English catalogue → rewrite channel identity in Thai → ship EP01 |
 | Editorial gate | Three modes + machine first pass |
 | Hard gate | Day-14 routing checkpoint |
 
 ## 13. Open items
 
 - Thai channel display name and rewritten Thai channel description (§4, §5.3) — not yet chosen.
-- Voice: female `th-TH-Chirp3-HD-Achernar` vs male variant (§5.5) — not yet chosen. Permanent once picked.
-- Disposition order for unlisting the 30 English videos on `@disclosedch` (§4) — before or after the first Thai ships?
-- **Shorts cadence** (§7.3) — daily, or less? §11 currently budgets daily.
 - **AIVDO fallback-chain fix** (§6.5) — chain replacement + `image_cost_table.py` update scheduled for the implementation plan; **not applied yet**, and it is a live production bug meanwhile.
 - **Batch API** (§11) — halves image cost and fits a day-ahead production rhythm. Evaluate during implementation.
 - **Stale documentation.** This spec supersedes `CLAUDE.md`'s distribution model, slug-selection heuristic, `≤3/week` cap, Algieba voice, and 8-minute runtime — but `CLAUDE.md` is **not yet updated**, so those still read as current instructions. Several memory files are likewise superseded. Both are updated after this spec is approved: `CLAUDE.md` rewrite belongs in the implementation plan, and superseded memories get **marked superseded, not deleted** (they hold the audit trail for why the English run was abandoned).
