@@ -1,7 +1,7 @@
 import pytest
 
-from make_request_parts import _OVERSHOOT_TOLERANCE, build_request, write_parts
-from thai_budget import chars_for_duration
+from make_request_parts import _GUARD_DENSITY, _OVERSHOOT_TOLERANCE, build_request, write_parts
+from thai_budget import RATES, chars_for_duration
 
 
 def test_narrator_is_erinome_not_algieba():
@@ -46,10 +46,11 @@ def test_warns_when_script_badly_overshoots_its_slot():
 
 
 def test_overshoot_boundary_just_under_does_not_raise():
-    # Derived from the real budget + tolerance, not hardcoded -- a
-    # hardcoded 3960/3961 would silently stop testing the real boundary
-    # the moment RATES or _OVERSHOOT_TOLERANCE changes.
-    budget = chars_for_duration(240, "figures")
+    # Derived from the real budget + tolerance + density, not hardcoded --
+    # a hardcoded threshold, or a hardcoded density literal, would
+    # silently stop testing the real boundary the moment RATES,
+    # _OVERSHOOT_TOLERANCE, or _GUARD_DENSITY changes.
+    budget = chars_for_duration(240, _GUARD_DENSITY)
     threshold = int(budget * _OVERSHOOT_TOLERANCE)
     text = "ก" * threshold
     req = build_request(text, seconds=240)
@@ -57,11 +58,26 @@ def test_overshoot_boundary_just_under_does_not_raise():
 
 
 def test_overshoot_boundary_just_over_raises():
-    budget = chars_for_duration(240, "figures")
+    budget = chars_for_duration(240, _GUARD_DENSITY)
     threshold = int(budget * _OVERSHOOT_TOLERANCE)
     text = "ก" * (threshold + 1)
     with pytest.raises(ValueError, match="too long"):
         build_request(text, seconds=240)
+
+
+def test_guard_ceiling_is_genuinely_below_aivdos_server_side_trigger():
+    # AIVDO silently LLM-compresses any script whose estimated speech
+    # exceeds target_duration * 1.2 at scene_planner's measured 11.3
+    # chars/sec for speaking_style "normal" (text_analyzer._LENGTH_TOLERANCE
+    # x scene_planner._THAI_CHARS_PER_SECOND_BY_STYLE["normal"]) -- a real
+    # ceiling of 13.56 chars/sec. This guard's effective ceiling must sit
+    # below that, or a script can pass this guard clean and still get
+    # silently rewritten server-side. Fixed values, not sourced from AIVDO
+    # (a separate repo) -- if AIVDO's constants move, this test's number
+    # needs to move with them.
+    server_ceiling = 11.3 * 1.2
+    client_ceiling = RATES[_GUARD_DENSITY] * _OVERSHOOT_TOLERANCE
+    assert client_ceiling < server_ceiling
 
 
 def test_duration_preset_is_custom():
@@ -78,9 +94,41 @@ def test_custom_seconds_matches_target():
     assert req["custom_seconds"] == 240
 
 
+def test_images_only_is_true():
+    # False routes every part to the Veo motion lane (~150 credits/part)
+    # instead of the still-image lane (~15 credits/part). Every shipped
+    # English request used True; owner decision 2026-08-20 sets it True
+    # here too.
+    req = build_request("สวัสดีค่ะ", seconds=240)
+    assert req["images_only"] is True
+
+
+def test_music_mood_resolves_to_a_real_track_selector():
+    # "documentary" is not a key in AIVDO's MOOD_DEFAULTS -- resolve_track
+    # would return None and the render would silently ship with no music,
+    # unannounced. "none" is the explicit no-BGM path.
+    req = build_request("สวัสดีค่ะ", seconds=240)
+    assert req["music_mood"] == "none"
+
+
 def test_write_parts_rejects_empty_list(tmp_path):
     with pytest.raises(ValueError, match="empty"):
         write_parts(tmp_path, [], total_seconds=240)
+
+
+def test_write_parts_clears_stale_parts_from_a_shorter_previous_episode(tmp_path):
+    # A folder that previously held a 5-part episode, now being overwritten
+    # with a 3-part one, must not leave REQUEST_PART_4/5.json behind --
+    # render.py's discover_parts would see a contiguous 1..5 and stitch two
+    # parts of the PREVIOUS episode's narration into the new final video.
+    for n in range(1, 6):
+        (tmp_path / f"REQUEST_PART_{n}.json").write_text("{}")
+
+    parts = ["บทที่หนึ่ง", "บทที่สอง", "บทที่สาม"]
+    write_parts(tmp_path, parts, total_seconds=360)
+
+    remaining = sorted(p.name for p in tmp_path.glob("REQUEST_PART_*.json"))
+    assert remaining == ["REQUEST_PART_1.json", "REQUEST_PART_2.json", "REQUEST_PART_3.json"]
 
 
 def test_write_parts_writes_correct_files(tmp_path):
