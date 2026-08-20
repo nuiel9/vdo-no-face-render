@@ -37,3 +37,34 @@ def test_raises_on_gap(tmp_path):
     _make(tmp_path, [1, 2, 4])
     with pytest.raises(ValueError, match="gap"):
         discover_parts(tmp_path)
+
+
+from render import EXPECTED_ENGINES, engine_is_expected
+
+
+def test_gemini_engine_satisfies_fast_mode():
+    assert engine_is_expected("fast", "gemini-3.1-flash-image") is True
+
+
+def test_lite_and_pro_also_satisfy_fast_mode():
+    # Any model in the Google chain is a legitimate result, including a
+    # fallback hop. Only a NON-Gemini engine means the request was misrouted.
+    assert engine_is_expected("fast", "gemini-3.1-flash-lite-image") is True
+    assert engine_is_expected("fast", "gemini-3-pro-image") is True
+
+
+def test_openai_engine_does_not_satisfy_fast_mode():
+    assert engine_is_expected("fast", "gpt-image-2") is False
+
+
+def test_unknown_mode_is_permissive():
+    # An unrecognised mode must not hard-fail a render mid-flight.
+    assert engine_is_expected("some-future-mode", "anything") is True
+
+
+def test_every_chain_model_is_in_the_allowlist():
+    # If AIVDO's chain gains a model the allowlist does not know, every
+    # render that falls back to it would be reported as a misroute.
+    assert "gemini-3.1-flash-lite-image" in EXPECTED_ENGINES["fast"]
+    assert "gemini-3.1-flash-image" in EXPECTED_ENGINES["fast"]
+    assert "gemini-3-pro-image" in EXPECTED_ENGINES["fast"]

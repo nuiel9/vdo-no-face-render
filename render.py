@@ -24,7 +24,7 @@ AIVDO_API_KEY    = os.environ["AIVDO_API_KEY"]
 POLL_S           = int(os.environ.get("AIVDO_POLL_S", "30"))
 MAX_WAIT_MIN     = int(os.environ.get("AIVDO_MAX_WAIT_MIN", "130"))   # 120 stuck-job + 10 buffer
 XFADE_S          = float(os.environ.get("AIVDO_XFADE_S", "0.5"))      # 0 = hard-cut concat
-STRICT_FALLBACK  = os.environ.get("AIVDO_STRICT_FALLBACK", "0") == "1"  # 1 = abort if Part fell back to non-cinematic engine
+STRICT_FALLBACK  = os.environ.get("AIVDO_STRICT_FALLBACK", "0") == "1"  # 1 = abort if Part's engine isn't in EXPECTED_ENGINES for its requested_mode
 
 H = {"X-API-Key": AIVDO_API_KEY, "Content-Type": "application/json"}
 
@@ -128,20 +128,47 @@ def fetch_routing_metadata(job_id: str) -> dict:
     )}
 
 
+# Which engines legitimately satisfy each render_mode. "fast" is AIVDO's
+# Google lane and is what this channel uses (spec §6.1): Gemini only, no
+# OpenAI. Every model in AIVDO's DEFAULT_GOOGLE_CHAIN is listed, because a
+# fallback hop within the chain is a correct outcome, not a misroute.
+EXPECTED_ENGINES: dict[str, set[str]] = {
+    "fast": {
+        "gemini-3.1-flash-lite-image",
+        "gemini-3.1-flash-image",
+        "gemini-3-pro-image",
+        # Preview aliases, in case the server has not been redeployed yet.
+        "gemini-3.1-flash-image-preview",
+        "gemini-3-pro-image-preview",
+    },
+    "cinematic": {"gpt-image-2-2026-04-21", "gpt-image-2"},
+}
+
+
+def engine_is_expected(requested_mode: str, engine: str) -> bool:
+    """True if `engine` is a legitimate result for `requested_mode`.
+
+    Unknown modes are permissive: a render already in flight must not be
+    hard-failed because this table has not learned a new mode yet.
+    """
+    allowed = EXPECTED_ENGINES.get(requested_mode)
+    if allowed is None:
+        return True
+    return engine in allowed
+
+
 def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
     engine   = meta.get("image_engine_actually_used") or "unknown"
     fallback = meta.get("fallback_count") or 0
     routed   = meta.get("scenes_routed_via") or {}
-    cinematic_expected = requested_mode == "cinematic"
-    cinematic_engines  = {"gpt-image-2-2026-04-21", "gpt-image-2"}
-    fell_back = cinematic_expected and engine not in cinematic_engines
+    fell_back = not engine_is_expected(requested_mode, engine)
 
     if fell_back or fallback:
         print(f"  ⚠ Part {part_n} FALLBACK: requested={requested_mode!r} actual_engine={engine!r} "
               f"fallback_count={fallback} scenes_routed_via={routed}")
         if STRICT_FALLBACK:
             raise RuntimeError(
-                f"Part {part_n} fell back from cinematic to {engine!r}. "
+                f"Part {part_n} fell back from {requested_mode} to {engine!r}. "
                 f"Set AIVDO_STRICT_FALLBACK=0 to allow heterogeneous renders."
             )
     else:
@@ -236,11 +263,10 @@ def render_part(base: Path, n: int) -> Path:
         print(f"part{n}.mp4: cached, skip")
         return mp4
     req = json.loads((base / f"REQUEST_PART_{n}.json").read_text())
-    # AIVDO v1.8 Cinematic — opt-in for all VDO No Face renders (2026-04-26).
-    # render_mode routes every scene through OpenAI gpt-image-2 medium 1536x1024
-    # instead of legacy Gemini Flash. video_intent activates the faceless_youtube
-    # profile, server-enforcing "no faces" + documentary realism per-scene.
-    req["render_mode"] = "cinematic"
+    # Gemini only, no OpenAI (spec §6.1). "fast" is AIVDO's Google lane;
+    # "cinematic" would force gpt-image-2. There is no mode that names a
+    # single Gemini model, so the model comes from AIVDO's chain head.
+    req["render_mode"] = "fast"
     req["video_intent"] = "faceless_youtube"
     # acknowledged_no_editorial silences the soft editorial gate, which exists
     # to prevent publishing fabricated factual claims about real brands. Set
