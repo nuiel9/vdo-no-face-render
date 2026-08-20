@@ -145,7 +145,7 @@ Changed by hand in Studio — it is a channel setting, not an API operation in t
 |---|---|---|
 | Runtime | 15–20 min | up from 8 |
 | Title formula | `ทำไม X ถึง Y?` question-paradox | Ports 1:1 from existing English titles; matches benchmark's top performers |
-| Voice | **`th-TH-Chirp3-HD-Achernar` (female) — locked, permanent** | AIVDO defaults to `th-TH` and auto-agrees Thai particles to voice gender (`e2775e9`), so narration uses **ค่ะ**, never ครับ. Voice consistency is a franchise asset across hundreds of episodes; do not change it once episodes ship. **Algieba is retired.** |
+| Voice | **System: Gemini TTS (primary path). Gender: female. Specific voice: UNDECIDED** — see §5.5 | `Algieba` is **male** (`config.py:209`), so it cannot serve the female decision. Female candidates sampled 2026-08-20: Erinome (Clear), Kore (Firm), Schedar (Even), Despina (Smooth), Sulafat (Warm), Achernar (Soft). Chirp3-HD stays the fallback it already is. |
 | Subscribe CTA in narration | Retained | The one conversion unlock that empirically held (v4.6.3) |
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
 | Cadence | ~1/day, 7 days | Routine A currently runs weekdays only |
@@ -155,8 +155,23 @@ Changed by hand in Studio — it is a channel setting, not an API operation in t
 Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 - `language_code` defaults to `th-TH`
-- **Voice locked: `th-TH-Chirp3-HD-Achernar` (female)**
+- **System locked: Gemini TTS (AIVDO's primary path). Gender locked: female. Specific voice still open** — six candidates sampled 2026-08-20 (harness in `assets/voicecmp_female.py`)
 - Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*), so every episode closes in **ค่ะ**. Script review checks this rather than assuming it.
+
+**Two systems, not two voices — an earlier draft of this spec got this wrong.** It claimed the voice was `th-TH-Chirp3-HD-Achernar` and that "Algieba is retired." In fact:
+
+| | Gemini TTS | Chirp3-HD |
+|---|---|---|
+| Role | **Primary** — `gemini-2.5-flash-preview-tts`, voice `Algieba` | **Fallback** — fires on Gemini 5xx or empty response |
+| Endpoint | Vertex Gemini TTS | `texttospeech.googleapis.com` |
+| Voices | Multilingual personas speaking Thai | Native Thai voices |
+| Style control | **Yes** — `STYLE_PROMPTS`: normal / lively / calm / dramatic | No, plain text in the current call path |
+
+Choosing Chirp3-HD would mean promoting the fallback to primary and rewiring the TTS path, not renaming a voice. **Decision: stay on Gemini TTS** — style control matters for a documentary narrator, and Chirp3-HD remains a working fallback.
+
+⚠️ **`Algieba` is male.** `config.py:209` reads `{"gender": "male", "style": "Smooth"}`, and AIVDO's particle logic would give it **ครับ**. The channel's configured narrator has therefore been male all along. It cannot satisfy the female decision, so the specific voice is reopened — female candidates are listed in the §5.4 row.
+
+⚠️ **Quota risk.** On 2026-05-01 the AI Studio free-tier 100/day cap blocked a render, which is why `backend` is `vertex`. Daily 15–20 min episodes multiply TTS volume several-fold — **verify quota headroom before the cadence ramps.**
 - Thai speaking rate corrected (`2382bea` — the prior guess was +72% wrong)
 
 **The register rule — the biggest quality risk in this design.**
@@ -252,6 +267,10 @@ This pattern is already shipped and **measured** in AIVDO v1.58: hook inter-fram
 AIVDO commit `2382bea`: *"the Thai speaking rate was a GUESS and it was wrong by +72%."*
 
 Script length must be scoped against the **corrected Thai rate**, never English words-per-minute. Getting this wrong lands every 15-minute target at ~25 minutes — a systematic error across every episode, discoverable only after rendering.
+
+**Measured starting point (2026-08-20):** the four voice samples all ran **17.3–17.8s for the same ~200 Thai characters** — consistent across both TTS systems, so roughly **11.4 Thai characters/second**. That puts a 15-minute episode near **~10,000 Thai characters**.
+
+Treat this as a starting point, not a constant: it is derived from an 18-second clip with no pauses, section breaks, or pacing beats. **Confirm it against the first full episode** and correct before episode 2.
 
 ---
 
@@ -419,13 +438,15 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
 | Motion | Veo hook (3–5s) on Shorts only; Omni for identity-held; `zoom_pan` bodies |
-| Voice | `th-TH-Chirp3-HD-Achernar` (female), locked permanently |
+| Voice | Gemini TTS (system) + female (gender) locked; **specific voice open** |
 | Sequencing | Unlist English catalogue → rewrite channel identity in Thai → ship EP01 |
 | Editorial gate | Three modes + machine first pass |
 | Hard gate | Day-14 routing checkpoint |
 
 ## 13. Open items
 
+- **Specific narrator voice** (§5.4, §5.5) — system (Gemini TTS) and gender (female) are locked; the voice itself is not. Six candidates sampled 2026-08-20.
+- **Speaking style** (§6.4) — sets script length per episode: `normal` 11.3 c/s (~10,200 chars/15 min) vs `dramatic` 8.8 (~7,900) vs `calm` 8.2 (~7,400). Currently inheriting AIVDO's `normal` default rather than chosen.
 - **AIVDO fallback-chain fix** (§6.5) — chain replacement + `image_cost_table.py` update scheduled for the implementation plan; **not applied yet**, and it is a live production bug meanwhile.
 - **Batch API** (§11) — halves image cost and fits a day-ahead production rhythm. Evaluate during implementation.
 - **Stale documentation.** This spec supersedes `CLAUDE.md`'s distribution model, slug-selection heuristic, `≤3/week` cap, Algieba voice, and 8-minute runtime — but `CLAUDE.md` is **not yet updated**, so those still read as current instructions. Several memory files are likewise superseded. Both are updated after this spec is approved: `CLAUDE.md` rewrite belongs in the implementation plan, and superseded memories get **marked superseded, not deleted** (they hold the audit trail for why the English run was abandoned).
