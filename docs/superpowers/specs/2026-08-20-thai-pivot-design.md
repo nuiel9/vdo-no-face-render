@@ -130,7 +130,14 @@ This retires the stalled clean-channel test honestly — it answered its questio
 
 This is exactly the benchmark's structure: **Thai title + Latin series tag** (`... | Geek Story EP845`). `Disclosed` names a *stance* — what was hidden, revealed — not a subject, so it covers a Panasonic postmortem, an iPhone market shift, and a time-traveller hoax equally.
 
-**Growth structure:** ด.ดล Blog runs multiple series under one channel (Geek Story EP845 / Geek Talk EP249 / Geek Monday EP337), each with its own counter. Start with one counter. Split into `Disclosed Story` (curiosity/mystery) and `Disclosed Case` (business postmortems) once volume justifies it.
+**Lane structure, from day one.** ด.ดล Blog runs four series under one channel, each with its own counter — Geek Daily (EP411), Geek Story (EP845), Geek Talk (EP250), Geek Monday (EP337) — split by **recency**, not by subject. This channel adopts the same idea with two lanes (§7.1), each with an independent counter:
+
+| Lane | Tag | Runtime |
+|---|---|---|
+| A — current AI/tech news | `Disclosed Daily` | 8–10 min |
+| B — postmortems and curiosity | `Disclosed Story` | 15–20 min |
+
+An earlier draft deferred lanes until "volume justifies it." That was wrong: the lanes are what make the two runtimes and two gate speeds legible to a viewer, and both ship from week one.
 
 ### 5.2 Explicit rule reversal
 
@@ -140,7 +147,7 @@ It was written to prevent spammy template-farming. But a persistent EP number is
 
 ### 5.3 Scope
 
-**Tech + business + curiosity.** Explicitly wider than business case studies. Matching the benchmark's range is what makes daily cadence survivable — twenty back-catalog slugs and a business-only research lane runs dry by week six.
+**Tech + business + curiosity.** Explicitly wider than business case studies. Matching the benchmark's range is what makes daily cadence survivable — a business-only research lane runs dry fast, and the back-catalogue cannot carry it (§7.4).
 
 It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer is a plausible customer; a pure business-history viewer is less so.
 
@@ -170,12 +177,30 @@ Changed by hand in Studio — it is a channel setting, not an API operation in t
 
 | Constant | Value | Note |
 |---|---|---|
-| Runtime | 15–20 min | up from 8 |
-| Title formula | `ทำไม X ถึง Y?` question-paradox | Ports 1:1 from existing English titles; matches benchmark's top performers |
+| Runtime | **Lane A 8–10 min · Lane B 15–20 min** | Per §7.1. The single 15–20 min format could not serve news. |
+| Title formula | A **family** of question/verdict openers, not one | See below |
 | Voice | **System: Gemini TTS (primary path). Gender: female. Specific voice: UNDECIDED** — see §5.5 | `Algieba` is **male** (`config.py:209`), so it cannot serve the female decision. Female candidates sampled 2026-08-20: Erinome (Clear), Kore (Firm), Schedar (Even), Despina (Smooth), Sulafat (Warm), Achernar (Soft). Chirp3-HD stays the fallback it already is. |
 | Subscribe CTA in narration | Retained | The one conversion unlock that empirically held (v4.6.3) |
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
-| Cadence | ~1/day, 7 days | Routine A currently runs weekdays only |
+| Cadence | ~1/day across both lanes, 7 days | ~4/week Lane A + ~3/week Lane B. Routine A currently runs weekdays only. |
+
+**Title formulas.** An earlier draft specified only `ทำไม X ถึง Y?`. The benchmark uses at least eleven, and rotating them is part of why 845 episodes do not read as a template farm:
+
+| Formula | Gloss |
+|---|---|
+| `ทำไม X ถึง Y?` | Why does X…? |
+| `ใครฆ่า X?` | Who killed X? |
+| `เกิดอะไรขึ้นกับ X?` | What happened to X? |
+| `อวสาน X` | The end of X |
+| `วาระสุดท้ายของ X?` | The final days of X? |
+| `จุดจบ X` | The demise of X |
+| `หายนะ X!` | X disaster! |
+| `เปิดแฟ้มคดี X` | Opening the case file on X |
+| `เจาะลึก X` / `ล้วงลึก X` | Deep dive into X |
+| `ย้อนรอย X` | Retracing X |
+| `X จะรอดมั๊ย?` | Will X survive? |
+
+Rotate deliberately; do not let one formula dominate a month.
 
 ### 5.5 Voice and register
 
@@ -205,7 +230,7 @@ Choosing Chirp3-HD would mean promoting the fallback to primary and rewiring the
 
 The benchmark channel is narrated by a real person. We are TTS. The audible tell, however, will not be the voice — Chirp3-HD is good — it will be the **script register**.
 
-Thai splits hard between written and spoken register. A literal translation of English documentary prose yields stiff, formal, written-register Thai that sounds synthetic through even a perfect voice. This risk lands hardest on Phase 1, whose episodes *are* translations.
+Thai splits hard between written and spoken register. A literal translation of English documentary prose yields stiff, formal, written-register Thai that sounds synthetic through even a perfect voice. This risk lands hardest on back-catalogue remakes (§7.4), whose episodes *are* translations.
 
 **Rule: Thai scripts are written in spoken register, not translated from English.**
 
@@ -320,31 +345,71 @@ This is independent of the pivot — it affects AIVDO in production today. Fix s
 
 ## 7. Content plan
 
-### 7.1 Phase 1 — Thai remakes of the proven catalog, daily
+### 7.1 Two lanes, split by recency
 
-**Up to twenty published videos already have verified scripts, propagated corrections, and source checks.** A Thai remake needs a *translation-fidelity + register* check, not a fresh 17-prompt research cycle.
+The benchmark does not run one format. ด.ดล Blog runs **four lanes at different recency** — Geek Daily (EP405–411, newest news), Geek Story (EP808–845, main lane), Geek Talk (EP240–250, geopolitics), Geek Monday (EP334–337, postmortems) — and **roughly 40% of its last 60 uploads is current AI/tech news, not history** (Perplexity, Gemini, DeepSeek, the Copilot backlash, the Oracle AI-bubble question, OpenAI vs Apple, Korea's chip crash).
 
-This is what resolves the tension between daily cadence and a real editorial gate.
+This channel runs two:
 
-⚠️ **The supply figure is unverified and load-bearing.** `pipeline.json` shows 20 published rows, but the disk holds 18 `Daily/` directories and only 2 `.facts_verified` markers — the earliest ships likely predate the `Daily/` convention and may have no local script to remake from. **First task of the implementation plan: inventory which published slugs are actually remake-able.** If the real number is 12 rather than 20, Phase 2 has to start sooner.
-
-Ordering: **tech-leaning grievance first**, which satisfies both the §5.3 weighting and the *"why is X expensive"* archetype that is double-validated as the benchmark's top performer **and** Disclosed's only hit.
-
-| Wave | Slugs | Why |
+| | **Lane A — News** | **Lane B — Documentary** |
 |---|---|---|
-| 1 | TurboTax (#57), Blackberry (#7), MoviePass (#17), DocuSign (#33) | Tech + software grievance — on-weighting and on-archetype |
-| 2 | Ticketmaster (#56), Amazon–Whole Foods (#26), Peloton (#38), Circuit City (#24) | Consumer grievance with a technology spine |
-| 3 | McDonald's (#30), Costco (#55), Tupperware (#40), IKEA (#15) | Pure consumer/retail — proven archetype, off-weighting |
+| Subject | Current AI/tech events | Postmortems, "why X died", curiosity |
+| Runtime | **8–10 min** | **15–20 min** |
+| Cadence | ~4/week | ~3/week |
+| Gate mode (§8) | Research / verifiable, **fast path** | Research / verifiable or attribution |
+| Shelf life | Days | Years |
 
-**Note what the retired heuristic did to #7.** `CLAUDE.md` ranked Blackberry **Tier C — "fails the primary gate"** because RIM is Canadian and "reads as foreign-tech to the algorithm." That reasoning was about the *American* Browse audience and is void here. For a Thai audience Blackberry is a strong story — BBM was genuinely widespread in Thailand — so the old model did not merely stop applying, it actively **mis-ranked** slugs for this market. Re-rank the whole backlog against §5.3 rather than inheriting the Tier A/B/C labels.
+Together they hold the ~1/day cadence (§5.4). The lanes exist because **a single 15–20 min format cannot serve both** — see §7.5.
 
-Supply: ~20 episodes ≈ 3 weeks of daily shipping, **subject to the inventory above**.
+### 7.2 Lane A leads. The reasoning is competitive.
 
-### 7.2 Phase 2 — fresh Thai research lane, 2–3/week
+**Against an incumbent with 2,600 videos, history is their moat and news is a level playing field.** They can pre-empt any postmortem, and already have — Blackberry is covered twice on their channel (§7.6). Nobody can pre-empt a story that broke this week.
 
-Ramps behind Phase 1 as the catalogue depletes. Draws on the widened scope (tech + business + curiosity), **weighted toward tech per §5.3** — technologies that died and why, companies AI has already displaced, product categories that collapsed. Business and curiosity slugs stay in the mix; they are no longer the centre of it.
+Four supporting reasons:
 
-### 7.3 Shorts
+1. **It is 40% of what the benchmark ships** — the lane is proven in this market.
+2. **It is where the channel's authority actually is** (§5.3). The owner builds and ships an AI product. §1 identified zero authority in a saturated niche as the thing that killed the English run; this is the one subject where that does not apply.
+3. **It does not depend on the back-catalogue**, whose remake-able inventory is unverified (§7.4).
+4. **It converts best to the KPI.** A viewer watching a current AI story is closer to an AIVDO buyer than one watching a retail bankruptcy.
+
+### 7.3 Lane B — documentary
+
+The original format: postmortems, "why X died", tech and consumer curiosity. Weighted toward tech per §5.3.
+
+Sourced from fresh Thai research, and opportunistically from the back-catalogue (§7.4). Runs the full 17-prompt routine.
+
+### 7.4 The back-catalogue is demoted to filler
+
+The spec originally made Thai remakes of ~20 published videos the daily engine of week one. **That plan is substantially weaker than it looked**, for a reason independent of the inventory problem:
+
+> **The back-catalogue was selected for Americans.** Every slug in it passed the retired "would a 55-year-old American man recognise this" gate. Translating it into Thai inherits American topic selection wholesale.
+
+Filtering the catalogue by actual Thai relevance:
+
+| Survives | Fails — brand barely exists in Thailand |
+|---|---|
+| McDonald's, IKEA, Tupperware, Bic, Lululemon | TurboTax, MoviePass, DocuSign, Costco, Circuit City, Ticketmaster, Amazon–Whole Foods |
+
+So remakes become **opportunistic filler for Lane B**, not the engine. The ~15-minute Remake gate (§8) still applies and is still the cheapest content available — there is just less of it than the spec assumed, and it cannot carry the cadence alone.
+
+⚠️ The supply figure remains unverified: `pipeline.json` shows 20 published rows, the disk holds 18 `Daily/` directories and 2 `.facts_verified` markers, and the earliest ships likely predate the `Daily/` convention. **Inventorying remake-able slugs is still a first task of the implementation plan** — it now sizes a filler pool rather than the critical path, which lowers the risk it carried.
+
+### 7.5 What Lane A costs the pipeline
+
+News fights the current pipeline, and the lane split is the answer rather than a wish:
+
+| Constraint | Lane B (15–20 min) | Lane A (8–10 min) |
+|---|---|---|
+| Research gate (§8) | 30–45 min | **fast path required** |
+| Render | ~2 h | ~1 h |
+| Images (§11) | ~64–80 | ~32–40 |
+| Shelf life | years | **days** |
+
+A story that renders after its news cycle closes is worth nothing, so Lane A is **shorter on every axis** — fewer scenes, shorter script, a leaner gate. The machine first pass (§8) matters most here: it is what makes a same-day turnaround plausible.
+
+**Lane A must not become a rumour lane.** Speed pressure is exactly the condition under which the editorial gate gets skipped, and the gate is the channel's only real differentiator. A Lane A story that cannot be verified in its fast path is **dropped, not shipped hedged**.
+
+### 7.6 Shorts
 
 **Daily**, cut from the prior day's long-form via `make_short.py`, with a Veo hook on the first 3–5s (§6.3) and the character-anchored injustice angle the existing Shorts pattern already uses. No pinned comment.
 
@@ -354,39 +419,53 @@ The §11 Veo line (~30/month) assumes exactly this cadence.
 
 **Shorts are a reach play, not a revenue line.** At Thai short-form rates — on the order of ฿3 per 1,000 views (§2) — daily Shorts contribute effectively nothing to AdSense. They are justified by discovery, subscriber conversion, and feeding `aivdo_trials_attributed`; they are not justified by ad revenue, and their Veo cost should be judged against reach, not earnings. If they stop producing subscribers or attributed signups, cut them — the cost case never rested on views.
 
-### 7.4 Saturation audit — new target list
+### 7.7 Saturation audit — run it in both directions
 
 The audit previously ran against Modern MBA / Cold Fusion / Company Man. In Thai it runs against:
 
-- ลงทุนแมน (Longtunman) — 824K subs, 2.5K videos
+- ลงทุนแมน (Longtunman) — 824K subs, 2.5K videos. **Owns Thai corporate stories** — the natural home of the Thai/SEA slugs, so audit there before claiming that gap.
 - The Secret Sauce
 - Mission to the Moon
-- **ด.ดล Blog's own 845+ episodes** — they have likely covered several candidate slugs already
+- **ด.ดล Blog's own 2,600 episodes** — the primary competitor for Lane B
+- **Thai AI/tech creators**, โมชิ's channel among them — the primary competitors for Lane A, and the most contested part of this market precisely because it works
 
-**The §5.3 tech weighting widens the competitor set.** Thai AI/tech creators are now competitors too, not only the business channels — โมชิ's own channel among them, and he claims a 7,000-member community in this space. Tech topics are the most contested part of the Thai market precisely because they work.
+**A "no match" result is not automatically a green light.** ด.ดล Blog ships ~2/day across every corner of tech. When a topic is missing from 2,600 videos, the likeliest explanation is that it does not work for a Thai audience — not that nobody thought of it. TurboTax, MoviePass and DocuSign all came back clear, and all three are US-only products a Thai viewer has never used. **Read absence as a signal about relevance, then decide; do not read it as an opening.**
+
+Recorded hits (2026-08-20):
+
+| Slug | Status |
+|---|---|
+| Blackberry (#7) | **Covered twice** — EP537 (10K, 8mo), Geek Monday EP264 (5.4K, 1yr). Cut. |
+| Allbirds (#39) | **Covered** — Geek Story EP838, and recently. Cut. |
+| Panasonic / plasma | Covered — EP337, EP830 |
+| TurboTax, MoviePass, DocuSign | No match — but failing the relevance test above |
+| Peloton (#38) | Effectively clear (one tangential Geek Daily EP76, 23 views, 5 years old) |
+| Thai Airways / การบินไทย | No match — it is a tech channel. Audit against ลงทุนแมน instead. |
 
 Check happens **before** each ship.
 
 ---
-
-## 8. Editorial gate v2 — three modes
+## 8. Editorial gate v2 — four modes
 
 A single gate cannot survive daily cadence plus the widened scope. It splits by slug type.
 
 | Mode | Applies to | Discipline | Budget |
 |---|---|---|---|
-| **Remake** | Thai versions of the 20 verified English slugs | Translation fidelity (do numbers, names, dates survive intact) **+ spoken-register review** (§5.5) | ~15 min |
-| **Research / verifiable** | New business + tech slugs with primary sources | Full `lint_urls.py` → REVIEW.md → `propagate_correction.py` | ~30–45 min |
-| **Research / attribution** | Legends, hoaxes, unresolved claims (John Titor-type) | **Never assert — attribute.** Report accurately what was claimed and by whom. | ~20 min |
+| **News / fast path** (Lane A) | Current AI/tech events | Primary source or first-party announcement, named on screen. Two independent reports minimum for anything contested. **No speculation presented as reporting.** | ~15 min |
+| **Remake** | Thai versions of relevant back-catalogue slugs (§7.4) | Translation fidelity (do numbers, names, dates survive intact) **+ spoken-register review** (§5.5) | ~15 min |
+| **Research / verifiable** (Lane B) | New business + tech slugs with primary sources | Full `lint_urls.py` → REVIEW.md → `propagate_correction.py` | ~30–45 min |
+| **Research / attribution** (Lane B) | Legends, hoaxes, unresolved claims (John Titor-type) | **Never assert — attribute.** Report accurately what was claimed and by whom. | ~20 min |
 
-**Machine first pass.** AIVDO already carries `video_verifier_model: gemini-3-flash-preview`, a narration-grounding pass. Wiring it ahead of the human gate is the single highest-leverage change for making daily cadence survivable. It filters what reaches the human gate; it does not replace it.
+**Machine first pass.** AIVDO already carries `video_verifier_model: gemini-3-flash-preview`, a narration-grounding pass. Wiring it ahead of the human gate is the single highest-leverage change for making daily cadence survivable. It filters what reaches the human gate; it does not replace it. **Lane A depends on it** — the fast path is only credible with a machine pass in front.
+
+⚠️ **The News mode is where the gate is most likely to fail.** Speed pressure is precisely the condition under which verification gets skipped, and the gate is this channel's only real differentiator (§5.3). The rule is absolute: **a Lane A story that cannot be verified inside its fast path is dropped, not shipped hedged.** Missing a news cycle costs one video. Shipping a wrong fact costs the thing the whole channel is built on.
 
 **Unchanged:**
 
 - `.facts_verified` still blocks render.
 - **Comment replies stay hand-typed by the channel owner.** This came from a real incident where the audience caught an AI-written reply to an AI-detection complaint. Easier in Thai, not harder.
 
-**Retired:** the `≤3 videos/week` cap. Its impression-rationing rationale was falsified by the project's own later data; its *editorial-attention* rationale was real, and the three-mode gate plus the machine first pass is what retires it. The cap is replaced by the gate, not simply dropped.
+**Retired:** the `≤3 videos/week` cap. Its impression-rationing rationale was falsified by the project's own later data; its *editorial-attention* rationale was real, and the four-mode gate plus the machine first pass is what retires it. The cap is replaced by the gate, not simply dropped.
 
 ---
 
@@ -432,7 +511,7 @@ There is **no pre-pivot Thai performance data** — `Daily/` begins 2026-04-29, 
 
 | Result at day 14 | Action |
 |---|---|
-| Thai ships draw real Browse impression batches | Thai classification is an asset. Continue; ramp Phase 2. |
+| Thai ships draw real Browse impression batches | Thai classification is an asset. Continue; ramp both lanes. |
 | Thai ships starve at 11–19 impressions, as the English ships did | The channel is poisoned for **any** language. Move to Business Postmortems or a fresh Thai channel. |
 
 Pre-committed action, not a hope. Requires the analytics token (§9.2) and Studio screenshots (impressions are Studio-only).
@@ -441,7 +520,7 @@ Pre-committed action, not a hope. Requires the analytics token (§9.2) and Studi
 
 ## 11. Costs
 
-At 15–20 min the scene count is ~64–80 images per video (up from 32 at the 8-minute format).
+Scene count scales with runtime, so the two lanes cost differently: **Lane B (15–20 min) ~64–80 images**, **Lane A (8–10 min) ~32–40**. The table below prices Lane B; Lane A is roughly half. At ~3 Lane B + ~4 Lane A per week the blended monthly figure lands near **two-thirds** of the daily-Lane-B numbers shown.
 
 | Image model | $/img | Per video | Daily (30/mo) |
 |---|---|---|---|
@@ -474,6 +553,9 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Goal | $10K/mo **mixed** (ads + sponsorship + AIVDO), not AdSense-only |
 | Primary KPI | `aivdo_trials_attributed` per video |
 | Cadence | ~1/day long-form + 1/day Short, 7 days/week |
+| Lanes | A: news, 8–10 min, ~4/wk · B: documentary, 15–20 min, ~3/wk (§7.1) |
+| Lane priority | **Lane A leads** — news is the level playing field against a 2,600-video incumbent (§7.2) |
+| Back-catalogue | Demoted to Lane B filler; it was selected for Americans (§7.4) |
 | Runtime | 15–20 min |
 | Series tag | `Disclosed` + EP counter; lanes split later |
 | Channel identity | `Disclosed — เรื่องที่ไม่มีใครบอก`, Thai description (§5.3) |
