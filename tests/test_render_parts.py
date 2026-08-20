@@ -225,3 +225,32 @@ def test_bare_string_engine_is_still_accepted_for_backward_compatibility(monkeyp
     }
     with pytest.raises(RuntimeError, match="fell back"):
         render.report_routing(1, "fast", meta)
+
+
+from render import apply_request_defaults
+
+
+def test_apply_request_defaults_sets_fast_on_a_fresh_request():
+    # A new Thai slug's REQUEST_PART_*.json has no render_mode -- it must
+    # default to "fast", AIVDO's Gemini-only lane.
+    req = {"text": "สวัสดีค่ะ"}
+    apply_request_defaults(req)
+    assert req["render_mode"] == "fast"
+    assert req["video_intent"] == "faceless_youtube"
+
+
+def test_apply_request_defaults_keeps_an_existing_cinematic_slugs_mode():
+    # Re-rendering a shipped English slug (delete partN.mp4, re-run) must
+    # NOT silently downgrade it from cinematic/gpt-image-2 to the Gemini
+    # fast lane. This is the exact shape a shipped slug's
+    # REQUEST_PART_*.json carries: render_mode "cinematic" +
+    # strict_cinematic true.
+    req = {
+        "text": "English narration.",
+        "render_mode": "cinematic",
+        "strict_cinematic": True,
+    }
+    apply_request_defaults(req)
+    assert req["render_mode"] == "cinematic"
+    assert req["strict_cinematic"] is True
+    assert req["video_intent"] == "faceless_youtube"

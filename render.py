@@ -292,19 +292,41 @@ def discover_parts(base: Path) -> list[int]:
     return numbers
 
 
+def apply_request_defaults(req: dict) -> dict:
+    """Fill in render.py's runtime-controlled fields on a loaded request payload.
+
+    Mutates and returns `req` for convenience.
+    """
+    # Thai episodes (this pipeline's new lane) default to "fast" -- AIVDO's
+    # Google lane, Gemini only, no OpenAI (spec §6.1). "cinematic" would
+    # force gpt-image-2. There is no mode that names a single Gemini model,
+    # so the model comes from AIVDO's chain head.
+    #
+    # setdefault, NOT unconditional assignment: every shipped English slug's
+    # REQUEST_PART_*.json already carries "render_mode": "cinematic" +
+    # "strict_cinematic": true. An unconditional overwrite would silently
+    # downgrade a re-render of any shipped English slug (delete partN.mp4,
+    # re-run) from its cinematic gpt-image-2 render to the Gemini fast
+    # lane -- a shipped video's requested quality/engine must not change
+    # just because it's being re-rendered.
+    req.setdefault("render_mode", "fast")
+    # video_intent activates the faceless_youtube profile, server-enforcing
+    # "no faces" + documentary realism per-scene. Unlike render_mode, every
+    # shipped request (Thai and English) already used "faceless_youtube" --
+    # grep across Daily/*/REQUEST*.json confirms no slug specifies anything
+    # else -- so an unconditional assignment here does not clobber a
+    # legitimate per-slug choice; it just restates what every slug wants.
+    req["video_intent"] = "faceless_youtube"
+    return req
+
+
 def render_part(base: Path, n: int) -> Path:
     mp4 = base / f"part{n}.mp4"
     if mp4.exists():
         print(f"part{n}.mp4: cached, skip")
         return mp4
     req = json.loads((base / f"REQUEST_PART_{n}.json").read_text())
-    # Gemini only, no OpenAI (spec §6.1). "fast" is AIVDO's Google lane;
-    # "cinematic" would force gpt-image-2. There is no mode that names a
-    # single Gemini model, so the model comes from AIVDO's chain head.
-    req["render_mode"] = "fast"
-    # video_intent activates the faceless_youtube profile, server-enforcing
-    # "no faces" + documentary realism per-scene.
-    req["video_intent"] = "faceless_youtube"
+    apply_request_defaults(req)
     # acknowledged_no_editorial silences the soft editorial gate, which exists
     # to prevent publishing fabricated factual claims about real brands. Set
     # ONLY when a human has fact-checked this slug's REVIEW.md + SCRIPT.txt
