@@ -179,7 +179,7 @@ Changed by hand in Studio — it is a channel setting, not an API operation in t
 |---|---|---|
 | Runtime | **Lane A 8–10 min · Lane B 15–20 min** | Per §7.1. The single 15–20 min format could not serve news. |
 | Title formula | A **family** of question/verdict openers, not one | See below |
-| Voice | **System: Gemini TTS (primary path). Gender: female. Specific voice: UNDECIDED** — see §5.5 | `Algieba` is **male** (`config.py:209`), so it cannot serve the female decision. Female candidates sampled 2026-08-20: Erinome (Clear), Kore (Firm), Schedar (Even), Despina (Smooth), Sulafat (Warm), Achernar (Soft). Chirp3-HD stays the fallback it already is. |
+| Voice | **Gemini TTS · `Erinome` · female · `normal` style — LOCKED** | Chosen by listening, 2026-08-20, against five other female and four male candidates. "Clear" is the closest descriptor in the table to documentary narration among female voices. Particles resolve to **ค่ะ**. Chirp3-HD stays the fallback it already is. |
 | Subscribe CTA in narration | Retained | The one conversion unlock that empirically held (v4.6.3) |
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
 | Cadence | ~1/day across both lanes, 7 days | ~4/week Lane A + ~3/week Lane B. Routine A currently runs weekdays only. |
@@ -207,7 +207,7 @@ Rotate deliberately; do not let one formula dominate a month.
 Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 - `language_code` defaults to `th-TH`
-- **System locked: Gemini TTS (AIVDO's primary path). Gender locked: female. Specific voice still open** — six candidates sampled 2026-08-20 (harness in `assets/voicecmp_female.py`)
+- **Locked: Gemini TTS, voice `Erinome`, female, `normal` speaking style.** Chosen by listening on a 37-second script carrying figures, a reveal beat and the subscribe CTA — not on descriptors. Ten candidates were sampled (six female, four male including the incumbent `Algieba`); harnesses in `assets/`.
 - Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*), so every episode closes in **ค่ะ**. Script review checks this rather than assuming it.
 
 **Two systems, not two voices — an earlier draft of this spec got this wrong.** It claimed the voice was `th-TH-Chirp3-HD-Achernar` and that "Algieba is retired." In fact:
@@ -221,7 +221,7 @@ Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 Choosing Chirp3-HD would mean promoting the fallback to primary and rewiring the TTS path, not renaming a voice. **Decision: stay on Gemini TTS** — style control matters for a documentary narrator, and Chirp3-HD remains a working fallback.
 
-⚠️ **`Algieba` is male.** `config.py:209` reads `{"gender": "male", "style": "Smooth"}`, and AIVDO's particle logic would give it **ครับ**. The channel's configured narrator has therefore been male all along. It cannot satisfy the female decision, so the specific voice is reopened — female candidates are listed in the §5.4 row.
+⚠️ **`Algieba` is male.** `config.py:209` reads `{"gender": "male", "style": "Smooth"}`, and AIVDO's particle logic gives it **ครับ**. The channel's configured narrator was therefore male across the entire English run — worth knowing, since `TTSConfig.voice_name` still defaults to it and must be changed to `Erinome` in the pipeline, not only in this document.
 
 ⚠️ **Quota risk.** On 2026-05-01 the AI Studio free-tier 100/day cap blocked a render, which is why `backend` is `vertex`. Daily 15–20 min episodes multiply TTS volume several-fold — **verify quota headroom before the cadence ramps.**
 - Thai speaking rate corrected (`2382bea` — the prior guess was +72% wrong)
@@ -324,9 +324,20 @@ AIVDO commit `2382bea`: *"the Thai speaking rate was a GUESS and it was wrong by
 
 Script length must be scoped against the **corrected Thai rate**, never English words-per-minute. Getting this wrong lands every 15-minute target at ~25 minutes — a systematic error across every episode, discoverable only after rendering.
 
-**Measured starting point (2026-08-20):** the four voice samples all ran **17.3–17.8s for the same ~200 Thai characters** — consistent across both TTS systems, so roughly **11.4 Thai characters/second**. That puts a 15-minute episode near **~10,000 Thai characters**.
+**Measured 2026-08-20, and the constant is wrong in a second way.** Two sweeps:
 
-Treat this as a starting point, not a constant: it is derived from an 18-second clip with no pauses, section breaks, or pacing beats. **Confirm it against the first full episode** and correct before episode 2.
+| Script | Content | Measured rate |
+|---|---|---|
+| ~200 chars, prose | plain narration | **11.3–11.4 c/s** — matches the table |
+| ~509 chars, figure-dense | years, percentages, baht amounts | **12.5–13.7 c/s** across ten voices |
+
+Number-dense Thai is character-heavy but spoken quickly — *สี่ร้อยห้าสิบ*, *แปดสิบเปอร์เซ็นต์* — so character count **over-predicts duration by 11–21%** on exactly the kind of script this channel writes. Same class of error as the old `+72%` bug, opposite direction.
+
+There is also a **~10% spread between voices** on identical text (Despina 36.85s → Sadaltager 40.69s) — about 90 seconds across a 15-minute episode.
+
+**Working budget for `Erinome` at `normal`:** ~11.3 c/s for prose, ~13.2 c/s for figure-dense passages. A 15–20 min Lane B episode lands near **10,000–14,000 Thai characters**; a Lane A 8–10 min episode near **5,400–7,900**.
+
+**Confirm against the first full render of each lane and correct before episode 2.** Per `scene_planner.py`'s own warning, verify by ffprobing a real render — never the estimator, which measures its own prediction.
 
 ---
 
@@ -563,15 +574,13 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
 | Motion | Veo hook (3–5s) on Shorts only; Omni for identity-held; `zoom_pan` bodies |
-| Voice | Gemini TTS (system) + female (gender) locked; **specific voice open** |
+| Voice | Gemini TTS · `Erinome` · female · `normal` style, locked permanently; Chirp3-HD stays fallback |
 | Sequencing | Unlist English catalogue → rewrite channel identity in Thai → ship EP01 |
 | Editorial gate | Three modes + machine first pass |
 | Hard gate | Day-14 routing checkpoint |
 
 ## 13. Open items
 
-- **Specific narrator voice** (§5.4, §5.5) — system (Gemini TTS) and gender (female) are locked; the voice itself is not. Six candidates sampled 2026-08-20.
-- **Speaking style** (§6.4) — sets script length per episode: `normal` 11.3 c/s (~10,200 chars/15 min) vs `dramatic` 8.8 (~7,900) vs `calm` 8.2 (~7,400). Currently inheriting AIVDO's `normal` default rather than chosen.
 - **AIVDO fallback-chain fix** (§6.5) — chain replacement + `image_cost_table.py` update scheduled for the implementation plan; **not applied yet**, and it is a live production bug meanwhile.
 - **Batch API** (§11) — halves image cost and fits a day-ahead production rhythm. Evaluate during implementation.
 - **Stale documentation.** This spec supersedes `CLAUDE.md`'s distribution model, slug-selection heuristic, `≤3/week` cap, Algieba voice, and 8-minute runtime — but `CLAUDE.md` is **not yet updated**, so those still read as current instructions. Several memory files are likewise superseded. Both are updated after this spec is approved: `CLAUDE.md` rewrite belongs in the implementation plan, and superseded memories get **marked superseded, not deleted** (they hold the audit trail for why the English run was abandoned).
