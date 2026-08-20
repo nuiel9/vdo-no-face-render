@@ -163,7 +163,7 @@ def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
     routed   = meta.get("scenes_routed_via") or {}
     fell_back = not engine_is_expected(requested_mode, engine)
 
-    if fell_back or fallback:
+    if fell_back:
         print(f"  ⚠ Part {part_n} FALLBACK: requested={requested_mode!r} actual_engine={engine!r} "
               f"fallback_count={fallback} scenes_routed_via={routed}")
         if STRICT_FALLBACK:
@@ -171,6 +171,13 @@ def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
                 f"Part {part_n} fell back from {requested_mode} to {engine!r}. "
                 f"Set AIVDO_STRICT_FALLBACK=0 to allow heterogeneous renders."
             )
+    elif fallback:
+        # A non-zero fallback_count with an engine still inside
+        # EXPECTED_ENGINES is a hop within the chain (e.g. lite -> flash),
+        # not a misroute. Worth reporting — it's real information about the
+        # render — but it must not gate STRICT_FALLBACK's raise.
+        print(f"  ↻ Part {part_n} in-chain fallback: engine={engine!r} "
+              f"fallback_count={fallback} scenes_routed_via={routed}")
     else:
         print(f"  ✓ Part {part_n} engine={engine!r} fallback_count={fallback}")
 
@@ -267,6 +274,8 @@ def render_part(base: Path, n: int) -> Path:
     # "cinematic" would force gpt-image-2. There is no mode that names a
     # single Gemini model, so the model comes from AIVDO's chain head.
     req["render_mode"] = "fast"
+    # video_intent activates the faceless_youtube profile, server-enforcing
+    # "no faces" + documentary realism per-scene.
     req["video_intent"] = "faceless_youtube"
     # acknowledged_no_editorial silences the soft editorial gate, which exists
     # to prevent publishing fabricated factual claims about real brands. Set

@@ -68,3 +68,33 @@ def test_every_chain_model_is_in_the_allowlist():
     assert "gemini-3.1-flash-lite-image" in EXPECTED_ENGINES["fast"]
     assert "gemini-3.1-flash-image" in EXPECTED_ENGINES["fast"]
     assert "gemini-3-pro-image" in EXPECTED_ENGINES["fast"]
+
+
+import render
+
+
+def test_in_chain_fallback_does_not_raise_under_strict(monkeypatch):
+    # A hop within EXPECTED_ENGINES for the requested mode (e.g. lite ->
+    # flash) is a normal outcome, not a misroute — it must not raise even
+    # when STRICT_FALLBACK is on. fallback_count > 0 alone must not gate
+    # the raise; only an engine outside the allowlist should.
+    monkeypatch.setattr(render, "STRICT_FALLBACK", True)
+    meta = {
+        "image_engine_actually_used": "gemini-3.1-flash-image",
+        "fallback_count": 1,
+        "scenes_routed_via": {},
+    }
+    render.report_routing(1, "fast", meta)  # must not raise
+
+
+def test_out_of_allowlist_engine_raises_under_strict(monkeypatch):
+    # An engine outside EXPECTED_ENGINES for the requested mode is the real
+    # failure case report_routing exists to catch.
+    monkeypatch.setattr(render, "STRICT_FALLBACK", True)
+    meta = {
+        "image_engine_actually_used": "gpt-image-2",
+        "fallback_count": 1,
+        "scenes_routed_via": {},
+    }
+    with pytest.raises(RuntimeError, match="fell back"):
+        render.report_routing(1, "fast", meta)
