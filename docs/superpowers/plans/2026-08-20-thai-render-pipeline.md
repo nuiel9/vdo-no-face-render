@@ -806,10 +806,10 @@ def build_request(part_text: str, seconds: float) -> dict:
         "subtitles_enabled": True,
         "pace_to_narration": True,
         "custom_seconds": int(seconds),
-        "images_only": False,
+        "images_only": True,   # Veo lane is ~10x credits; motion is scoped to Shorts hooks
         "visual_style": "illustration",
         "watermark_mode": "none",
-        "music_mood": "documentary",
+        "music_mood": "none",  # "documentary" is not in AIVDO's MOOD_DEFAULTS and resolves to silence anyway
         "presenter_mode": False,
     }
 
