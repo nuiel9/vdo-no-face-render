@@ -205,6 +205,31 @@ def stitch(parts: list[Path], final: Path) -> None:
     )
 
 
+def discover_parts(base: Path) -> list[int]:
+    """Return the sorted part numbers present in a slug folder.
+
+    An 8-minute episode was always two parts, so main() used to hardcode
+    them. A 15-20 min Thai episode is 4-5 parts, so they are discovered
+    instead. Sorted numerically, not lexically, or part 10 stitches
+    between 1 and 2.
+    """
+    numbers = []
+    for path in base.glob("REQUEST_PART_*.json"):
+        stem = path.stem.removeprefix("REQUEST_PART_")
+        if stem.isdigit():
+            numbers.append(int(stem))
+    if not numbers:
+        raise FileNotFoundError(f"no REQUEST_PART_*.json files in {base}")
+    numbers.sort()
+    expected = list(range(1, len(numbers) + 1))
+    if numbers != expected:
+        raise ValueError(
+            f"gap in parts: found {numbers}, expected {expected}. "
+            "A missing part means missing narration — fix the slug folder."
+        )
+    return numbers
+
+
 def render_part(base: Path, n: int) -> Path:
     mp4 = base / f"part{n}.mp4"
     if mp4.exists():
@@ -260,10 +285,11 @@ def main(slug_dir: str) -> None:
     if final.exists():
         print(f"{final} exists, skipping render"); return
     started = time.time()
-    p1 = render_part(base, 1)
-    p2 = render_part(base, 2)
-    print(f"Stitching → {final.name}")
-    stitch([p1, p2], final)
+    part_numbers = discover_parts(base)
+    print(f"Rendering {len(part_numbers)} part(s): {part_numbers}")
+    parts = [render_part(base, n) for n in part_numbers]
+    print(f"Stitching {len(parts)} part(s) → {final.name}")
+    stitch(parts, final)
     # Run completed; the state file no longer reflects a useful resumable
     # state. Remove it so the next slug-render in the same folder doesn't
     # accidentally try to resume a stale job_id.
