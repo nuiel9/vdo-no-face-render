@@ -1,7 +1,7 @@
 # Design: Thai pivot — @disclosedch relaunch
 
 **Date:** 2026-08-20
-**Status:** Draft — awaiting review. All decision items closed; implementation plan pending approval.
+**Status:** **Approved 2026-08-20.** All decision items closed. Implementation plan to follow.
 **Supersedes:** the entire "Distribution model (current, 5th revision)" section of `CLAUDE.md`, and the slug-selection heuristic within it.
 
 ---
@@ -336,6 +336,10 @@ Script length must be scoped against the **corrected Thai rate**, never English 
 Number-dense Thai is character-heavy but spoken quickly — *สี่ร้อยห้าสิบ*, *แปดสิบเปอร์เซ็นต์* — so character count **over-predicts duration by 11–21%** on exactly the kind of script this channel writes. Same class of error as the old `+72%` bug, opposite direction.
 
 There is also a **~10% spread between voices** on identical text (Despina 36.85s → Sadaltager 40.69s) — about 90 seconds across a 15-minute episode.
+
+**Why `normal` is locked rather than `dramatic`/`calm` (measured 2026-08-20).** Same script, same voice: normal 38.21s (13.2 c/s), dramatic 45.41s (11.1), calm 50.45s (10.0). AIVDO's *style ratios* hold up well (dramatic÷normal 0.78 table vs 0.84 measured; calm÷normal 0.73 vs 0.76) — it is the absolute baseline that is too slow. **Keep the ratios, raise the baseline.**
+
+The deciding factor was not pace, though. `_ENERGY_TAGS` in `voice_synthesizer.py` gives **per-scene** control — `high` → `[excited] [fast]`, `low` → `[calm] [slow]` — and applies **only when `speaking_style` is `normal`**. Choosing a global style therefore *forfeits* per-scene variation. Staying on `normal` allows energy to rise for a cold open and fall for a reflective beat, which is how documentary narration actually works. Spend the trailer feel on the first 30 seconds via energy, not on the whole episode.
 
 **Working budget for `Erinome` at `normal`:** ~11.3 c/s for prose, ~13.2 c/s for figure-dense passages. A 15–20 min Lane B episode lands near **10,000–14,000 Thai characters**; a Lane A 8–10 min episode near **5,400–7,900**.
 
