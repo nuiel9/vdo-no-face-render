@@ -41,6 +41,20 @@ def build_request(part_text: str, seconds: float) -> dict:
         "resolution": "1080p",
         "subtitles_enabled": True,
         "pace_to_narration": True,
+        # GenerateRequest.duration_preset defaults to "standard" (AIVDO
+        # web.py:461), and VideoConfig.apply_preset assigns
+        # custom_duration_seconds ONLY when preset == CUSTOM (AIVDO
+        # config.py:347-363) -- "standard" resolves to a fixed 300/330/360s
+        # range and silently discards custom_seconds. Setting "custom" here
+        # makes the request internally coherent: the seconds we compute are
+        # the seconds the server is told to honour. This is NOT a proven fix
+        # for actual render duration -- the shipped English parts (preset
+        # "standard", custom_seconds 0) rendered at 4:03 and 3:49, not the
+        # 330s the standard preset implies, which points at
+        # pace_to_narration=True dominating over the preset once full text
+        # is supplied. Real runtime behaviour under preset "custom" is
+        # unverified until measured against a full render.
+        "duration_preset": "custom",
         "custom_seconds": int(seconds),
         "images_only": False,
         "visual_style": "illustration",
@@ -52,6 +66,8 @@ def build_request(part_text: str, seconds: float) -> dict:
 
 def write_parts(slug_dir: Path, part_texts: list[str], total_seconds: float) -> None:
     """Write REQUEST_PART_N.json for every part of an episode."""
+    if not part_texts:
+        raise ValueError("part_texts must not be empty")
     per_part = total_seconds / len(part_texts)
     for index, text in enumerate(part_texts, start=1):
         payload = build_request(text, per_part)
