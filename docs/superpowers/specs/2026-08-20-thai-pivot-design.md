@@ -1,7 +1,7 @@
 # Design: Thai pivot — @disclosedch relaunch
 
 **Date:** 2026-08-20
-**Status:** Approved (design). Implementation plan pending.
+**Status:** Draft — awaiting review. All decision items closed; implementation plan pending approval.
 **Supersedes:** the entire "Distribution model (current, 5th revision)" section of `CLAUDE.md`, and the slug-selection heuristic within it.
 
 ---
@@ -333,6 +333,28 @@ A single gate cannot survive daily cadence plus the widened scope. It splits by 
 1. **All three YouTube OAuth tokens are dead** (`invalid_grant` on `token.json`, `token_newchannel.json`, `token_disclosed.json`). More important than re-authing: **check the OAuth app's publishing status.** Testing-mode apps expire refresh tokens every 7 days, which matches the recurring `invalid_grant` pattern. At ≤3/week that was an annoyance; at daily cadence a weekly token death stops the channel. **Move the app to Production — do not just re-auth.**
 2. **Analytics token** (`token_analytics.json`) likewise — without it the §10 day-14 checkpoint cannot be measured, and that checkpoint is the whole test.
 3. **Thai font** available to the renderer burn-in path.
+
+---
+
+## 9.4 Critical path
+
+§4 gives the ship ordering and §9 gives the blockers; combined they are one chain, not parallel chores:
+
+```
+OAuth app → Production   (unblocks every token)
+        ↓
+re-auth upload + analytics tokens
+        ↓
+unlist 30 English videos ──┐
+        ↓                  │  fallback: unlist by hand in Studio,
+rewrite channel identity ──┘  which decouples shipping from the OAuth fix
+        ↓
+ship Thai EP01
+        ↓
+day-14 routing checkpoint  (needs the analytics token)
+```
+
+**The fallback matters.** Hand-unlisting in Studio is tedious but unblocking — it means EP01 is not held hostage to a Google Cloud console task. The OAuth fix is still required before daily automated uploads, and before the day-14 checkpoint can be measured.
 
 ---
 
