@@ -131,6 +131,27 @@ It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer i
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
 | Cadence | ~1/day, 7 days | Routine A currently runs weekdays only |
 
+### 5.5 Voice and register
+
+Narration is **Thai TTS** via AIVDO's native path. Already in place:
+
+- `language_code` defaults to `th-TH`
+- `th-TH-Chirp3-HD-Achernar` (female) and a male variant
+- Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*)
+- Thai speaking rate corrected (`2382bea` — the prior guess was +72% wrong)
+
+**The register rule — the biggest quality risk in this design.**
+
+The benchmark channel is narrated by a real person. We are TTS. The audible tell, however, will not be the voice — Chirp3-HD is good — it will be the **script register**.
+
+Thai splits hard between written and spoken register. A literal translation of English documentary prose yields stiff, formal, written-register Thai that sounds synthetic through even a perfect voice. This risk lands hardest on Phase 1, whose episodes *are* translations.
+
+**Rule: Thai scripts are written in spoken register, not translated from English.**
+
+Practically, a remake takes the English script as a *source of verified facts and structure*, then is written fresh in spoken Thai — not rendered sentence-by-sentence. Register review is part of the Remake gate (§8), alongside translation fidelity.
+
+Precedent: the channel has been caught on AI-detection twice in English (a narration complaint, then a complaint that the *reply* to it was also AI-written). Thai raises the stakes because the audience is native and the owner can hear the problem directly — which also makes it fixable in a way it never was in English.
+
 ---
 
 ## 6. Pipeline changes
@@ -219,7 +240,7 @@ A single gate cannot survive daily cadence plus the widened scope. It splits by 
 
 | Mode | Applies to | Discipline | Budget |
 |---|---|---|---|
-| **Remake** | Thai versions of the 20 verified English slugs | Translation fidelity — do numbers, names, dates survive intact | ~10 min |
+| **Remake** | Thai versions of the 20 verified English slugs | Translation fidelity (do numbers, names, dates survive intact) **+ spoken-register review** (§5.5) | ~15 min |
 | **Research / verifiable** | New business + tech slugs with primary sources | Full `lint_urls.py` → REVIEW.md → `propagate_correction.py` | ~30–45 min |
 | **Research / attribution** | Legends, hoaxes, unresolved claims (John Titor-type) | **Never assert — attribute.** Report accurately what was claimed and by whom. | ~20 min |
 
