@@ -126,7 +126,18 @@ It was written to prevent spammy template-farming. But a persistent EP number is
 
 It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer is a plausible customer; a pure business-history viewer is less so.
 
-**Channel description must be rewritten** — *"business case studies built on what's actually in the filings"* is now too narrow.
+**Channel identity is rewritten to match** — the old *"business case studies built on what's actually in the filings"* is now too narrow.
+
+| Field | Value |
+|---|---|
+| Display name | `Disclosed — เรื่องที่ไม่มีใครบอก` |
+| Description | `เล่าเรื่องธุรกิจ เทคโนโลยี และเรื่องที่คุณสงสัยมาตลอด — จากเอกสารและแหล่งข้อมูลต้นทางจริง คลิปใหม่ทุกวัน` |
+
+Bilingual by design, mirroring §5.1: the **channel** carries Thai, the **series tag** stays Latin — the ด.ดล Blog structure. The Thai half ("the story nobody tells") is broad enough to cover tech, business and mystery without naming a category, and it is the one place Thai keywords can be placed for free.
+
+The description does three jobs: states the widened scope, keeps the primary-source differentiator the editorial gate exists to defend, and promises the cadence.
+
+Changed by hand in Studio — it is a channel setting, not an API operation in the pipeline.
 
 ### 5.4 Production constants
 
@@ -381,6 +392,7 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Cadence | ~1/day long-form + 1/day Short, 7 days/week |
 | Runtime | 15–20 min |
 | Series tag | `Disclosed` + EP counter; lanes split later |
+| Channel identity | `Disclosed — เรื่องที่ไม่มีใครบอก`, Thai description (§5.3) |
 | Scope | Tech + business + curiosity |
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
@@ -392,7 +404,6 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 
 ## 13. Open items
 
-- Thai channel display name and rewritten Thai channel description (§4, §5.3) — not yet chosen.
 - **AIVDO fallback-chain fix** (§6.5) — chain replacement + `image_cost_table.py` update scheduled for the implementation plan; **not applied yet**, and it is a live production bug meanwhile.
 - **Batch API** (§11) — halves image cost and fits a day-ahead production rhythm. Evaluate during implementation.
 - **Stale documentation.** This spec supersedes `CLAUDE.md`'s distribution model, slug-selection heuristic, `≤3/week` cap, Algieba voice, and 8-minute runtime — but `CLAUDE.md` is **not yet updated**, so those still read as current instructions. Several memory files are likewise superseded. Both are updated after this spec is approved: `CLAUDE.md` rewrite belongs in the implementation plan, and superseded memories get **marked superseded, not deleted** (they hold the audit trail for why the English run was abandoned).
