@@ -144,6 +144,15 @@ It was written to prevent spammy template-farming. But a persistent EP number is
 
 It also moves the audience closer to AIVDO's buyer: a Thai tech-curious viewer is a plausible customer; a pure business-history viewer is less so.
 
+**Weighted toward tech, not evenly split.** Two independent Thai-market signals point the same way:
+
+1. **ด.ดล Blog's benchmark mix** (§3) — its strongest recent performers include Panasonic's plasma collapse and iPhone-vs-Android. Tech stories, told as documentaries.
+2. **On The Air EP.16 @ 3:07** (`j4AM4ElN86o`) — โมชิ ran *business and marketing* content and nobody watched: *"การทำธุรกิจมันมีคนสอนเยอะแล้ว"* — business teaching is saturated, viewers can watch someone else's. He switched to **AI and new technology** and it worked. He learned this by losing, in this market, which is why it carries more weight than his revenue claims.
+
+**And it addresses the root cause in §1.** The English run died of zero authority in a saturated niche. The owner has genuine authority in exactly one subject — building and shipping an AI product. Tech is the one topic where this channel is not a stranger, and authority is precisely what §1 identified as the ceiling.
+
+**Format does not change.** The lesson is *what to cover*, not how. โมชิ is on-camera and personality-driven making how-to content; this channel is faceless and runs a cinematic documentary engine. Rebuilding as an AI-tutorial channel would discard the tooling advantage and the back-catalogue that makes week one survivable. **Keep the documentary format, shift the subject matter.**
+
 **Channel identity is rewritten to match** — the old *"business case studies built on what's actually in the filings"* is now too narrow.
 
 | Field | Value |
@@ -199,6 +208,8 @@ The benchmark channel is narrated by a real person. We are TTS. The audible tell
 Thai splits hard between written and spoken register. A literal translation of English documentary prose yields stiff, formal, written-register Thai that sounds synthetic through even a perfect voice. This risk lands hardest on Phase 1, whose episodes *are* translations.
 
 **Rule: Thai scripts are written in spoken register, not translated from English.**
+
+**Second rule: rigour must not cost digestibility.** โมชิ's observation (`j4AM4ElN86o` @ 3:48) is that he found a 1M-view video teaching how to sign up for Gmail, and concluded the market rewards **ย่อยง่าย** — easy to digest — far more than it rewards depth. The editorial gate (§8) optimises hard for rigour, and rigour stays: it is the differentiator no competitor has. But a script that is accurate and hard to follow fails anyway. Script review checks both.
 
 Practically, a remake takes the English script as a *source of verified facts and structure*, then is written fresh in spoken Thai — not rendered sentence-by-sentence. Register review is part of the Remake gate (§8), alongside translation fidelity.
 
@@ -275,6 +286,8 @@ A full 60s Short on Veo 3.1 is ~$24 ($9 on Fast) — not viable daily.
 
 This pattern is already shipped and **measured** in AIVDO v1.58: hook inter-frame motion **2.944 across 0–3s** against **0.694 / 0.398 / 0.189** behind it.
 
+**The hook should buy a demonstration, not decoration.** `j4AM4ElN86o` opens with roughly twenty seconds of pure spectacle — a live face-swap, a dog appearing in-hand — before a single word of framing. The Veo budget is best spent on a shot that *shows the thing the episode is about*, not on a handsome establishing frame.
+
 **Two guards, both from prior findings:**
 
 - **Veo prompt guard — no brand names, no named people, environment only.** The May Veo POC found brand-name prompts produced in-scene watermarks and unreliable faceless compliance. Both are fatal for a faceless channel doing brand postmortems.
@@ -315,13 +328,21 @@ This is what resolves the tension between daily cadence and a real editorial gat
 
 ⚠️ **The supply figure is unverified and load-bearing.** `pipeline.json` shows 20 published rows, but the disk holds 18 `Daily/` directories and only 2 `.facts_verified` markers — the earliest ships likely predate the `Daily/` convention and may have no local script to remake from. **First task of the implementation plan: inventory which published slugs are actually remake-able.** If the real number is 12 rather than 20, Phase 2 has to start sooner.
 
-Ordering: grievance / *"why is X expensive"* first — double-validated as the benchmark's top performer **and** Disclosed's only hit. TurboTax, Ticketmaster, McDonald's, Costco gold bars, Amazon–Whole Foods lead.
+Ordering: **tech-leaning grievance first**, which satisfies both the §5.3 weighting and the *"why is X expensive"* archetype that is double-validated as the benchmark's top performer **and** Disclosed's only hit.
+
+| Wave | Slugs | Why |
+|---|---|---|
+| 1 | TurboTax (#57), Blackberry (#7), MoviePass (#17), DocuSign (#33) | Tech + software grievance — on-weighting and on-archetype |
+| 2 | Ticketmaster (#56), Amazon–Whole Foods (#26), Peloton (#38), Circuit City (#24) | Consumer grievance with a technology spine |
+| 3 | McDonald's (#30), Costco (#55), Tupperware (#40), IKEA (#15) | Pure consumer/retail — proven archetype, off-weighting |
+
+**Note what the retired heuristic did to #7.** `CLAUDE.md` ranked Blackberry **Tier C — "fails the primary gate"** because RIM is Canadian and "reads as foreign-tech to the algorithm." That reasoning was about the *American* Browse audience and is void here. For a Thai audience Blackberry is a strong story — BBM was genuinely widespread in Thailand — so the old model did not merely stop applying, it actively **mis-ranked** slugs for this market. Re-rank the whole backlog against §5.3 rather than inheriting the Tier A/B/C labels.
 
 Supply: ~20 episodes ≈ 3 weeks of daily shipping, **subject to the inventory above**.
 
 ### 7.2 Phase 2 — fresh Thai research lane, 2–3/week
 
-Ramps behind Phase 1 as the catalog depletes. Draws on the widened scope (tech + business + curiosity), not business alone.
+Ramps behind Phase 1 as the catalogue depletes. Draws on the widened scope (tech + business + curiosity), **weighted toward tech per §5.3** — technologies that died and why, companies AI has already displaced, product categories that collapsed. Business and curiosity slugs stay in the mix; they are no longer the centre of it.
 
 ### 7.3 Shorts
 
@@ -341,6 +362,8 @@ The audit previously ran against Modern MBA / Cold Fusion / Company Man. In Thai
 - The Secret Sauce
 - Mission to the Moon
 - **ด.ดล Blog's own 845+ episodes** — they have likely covered several candidate slugs already
+
+**The §5.3 tech weighting widens the competitor set.** Thai AI/tech creators are now competitors too, not only the business channels — โมชิ's own channel among them, and he claims a 7,000-member community in this space. Tech topics are the most contested part of the Thai market precisely because they work.
 
 Check happens **before** each ship.
 
@@ -454,7 +477,7 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Runtime | 15–20 min |
 | Series tag | `Disclosed` + EP counter; lanes split later |
 | Channel identity | `Disclosed — เรื่องที่ไม่มีใครบอก`, Thai description (§5.3) |
-| Scope | Tech + business + curiosity |
+| Scope | Tech + business + curiosity, **weighted toward tech** (§5.3) |
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
 | Motion | Veo hook (3–5s) on Shorts only; Omni for identity-held; `zoom_pan` bodies |
