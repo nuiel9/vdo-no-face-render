@@ -158,28 +158,56 @@ def engine_is_expected(requested_mode: str, engine: str) -> bool:
 
 
 def report_routing(part_n: int, requested_mode: str, meta: dict) -> None:
-    engine   = meta.get("image_engine_actually_used") or "unknown"
-    fallback = meta.get("fallback_count") or 0
-    routed   = meta.get("scenes_routed_via") or {}
-    fell_back = not engine_is_expected(requested_mode, engine)
+    """Inspect one part's post-render routing metadata and log/raise on misroute.
+
+    `image_engine_actually_used` (web.py:3438) is `sorted(engines_used)` — a
+    LIST of every distinct engine that rendered a scene in the job, not a
+    single engine name. A bare string is also accepted (backward
+    compatibility with any caller that hands one directly, e.g. a test).
+
+    Absent or empty is the NORMAL case for render_mode="fast": that lane's
+    job.scene_dna stays NULL, so web.py omits these fields from the response
+    entirely (web.py ~3478) rather than sending an empty list. Treat that as
+    "no v1.8 routing data available" — informational only, never a misroute,
+    never a raise (even under STRICT_FALLBACK). Without this, every single
+    Thai render would flag as a misroute.
+    """
+    raw_engines = meta.get("image_engine_actually_used")
+    fallback    = meta.get("fallback_count") or 0
+    routed      = meta.get("scenes_routed_via") or {}
+
+    if raw_engines is None:
+        engines: list[str] = []
+    elif isinstance(raw_engines, str):
+        engines = [raw_engines]
+    else:
+        engines = list(raw_engines)
+
+    if not engines:
+        print(f"  · Part {part_n}: no v1.8 routing data available (engine metadata absent)")
+        return
+
+    # Correctly routed only if EVERY engine that rendered a scene is in the
+    # allowlist for the requested mode.
+    fell_back = any(not engine_is_expected(requested_mode, e) for e in engines)
 
     if fell_back:
-        print(f"  ⚠ Part {part_n} FALLBACK: requested={requested_mode!r} actual_engine={engine!r} "
+        print(f"  ⚠ Part {part_n} FALLBACK: requested={requested_mode!r} actual_engines={engines!r} "
               f"fallback_count={fallback} scenes_routed_via={routed}")
         if STRICT_FALLBACK:
             raise RuntimeError(
-                f"Part {part_n} fell back from {requested_mode} to {engine!r}. "
+                f"Part {part_n} fell back from {requested_mode} to {engines!r}. "
                 f"Set AIVDO_STRICT_FALLBACK=0 to allow heterogeneous renders."
             )
     elif fallback:
-        # A non-zero fallback_count with an engine still inside
+        # A non-zero fallback_count with every engine still inside
         # EXPECTED_ENGINES is a hop within the chain (e.g. lite -> flash),
         # not a misroute. Worth reporting — it's real information about the
         # render — but it must not gate STRICT_FALLBACK's raise.
-        print(f"  ↻ Part {part_n} in-chain fallback: engine={engine!r} "
+        print(f"  ↻ Part {part_n} in-chain fallback: engines={engines!r} "
               f"fallback_count={fallback} scenes_routed_via={routed}")
     else:
-        print(f"  ✓ Part {part_n} engine={engine!r} fallback_count={fallback}")
+        print(f"  ✓ Part {part_n} engines={engines!r} fallback_count={fallback}")
 
 
 def download(url: str, dest: Path) -> None:
