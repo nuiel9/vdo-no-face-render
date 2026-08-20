@@ -221,7 +221,9 @@ Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 Choosing Chirp3-HD would mean promoting the fallback to primary and rewiring the TTS path, not renaming a voice. **Decision: stay on Gemini TTS** — style control matters for a documentary narrator, and Chirp3-HD remains a working fallback.
 
-⚠️ **`Algieba` is male.** `config.py:209` reads `{"gender": "male", "style": "Smooth"}`, and AIVDO's particle logic gives it **ครับ**. The channel's configured narrator was therefore male across the entire English run — worth knowing, since `TTSConfig.voice_name` still defaults to it and must be changed to `Erinome` in the pipeline, not only in this document.
+⚠️ **`Algieba` is male.** `config.py:209` reads `{"gender": "male", "style": "Smooth"}`, and AIVDO's particle logic gives it **ครับ**. The channel's configured narrator was therefore male across the entire English run.
+
+**Where the change goes.** `voice_name` is a **per-request field** — the shipped `REQUEST_PART_*.json` files carry `"voice_name": "Algieba", "language": "en-US"`. So the narrator is set in the **channel's request templates**, during the `prompts/` port (§6). Do **not** change `TTSConfig.voice_name`: that is AIVDO's product-wide default and would re-voice every customer's renders. Changing it is a separate product decision and is out of scope for this spec.
 
 ⚠️ **Quota risk.** On 2026-05-01 the AI Studio free-tier 100/day cap blocked a render, which is why `backend` is `vertex`. Daily 15–20 min episodes multiply TTS volume several-fold — **verify quota headroom before the cadence ramps.**
 - Thai speaking rate corrected (`2382bea` — the prior guess was +72% wrong)
