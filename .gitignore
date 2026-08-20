@@ -2,3 +2,6 @@
 # clean-channel re-upload test (staged 2026-06-19)
 Daily/_reupload_cache/
 *.json.revoked.*.bak
+
+# subagent-driven-development scratch (ledger, briefs, review packages)
+.superpowers/

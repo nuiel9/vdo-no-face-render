@@ -61,12 +61,27 @@ Task 2 changes `DEFAULT_GOOGLE_CHAIN` in AIVDO, which affects **every AIVDO cust
 Create `tests/conftest.py`:
 
 ```python
-"""Put the repo root on sys.path so tests can `import render`."""
+"""Test bootstrap: repo root on sys.path, and placeholder AIVDO credentials.
+
+`render.py` reads AIVDO_URL/AIVDO_API_KEY from os.environ at import time via
+bracket access, so importing it with no environment raises KeyError before a
+single test runs. These placeholders make `python3 -m pytest tests/` work from
+a cold clone. setdefault, not assignment, so a real environment is preserved.
+No test makes a network call; nothing here reaches AIVDO.
+"""
+import os
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+os.environ.setdefault("AIVDO_URL", "http://test.invalid")
+os.environ.setdefault("AIVDO_API_KEY", "test-key-not-real")
 ```
+
+`.invalid` is RFC 2606 reserved and can never resolve, so a future test that
+accidentally makes a real request fails loudly at DNS rather than reaching
+something live.
 
 - [ ] **Step 2: Write the failing test**
 
@@ -94,10 +109,12 @@ def test_finds_five_parts(tmp_path):
 
 
 def test_sorts_numerically_not_lexically(tmp_path):
-    # Lexical sort would give [1, 10, 2]; a 10-part episode must not stitch
-    # its scenes out of order.
-    _make(tmp_path, [1, 2, 10])
-    assert discover_parts(tmp_path) == [1, 2, 10]
+    # Lexical sort would give [1, 10, 2, 3, ...]; a 10-part episode must not
+    # stitch its scenes out of order. The set is contiguous 1..10 because a
+    # gapped set (e.g. [1, 2, 10]) is rejected by the gap check below — the
+    # two properties cannot be tested with the same fixture.
+    _make(tmp_path, list(range(1, 11)))
+    assert discover_parts(tmp_path) == list(range(1, 11))
 
 
 def test_raises_when_no_parts(tmp_path):
