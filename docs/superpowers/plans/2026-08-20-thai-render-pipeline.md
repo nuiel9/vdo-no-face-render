@@ -680,13 +680,16 @@ recalibrated against a real ffprobe after the first full render."
 The shipped requests carry `"voice_name": "Algieba", "language": "en-US"` — a male English narrator. EP01 needs Erinome, `th-TH`, and 4–5 parts.
 
 **Files:**
-- Create: `Daily/<ep01-slug>/REQUEST_PART_1.json` … `REQUEST_PART_4.json`
 - Create: `make_request_parts.py`
 - Create: `tests/test_make_request_parts.py`
 
+(The `Daily/<ep01-slug>/REQUEST_PART_*.json` files are written by Task 6, which calls
+`write_parts` with real EP01 narration. An earlier draft listed them here, which
+wrongly implied this task should fabricate script content.)
+
 **Interfaces:**
 - Consumes: `thai_budget.chars_for_duration` from Task 4
-- Produces: `build_request(part_text: str, total_parts: int, seconds: float) -> dict`
+- Produces: `build_request(part_text: str, seconds: float) -> dict`
 
 - [ ] **Step 1: Write the failing tests**
 
@@ -699,36 +702,36 @@ from make_request_parts import build_request
 
 
 def test_narrator_is_erinome_not_algieba():
-    req = build_request("สวัสดีค่ะ", total_parts=4, seconds=240)
+    req = build_request("สวัสดีค่ะ", seconds=240)
     assert req["voice_name"] == "Erinome"
 
 
 def test_language_is_thai():
-    req = build_request("สวัสดีค่ะ", total_parts=4, seconds=240)
+    req = build_request("สวัสดีค่ะ", seconds=240)
     assert req["language"] == "th-TH"
 
 
 def test_speaking_style_is_normal():
     # normal is what keeps per-scene energy tags available (spec §6.4);
     # a global style would forfeit them.
-    req = build_request("สวัสดีค่ะ", total_parts=4, seconds=240)
+    req = build_request("สวัสดีค่ะ", seconds=240)
     assert req["speaking_style"] == "normal"
 
 
 def test_routes_to_the_gemini_lane():
-    req = build_request("สวัสดีค่ะ", total_parts=4, seconds=240)
+    req = build_request("สวัสดีค่ะ", seconds=240)
     assert req["render_mode"] == "fast"
     assert req["video_intent"] == "faceless_youtube"
 
 
 def test_carries_the_narration_text():
-    req = build_request("ทำไมแว่นตาถึงแพง", total_parts=4, seconds=240)
+    req = build_request("ทำไมแว่นตาถึงแพง", seconds=240)
     assert req["text"] == "ทำไมแว่นตาถึงแพง"
 
 
 def test_rejects_empty_text():
     with pytest.raises(ValueError, match="empty"):
-        build_request("", total_parts=4, seconds=240)
+        build_request("", seconds=240)
 
 
 def test_warns_when_script_badly_overshoots_its_slot():
@@ -736,7 +739,7 @@ def test_warns_when_script_badly_overshoots_its_slot():
     # the render succeeds and the episode is the wrong length.
     long_text = "ก" * 20_000
     with pytest.raises(ValueError, match="too long"):
-        build_request(long_text, total_parts=4, seconds=240)
+        build_request(long_text, seconds=240)
 ```
 
 - [ ] **Step 2: Run the tests and verify they fail**
@@ -767,7 +770,7 @@ from thai_budget import chars_for_duration, duration_for_chars
 _OVERSHOOT_TOLERANCE = 1.25
 
 
-def build_request(part_text: str, total_parts: int, seconds: float) -> dict:
+def build_request(part_text: str, seconds: float) -> dict:
     """Return the AIVDO request payload for one part of a Thai episode."""
     if not part_text.strip():
         raise ValueError("part_text is empty")
@@ -784,6 +787,16 @@ def build_request(part_text: str, total_parts: int, seconds: float) -> dict:
     return {
         "text": part_text,
         "language": "th-TH",
+        # custom_seconds is IGNORED unless the preset is "custom": AIVDO's
+        # apply_preset (config.py) assigns it only for DurationPreset.CUSTOM,
+        # and the default "standard" forces a fixed 300/330/360s range. Without
+        # this line the per-part duration computed above is silently discarded.
+        # NOT a proven runtime fix: the shipped English requests used "standard"
+        # with custom_seconds=0 and still rendered 4:03 / 3:49, so
+        # pace_to_narration=True appears to dominate actual duration when full
+        # text is supplied. Coherence only — real behaviour is unverified until
+        # Task 6 measures a full render.
+        "duration_preset": "custom",
         "voice_name": "Erinome",
         "speaking_style": "normal",
         "render_mode": "fast",
@@ -805,7 +818,7 @@ def write_parts(slug_dir: Path, part_texts: list[str], total_seconds: float) -> 
     """Write REQUEST_PART_N.json for every part of an episode."""
     per_part = total_seconds / len(part_texts)
     for index, text in enumerate(part_texts, start=1):
-        payload = build_request(text, len(part_texts), per_part)
+        payload = build_request(text, per_part)
         dest = slug_dir / f"REQUEST_PART_{index}.json"
         dest.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
         print(f"{dest.name}: {len(text):,} chars, ~{per_part / 60:.1f} min")
