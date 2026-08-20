@@ -40,6 +40,10 @@ The AdSense-only version is above the ceiling of the category. Benchmark (pulled
 
 The incumbent is probably earning **$750–$4,500/mo** from ads. Reaching $10K on ads alone would mean substantially out-performing them, starting from 8 subs.
 
+**Plan against the bottom of that range.** A Thai practitioner datapoint (On The Air EP.16, `j4AM4ElN86o` @ 9:11–9:31, โมชิ — runs a 7,000-member Thai AI community) puts **1M Thai views ≈ ฿3,000 and 1M US views ≈ ฿30,000 — a 10× gap**. At ~฿33/USD that is ~$0.09 vs ~$0.91 RPM.
+
+Those absolutes are short-form economics, not long-form — his US figure of ~$0.91 is itself far below normal US long-form rates, which is the tell, and he hedges with อาจจะ ("might"). It is one podcast remark, not measured data. But if Thai long-form holds the same ~10:1 ratio against US long-form business content (~$5–10 RPM), Thai long-form lands near **$0.50–1.00** — the low end of the table above. **Assume $0.50, not $1.50.**
+
 Composition instead:
 
 | Source | Role |
@@ -49,6 +53,20 @@ Composition instead:
 | **AIVDO conversions** | The lever with the shortest path. Attribution already instrumented (v1.57). |
 
 **Primary KPI is `aivdo_trials_attributed` per video, not views.**
+
+### 2.1 "Make it for America instead" — answered, do not re-litigate
+
+The same source argues the opposite of this whole design: *don't make content for Thailand, make it for America, because the money is 10× better.* It is worth answering in writing, because the argument is superficially strong and will resurface.
+
+**He is right about RPM and wrong about the binding constraint.**
+
+@disclosedch already ran that experiment for three months — English, American-targeted, packaged for that audience. It returned **11, 13, and 19 impressions** per video (§1). A 10× RPM on views you never receive is worth exactly zero.
+
+His community does earn American views, but through a different game: vertical drama, AI lullabies, affiliate review clips, run across **30–100 channels per operator**. That is a volume-and-format play. This channel is a single authority channel shipping 15-minute researched documentaries. The two do not share a distribution mechanism.
+
+**The case for Thai is not that Thailand pays better. It is that distribution is the variable this channel can move, and RPM is not.** Optimising the unmovable variable is what the English run already did, and §1 records how it went.
+
+If the counter-argument is ever revisited, the thing that would justify revisiting it is *evidence of American distribution* — not a better RPM number.
 
 ---
 
@@ -313,6 +331,8 @@ This means **two uploads per day** — one long-form, one Short. Both count towa
 
 The §11 Veo line (~30/month) assumes exactly this cadence.
 
+**Shorts are a reach play, not a revenue line.** At Thai short-form rates — on the order of ฿3 per 1,000 views (§2) — daily Shorts contribute effectively nothing to AdSense. They are justified by discovery, subscriber conversion, and feeding `aivdo_trials_attributed`; they are not justified by ad revenue, and their Veo cost should be judged against reach, not earnings. If they stop producing subscribers or attributed signups, cut them — the cost case never rested on views.
+
 ### 7.4 Saturation audit — new target list
 
 The audit previously ran against Modern MBA / Cold Fusion / Company Man. In Thai it runs against:
@@ -417,7 +437,7 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 
 ### Sourcing caveats
 
-- **Thai RPM figures in §2 are weakly sourced.** Searches returned thin and mutually inconsistent Thailand data; one result (฿216 per 1,000 views) is implausible and was discarded. The §2 conclusion holds across the entire plausible range, but no single RPM figure here should be treated as reliable.
+- **Thai RPM figures in §2 are weakly sourced.** Searches returned thin and mutually inconsistent Thailand data; one result (฿216 per 1,000 views) is implausible and was discarded. The one practitioner datapoint since found (§2) is a podcast remark about short-form, explicitly hedged, and is used only to argue that the estimate should sit at the low end — not as a measurement. The §2 conclusion holds across the entire plausible range, but no single RPM figure here should be treated as reliable. **The first real number will come from the channel's own AdSense once monetised.**
 - **Benchmark numbers in §3 were pulled 2026-08-20** and are a single-day snapshot of six videos, several still accruing views.
 - **Gemini and Veo prices** are from public 2026 pricing pages, cross-checked against AIVDO's own `image_cost_table.py`. Veo pricing conflicts with the May 2026 POC note (~$2.80 for 56s); verify against live billing before committing to Shorts volume.
 
