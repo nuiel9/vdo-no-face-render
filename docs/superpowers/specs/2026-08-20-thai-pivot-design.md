@@ -427,7 +427,13 @@ The two that do have scripts are **#56 Ticketmaster and #57 TurboTax** — and b
 
 So the two sets do not intersect: **zero slugs are both remake-able and Thai-relevant.**
 
-**Not necessarily lost.** Drive is the canonical vault for `Daily/<slug>/` (see `CLAUDE.md`), so the scripts most likely exist there and were simply never synced locally. **Checking Drive is a first task of Plan 2** — it decides whether the filler pool is ~5 slugs or zero.
+**Drive checked 2026-08-21. The scripts are not there either — the pool is zero, definitively.**
+
+`My Drive/vdo-no-face/Daily/` contains **two folders, both empty shells** from the 2026-04-24 dry run (`costcos-1-50-hot-dog`). None of the 18 shipped episodes exist in the vault.
+
+**This makes `CLAUDE.md` stale on a load-bearing point.** It states Drive is canonical for `Daily/<slug>/`. That was true of the Routine-A flow; the last ~16 ships were fired manually in-session and wrote only to local disk. Anyone trusting `CLAUDE.md` would look in the wrong place and conclude the scripts were lost.
+
+**One recovery path remains, at some fidelity cost:** the episodes are published on YouTube with auto-captions. `yt-dlp --write-auto-sub` recovers the narration — that is how the On The Air transcript in §2 was obtained. Auto-captions garble numbers and proper nouns, so a recovered script would need re-verification against sources rather than inheriting the original's `.facts_verified` status. That converts a Remake-gate job (~15 min) into a Research-gate job (~30–45 min), which removes most of the reason to prefer remakes at all.
 
 **This strengthens §7.2 rather than threatening it.** Lane A leads precisely because it needs no back-catalogue. Had the plan kept remakes as the daily engine, week one would have had nothing to ship.
 
