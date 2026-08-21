@@ -6,6 +6,7 @@ from make_request_parts import (
     build_request,
     write_parts,
 )
+from thai_budget import chars_for_duration, duration_for_chars
 
 
 def test_narrator_is_erinome_not_algieba():
@@ -105,9 +106,44 @@ def test_duration_preset_is_custom():
     assert req["duration_preset"] == "custom"
 
 
-def test_custom_seconds_matches_target():
-    req = build_request("สวัสดีค่ะ", seconds=240)
-    assert req["custom_seconds"] == 240
+def test_custom_seconds_reflects_estimated_narration_duration_not_the_slot():
+    # A short part packed into a long slot (the #3 TurboTax case: 1,094
+    # chars against a 240s slot) must declare its OWN estimated duration --
+    # not the slot's -- or text_analyzer.py's scene-count tiering (<=90s ->
+    # 3-5 scenes, <=210s -> 5-10, <=360s -> 8-16) generates up to 3x the
+    # scenes actually needed, each one paid for.
+    part_text = "ก" * 1_094
+    req = build_request(part_text, seconds=240)
+    expected = round(duration_for_chars(len(part_text), "mixed"))
+    assert req["custom_seconds"] == expected
+    assert req["custom_seconds"] != 240
+
+
+def test_custom_seconds_approximates_slot_when_part_fills_it():
+    # A part sized to fill its slot (round-tripped through the same "mixed"
+    # density) should declare a duration close to the slot -- this is the
+    # non-degenerate case, distinguishing "custom_seconds is now correct"
+    # from "custom_seconds is now always wrong in the other direction".
+    part_text = "ก" * chars_for_duration(240, "mixed")
+    req = build_request(part_text, seconds=240)
+    assert req["custom_seconds"] == pytest.approx(240, abs=2)
+
+
+def test_custom_seconds_is_a_positive_int():
+    req = build_request("ก", seconds=240)
+    assert isinstance(req["custom_seconds"], int)
+    assert req["custom_seconds"] > 0
+
+
+def test_guard_still_bites_after_custom_seconds_decoupling():
+    # The trap this file exists to avoid re-creating: deriving custom_seconds
+    # from text length must NOT touch the guard's ceiling, which stays
+    # `seconds`-derived. Prove the guard still rejects an over-ceiling part
+    # even though custom_seconds is no longer `seconds` itself.
+    threshold = int(240 * _MAX_CHARS_PER_SECOND)
+    text = "ก" * (threshold + 1)
+    with pytest.raises(ValueError, match="too long"):
+        build_request(text, seconds=240)
 
 
 def test_images_only_is_true():
@@ -160,9 +196,13 @@ def test_write_parts_writes_correct_files(tmp_path):
 
     payload1 = json.loads(part1.read_text())
     assert payload1["text"] == parts[0]
-    assert payload1["custom_seconds"] == 240  # part_seconds, taken directly -- no division
+    # custom_seconds is the PART's estimated narration duration (thai_budget),
+    # not part_seconds (the slot) -- see build_request's docstring. Both test
+    # parts are short, so both declare well under the 240s slot.
+    assert payload1["custom_seconds"] == round(duration_for_chars(len(parts[0]), "mixed"))
+    assert payload1["custom_seconds"] < 240
     assert payload1["voice_name"] == "Erinome"
 
     payload2 = json.loads(part2.read_text())
     assert payload2["text"] == parts[1]
-    assert payload2["custom_seconds"] == 240
+    assert payload2["custom_seconds"] == round(duration_for_chars(len(parts[1]), "mixed"))

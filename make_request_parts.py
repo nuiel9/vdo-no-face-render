@@ -43,7 +43,44 @@ _GUARD_DENSITY = "mixed"
 
 
 def build_request(part_text: str, seconds: float) -> dict:
-    """Return the AIVDO request payload for one part of a Thai episode."""
+    """Return the AIVDO request payload for one part of a Thai episode.
+
+    `seconds` plays TWO roles in AIVDO's world, and this function is careful
+    to keep them from becoming the same number in this function's output:
+
+    1. The SLOT -- the time budget this part must fit into. Used only for
+       the length guard below (`ceiling = seconds * _MAX_CHARS_PER_SECOND`).
+       This is a caller-supplied target, generally longer than the part
+       actually needs, because callers pack several parts against a shared
+       per-part slot (see write_parts) rather than sizing each part exactly.
+
+    2. The DECLARED DURATION -- `custom_seconds`, what AIVDO is told this
+       part actually runs, via `thai_budget.duration_for_chars(len(part_text))`.
+       This is NOT `seconds`. AIVDO's text_analyzer.py tiers scene count by
+       this declared duration (<=90s -> 3-5 scenes, <=210s -> 5-10,
+       <=360s -> 8-16), and a part is routinely much shorter than its slot
+       (measured: EP01 part 3 was 88.8s of real narration against a 240s
+       slot -- a 2.70x overshoot that would have bought 8-16 scenes'
+       worth of paid image generation for a part that needed 3-5).
+
+    These two numbers MUST NOT share a source, or the guard goes vacuous.
+    Proof: if `seconds` were instead derived from `len(part_text)` (e.g.
+    seconds := len(text) / 12.32, the "mixed" rate), then
+
+        ceiling = seconds * _MAX_CHARS_PER_SECOND        # 12.88
+                = (len(text) / 12.32) * 12.88
+                = len(text) * 1.046
+
+    and the guard's `len(part_text) > ceiling` becomes
+    `len(text) > len(text) * 1.046`, which is ALWAYS false -- the guard
+    would silently stop guarding. (This is the same class of failure that
+    already hit this file once: the ceiling used to be derived from
+    RATES["mixed"], and a rate remeasurement eroded its margin to 0.06%
+    before anyone caught it -- see _MAX_CHARS_PER_SECOND's docstring.)
+    So: `seconds` stays exactly what the caller passed in and drives ONLY
+    the guard. `custom_seconds` is computed independently, from the text,
+    via thai_budget -- never from `seconds`.
+    """
     if not part_text.strip():
         raise ValueError("part_text is empty")
 
@@ -83,7 +120,12 @@ def build_request(part_text: str, seconds: float) -> dict:
         # is supplied. Real runtime behaviour under preset "custom" is
         # unverified until measured against a full render.
         "duration_preset": "custom",
-        "custom_seconds": int(seconds),
+        # The part's own estimated narration duration -- NOT `seconds` (the
+        # slot). See this function's docstring for why the two must not
+        # share a source. max(1, ...) keeps this a positive int even for a
+        # trivially short part_text; build_request's empty-string check
+        # above already rules out custom_seconds == 0 from empty text.
+        "custom_seconds": max(1, round(duration_for_chars(len(part_text), _GUARD_DENSITY))),
         # True, not False. False routes every part to the Veo motion lane
         # (~150 credits/part) instead of the still-image lane (~15
         # credits/part) -- ~10x cost for a channel spec (§ Veo POC,
