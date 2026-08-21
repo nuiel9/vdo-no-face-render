@@ -11,40 +11,35 @@ from pathlib import Path
 from thai_budget import chars_for_duration, duration_for_chars
 
 # Density used for the pre-render script-length guard below. Exported as a
-# constant (not inlined as a "figures"/"mixed" literal) so tests derive the
-# guard's boundary from the same value the guard itself uses -- otherwise a
-# future density change here silently stops being covered by those tests.
+# The guard's ceiling is derived from AIVDO's OWN compression trigger, not
+# from our budget constants.
 #
-# See the _OVERSHOOT_TOLERANCE comment for why this is "mixed" and not
-# "figures".
-_GUARD_DENSITY = "mixed"
-
-# Tolerance before a part's script is treated as mis-sized by THIS guard.
-#
-# This guard exists to catch a script before it reaches AIVDO at all. But
-# AIVDO's own server-side guard (text_analyzer.needs_compression) SILENTLY
-# LLM-compresses -- rewrites and shortens -- any script whose estimated
-# speech exceeds target_duration * _LENGTH_TOLERANCE, where
+# AIVDO silently LLM-compresses -- rewrites and shortens -- any script whose
+# estimated speech exceeds target_duration * _LENGTH_TOLERANCE, where
 # _LENGTH_TOLERANCE is 1.2 (text_analyzer.py) and the estimate uses
-# scene_planner's measured 11.3 chars/sec for speaking_style "normal"
-# (scene_planner.py). That's a real ceiling of 11.3 * 1.2 = 13.56 chars/sec
-# of the target duration. If our guard's effective ceiling sits ABOVE that
-# number, a script can pass clean here and still get silently rewritten
-# server-side -- dropping narration from a fact-checked script with no
-# error and nothing for lint_urls.py to catch.
+# scene_planner's measured 11.3 chars/sec for speaking_style "normal". That is
+# a hard server ceiling of 13.56 chars/sec, and crossing it drops narration
+# from a fact-checked script with no error and nothing for lint_urls.py to see.
+_SERVER_COMPRESSION_RATE = 11.3 * 1.2  # 13.56 chars/sec
+
+# Reject at 95% of the server's trigger.
 #
-# This guard's effective ceiling is RATES[_GUARD_DENSITY] * _OVERSHOOT_TOLERANCE
-# chars/sec, and it must land BELOW 13.56. The original 1.25 with "figures"
-# (13.2 c/s) gave 13.2 * 1.25 = 16.5 -- comfortably above the server's
-# trigger, so this guard could never have caught the case it exists for.
-# Switching only the density to "mixed" (12.2 c/s) is not enough by itself
-# either: 12.2 * 1.25 = 15.25, still above 13.56 (in fact no RATES entry
-# clears 13.56 at 1.25 -- even "prose" at 11.3 c/s gives 14.125). 1.10 is
-# the loosest tolerance that clears it with "mixed": 12.2 * 1.10 = 13.42,
-# a ~1% margin below the server's real number. If RATES or AIVDO's
-# constants change, re-derive both _GUARD_DENSITY and this value rather
-# than assuming the margin still holds.
-_OVERSHOOT_TOLERANCE = 1.10
+# An earlier version derived this ceiling as RATES["mixed"] * 1.10, tuned to
+# land ~1% under 13.56. That coupling was fragile in a way that bit
+# immediately: when RATES["mixed"] was replaced by a MEASURED 12.32 (was an
+# estimated 12.2), the same 1.10 produced 13.55 -- a 0.06% margin. The guard
+# had quietly stopped guarding, and nothing failed to say so.
+#
+# Deriving from _SERVER_COMPRESSION_RATE instead means our own budget
+# constants can move freely without eroding the margin. The two numbers answer
+# different questions and should not share a source: RATES says how much to
+# WRITE, this says what gets REJECTED.
+_SAFETY_MARGIN = 0.95
+_MAX_CHARS_PER_SECOND = _SERVER_COMPRESSION_RATE * _SAFETY_MARGIN  # 12.88
+
+# Density used only for the advisory "budget" figure in the error message --
+# what the author should have aimed for. It does not set the ceiling.
+_GUARD_DENSITY = "mixed"
 
 
 def build_request(part_text: str, seconds: float) -> dict:
@@ -52,13 +47,15 @@ def build_request(part_text: str, seconds: float) -> dict:
     if not part_text.strip():
         raise ValueError("part_text is empty")
 
-    budget = chars_for_duration(seconds, _GUARD_DENSITY)
-    if len(part_text) > budget * _OVERSHOOT_TOLERANCE:
+    ceiling = int(seconds * _MAX_CHARS_PER_SECOND)
+    if len(part_text) > ceiling:
+        budget = chars_for_duration(seconds, _GUARD_DENSITY)
         predicted = duration_for_chars(len(part_text), _GUARD_DENSITY)
         raise ValueError(
             f"script too long for its slot: {len(part_text):,} chars "
             f"predicts ~{predicted / 60:.1f} min against a "
-            f"{seconds / 60:.1f} min target (budget {budget:,} chars)"
+            f"{seconds / 60:.1f} min target. Aim for {budget:,} chars; "
+            f"AIVDO silently compresses above {ceiling:,}."
         )
 
     return {

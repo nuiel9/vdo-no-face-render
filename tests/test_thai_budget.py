@@ -3,6 +3,12 @@ import pytest
 from thai_budget import RATES, chars_for_duration, duration_for_chars
 
 
+def test_mixed_rate_matches_the_2026_08_21_measurement():
+    # 1,362 chars of real Thai narration -> 110.54s of Erinome speech.
+    # Measured, not interpolated. Replaces an estimate of 12.2.
+    assert RATES["mixed"] == 12.32
+
+
 def test_prose_rate_matches_measured_value():
     # 2026-08-20: ~200-char prose clip ran 17.3-17.8s across four voices.
     assert RATES["prose"] == 11.3
@@ -17,11 +23,11 @@ def test_figure_dense_is_faster_than_prose():
 
 def test_fifteen_minute_episode_mixed_density():
     # 900s at the mixed rate. Lane B lower bound.
-    assert chars_for_duration(900) == 10980
+    assert chars_for_duration(900) == 11088
 
 
 def test_lane_a_eight_minute_episode():
-    assert chars_for_duration(480) == 5856
+    assert chars_for_duration(480) == 5913
 
 
 def test_density_changes_the_budget():

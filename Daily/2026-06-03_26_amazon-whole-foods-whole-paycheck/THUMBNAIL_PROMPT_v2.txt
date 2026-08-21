@@ -1,0 +1,49 @@
+THUMBNAIL BRIEF v2 (DATA-VIZ CHART TEMPLATE): Why Couldn't Amazon Make Whole Foods Cheap?
+Daily #26 | Amazon / Whole Foods "Whole Paycheck" | Story template
+Supersedes v1 (yellow-tabloid "STILL WHOLE PAYCHECK?"). Style reference: Peloton #38 "THE CHURN RATE / That Broke a $50 Billion Company" thumbnail.
+
+CONCEPT: Peloton #38 DATA-VIZ template — dark cinematic photographic background + a bold chart line + two color-coded data callouts (green = the promise, red = the reality) + heavy condensed white headline lower-left. This is a deliberate, owner-directed swap from the yellow tabloid; the data-viz style is channel-proven (Peloton #38 scaled with it).
+
+THE VISUAL IRONY (load-bearing): Amazon promised to push the price DOWN; it went back UP. So unlike Peloton's collapsing red line, THIS chart must DIP THEN CLIMB — a red price line that drops sharply (the Aug 2017 day-one cut) then rises back up and higher to the right (prices rose again by 2019, basket still above rivals). The shape itself tells the broken-promise story.
+
+COMPOSITION:
+- Background: a dark, desaturated photographic Whole Foods scene — produce aisle or storefront — pushed back and darkened ~50% so the chart and text pop. NOT a clean studio shot, NOT glossy lifestyle.
+- Hero chart: a thick RED line/arrow entering mid-left, dipping sharply DOWN (the price cut), bottoming out, then climbing UP-AND-RIGHT past its starting height. Subtle gridlines behind it (like Peloton's). The rising end-segment is the emphasis.
+- Green data callout at the DIP (lower portion of the line): big green number "-43%" with small caps label beneath "DAY-ONE CUT · AUG 2017".
+- Red data callout at the PEAK (upper-right end of the line): big red text "STILL +13%" with small caps label beneath "ABOVE RIVALS".
+- Headline: lower-left, two-line stack, heavy condensed sans, all caps top line / title-case sub:
+    "THE PRICE CUT"
+    "That Didn't Stick"
+- Lower-third: thin deep-charcoal band with "Disclosed" in clean white sans-serif.
+
+COLOR PALETTE:
+- Chart line: alert red (#E01E1E), thick, with a soft glow/drop shadow for separation from the dark photo.
+- Green callout: bright chart green (#37C837) — the "promise" color (matches Peloton's green peak bar).
+- Red callout: same alert red (#E01E1E) — the "reality" color (matches Peloton's red <$2B callout).
+- Headline: white (#FFFFFF), heavy black outline/shadow for mobile legibility.
+- Background photo: desaturated grocery greens/wood, darkened ~50%.
+- Accent band: deep charcoal (#1A1A1A), white text.
+
+TYPOGRAPHY:
+- Headline + callout labels: heavy condensed sans (Anton / Impact-class), tight leading. (Peloton lineage — NOT the editorial serif used on Patagonia/Blackberry/Tupperware, NOT the yellow tabloid of McDonald's/Costco.)
+- Data numbers (-43%, STILL +13%): heaviest weight, largest on-frame after the headline.
+
+DATA ACCURACY (verified in REVIEW.md ledger — do NOT alter these):
+- "-43%" = Bloomberg, Aug 28 2017 day-one cuts "as much as 43%". (Use 43, not 50; the Bloomberg URL says 50 but headline/body and all corroboration say 43.)
+- "STILL +13% ABOVE RIVALS" = Gordon Haskett / Philadelphia Inquirer summer-2018 60-item basket ran ~13% above conventional rivals. Safe, verified.
+- Optional alternate red callout if "+13%" reads thin at 320px: "$13.7B" / "STILL 'WHOLE PAYCHECK'" ($13.7B = WF 8-K acquisition price, verified). Pick ONE red callout; do not crowd.
+
+MOBILE LEGIBILITY CHECK (320px):
+- "THE PRICE CUT" headline must read instantly — three short words, white-on-dark.
+- "-43%" (green) and "STILL +13%" (red) each read as a single glanceable number.
+- Chart dip-then-climb shape readable as one gesture. Three text zones max (headline + 2 callouts); no element smaller than 36pt-equivalent at full res.
+
+PERSONS: No human likenesses. No face. No Bezos, no Mackey. Environment/objects/chart only (faceless rule).
+
+WHY THIS DESIGN:
+- Peloton #38 used this exact data-viz template and scaled — proven on-channel.
+- The dip-then-climb chart encodes the whole thesis (promise broken) in one glance, the way Peloton's collapse encoded "$50B → <$2B".
+- Whole Foods "Whole Paycheck" is a top-tier American consumer grievance for the McDonald's 55-65+ demographic; pairs with the broken-promise data hook.
+- Title is question-form ("Why Couldn't Amazon Make Whole Foods Cheap?"); the thumbnail supplies the paradox answer the title withholds.
+
+PRODUCTION PATH: Custom designer or ChatGPT image-gen with this brief (same path as Peloton #38 / Costco #55 / Blackberry #7). AIVDO poster mode not applicable.

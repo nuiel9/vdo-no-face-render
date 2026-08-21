@@ -1,7 +1,11 @@
 import pytest
 
-from make_request_parts import _GUARD_DENSITY, _OVERSHOOT_TOLERANCE, build_request, write_parts
-from thai_budget import RATES, chars_for_duration
+from make_request_parts import (
+    _MAX_CHARS_PER_SECOND,
+    _SERVER_COMPRESSION_RATE,
+    build_request,
+    write_parts,
+)
 
 
 def test_narrator_is_erinome_not_algieba():
@@ -46,38 +50,50 @@ def test_warns_when_script_badly_overshoots_its_slot():
 
 
 def test_overshoot_boundary_just_under_does_not_raise():
-    # Derived from the real budget + tolerance + density, not hardcoded --
-    # a hardcoded threshold, or a hardcoded density literal, would
-    # silently stop testing the real boundary the moment RATES,
-    # _OVERSHOOT_TOLERANCE, or _GUARD_DENSITY changes.
-    budget = chars_for_duration(240, _GUARD_DENSITY)
-    threshold = int(budget * _OVERSHOOT_TOLERANCE)
+    # Derived from the guard's own ceiling, never hardcoded -- a literal
+    # would stop testing the real boundary the moment the ceiling moves.
+    threshold = int(240 * _MAX_CHARS_PER_SECOND)
     text = "ก" * threshold
     req = build_request(text, seconds=240)
     assert req["text"] == text
 
 
 def test_overshoot_boundary_just_over_raises():
-    budget = chars_for_duration(240, _GUARD_DENSITY)
-    threshold = int(budget * _OVERSHOOT_TOLERANCE)
+    threshold = int(240 * _MAX_CHARS_PER_SECOND)
     text = "ก" * (threshold + 1)
     with pytest.raises(ValueError, match="too long"):
         build_request(text, seconds=240)
 
 
 def test_guard_ceiling_is_genuinely_below_aivdos_server_side_trigger():
-    # AIVDO silently LLM-compresses any script whose estimated speech
-    # exceeds target_duration * 1.2 at scene_planner's measured 11.3
-    # chars/sec for speaking_style "normal" (text_analyzer._LENGTH_TOLERANCE
-    # x scene_planner._THAI_CHARS_PER_SECOND_BY_STYLE["normal"]) -- a real
-    # ceiling of 13.56 chars/sec. This guard's effective ceiling must sit
-    # below that, or a script can pass this guard clean and still get
-    # silently rewritten server-side. Fixed values, not sourced from AIVDO
-    # (a separate repo) -- if AIVDO's constants move, this test's number
-    # needs to move with them.
-    server_ceiling = 11.3 * 1.2
-    client_ceiling = RATES[_GUARD_DENSITY] * _OVERSHOOT_TOLERANCE
-    assert client_ceiling < server_ceiling
+    # AIVDO silently LLM-compresses any script whose estimated speech exceeds
+    # target_duration * 1.2 at scene_planner's measured 11.3 chars/sec for
+    # speaking_style "normal" -- a real ceiling of 13.56 chars/sec. Crossing it
+    # rewrites a fact-checked script with no error.
+    #
+    # The margin is asserted, not just the inequality. An earlier version
+    # checked only "client < server" and would have passed at 13.55 vs 13.56 --
+    # which is what the guard had silently decayed to before this was caught.
+    assert _SERVER_COMPRESSION_RATE == pytest.approx(13.56, abs=0.01)
+    assert _MAX_CHARS_PER_SECOND < _SERVER_COMPRESSION_RATE
+    margin = (_SERVER_COMPRESSION_RATE - _MAX_CHARS_PER_SECOND) / _SERVER_COMPRESSION_RATE
+    assert margin >= 0.03, f"guard margin decayed to {margin:.1%}"
+
+
+def test_guard_ceiling_is_independent_of_our_budget_constants():
+    # The regression this file exists to prevent: the ceiling used to be
+    # derived from RATES, so measuring a new rate silently eroded the margin.
+    # Changing RATES must not move the ceiling at all.
+    import make_request_parts
+    import thai_budget
+
+    before = make_request_parts._MAX_CHARS_PER_SECOND
+    original = thai_budget.RATES["mixed"]
+    try:
+        thai_budget.RATES["mixed"] = 99.0
+        assert make_request_parts._MAX_CHARS_PER_SECOND == before
+    finally:
+        thai_budget.RATES["mixed"] = original
 
 
 def test_duration_preset_is_custom():
