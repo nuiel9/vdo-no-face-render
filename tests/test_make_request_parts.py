@@ -1,6 +1,7 @@
 import pytest
 
 from make_request_parts import (
+    NARRATOR_GENDER,
     NARRATOR_VOICE,
     _MAX_CHARS_PER_SECOND,
     _SERVER_COMPRESSION_RATE,
@@ -14,6 +15,83 @@ def test_narrator_is_sadaltager_not_algieba():
     req = build_request("สวัสดีค่ะ", seconds=240)
     assert req["voice_name"] == NARRATOR_VOICE
     assert req["voice_name"] != "Algieba"
+
+
+def _extract_voice_gender(source: str, voice_name: str) -> str | None:
+    """Pull `voice_name`'s gender out of AIVDO's VOICE_REGISTRY dict literal,
+    by parsing the source with ast rather than importing AIVDO (a separate
+    repo/venv with its own dependency set -- importing it from here is not
+    viable). Returns None if VOICE_REGISTRY or voice_name isn't found.
+
+    Same pattern as tests/test_render_parts.py's
+    test_every_chain_model_is_in_the_allowlist -- read the actual source,
+    not a hardcoded copy of it, or this test could never fail no matter how
+    far NARRATOR_GENDER drifts from AIVDO's own table.
+    """
+    import ast
+
+    tree = ast.parse(source)
+    for node in ast.walk(tree):
+        # VOICE_REGISTRY: dict[str, dict[str, str]] = {...} is an AnnAssign,
+        # not a plain Assign -- it carries a type annotation.
+        if isinstance(node, ast.AnnAssign):
+            target = node.target
+            if not (isinstance(target, ast.Name) and target.id == "VOICE_REGISTRY"):
+                continue
+            value = node.value
+        elif isinstance(node, ast.Assign):
+            targets = [t.id for t in node.targets if isinstance(t, ast.Name)]
+            if "VOICE_REGISTRY" not in targets:
+                continue
+            value = node.value
+        else:
+            continue
+
+        if not isinstance(value, ast.Dict):
+            continue
+        for key, val in zip(value.keys, value.values):
+            if isinstance(key, ast.Constant) and key.value == voice_name and isinstance(val, ast.Dict):
+                for inner_key, inner_val in zip(val.keys, val.values):
+                    if isinstance(inner_key, ast.Constant) and inner_key.value == "gender":
+                        return inner_val.value
+        return None
+    return None
+
+
+def test_narrator_gender_matches_aivdos_own_voice_table():
+    """Guard against NARRATOR_VOICE and NARRATOR_GENDER drifting apart.
+
+    They are two independently-set constants in make_request_parts.py. A
+    future voice change that updates NARRATOR_VOICE but forgets to update
+    NARRATOR_GENDER would silently validate every script against the wrong
+    thai_lint.py particle rule -- nothing else would catch it. This reads
+    AIVDO's actual VOICE_REGISTRY (a sibling checkout at ~/AIVDO), not a
+    hardcoded copy of it, so the check can't rot the same way a
+    literal-vs-literal comparison would.
+
+    Skipped entirely if ~/AIVDO isn't checked out on this machine (e.g. CI
+    running only this repo) -- this repo does not otherwise depend on that
+    checkout.
+    """
+    import pathlib
+
+    config_py = pathlib.Path.home() / "AIVDO" / "aivdo" / "config.py"
+    if not config_py.is_file():
+        pytest.skip("~/AIVDO checkout not found -- cannot check for voice-gender drift")
+
+    aivdo_gender = _extract_voice_gender(config_py.read_text(), NARRATOR_VOICE)
+    assert aivdo_gender is not None, (
+        f"could not find {NARRATOR_VOICE!r} in AIVDO's VOICE_REGISTRY "
+        "(config.py) -- extraction broke, or the voice was renamed/removed "
+        "upstream"
+    )
+    assert aivdo_gender == NARRATOR_GENDER, (
+        f"make_request_parts.NARRATOR_VOICE is {NARRATOR_VOICE!r} but "
+        f"NARRATOR_GENDER is {NARRATOR_GENDER!r} -- AIVDO's VOICE_REGISTRY "
+        f"says {NARRATOR_VOICE!r} is {aivdo_gender!r}. thai_lint.py's "
+        "particle rule would validate every script against the wrong "
+        "gender until this is fixed."
+    )
 
 
 def test_language_is_thai():

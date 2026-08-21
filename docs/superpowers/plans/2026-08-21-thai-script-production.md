@@ -13,7 +13,13 @@
 
 ## Global Constraints
 
-- **Narrator:** `Erinome`, female, `normal` style, per-request. Narration closes in **ค่ะ**, never ครับ.
+> ⚠️ **SUPERSEDED 2026-08-21 — the narrator bullet below.** The narrator is
+> now `Sadaltager`, male, per spec §5.4 (re-decided 2026-08-21, was
+> `Erinome`/female at the time this plan was executed). Narration now closes
+> in **ครับ**, never ค่ะ. Rest of this plan is an execution record of what
+> ran under the old voice and is left as-is.
+
+- ~~**Narrator:** `Erinome`, female, `normal` style, per-request. Narration closes in **ค่ะ**, never ครับ.~~
 - **The `text` field carries narration ONLY.** Verified against the shipped request: `[Scene N | high]`, `OVERLAYS:` and energy tags are stripped before the request is built. Scene markers are authoring metadata, not a channel-to-server signal.
 - **Per-part target ≈ 240 seconds**, derived from shipped evidence (3,294 and 3,172 chars rendering at 4:03 and 3:49), not invented.
 - **Script length obeys `make_request_parts._MAX_CHARS_PER_SECOND`** (12.88 c/s). Above AIVDO's 13.56 c/s trigger it silently LLM-compresses a fact-checked script.
