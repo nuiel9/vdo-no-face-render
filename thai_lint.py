@@ -2,8 +2,10 @@
 
 The editorial gate catches wrong facts. This catches a script that is
 factually right and still wrong to ship: male particles under a female
-narrator, punctuation the channel banned, an untranslated passage, or a part
-long enough that AIVDO silently rewrites it.
+narrator, punctuation the channel banned, an untranslated passage, an
+unfilled placeholder (`[...]` scaffolding or a TODO/TBD/XXX/FIXME marker)
+left in narration for TTS to read aloud, or a part long enough that AIVDO
+silently rewrites it.
 
 Deliberately NOT a style judge. It flags what is mechanically checkable and
 leaves taste to the human gate.
@@ -34,6 +36,15 @@ from split_script import parse_scenes, split_into_parts
 
 _THAI = re.compile(r"[฀-๿]")
 _MALE_PARTICLE = re.compile(r"ครับ")
+# parse_scenes matches [Scene N | energy] only at the start of a stripped
+# line and consumes it before narration accumulates -- see its docstring
+# and the _SCENE regex in split_script.py. That means every legitimate
+# scene marker is gone by the time lint_script ever sees narration text.
+# Any [ or ] that survives into narration is therefore never a scene
+# marker -- it is leftover authoring scaffolding (an unfilled caveat slot,
+# a bracketed TODO) that TTS would read aloud verbatim, brackets included.
+_PLACEHOLDER_BRACKET = re.compile(r"[\[\]]")
+_PLACEHOLDER_WORD = re.compile(r"\b(?:TODO|TBD|XXX|FIXME)\b", re.IGNORECASE)
 
 
 def lint_script(script: str, part_seconds: float = 240.0) -> list[str]:
@@ -56,6 +67,18 @@ def lint_script(script: str, part_seconds: float = 240.0) -> list[str]:
             problems.append(f"scene {i}: contains '--', banned in channel voice")
         if not _THAI.search(narration):
             problems.append(f"scene {i}: contains no Thai characters — untranslated?")
+        if _PLACEHOLDER_BRACKET.search(narration):
+            problems.append(
+                f"scene {i}: contains [ or ] in spoken narration -- every "
+                "legitimate [Scene N | energy] marker is already stripped by "
+                "parse_scenes before this check runs, so this is an unfilled "
+                "placeholder (e.g. a caveat slot) that TTS would read aloud"
+            )
+        if _PLACEHOLDER_WORD.search(narration):
+            problems.append(
+                f"scene {i}: contains a TODO/TBD/XXX/FIXME placeholder marker "
+                "left in spoken narration"
+            )
 
     # Length check: needs the assembled parts, since the render-request
     # ceiling applies to a part, not a lone scene. split_into_parts raises

@@ -46,3 +46,41 @@ def test_flags_narration_with_no_thai_at_all():
     english = GOOD.replace("คุณเคยสงสัยไหมคะว่าทำไมราคาถึงแพงขนาดนี้",
                            "Have you ever wondered why the price is so high")
     assert any("thai" in p.lower() for p in lint_script(english))
+
+
+def test_flags_unfilled_placeholder_left_in_narration():
+    # This is the real bug: [จุดใส่ caveat ...] sat at the end of a narration
+    # line and would have been read aloud, brackets and all. parse_scenes has
+    # already stripped every legitimate [Scene N | energy] marker by the time
+    # lint_script sees narration, so any [ or ] surviving into it is by
+    # definition leftover authoring scaffolding, not a scene marker.
+    bad = GOOD.replace(
+        "ทุกวันค่ะ",
+        "ทุกวันค่ะ [จุดใส่ caveat ของเจ้าของช่อง]",
+    )
+    problems = lint_script(bad)
+    assert any("placeholder" in p.lower() for p in problems)
+
+
+def test_flags_todo_left_in_narration():
+    bad = GOOD.replace("ทุกวันค่ะ", "ทุกวันค่ะ TODO: fill this in")
+    problems = lint_script(bad)
+    assert any("placeholder" in p.lower() or "todo" in p.lower() for p in problems)
+
+
+def test_scene_markers_do_not_trigger_the_placeholder_check():
+    # The check that matters: a script with only legitimate [Scene N | energy]
+    # markers (already stripped by parse_scenes before lint_script ever sees
+    # the narration) must NOT be flagged. A check that fires on every script
+    # is useless.
+    assert lint_script(GOOD) == []
+
+
+def test_bracket_in_a_comment_line_does_not_trigger_the_placeholder_check():
+    # A '#'-prefixed line is never spoken -- parse_scenes skips it entirely --
+    # so brackets inside it are not a shipping risk.
+    commented = GOOD.replace(
+        "[Scene 2 | medium] Close",
+        "[Scene 2 | medium] Close\n# note: [leave this alone, it's a comment]",
+    )
+    assert lint_script(commented) == []

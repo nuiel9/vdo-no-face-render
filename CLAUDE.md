@@ -40,6 +40,20 @@ PYTHONUNBUFFERED=1 python3 -u render.py Daily/<slug>/
 python3 youtube_upload.py Daily/<slug>/
 ```
 
+**Verify proper-noun transliteration separately from verifying the facts.** Confirming a
+person's title, quote, and date does **not** confirm how their name is spelled in Thai —
+those are two different checks against two different kinds of source. A plausible-looking
+transliteration can carry an unintended meaning that only a Thai reader catches. Real
+example from EP01: `เชตายวอน` (for Chey Tae-won) has ตาย ("die") sitting in its middle
+syllable, discovered only after the facts about him — title, quote, date — had already
+checked out clean. Fixed to `ชเว แทวอน` against actual Thai-press usage. Applying that same
+check immediately caught two more errors in the same script: `ควักโนจุง` → `กวัก โน-จุง`
+(wrong initial consonant) and `คิมแจจุน` → `คิม แจจุน` (missing the space). For every named
+person in a script, check the Thai spelling against a Thai-language source (Thairath, RYT9,
+Infoquest, etc.) as its own step — never infer it from the English/Korean/etc. name. This
+step is now also written into `prompts/prompts_v3_th.md` §7 (Register & Fingerprint Final
+Pass, item 8), which runs in every gate mode.
+
 **Human Fingerprint Checklist** — every published video must have:
 1. Primary-source citation visible on screen in first 90s
 2. One hand-typed correction or caveat
