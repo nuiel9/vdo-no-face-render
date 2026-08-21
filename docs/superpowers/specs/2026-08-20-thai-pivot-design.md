@@ -349,7 +349,15 @@ There is also a **~10% spread between voices** on identical text (Despina 36.85s
 
 **Why `normal` is locked rather than `dramatic`/`calm` (measured 2026-08-20).** Same script, same voice: normal 38.21s (13.2 c/s), dramatic 45.41s (11.1), calm 50.45s (10.0). AIVDO's *style ratios* hold up well (dramatic÷normal 0.78 table vs 0.84 measured; calm÷normal 0.73 vs 0.76) — it is the absolute baseline that is too slow. **Keep the ratios, raise the baseline.**
 
-The deciding factor was not pace, though. `_ENERGY_TAGS` in `voice_synthesizer.py` gives **per-scene** control — `high` → `[excited] [fast]`, `low` → `[calm] [slow]` — and applies **only when `speaking_style` is `normal`**. Choosing a global style therefore *forfeits* per-scene variation. Staying on `normal` allows energy to rise for a cold open and fall for a reflective beat, which is how documentary narration actually works. Spend the trailer feel on the first 30 seconds via energy, not on the whole episode.
+~~The deciding factor was per-scene energy control.~~ **That reason was wrong — corrected 2026-08-21.**
+
+`_ENERGY_TAGS` in `voice_synthesizer.py` does give per-scene control (`high` → `[excited] [fast]`, `low` → `[calm] [slow]`) and does apply only when `speaking_style` is `normal`. But **the channel never reaches it.** Inspection of the shipped `REQUEST_PART_1.json` shows the `text` field carries **narration only** — 3,294 chars of plain prose. Every `[Scene N | high]` marker, `OVERLAYS:` line and energy tag in `SCRIPT.txt` is **stripped before the request is built**, and AIVDO re-derives its own scenes from the bare text. Those markers are authoring metadata for the prompt flow, not a channel-to-server signal.
+
+So `normal` does not currently *preserve* per-scene variation, because there is no per-scene variation to preserve.
+
+**The decision stands, on the reason that actually held:** the owner picked `Erinome` at `normal` by listening to all three styles, and `dramatic` ("like a movie trailer narrator") and `calm` ("like a meditation guide") are both wrong for a 15-minute documentary. The measured pace table above is unaffected.
+
+**Newly open, and deliberately not solved here:** if per-scene energy is wanted, something has to send it — a channel-side mechanism that does not exist today. Belongs with the prompt-library work, not with the voice decision.
 
 **Working budget for `Erinome` at `normal`:** ~11.3 c/s for prose, ~13.2 c/s for figure-dense passages. A 15–20 min Lane B episode lands near **10,000–14,000 Thai characters**; a Lane A 8–10 min episode near **5,400–7,900**.
 
