@@ -68,7 +68,7 @@ Pass, item 8), which runs in every gate mode.
 5. Pinned comment with editorial note or source link
 6. ~~Cadence ≤ 3 videos/week per channel (hard cap — YouTube policy trigger)~~ **Retired by the Thai spec §8.** Replaced by the four-mode editorial gate (News/fast, Remake, Research/verifiable, Research/attribution) plus a machine first pass — see "Thai pivot (current)" below. The gate's *editorial-attention* rationale survives; the *impression-rationing* rationale that originally justified the cap did not (falsified by later English-run data, retained as history below).
 
-Avoid: identical thumbnail templates across 5+ videos, repeated exact scene compositions. **Do NOT avoid numeric-suffix titles — reversed by Thai spec §5.2.** Disclosed now runs a persistent `EP01`, `EP02`... counter as a franchise signal, matching the Thai benchmark channel's structure.
+Avoid: identical thumbnail templates across 5+ videos, repeated exact scene compositions. **Do NOT avoid numeric-suffix titles — reversed by Thai spec §5.2.** Disclosed now runs a persistent `EPnn` counter as a franchise signal, matching the Thai benchmark channel's structure — but **per lane, not channel-wide**: see §5.1's resolved block below for the exact format.
 
 ## Channel + render facts
 
@@ -92,7 +92,7 @@ Avoid: identical thumbnail templates across 5+ videos, repeated exact scene comp
 - **Scope widens to tech + business + curiosity, weighted toward tech** — not business-case-studies-only. Format stays faceless documentary (spec §5.3).
 - **Two lanes, both from week one:** Lane A "Disclosed Daily" (current AI/tech news, 8–10 min, ~4/wk, fast-path gate) and Lane B "Disclosed Story" (postmortems/curiosity, 15–20 min, ~3/wk). Lane A leads — it's a level playing field against a 2,600-video Thai incumbent, and it's where the owner has real authority (spec §7.1–7.2).
 - **Back-catalogue is filler, not the engine, and the pool is currently empty.** Only 2 of 18 local `Daily/` dirs have a `SCRIPT.txt` (#56 Ticketmaster, #57 TurboTax), and both fail the Thai-relevance filter — zero slugs are both remake-able and Thai-relevant as of 2026-08-21 (spec §7.4).
-- **Numeric-suffix EP titles are the format now** (`... | Disclosed EP01`), reversing the old "avoid numeric-suffix titles" rule (spec §5.2).
+- **Numeric-suffix EP titles are the format now**, reversing the old "avoid numeric-suffix titles" rule (spec §5.2). **Resolved, spec §5.1: the full lane tag carries the counter, and each lane counts independently — there is no bare `Disclosed EPnn`.** Lane A → `... | Disclosed Daily EP01`, `EP02`, … ; Lane B → `... | Disclosed Story EP01`, `EP02`, … (own counter, starts at EP01 too). EP01's own shipped title follows this correctly (`... | Disclosed Daily EP01`).
 - **Voice: Gemini TTS, `Erinome`, female, `normal` style, locked** (spec §5.4). Thai particles auto-agree to voice gender — every episode closes in ค่ะ.
 - **Images: Gemini-only, no OpenAI.** Default `gemini-3.1-flash-image`. Thai on-screen text is always renderer-burned, never image-model-generated (spec §6.1–6.2).
 - **The ≤3/week cadence cap is retired**, replaced by a four-mode editorial gate (News/fast, Remake, Research/verifiable, Research/attribution) plus a machine first pass ahead of the human gate (spec §8). `.facts_verified` still blocks render — that discipline is unchanged.
