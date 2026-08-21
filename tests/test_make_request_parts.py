@@ -129,7 +129,7 @@ def test_music_mood_resolves_to_a_real_track_selector():
 
 def test_write_parts_rejects_empty_list(tmp_path):
     with pytest.raises(ValueError, match="empty"):
-        write_parts(tmp_path, [], total_seconds=240)
+        write_parts(tmp_path, [], part_seconds=240)
 
 
 def test_write_parts_clears_stale_parts_from_a_shorter_previous_episode(tmp_path):
@@ -141,7 +141,7 @@ def test_write_parts_clears_stale_parts_from_a_shorter_previous_episode(tmp_path
         (tmp_path / f"REQUEST_PART_{n}.json").write_text("{}")
 
     parts = ["บทที่หนึ่ง", "บทที่สอง", "บทที่สาม"]
-    write_parts(tmp_path, parts, total_seconds=360)
+    write_parts(tmp_path, parts, part_seconds=120)
 
     remaining = sorted(p.name for p in tmp_path.glob("REQUEST_PART_*.json"))
     assert remaining == ["REQUEST_PART_1.json", "REQUEST_PART_2.json", "REQUEST_PART_3.json"]
@@ -149,7 +149,7 @@ def test_write_parts_clears_stale_parts_from_a_shorter_previous_episode(tmp_path
 
 def test_write_parts_writes_correct_files(tmp_path):
     parts = ["สวัสดีค่ะ ตอนที่หนึ่ง", "สวัสดีค่ะ ตอนที่สอง"]
-    write_parts(tmp_path, parts, total_seconds=480)
+    write_parts(tmp_path, parts, part_seconds=240)
 
     part1 = tmp_path / "REQUEST_PART_1.json"
     part2 = tmp_path / "REQUEST_PART_2.json"
@@ -160,7 +160,7 @@ def test_write_parts_writes_correct_files(tmp_path):
 
     payload1 = json.loads(part1.read_text())
     assert payload1["text"] == parts[0]
-    assert payload1["custom_seconds"] == 240  # 480s / 2 parts
+    assert payload1["custom_seconds"] == 240  # part_seconds, taken directly -- no division
     assert payload1["voice_name"] == "Erinome"
 
     payload2 = json.loads(part2.read_text())

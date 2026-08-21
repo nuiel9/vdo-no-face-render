@@ -107,8 +107,19 @@ def build_request(part_text: str, seconds: float) -> dict:
     }
 
 
-def write_parts(slug_dir: Path, part_texts: list[str], total_seconds: float) -> None:
+def write_parts(slug_dir: Path, part_texts: list[str], part_seconds: float = 240.0) -> None:
     """Write REQUEST_PART_N.json for every part of an episode.
+
+    Takes the PER-PART target duration, not a total to divide. This used to
+    take total_seconds and derive per_part = total_seconds / len(part_texts)
+    -- a number with no guaranteed relationship to the part_seconds value
+    the caller actually packed against in split_script.split_into_parts.
+    The two functions were free to disagree, and did: splitting the real
+    #57 TurboTax script at part_seconds=240 produced parts of 2,885 and
+    2,766 chars, but a caller supplying the resulting total (523.6s) here
+    got per_part=174.5s -> a 2,248-char ceiling that rejected both of them.
+    Taking part_seconds directly makes the two stages agree by construction
+    -- do not "simplify" this back to total_seconds / len(part_texts).
 
     Clears any REQUEST_PART_*.json already in slug_dir before writing.
     Without this, writing 3 parts over a folder that previously held 5
@@ -123,8 +134,7 @@ def write_parts(slug_dir: Path, part_texts: list[str], total_seconds: float) -> 
     """
     if not part_texts:
         raise ValueError("part_texts must not be empty")
-    per_part = total_seconds / len(part_texts)
-    payloads = [build_request(text, per_part) for text in part_texts]
+    payloads = [build_request(text, part_seconds) for text in part_texts]
 
     for stale in slug_dir.glob("REQUEST_PART_*.json"):
         stale.unlink()
@@ -132,4 +142,4 @@ def write_parts(slug_dir: Path, part_texts: list[str], total_seconds: float) -> 
     for index, (text, payload) in enumerate(zip(part_texts, payloads), start=1):
         dest = slug_dir / f"REQUEST_PART_{index}.json"
         dest.write_text(json.dumps(payload, ensure_ascii=False, indent=2))
-        print(f"{dest.name}: {len(text):,} chars, ~{per_part / 60:.1f} min")
+        print(f"{dest.name}: {len(text):,} chars, ~{part_seconds / 60:.1f} min")
