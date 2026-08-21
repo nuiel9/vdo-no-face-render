@@ -13,6 +13,8 @@ The 240s default per part comes from shipped evidence, not from a target:
 parts of 3,294 and 3,172 chars rendered at 4:03 and 3:49.
 """
 import re
+import sys
+from pathlib import Path
 
 from thai_budget import chars_for_duration
 
@@ -70,3 +72,29 @@ def split_into_parts(script: str, part_seconds: float = 240.0) -> list[str]:
     if cur:
         parts.append(" ".join(cur))
     return parts
+
+
+if __name__ == "__main__":
+    # The split_into_parts -> write_parts chain was previously joined only
+    # inside tests/test_split_write_integration.py -- no non-test caller
+    # existed. Rendering a real slug raised FileNotFoundError: no
+    # REQUEST_PART_*.json files, because nothing turned SCRIPT.txt into
+    # them. This is that glue, callable directly: read a slug directory's
+    # SCRIPT.txt, split it, and write REQUEST_PART_N.json for render.py's
+    # discover_parts to find.
+    from make_request_parts import write_parts
+
+    if len(sys.argv) != 2:
+        sys.stderr.write("usage: python3 split_script.py <slug_dir>\n")
+        sys.exit(2)
+
+    slug_dir = Path(sys.argv[1]).resolve()
+    script_path = slug_dir / "SCRIPT.txt"
+    if not script_path.exists():
+        sys.stderr.write(f"no SCRIPT.txt in {slug_dir}\n")
+        sys.exit(2)
+
+    script_text = script_path.read_text(encoding="utf-8")
+    parts = split_into_parts(script_text)
+    write_parts(slug_dir, parts)
+    print(f"{slug_dir}: wrote {len(parts)} REQUEST_PART_*.json file(s) from {script_path.name}")
