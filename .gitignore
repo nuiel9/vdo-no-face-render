@@ -5,3 +5,10 @@ Daily/_reupload_cache/
 
 # subagent-driven-development scratch (ledger, briefs, review packages)
 .superpowers/
+
+# build artifacts and OS cruft
+__pycache__/
+*.pyc
+.DS_Store
+Daily/*/render.log
+Daily/*/upload.log
