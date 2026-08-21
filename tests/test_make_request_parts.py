@@ -1,6 +1,7 @@
 import pytest
 
 from make_request_parts import (
+    NARRATOR_VOICE,
     _MAX_CHARS_PER_SECOND,
     _SERVER_COMPRESSION_RATE,
     build_request,
@@ -9,9 +10,10 @@ from make_request_parts import (
 from thai_budget import chars_for_duration, duration_for_chars
 
 
-def test_narrator_is_erinome_not_algieba():
+def test_narrator_is_sadaltager_not_algieba():
     req = build_request("สวัสดีค่ะ", seconds=240)
-    assert req["voice_name"] == "Erinome"
+    assert req["voice_name"] == NARRATOR_VOICE
+    assert req["voice_name"] != "Algieba"
 
 
 def test_language_is_thai():
@@ -201,7 +203,7 @@ def test_write_parts_writes_correct_files(tmp_path):
     # parts are short, so both declare well under the 240s slot.
     assert payload1["custom_seconds"] == round(duration_for_chars(len(parts[0]), "mixed"))
     assert payload1["custom_seconds"] < 240
-    assert payload1["voice_name"] == "Erinome"
+    assert payload1["voice_name"] == NARRATOR_VOICE
 
     payload2 = json.loads(part2.read_text())
     assert payload2["text"] == parts[1]

@@ -1,11 +1,12 @@
 """Register and length checks for a Thai episode script.
 
 The editorial gate catches wrong facts. This catches a script that is
-factually right and still wrong to ship: male particles under a female
-narrator, punctuation the channel banned, an untranslated passage, an
-unfilled placeholder (`[...]` scaffolding or a TODO/TBD/XXX/FIXME marker)
-left in narration for TTS to read aloud, or a part long enough that AIVDO
-silently rewrites it.
+factually right and still wrong to ship: sentence-final particles that
+contradict the configured narrator's gender (make_request_parts.NARRATOR_GENDER),
+punctuation the channel banned, an untranslated passage, an unfilled
+placeholder (`[...]` scaffolding or a TODO/TBD/XXX/FIXME marker) left in
+narration for TTS to read aloud, or a part long enough that AIVDO silently
+rewrites it.
 
 Deliberately NOT a style judge. It flags what is mechanically checkable and
 leaves taste to the human gate.
@@ -33,11 +34,31 @@ import re
 import sys
 from pathlib import Path
 
+import make_request_parts
 from make_request_parts import _MAX_CHARS_PER_SECOND
 from split_script import parse_scenes, split_into_parts
 
 _THAI = re.compile(r"[฀-๿]")
-_MALE_PARTICLE = re.compile(r"ครับ")
+
+# Both particle families. Which one is a PROBLEM depends on
+# make_request_parts.NARRATOR_GENDER -- read at call time (not imported by
+# value) so a test can monkeypatch NARRATOR_GENDER and see lint_script's
+# behaviour flip with it. See _particle_rule below.
+_MALE_PARTICLE = re.compile(r"ครับ")            # covers ครับ and นะครับ
+# ค่ะ|คะ covers ค่ะ and นะคะ (the particle), but bare คะ also occurs INSIDE
+# ordinary words -- คะแนน (score/points, e.g. a Geekbench or credit-score
+# number, likely on a tech/business channel), คะเน (estimate/guess), คะน้า
+# (kale), คะนอง (reckless/thunder). A blanket "not followed by any Thai
+# character" lookahead was considered and rejected: Thai has no mandatory
+# word-boundary space, so a particle can legitimately run straight into the
+# next clause with no separator (e.g. "ไหมคะว่า...", a real pattern this
+# module's own former test fixture used) -- excluding every following-
+# consonant case would have created false NEGATIVES, silently letting a
+# genuinely wrong-gender script pass. Excluding by the specific known
+# false-positive WORDS instead keeps the check narrow and safe in the
+# direction that matters (see module docstring: this stays a mechanical
+# check, not a full Thai tokenizer).
+_FEMALE_PARTICLE = re.compile(r"ค่ะ|คะ(?!แนน|เน|น้า|นอง)")
 # parse_scenes matches [Scene N | energy] only at the start of a stripped
 # line and consumes it before narration accumulates -- see its docstring
 # and the _SCENE regex in split_script.py. That means every legitimate
@@ -49,19 +70,39 @@ _PLACEHOLDER_BRACKET = re.compile(r"[\[\]]")
 _PLACEHOLDER_WORD = re.compile(r"\b(?:TODO|TBD|XXX|FIXME)\b", re.IGNORECASE)
 
 
+def _particle_rule() -> tuple[re.Pattern, str, str]:
+    """Return (pattern-to-flag, flagged-label, expected-label) for the
+    CURRENTLY configured narrator gender.
+
+    Reads make_request_parts.NARRATOR_GENDER fresh on every call, not at
+    import time, so this stays correct if the narrator changes again and so
+    tests can monkeypatch NARRATOR_GENDER and observe the rule flip.
+    """
+    gender = make_request_parts.NARRATOR_GENDER
+    if gender == "male":
+        return _FEMALE_PARTICLE, "ค่ะ / นะคะ", "ครับ"
+    if gender == "female":
+        return _MALE_PARTICLE, "ครับ / นะครับ", "ค่ะ / นะคะ"
+    raise ValueError(f"unknown NARRATOR_GENDER: {gender!r}")
+
+
 def lint_script(script: str, part_seconds: float = 240.0) -> list[str]:
     """Return human-readable problems. Empty list means clean."""
     problems: list[str] = []
+
+    wrong_particle, wrong_label, expected_label = _particle_rule()
+    narrator_voice = make_request_parts.NARRATOR_VOICE
+    narrator_gender = make_request_parts.NARRATOR_GENDER
 
     # Register/content checks: per scene, before any part-merging can hide
     # one scene's problem behind another scene's clean narration.
     for i, (_, narration) in enumerate(parse_scenes(script), 1):
         if not narration:
             continue
-        if _MALE_PARTICLE.search(narration):
+        if wrong_particle.search(narration):
             problems.append(
-                f"scene {i}: contains ครับ, but the narrator Erinome is female "
-                "— use ค่ะ / นะคะ"
+                f"scene {i}: contains {wrong_label}, but the narrator "
+                f"{narrator_voice} is {narrator_gender} — use {expected_label}"
             )
         if "—" in narration:
             problems.append(f"scene {i}: contains an em dash, banned in channel voice")

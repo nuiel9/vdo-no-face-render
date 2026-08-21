@@ -1,14 +1,34 @@
 """Build AIVDO request payloads for a Thai Disclosed episode.
 
 The shipped English requests carry voice_name="Algieba", language="en-US".
-Algieba is MALE (AIVDO config.py:209) and the channel's narrator is now
-Erinome, female, th-TH (spec §5.4). voice_name is a PER-REQUEST field --
+Algieba is MALE (AIVDO config.py:209). voice_name is a PER-REQUEST field --
 AIVDO's TTSConfig default is product-wide and must not be touched.
+
+NARRATOR_VOICE / NARRATOR_GENDER below are the single source of truth for
+who is currently narrating Disclosed. Everything else that needs to know
+the narrator's name or gender (this module's `voice_name` field,
+thai_lint.py's particle rule) reads from these two constants instead of
+repeating the fact independently -- that independent repetition is exactly
+how the channel shipped a female-narrator lint rule for weeks after nothing
+forced it to update. Changing NARRATOR_GENDER here must flip the particle
+rule in thai_lint.py automatically; that is the entire point of
+centralising it.
 """
 import json
 from pathlib import Path
 
 from thai_budget import chars_for_duration, duration_for_chars
+
+# Chosen by the owner 2026-08-21, by listening to four candidates against
+# the real EP01 script (superseding Erinome, female, chosen 2026-08-20 on a
+# different listening pass -- see docs/superpowers/specs/
+# 2026-08-20-thai-pivot-design.md §5.4/§5.5 for that history, marked
+# superseded there rather than deleted). Gemini TTS. `Sadaltager` is
+# "Knowledgeable" in AIVDO's voice table (docs/superpowers/specs/assets/
+# malecmp.py) -- the closest descriptor to this channel's documentary
+# format among the male candidates sampled.
+NARRATOR_VOICE = "Sadaltager"
+NARRATOR_GENDER = "male"
 
 # Density used for the pre-render script-length guard below. Exported as a
 # The guard's ceiling is derived from AIVDO's OWN compression trigger, not
@@ -100,7 +120,7 @@ def build_request(part_text: str, seconds: float) -> dict:
     return {
         "text": part_text,
         "language": "th-TH",
-        "voice_name": "Erinome",
+        "voice_name": NARRATOR_VOICE,
         "speaking_style": "normal",
         "render_mode": "fast",
         "video_intent": "faceless_youtube",

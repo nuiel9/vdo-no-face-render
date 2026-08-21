@@ -188,7 +188,7 @@ Changed by hand in Studio — it is a channel setting, not an API operation in t
 |---|---|---|
 | Runtime | **Lane A 8–10 min · Lane B 15–20 min** | Per §7.1. The single 15–20 min format could not serve news. |
 | Title formula | A **family** of question/verdict openers, not one | See below |
-| Voice | **Gemini TTS · `Erinome` · female · `normal` style — LOCKED** | Chosen by listening, 2026-08-20, against five other female and four male candidates. "Clear" is the closest descriptor in the table to documentary narration among female voices. Particles resolve to **ค่ะ**. Chirp3-HD stays the fallback it already is. |
+| Voice | **Gemini TTS · `Sadaltager` · male · `normal` style — LOCKED (re-decided 2026-08-21)** | ~~Chosen by listening, 2026-08-20, against five other female and four male candidates. "Clear" is the closest descriptor in the table to documentary narration among female voices. Particles resolve to ค่ะ.~~ **Superseded 2026-08-21**: the owner re-listened to four candidates against the real EP01 script (not descriptors) and picked `Sadaltager` ("Knowledgeable" in AIVDO's voice table) over `Erinome`. Particles now resolve to **ครับ**. Chirp3-HD stays the fallback it already is. See §5.5 for the full history — retained, not deleted, because it is why this decision is trusted. |
 | Subscribe CTA in narration | Retained | The one conversion unlock that empirically held (v4.6.3) |
 | Thumbnail | Text-as-hero, Thai, **burned in by the renderer** | Never by the image model — see §6 |
 | Cadence | ~1/day across both lanes, 7 days | ~4/week Lane A + ~3/week Lane B. Routine A currently runs weekdays only. |
@@ -216,8 +216,9 @@ Rotate deliberately; do not let one formula dominate a month.
 Narration is **Thai TTS** via AIVDO's native path. Already in place:
 
 - `language_code` defaults to `th-TH`
-- **Locked: Gemini TTS, voice `Erinome`, female, `normal` speaking style.** Chosen by listening on a 37-second script carrying figures, a reveal beat and the subscribe CTA — not on descriptors. Ten candidates were sampled (six female, four male including the incumbent `Algieba`); harnesses in `assets/`.
-- Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*), so every episode closes in **ค่ะ**. Script review checks this rather than assuming it.
+- ~~**Locked: Gemini TTS, voice `Erinome`, female, `normal` speaking style.** Chosen by listening on a 37-second script carrying figures, a reveal beat and the subscribe CTA — not on descriptors. Ten candidates were sampled (six female, four male including the incumbent `Algieba`); harnesses in `assets/`.~~ **Superseded 2026-08-21.** Retained, not deleted: this 37-second-script listening pass is the reasoning trail that made the *process* (listen on the real script, not descriptors) trustworthy enough to redo. The 2026-08-21 re-decision reused that same process on a longer, more representative sample — the real EP01 script — and reached a different answer.
+- **Locked (2026-08-21): Gemini TTS, voice `Sadaltager`, male, `normal` speaking style.** The owner listened to four candidates against the real EP01 script (not a 37-second synthetic sample, not descriptors alone) and picked `Sadaltager` — "Knowledgeable" in AIVDO's voice table (`docs/superpowers/specs/assets/malecmp.py`), the closest descriptor to this channel's documentary format among the candidates sampled.
+- Thai particles auto-agree to voice gender (`e2775e9` — *"a woman no longer says ครับ"*; the same logic runs in reverse for a male voice), so every episode now closes in **ครับ**, not ค่ะ. Script review (`thai_lint.py`, which derives the rule from `make_request_parts.NARRATOR_GENDER`) checks this rather than assuming it.
 
 **Two systems, not two voices — an earlier draft of this spec got this wrong.** It claimed the voice was `th-TH-Chirp3-HD-Achernar` and that "Algieba is retired." In fact:
 
@@ -364,11 +365,11 @@ There is also a **~10% spread between voices** on identical text (Despina 36.85s
 
 So `normal` does not currently *preserve* per-scene variation, because there is no per-scene variation to preserve.
 
-**The decision stands, on the reason that actually held:** the owner picked `Erinome` at `normal` by listening to all three styles, and `dramatic` ("like a movie trailer narrator") and `calm` ("like a meditation guide") are both wrong for a 15-minute documentary. The measured pace table above is unaffected.
+**The `normal`-over-`dramatic`/`calm` decision stands, on the reason that actually held:** the owner picked `normal` by listening to all three styles on the then-current voice, and `dramatic` ("like a movie trailer narrator") and `calm` ("like a meditation guide") are both wrong for a 15-minute documentary. The measured pace table above is unaffected. **The voice itself was re-decided 2026-08-21 — see §5.4/§5.5: `Erinome` → `Sadaltager`, female → male.** That is a separate axis from the style choice; `normal` stays locked under the new voice too.
 
 **Newly open, and deliberately not solved here:** if per-scene energy is wanted, something has to send it — a channel-side mechanism that does not exist today. Belongs with the prompt-library work, not with the voice decision.
 
-**Working budget for `Erinome` at `normal`:** ~11.3 c/s for prose, ~13.2 c/s for figure-dense passages. A 15–20 min Lane B episode lands near **10,000–14,000 Thai characters**; a Lane A 8–10 min episode near **5,400–7,900**.
+**Working budget, `normal` style:** ~11.3 c/s for prose, ~13.2 c/s for figure-dense passages. Measured on `Erinome`; `Sadaltager` (the now-locked voice, §5.4) measured 12.38 c/s "mixed" against `Erinome`'s 12.32 c/s — a 0.5% difference, inside noise, so this budget is unchanged (`thai_budget.py`'s `RATES` deliberately left as-is). A 15–20 min Lane B episode lands near **10,000–14,000 Thai characters**; a Lane A 8–10 min episode near **5,400–7,900**.
 
 **Confirm against the first full render of each lane and correct before episode 2.** Per `scene_planner.py`'s own warning, verify by ffprobing a real render — never the estimator, which measures its own prediction.
 
@@ -623,7 +624,7 @@ Plus Veo hooks on Shorts (~$1.20–2.00 each, ~$36–60/mo) and TTS.
 | Images | Gemini only, default `gemini-3.1-flash-image` (stable) — chosen on a same-prompt sweep, §6.1 |
 | Thai text | Never image-model generated; renderer burn-in only |
 | Motion | Veo hook (3–5s) on Shorts only; Omni for identity-held; `zoom_pan` bodies |
-| Voice | Gemini TTS · `Erinome` · female · `normal` style, locked permanently; Chirp3-HD stays fallback |
+| Voice | Gemini TTS · `Sadaltager` · male · `normal` style, locked (re-decided 2026-08-21, was `Erinome`/female — §5.4/§5.5); Chirp3-HD stays fallback |
 | Sequencing | Unlist English catalogue → rewrite channel identity in Thai → ship EP01 |
 | Editorial gate | Three modes + machine first pass |
 | Hard gate | Day-14 routing checkpoint |
