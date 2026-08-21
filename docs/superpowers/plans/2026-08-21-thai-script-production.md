@@ -509,7 +509,11 @@ from google.genai import types
 
 from split_script import parse_scenes
 
-_MODEL = "gemini-3-flash-preview"
+# Stable, not -preview: the spec's own §6.1 rule is "pin stable names,
+# previews get deprecated". AIVDO uses gemini-3-flash-preview for its
+# verifiers; that is their choice and out of scope here. Verified present on
+# the production key 2026-08-21, alongside newer stable flash releases.
+_MODEL = "gemini-3.6-flash"
 
 _PROMPT = """You are screening a documentary narration script before a human fact-check.
 
