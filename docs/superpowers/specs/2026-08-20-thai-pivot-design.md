@@ -419,7 +419,17 @@ Filtering the catalogue by actual Thai relevance:
 
 So remakes become **opportunistic filler for Lane B**, not the engine. The ~15-minute Remake gate (§8) still applies and is still the cheapest content available — there is just less of it than the spec assumed, and it cannot carry the cadence alone.
 
-⚠️ The supply figure remains unverified: `pipeline.json` shows 20 published rows, the disk holds 18 `Daily/` directories and 2 `.facts_verified` markers, and the earliest ships likely predate the `Daily/` convention. **Inventorying remake-able slugs is still a first task of the implementation plan** — it now sizes a filler pool rather than the critical path, which lowers the risk it carried.
+⚠️ **Supply counted 2026-08-21, and it is far worse than this section assumed. The remake pool is effectively empty.**
+
+Of 18 `Daily/` directories on disk, **only 2 contain a `SCRIPT.txt`** — the one artefact a Thai remake actually needs. The other 16 hold only build output: `render.log`, `upload.log`, thumbnails, `final_short.mp4`.
+
+The two that do have scripts are **#56 Ticketmaster and #57 TurboTax** — and both **fail the Thai-relevance filter above** (US-only products a Thai viewer has never used). Every slug that passes the filter — McDonald's, IKEA, Tupperware, Bic, Lululemon — **has no script on disk.**
+
+So the two sets do not intersect: **zero slugs are both remake-able and Thai-relevant.**
+
+**Not necessarily lost.** Drive is the canonical vault for `Daily/<slug>/` (see `CLAUDE.md`), so the scripts most likely exist there and were simply never synced locally. **Checking Drive is a first task of Plan 2** — it decides whether the filler pool is ~5 slugs or zero.
+
+**This strengthens §7.2 rather than threatening it.** Lane A leads precisely because it needs no back-catalogue. Had the plan kept remakes as the daily engine, week one would have had nothing to ship.
 
 ### 7.5 What Lane A costs the pipeline
 
