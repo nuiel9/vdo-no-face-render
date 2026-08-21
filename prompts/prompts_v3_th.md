@@ -541,10 +541,16 @@ Mapped to spec §8's four gate modes:
 
 | Gate mode | Prompts, in order |
 |---|---|
-| **News / fast path** (Lane A) | 1 (audit) → 2 (title) → 3A (script) → 4 (scene breakdown) → 7 (register pass) → `machine_check.py` → human sourcing → `thai_lint.py` → `lint_urls.py` → 5 (description) → 6 (thumbnail) |
+| **News / fast path** (Lane A) | 1 (audit) → 2 (title) → 3A (script) → 4 (scene breakdown) → 7 (register pass) → `machine_check.py` → human sourcing → `python3 thai_lint.py Daily/<slug>/SCRIPT.txt` → `python3 lint_urls.py Daily/<slug>/` → 5 (description) → 6 (thumbnail) |
 | **Research / verifiable** (Lane B) | Same chain with 3B in "Research / verifiable" mode |
 | **Research / attribution** (Lane B) | Same chain with 3B in "Research / attribution" mode — never assert, attribute |
 | **Remake** | 1 (audit, to confirm the remake still clears Thai relevance) → 3B in "Remake" mode, sourced from the recovered/verified English draft → 4 → 7 → same gate tail |
+
+`thai_lint.py`, run as a script this way, prints every problem it finds and exits
+non-zero; a clean script prints an explicit "clean" line and exits 0. Fix everything
+it reports, or confirm each is a false positive, before running `lint_urls.py`. Do not
+fall back to `python3 -c "from thai_lint import lint_script; ..."` — that path exists in
+the implementation plan, not here, and skips the exit-code gate entirely.
 
 `.facts_verified` still blocks render in every mode (unchanged, spec §8). Comment
 replies and the pinned-comment final text stay hand-typed by the channel owner in

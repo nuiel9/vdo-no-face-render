@@ -30,6 +30,8 @@ propagate, so a caller always gets a problem list back instead of having to
 catch an exception from a different module.
 """
 import re
+import sys
+from pathlib import Path
 
 from make_request_parts import _MAX_CHARS_PER_SECOND
 from split_script import parse_scenes, split_into_parts
@@ -102,3 +104,28 @@ def lint_script(script: str, part_seconds: float = 240.0) -> list[str]:
                 "silently compress and rewrite a fact-checked script"
             )
     return problems
+
+
+if __name__ == "__main__":
+    # A pure module invoked as `python3 thai_lint.py <script>` used to print
+    # nothing and exit 0 whether the script was clean or broken — silence
+    # read as a pass. This block exists so the gate flow documented in
+    # prompts/prompts_v3_th.md and CLAUDE.md has something real to run:
+    # exit 0 with an explicit "clean" line on success, exit 1 with every
+    # problem printed on failure. Silence must never be the success signal.
+    if len(sys.argv) != 2:
+        sys.stderr.write("usage: python3 thai_lint.py <SCRIPT.txt>\n")
+        sys.exit(2)
+
+    script_path = Path(sys.argv[1])
+    problems = lint_script(script_path.read_text(encoding="utf-8"))
+
+    if problems:
+        print(f"thai_lint: {len(problems)} problem(s) in {script_path}:")
+        for p in problems:
+            print(f"  - {p}")
+        print("\nDO NOT commit .facts_verified until these are resolved.")
+        sys.exit(1)
+
+    print(f"thai_lint: clean — {script_path}")
+    sys.exit(0)

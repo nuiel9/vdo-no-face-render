@@ -31,14 +31,20 @@ The 17-prompt research routine fabricates ~4 specifics per slug at Netflix-doc f
 
 **A slug does not render until `Daily/<slug>/.facts_verified` exists.** Per-slug flow:
 ```bash
+python3 thai_lint.py Daily/<slug>/SCRIPT.txt   # register/placeholder gate, exits non-zero on any problem
 python3 lint_urls.py Daily/<slug>/         # 30 sec
 # read REVIEW.md, fix fabrications:
 # python3 propagate_correction.py Daily/<slug>/ "wrong" "right" --apply
 touch Daily/<slug>/.facts_verified
 git add . && git commit -m "<slug>: facts verified" && git push
+python3 split_script.py Daily/<slug>/      # SCRIPT.txt -> REQUEST_PART_N.json (splitter/writer glue)
 PYTHONUNBUFFERED=1 python3 -u render.py Daily/<slug>/
 python3 youtube_upload.py Daily/<slug>/
 ```
+`thai_lint.py` run any other way (e.g. imported and called by hand) produced no output and
+exited 0 whether the script was clean or broken — that silence used to read as a pass.
+Run it as a script, as above; it now prints every problem and exits non-zero when any
+exist, and prints an explicit "clean" line otherwise.
 
 **Verify proper-noun transliteration separately from verifying the facts.** Confirming a
 person's title, quote, and date does **not** confirm how their name is spelled in Thai —
