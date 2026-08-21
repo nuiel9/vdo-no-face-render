@@ -4,17 +4,19 @@ Project context for Claude Code. Durable, non-obvious facts that aren't already 
 
 ## What this repo is
 
-Render driver + content pipeline + Claude prompt library for **Disclosed** (`@disclosedch`), a faceless English-language YouTube channel doing business case studies / brand postmortems. Companion repo: `nuiel9/AIVDO` (the text-to-video service that does the rendering).
+Render driver + content pipeline + Claude prompt library for **Disclosed** (`@disclosedch`), a faceless YouTube channel. Companion repo: `nuiel9/AIVDO` (the text-to-video service that does the rendering).
 
-Day 0 of the 120-day plan to $10K/mo ad revenue = **2026-04-19**. Target = ~2026-08-17.
+**The channel is Thai, not English — approved 2026-08-20** (`docs/superpowers/specs/2026-08-20-thai-pivot-design.md`, hereafter "the Thai spec"). The 120-day English-language plan below is **closed history**, not the current strategy; see "Thai pivot (current)" further down for what replaced it.
+
+*Historical: the original 120-day plan to $10K/mo ad revenue ran **2026-04-19 → ~2026-08-17**. It closed at 8 subscribers and ~$0. Every cheap-to-medium lever (topic, packaging, archetype, cadence, `defaultAudioLanguage=en`, channel country=US, even a fresh US-classified channel) was tried and falsified. Full audit trail: Thai spec §1 and the memory files marked SUPERSEDED below.*
 
 ## Three locations — know which is canonical for what
 
 1. **This repo** (`/Users/krainats/vdo-no-face-render`, GitHub `nuiel9/vdo-no-face-render`) — static code: `render.py`, `make_short.py`, `youtube_upload.py`, `lint_urls.py`, `propagate_correction.py`, `prompts/`, `pipeline.json` mirror.
-2. **Google Drive vault** — `My Drive/vdo-no-face/` (folder id `1sAnpdfrU-tZd9FzVe6uBoo7rq5h2Zoxd`). **Canonical** mutable state: `pipeline.json` (user edits here to trigger renders), `secrets/prod.json`, `queue/`, `Daily/<slug>/`, `failed/`, `briefs/`. Not mounted to a local FS path on this Mac — access via MCP Drive tools.
+2. **Google Drive vault** — `My Drive/vdo-no-face/` (folder id `1sAnpdfrU-tZd9FzVe6uBoo7rq5h2Zoxd`). Still holds `secrets/prod.json` and is the intended home for `pipeline.json`, `queue/`, `failed/`, `briefs/`. **`Daily/<slug>/` is NOT canonical here — verified false 2026-08-21.** The vault's `Daily/` contains only two empty folders left over from the 2026-04-24 dry run; the last ~16 ships (including both scripts that still exist) were fired manually in-session and wrote to **local disk only**. Don't look in Drive for a slug's `SCRIPT.txt` or build artifacts — look in this repo's local `Daily/<slug>/`. Not mounted to a local FS path on this Mac — access via MCP Drive tools.
 3. **Orchestration docs** — `/Users/krainats/Documents/claude/Projects/VDO No Face/`: V3 blueprint (`00_Faceless_YouTube_Blueprint_V3_AIVDO.md`), routine prompt (`routine_v4.6_prompt.md`), AIVDO ship logs.
 
-When asked to change pipeline state, edit Drive's `pipeline.json` — the routines read from Drive, not the repo mirror.
+When asked to change pipeline state, the *intent* is still to edit Drive's `pipeline.json` (routines are designed to read from Drive, not the repo mirror) — but confirm the actual artifact you need lives where you expect before trusting Drive, per the `Daily/<slug>/` correction above.
 
 ## Two scheduled routines
 
@@ -44,23 +46,40 @@ python3 youtube_upload.py Daily/<slug>/
 3. Cross-reference to a previous Disclosed video
 4. Custom thumbnail (not AIVDO default poster mode)
 5. Pinned comment with editorial note or source link
-6. Cadence ≤ **3 videos/week per channel** (hard cap — YouTube policy trigger)
+6. ~~Cadence ≤ 3 videos/week per channel (hard cap — YouTube policy trigger)~~ **Retired by the Thai spec §8.** Replaced by the four-mode editorial gate (News/fast, Remake, Research/verifiable, Research/attribution) plus a machine first pass — see "Thai pivot (current)" below. The gate's *editorial-attention* rationale survives; the *impression-rationing* rationale that originally justified the cap did not (falsified by later English-run data, retained as history below).
 
-Avoid: numeric-suffix titles, identical thumbnail templates across 5+ videos, repeated exact scene compositions.
+Avoid: identical thumbnail templates across 5+ videos, repeated exact scene compositions. **Do NOT avoid numeric-suffix titles — reversed by Thai spec §5.2.** Disclosed now runs a persistent `EP01`, `EP02`... counter as a franchise signal, matching the Thai benchmark channel's structure.
 
 ## Channel + render facts
 
-- Channel: `@disclosedch`. Pivoted Thai → English on 2026-04-27.
-- Voice: **Algieba** (Gemini TTS).
-- Render mode: AIVDO Cinematic + strict_cinematic + `faceless_youtube` intent.
-- Cinematic cost ≈ $1.32/video (gpt-image-2 × 16 scenes × $0.041 × 2 parts).
-- Secondary channel work is **deferred to Day 60–90** — don't propose it before Disclosed hits YPP.
+- Channel: `@disclosedch`. Pivoted Thai → English on 2026-04-27; **the Thai spec (approved 2026-08-20) reverts this — @disclosedch becomes the Thai channel again**, with `Business Postmortems` (`UCTJDWGKcUKee7iXW2eXeUnA`) taking over as the English archive/AIVDO-showcase channel. See "Thai pivot (current)" below for what ships next.
+- Voice: ~~Algieba~~ **`Erinome`, female, `normal` style — LOCKED (Thai spec §5.4).** `Algieba` is **male** (`config.py:209`, gender=male, particle=ครับ) — the channel's narrator was male for the entire English run. Chosen by listening against nine other candidates on 2026-08-20. Gemini TTS stays primary (style control matters for documentary narration); Chirp3-HD stays the fallback it already was — this was never a two-voice question.
+- Render mode: `render_mode="fast"` (AIVDO's Gemini-only Google image lane), `video_intent="faceless_youtube"` still applies (server-enforces no-faces per scene). ~~AIVDO Cinematic + strict_cinematic~~ and gpt-image-2 are retired for this channel per Thai spec §6.1 — default image model is `gemini-3.1-flash-image` ($0.067/img), chosen on a same-prompt quality sweep, not price.
+- ~~Cinematic cost ≈ $1.32/video (gpt-image-2 × 16 scenes × $0.041 × 2 parts)~~ — that was the 2-part, 8-minute English format. Current: Lane B (15–20 min) runs 4–5 parts, Lane A (8–10 min) stays closer to the old 2-part scale; **all-in ≈ $170–230/month** blended across both lanes (Thai spec §6, §11), not a fixed per-video figure.
+- Secondary channel work is **no longer deferred** — `Business Postmortems` is now an active second channel per the Thai spec (§4), not something waiting for Disclosed to hit YPP.
 
 ## Local fallback only
 
 `render.py` standalone is the documented fallback. Default path is the scheduled routines via Drive — don't suggest local `render.py` as the primary way to ship a video.
 
-## Hook taxonomy + conversion signals (as of 2026-05-10) — *SUPERSEDED — see "Distribution model (current, 5th revision)" section below for the current model. The 5/10 hook taxonomy and 5/14 rationing framing were both falsified by 5/23 McDonald's-vs-Blackberry analytics comparison. Retained for audit trail.*
+## Thai pivot (current)
+
+**Approved 2026-08-20.** Full reasoning and evidence: `docs/superpowers/specs/2026-08-20-thai-pivot-design.md`. This section is the short version; the spec wins on any conflict.
+
+- **The English run is closed, not paused.** 8 subs, ~$0, over ~4 months. Every cheap lever was tried and falsified (spec §1). Do not re-propose "try a different American topic/thumbnail/cadence" — that space is exhausted.
+- **@disclosedch becomes the Thai channel again.** English long-form gets unlisted before Thai EP01 ships. `Business Postmortems` (`UCTJDWGKcUKee7iXW2eXeUnA`) becomes the English archive + AIVDO showcase (spec §4).
+- **Goal is $10K/mo mixed** (AdSense + sponsorship + AIVDO conversions), not AdSense-only. **Primary KPI is `aivdo_trials_attributed` per video**, not views (spec §2).
+- **Scope widens to tech + business + curiosity, weighted toward tech** — not business-case-studies-only. Format stays faceless documentary (spec §5.3).
+- **Two lanes, both from week one:** Lane A "Disclosed Daily" (current AI/tech news, 8–10 min, ~4/wk, fast-path gate) and Lane B "Disclosed Story" (postmortems/curiosity, 15–20 min, ~3/wk). Lane A leads — it's a level playing field against a 2,600-video Thai incumbent, and it's where the owner has real authority (spec §7.1–7.2).
+- **Back-catalogue is filler, not the engine, and the pool is currently empty.** Only 2 of 18 local `Daily/` dirs have a `SCRIPT.txt` (#56 Ticketmaster, #57 TurboTax), and both fail the Thai-relevance filter — zero slugs are both remake-able and Thai-relevant as of 2026-08-21 (spec §7.4).
+- **Numeric-suffix EP titles are the format now** (`... | Disclosed EP01`), reversing the old "avoid numeric-suffix titles" rule (spec §5.2).
+- **Voice: Gemini TTS, `Erinome`, female, `normal` style, locked** (spec §5.4). Thai particles auto-agree to voice gender — every episode closes in ค่ะ.
+- **Images: Gemini-only, no OpenAI.** Default `gemini-3.1-flash-image`. Thai on-screen text is always renderer-burned, never image-model-generated (spec §6.1–6.2).
+- **The ≤3/week cadence cap is retired**, replaced by a four-mode editorial gate (News/fast, Remake, Research/verifiable, Research/attribution) plus a machine first pass ahead of the human gate (spec §8). `.facts_verified` still blocks render — that discipline is unchanged.
+- **Infra is currently blocking:** all three YouTube OAuth tokens are dead, and the fix is to move the OAuth app to Production, not just re-auth (spec §9).
+- **Hard gate: day-14 routing checkpoint.** If Thai ships also starve at English-run impression levels, the channel is poisoned for any language, not just English — the move then is to Business Postmortems or a fresh Thai channel (spec §10).
+
+## Hook taxonomy + conversion signals (as of 2026-05-10) — *SUPERSEDED — see "Thai pivot (current)" above for the current model (the "Distribution model, 5th revision" section below is ALSO superseded — it was the intermediate English-run model, not the current one). The 5/10 hook taxonomy and 5/14 rationing framing were both falsified by 5/23 McDonald's-vs-Blackberry analytics comparison. Retained for audit trail.*
 
 Three hook patterns now have empirical performance data on Disclosed. Use this when ranking slug candidates:
 
@@ -111,9 +130,9 @@ When ranking unscheduled slugs: weight broad topical curiosity alongside the ≥
 
 ---
 
-## Distribution model (current, 5th revision as of 2026-05-23)
+## Distribution model (5th revision, 2026-05-23) — *SUPERSEDED 2026-08-21 by the Thai spec's §7 slug-selection heuristic. See "Thai pivot (current)" above for what replaced it. Retained for audit trail — this is the model whose Tier A/B/C ranking (below) actively **mis-ranks** slugs for a Thai audience: e.g. Blackberry was scored Tier C here for reading "foreign-tech" to a US viewer, but that reasoning doesn't hold for Thailand, where BBM was widespread — the Tier C *label* is wrong for the wrong reason. (Blackberry is independently cut for Thai anyway, per the Thai spec's own saturation audit, §7.7: covered twice already by incumbent ด.ดล Blog, EP537 and Geek Monday EP264.) Do not use these tiers for Thai slug selection.*
 
-*This section is the CURRENT canonical model. The 5/10 hook taxonomy and 5/14 rationing model above are retained for audit trail but should not be used for new ship planning.*
+*This section was the CURRENT canonical model for the English run. The 5/10 hook taxonomy and 5/14 rationing model above are retained for audit trail but should not be used for new ship planning — and neither should this section, now that the channel is Thai again.*
 
 **The primary lever is TOPIC-LEVEL American cultural touchstone.** Disclosed is currently classified by YouTube as a Thai-default channel (legacy from before the 2026-04-27 Thai→English pivot). For any individual ship to break out of that classification and scale, its topic must be recognizable enough as a universal American consumer experience that YouTube routes early impressions to the American Browse audience instead of defaulting to Thai loyalists. Packaging is a second-order discipline — it determines whether the right audience clicks, not which audience YouTube tests with.
 
@@ -133,7 +152,7 @@ McDonald's audience was 99.5% non-Thai. Blackberry's was 100% Thai-translated. S
 
 **The American Browse audience for Disclosed** (per McDonald's demographics): older American males, 65+ : 48%, 55-64 : 31%, 45-54 : 21%, watching daytime YouTube on Computer (51%) and Mobile (41%). Their cultural touchstones are universal American consumer/retail/brand experiences. NOT tech business cases or B2B SaaS histories.
 
-### Slug selection heuristic (current, supersedes the 5/10 hook taxonomy)
+### Slug selection heuristic (superseded — was current for the English run, supersedes the 5/10 hook taxonomy)
 
 **Primary gate: pass the universal-American-cultural-touchstone test.** Score every candidate slug against: "would a 55-year-old American man watching daytime YouTube instantly recognize this topic AND have wondered about it?" If no, the ship will starve regardless of how well written or packaged.
 
