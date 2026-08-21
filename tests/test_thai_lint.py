@@ -7,7 +7,7 @@ OVERLAYS: none
 
 [Scene 2 | medium] Close
 OVERLAYS: none
-กดติดตาม Disclosed ไว้นะคะ เราปล่อยคลิปใหม่ทุกวันค่ะ
+กดติดตาม Disclosed ไว้นะคะ
 """
 
 
@@ -18,7 +18,7 @@ def test_clean_script_has_no_problems():
 def test_flags_male_particle_with_a_female_narrator():
     # The voice is Erinome (female). A ครับ close is the exact bug commit
     # e2775e9 fixed inside AIVDO, and it is audible.
-    bad = GOOD.replace("ทุกวันค่ะ", "ทุกวันครับ")
+    bad = GOOD.replace("นะคะ", "นะครับ")
     problems = lint_script(bad)
     assert any("ครับ" in p for p in problems)
 
@@ -55,15 +55,15 @@ def test_flags_unfilled_placeholder_left_in_narration():
     # lint_script sees narration, so any [ or ] surviving into it is by
     # definition leftover authoring scaffolding, not a scene marker.
     bad = GOOD.replace(
-        "ทุกวันค่ะ",
-        "ทุกวันค่ะ [จุดใส่ caveat ของเจ้าของช่อง]",
+        "นะคะ",
+        "นะคะ [จุดใส่ caveat ของเจ้าของช่อง]",
     )
     problems = lint_script(bad)
     assert any("placeholder" in p.lower() for p in problems)
 
 
 def test_flags_todo_left_in_narration():
-    bad = GOOD.replace("ทุกวันค่ะ", "ทุกวันค่ะ TODO: fill this in")
+    bad = GOOD.replace("นะคะ", "นะคะ TODO: fill this in")
     problems = lint_script(bad)
     assert any("placeholder" in p.lower() or "todo" in p.lower() for p in problems)
 
