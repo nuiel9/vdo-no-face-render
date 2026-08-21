@@ -270,15 +270,18 @@ audit exists to repeat in Thai.
 ห้ามเสนอชื่อที่เป็น clickbait เกินจริงหรือสัญญาสิ่งที่บทพูดไม่ได้พิสูจน์
 ```
 
-**On the tag discrepancy:** spec §5.1's opening example reads
-`ทำไม TurboTax ฟรีถึงจ่าย 3,000 บาท? | Disclosed EP01` (bare `Disclosed`), but the same
-section's lane table assigns `Disclosed Daily` / `Disclosed Story` as separate tags
-with independent counters, and says lanes exist "from day one." Those two statements
-don't fully agree, and this file resolves it in favour of the table (more specific,
-decision-bearing, matches ด.ดล Blog's own lane-tagged EP structure this design
-explicitly imitates) — but flags it here rather than silently picking one. Whoever
-writes EP01's actual title (Task 6) should settle this by asking the owner if it still
-reads ambiguous.
+**On the tag format — RESOLVED, no need to re-ask.** This file flagged that spec §5.1's
+opening example read `| Disclosed EP01` while its own lane table assigned
+`Disclosed Daily` / `Disclosed Story` as separate tags with independent counters. That
+was a real spec defect, and flagging it rather than silently picking one was correct.
+
+The spec resolved it on 2026-08-21, the same way this file did: **the full lane tag
+carries the counter, and each lane counts independently.** `| Disclosed Daily EP01` and
+`| Disclosed Story EP01` both exist; a bare `Disclosed EPnn` does not. ด.ดล Blog runs
+four series on four separate counters, and a shared counter would make each lane's
+numbering jump unpredictably, destroying the franchise signal the counter exists to send.
+
+See spec §5.1's "Resolved 2026-08-21" block. Use the lane tag.
 
 ---
 
