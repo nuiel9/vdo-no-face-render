@@ -29,7 +29,9 @@
 
 Recommendation: **EP01 = evergreen tech topic in documentary form.** It decouples production from the user-gated track and does not contradict §7.2, which governs steady-state share rather than the first ship. **EP02 becomes the first live Lane A run**, which is also the only honest way to measure the news-cycle wall clock §7.5 flags as the riskiest untested assumption.
 
-Put this to the owner at plan approval.
+**DECIDED 2026-08-21: EP01 is Lane A — a current AI/tech news story.** The owner chose news over the evergreen recommendation, having seen the shelf-life tradeoff stated.
+
+**Consequence, and it is now the critical path:** a news episode decays in days, so the owner-gated work — OAuth publishing-status fix, re-auth, unlisting the 30 English videos, channel rename — is no longer "whenever". If that track is not ready within roughly a week of the script being finished, EP01 rots and we learn nothing about the news cycle either. Task 6 must pick a topic with the longest defensible shelf life inside Lane A (a developing situation, not a single-day story).
 
 ---
 
