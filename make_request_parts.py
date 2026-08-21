@@ -37,8 +37,10 @@ _SERVER_COMPRESSION_RATE = 11.3 * 1.2  # 13.56 chars/sec
 _SAFETY_MARGIN = 0.95
 _MAX_CHARS_PER_SECOND = _SERVER_COMPRESSION_RATE * _SAFETY_MARGIN  # 12.88
 
-# Density used only for the advisory "budget" figure in the error message --
-# what the author should have aimed for. It does not set the ceiling.
+# Density used for two things, neither of which is the ceiling: the advisory
+# "budget" figure in the error message (what the author should have aimed for),
+# and the custom_seconds estimate below. The ceiling comes from
+# _MAX_CHARS_PER_SECOND, which is derived from the server's own trigger.
 _GUARD_DENSITY = "mixed"
 
 
