@@ -31,13 +31,97 @@ scarce" episode, including EP372, plausibly covers the same explanatory mechanis
 (AI data centers competing for memory). That scene is retained because register rules
 require explaining jargon on first use, not as a differentiation claim.
 
+## Round 2 — coordinator review, not approved as-is, five fixes (2026-08-21)
+
+The coordinator withdrew `.facts_verified` and returned five findings. All five are
+fixed below; `.facts_verified` is only re-created at the end of this round, after
+re-verification. Full commands and output are also appended to
+`task-6b-report.md`. Summary:
+
+1. **CRITICAL — spoken placeholder.** `[จุดใส่ caveat ของเจ้าของช่อง]` sat at the end of
+   Scene 8's narration line, so `parse_scenes` would keep it and TTS would read the
+   brackets aloud. **Fixed:** the placeholder now lives on its own line prefixed with
+   `#` (`parse_scenes` skips any stripped line starting with `#` — verified directly
+   against `split_script.py`'s `_SKIP_PREFIXES`), and Scene 8's narration was checked
+   to still read as a complete sentence without it (it already did — "...ปัญหาจะลากยาว
+   ถึงปี 2028" was already grammatically complete; only the trailing bracket needed to
+   move). Confirmed post-fix by parsing every scene and checking none contain
+   "caveat" or "จุดใส่" in the narration text (see command log below). The slot is
+   still visibly present in the file for the owner to fill by hand.
+
+2. **IMPORTANT — mis-transliterated senior source.** `เชตายวอน` contains ตาย ("die"),
+   audible in the sentence introducing the SK Group chairman. **Fixed to `ชเว แทวอน`**,
+   confirmed against Infoquest's own usage:
+   https://www.infoquest.co.th/2026/569062 ("ชเว แทวอน เป็นประธานกลุ่มบริษัทเอสเค กรุ๊ป").
+   **This surfaced a gap class my fact-check method cannot see by construction: I
+   verified the man (title, event, quote, date) but never checked the Thai spelling of
+   his name against a Thai-language source.** Standing step added: every proper noun's
+   Thai rendering now gets checked against actual Thai-language press usage, not
+   inferred from the English name. Applying that standing step immediately surfaced
+   two more spacing/spelling issues that had not been flagged:
+   - `ควักโนจุง` (no space, wrong initial consonant) → **`กวัก โน-จุง`**, confirmed
+     against RYT9 (a mainstream Thai financial wire), which renders it identically
+     across at least two separate articles:
+     https://www.ryt9.com/s/iq36/3483964 ("นายกวัก โน-จุง เป็นซีอีโอของบริษัท เอสเค ไฮนิกซ์")
+     and corroborated by a second WebSearch pass turning up the same spelling
+     independently. **ค vs ก is not cosmetic — it's a different Thai rendering of the
+     Korean surname 곽, and the version I had was simply wrong**, not just unspaced.
+   - `คิมแจจุน` (no space) → **`คิม แจจุน`**, confirmed against Thairath:
+     https://www.thairath.co.th/lifestyle/tech/2930126 ("คิม แจจุน ผู้บริหารระดับสูงของ
+     ซัมซุง").
+   All three names fixed everywhere they appear in `SCRIPT.txt` (Scenes 3, 4, 6, 7 —
+   both OVERLAYS and narration).
+
+3. **IMPORTANT — Scene 2 redundant tail.** The scene restated its own opening: "ปัญหา
+   ขาดตลาดชั่วคราว" (early paragraph) then "ปัญหาขาดตลาดตามฤดูกาล" (closing paragraph) said
+   the same thing twice, reading as two drafts concatenated — a live AI-writing-tell
+   risk in the first two minutes of a relaunch whose whole thesis is rigour.
+   **Fixed:** deleted the redundant restatement ("คำเตือนแบบนี้ได้ยินกันมาตั้งแต่ต้นปี ...
+   แต่ตอนนี้คนละเรื่องเลย") and reconnected the one clause in it that carried new
+   information (the "senior executives, not outside analysts" qualifier) directly onto
+   the preceding sentence with "เพราะ". Meaning preserved, redundancy removed. Scene
+   dropped from 702 to ~520 chars.
+
+4. **IMPORTANT — internal count contradiction.** Scene 2's spine is "สามคน สี่ครั้ง"
+   (three people, four statements — Chey/Choi, Kim×2, Kwak), and Scene 2's own
+   OVERLAYS already said four. Scene 9 said "คำเตือนทั้งสามครั้ง" (three), undercutting
+   the organizing claim with a different number for the same thing. **Fixed:** Scene 9
+   now reads "คำเตือนทั้งสี่ครั้ง" (four), matching Scene 2. (Scene 9's separate "ผู้บริหาร
+   ทั้งสามคน" — three *executives* — was already correct and untouched; three people
+   making four statements are two different, both-correct counts, and both scenes now
+   state each consistently.)
+
+5. **IMPORTANT — false cadence promise in the CTA.** "เราปล่อยคลิปใหม่ทุกวันค่ะ" ("we
+   publish every day") is not true on the day this would publish: Routine A is
+   weekdays-only, the 7-day change is still pending per spec §6, and zero Thai
+   episodes exist yet — this is EP01. An earlier pass of this REVIEW waved the line
+   through as "matching spec cadence" (spec's *aspiration*, not the pipeline's current
+   *state* — those are different things, and conflating them was the error).
+   **Fixed:** dropped the frequency claim entirely rather than substitute a different
+   unverifiable promise. The CTA now ends "...กดติดตาม Disclosed ไว้นะคะ" — subscribe ask
+   kept, cadence claim removed. Matches the coordinator's framing of the v4.6.3 CTA
+   that actually converted: it promised something true.
+
+**Minor:** header comment's char count (`SCRIPT.txt:2`) was stale (6,267) after earlier
+edits; also now stale again after fixes 3 and 5 shortened the script further. Updated
+to the current true count (6,120, recomputed below) — see Runtime section.
+
 ## Machine first pass
 
 `python3 machine_check.py Daily/2026-08-21_ep01_ram-shortage-2030/SCRIPT.txt` ran
-successfully against the final script text — **no crash**, both known failure modes
-(unparseable JSON, other failure shapes) did not trigger. Output: **61 claims flagged**
-across all 11 scenes. Every flagged claim is addressed in the source ledger and table
-below; none were left unaddressed.
+successfully every time it was invoked against this script — **no crash**, ever,
+across four separate runs. Both known failure modes (unparseable JSON, other failure
+shapes) never triggered. Round-1 script: **61 claims flagged** across all 11 scenes.
+Round-2 script (names corrected, redundant tail and false cadence claim removed), run
+three times for this review: **57, then 63, then 62 claims flagged.** This run-to-run
+variance is expected and not a bug: `machine_check.py` calls a live LLM
+(`gemini-3.6-flash`) per scene with no fixed seed, so the exact claim segmentation
+shifts slightly between calls even against byte-identical input — confirmed by
+diffing the three round-2 runs, which differ only in how a handful of adjacent
+clauses get grouped into one flagged item vs split into two, never in which facts get
+surfaced. Every flagged claim, across all four runs, traces to the same 11-item source
+ledger below; the round-2 fixes changed spelling and trimmed prose, not facts, and no
+run surfaced a claim the ledger doesn't already cover.
 
 ## Source ledger (every spoken specific)
 
@@ -108,8 +192,22 @@ below; none were left unaddressed.
     servers)** — general market-structure reasoning following from sources #4-#9
     (a handful of manufacturers supply DRAM into every device category), not a
     separate discrete claim.
+11. **Thai-language proper-noun spelling** (added round 2, per the coordinator's
+    finding — see "Round 2" above). Not a new factual claim; verifies the *rendering*
+    of names already sourced under #3, #4, #7, #8:
+    - ชเว แทวอน (Chey/Choi Tae-won, SK Group chairman) —
+      https://www.infoquest.co.th/2026/569062
+    - กวัก โน-จุง (Kwak Noh-jung, SK Hynix CEO) —
+      https://www.ryt9.com/s/iq36/3483964
+    - คิม แจจุน (Kim Jaejune, Samsung memory EVP) —
+      https://www.thairath.co.th/lifestyle/tech/2930126
+    **Standing step, added to this channel's fact-check method going forward:** verify
+    the Thai rendering of every proper noun against a Thai-language source, separately
+    from verifying the underlying fact. These are independent failure modes — a name
+    can be 100% attached to a correctly-sourced quote and still be wrong, or
+    accidentally read as a different word, in the language it's spoken in.
 
-## Claim-by-claim table (all 61 machine-flagged items)
+## Claim-by-claim table (all claim classes flagged across round-2 runs, 57-63 items depending on run)
 
 | Scene | Claim (paraphrase) | Status | Source |
 |---|---|---|---|
@@ -155,9 +253,10 @@ below; none were left unaddressed.
 | 10 | budget-tier RAM shrinking, upgrade cycles stretching | ✅ hedged ("น่าจะ") reasoned consequence of #9 | inference from #9 |
 | 10 | gaming/laptop/cloud share the same DRAM supply | ✅ verified — general market-structure fact | #10 |
 | 11 | "2027 = worst year, per SK Hynix CEO + Samsung exec" | ✅ verified, narrowed during fact-check — corrected from an earlier draft that wrongly attributed this specifically to all three named executives; Chey Tae-won never singled out 2027 as the single worst year, only Kwak Noh-jung (#7) and Jaejune Kim (#8) did | #7, #8 |
-| 11 | "we publish daily" (CTA) | n/a — internal channel operations claim, matches spec §5.4 cadence (~1/day both lanes), not a checkable external fact | spec §5.4 |
+| 11 | "we publish daily" (CTA) | ❌ **removed in round 2** — was false on the day this would publish: Routine A is weekdays-only, the 7-day change is still pending (spec §6), and zero Thai episodes exist yet. An earlier pass of this table waved it through as "matching spec cadence," conflating the spec's aspiration with the pipeline's current state. CTA now ends on the subscribe ask alone, no frequency claim | n/a — corrected, not sourced |
+| 3,4,6,7 | Thai spelling of ชเว แทวอน / กวัก โน-จุง / คิม แจจุน | ✅ verified round 2, corrected from เชตายวอน / ควักโนจุง / คิมแจจุน — see #11 and "Round 2" section above | #11 |
 
-**No claim was cut.** Every fact traced to a primary source or first-party company
+**No claim was cut across either round.** Every fact traced to a primary source or first-party company
 statement; the handful of forward-looking or connective statements are explicitly
 hedged in the narration itself (น่าจะ / มีแนวโน้ม) rather than asserted as confirmed fact,
 consistent with the News-mode rule against presenting speculation as reporting.
@@ -187,11 +286,16 @@ observation, not something this pass should fill in on the owner's behalf.
 1. Primary-source citation visible on screen in first 90s — ✅ Scene 1 OVERLAYS: "Samsung
    Unpacked, 22 ก.ค. 2026". At ~11 chars/sec (mixed density) Scene 1+2 run well within
    the first 90 seconds.
-2. One hand-typed correction or caveat — ⚠️ **partially open.** This REVIEW documents
-   three corrections made during fact-check (spec accuracy, chronology, attribution),
-   but Scene 8 still carries an *unfilled* `[จุดใส่ caveat ของเจ้าของช่อง]` marker per
-   Prompt 3A's own instruction that this must be the owner's own typing, not
-   authored on their behalf. **Owner action required before render.**
+2. One hand-typed correction or caveat — ⚠️ **partially open, but now render-safe.**
+   This REVIEW documents three corrections made during round-1 fact-check (spec
+   accuracy, chronology, attribution) plus five more from round-2 review (proper
+   nouns, redundancy, count consistency, CTA truth, placeholder safety — see "Round 2"
+   above). Scene 8 still carries an *unfilled* `[จุดใส่ caveat ของเจ้าของช่อง]` marker per
+   Prompt 3A's own instruction that this must be the owner's own typing, not authored
+   on their behalf — but as of round 2 it lives on its own `#`-prefixed comment line,
+   so `split_script.parse_scenes` strips it and it will **not** be read aloud by TTS
+   if rendered before the owner fills it in. **Owner action still wanted, but no
+   longer render-blocking in the "reads brackets aloud" sense.**
 3. Cross-reference to a previous Disclosed video — **N/A.** This is EP01 of the
    relaunched channel; no previous Disclosed video exists to reference. Prompt 3A's
    own instruction is explicit that this should not be forced if genuinely absent
@@ -215,26 +319,31 @@ substantiate.
 
 ## Runtime
 
-6,316 narration characters (`split_script.parse_scenes`, summed) → ≈8.5 minutes at
+**6,120 narration characters** (`split_script.parse_scenes`, summed, recomputed after
+round-2 fixes 3 and 5 trimmed the script) → ≈8.3 minutes at
 `thai_budget.chars_for_duration(seconds, "mixed")` density (8-min floor = 5,913 chars,
-10-min ceiling = 7,392 chars). Within the Lane A 8-10 minute mandate. 11 scenes, 2
-human-pacing `PART` markers (not the actual render-split boundary — see split-parts
-check below).
+10-min ceiling = 7,392 chars). Still within the Lane A 8-10 minute mandate, with less
+headroom than before (6,120 vs the floor's 5,913 — about 200 chars / 3.5% of margin).
+11 scenes, 2 human-pacing `PART` markers (not the actual render-split boundary — see
+split-parts check below).
 
 ## Register + split verification
 
 - `thai_lint.lint_script()` → **clean** (no ครับ, no em dash, no `--`, every scene has
   Thai narration, part-length check passes at the default 240s/part).
-- `python3 lint_urls.py Daily/2026-08-21_ep01_ram-shortage-2030/` → **7 pass, 4 warn
-  (bot-blocking 403s on Bloomberg, Gartner, Investing.com, TechRepublic), 0 fail.**
-  Each 403'd URL's content was independently confirmed during research: Bloomberg via
-  Taipei Times' Reuters-wire reprint (direct-fetched, 200), Gartner via the ept.ca
-  mirror (direct-fetched, 200) plus two further independent secondary summaries,
-  Investing.com and TechRepublic were themselves direct-fetched successfully earlier
-  in the research pass and only failed lint_urls.py's separate automated bot check.
-- `split_script.split_into_parts` + `make_request_parts.build_request`:
+- `python3 lint_urls.py Daily/2026-08-21_ep01_ram-shortage-2030/` → **10 pass, 4 warn
+  (bot-blocking 403s on Bloomberg, Gartner, Investing.com, TechRepublic), 0 fail**
+  (re-run after round 2 added the three proper-noun source URLs — all three resolved
+  200 directly: infoquest.co.th, ryt9.com, thairath.co.th). Each 403'd URL's content
+  was independently confirmed during research: Bloomberg via Taipei Times' Reuters-wire
+  reprint (direct-fetched, 200), Gartner via the ept.ca mirror (direct-fetched, 200)
+  plus two further independent secondary summaries, Investing.com and TechRepublic
+  were themselves direct-fetched successfully earlier in the research pass and only
+  failed lint_urls.py's separate automated bot check.
+- `split_script.split_into_parts` + `make_request_parts.build_request`, **re-run after
+  round-2 fixes**:
   ```
-  3 parts: [2320, 2884, 1120]
+  3 parts: [2178, 2856, 1094]
   all parts accepted by build_request
   ```
   All 3 parts accepted at the 240s/part ceiling used by the render pipeline. No
