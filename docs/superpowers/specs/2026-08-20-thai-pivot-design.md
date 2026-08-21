@@ -125,10 +125,19 @@ This retires the stalled clean-channel test honestly — it answered its questio
 **Series tag: `Disclosed`** — Latin script, appended to Thai titles, with a persistent EP counter.
 
 ```
-ทำไม TurboTax ฟรีถึงจ่าย 3,000 บาท? | Disclosed EP01
+ทำไม AI ราคาถูกลง แต่บริษัทยังขาดทุน? | Disclosed Daily EP01
+ใครฆ่า Winamp? | Disclosed Story EP01
 ```
 
-This is exactly the benchmark's structure: **Thai title + Latin series tag** (`... | Geek Story EP845`). `Disclosed` names a *stance* — what was hidden, revealed — not a subject, so it covers a Panasonic postmortem, an iPhone market shift, and a time-traveller hoax equally.
+This is exactly the benchmark's structure: **Thai title + Latin series tag + counter** (`... | Geek Story EP845`, `... | Geek Daily EP411`). `Disclosed` names a *stance* — what was hidden, revealed — not a subject, so it covers a Panasonic postmortem, an iPhone market shift, and a time-traveller hoax equally.
+
+**Resolved 2026-08-21 (this section previously contradicted §5.1's lane table).** An earlier draft showed `| Disclosed EP01` while the lane table named the tags `Disclosed Daily` and `Disclosed Story`. Neither the title format nor the counter was decided. Settled, matching the benchmark exactly:
+
+> **The full lane tag carries the counter, and each lane counts independently.**
+> Lane A → `| Disclosed Daily EP01`, `EP02`, …
+> Lane B → `| Disclosed Story EP01`, `EP02`, …
+
+There is no bare `Disclosed EPnn`. ด.ดล Blog runs Geek Story, Geek Daily, Geek Talk and Geek Monday on four separate counters; a shared counter would make each lane's numbering jump unpredictably and destroy the franchise signal the counter exists to send.
 
 **Lane structure, from day one.** ด.ดล Blog runs four series under one channel, each with its own counter — Geek Daily (EP411), Geek Story (EP845), Geek Talk (EP250), Geek Monday (EP337) — split by **recency**, not by subject. This channel adopts the same idea with two lanes (§7.1), each with an independent counter:
 
