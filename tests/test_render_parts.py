@@ -254,3 +254,106 @@ def test_apply_request_defaults_keeps_an_existing_cinematic_slugs_mode():
     assert req["render_mode"] == "cinematic"
     assert req["strict_cinematic"] is True
     assert req["video_intent"] == "faceless_youtube"
+
+
+import os
+import time
+
+from render import StaleRenderError, main as render_main, newer_inputs, render_part
+
+
+def test_newer_inputs_empty_when_video_does_not_exist(tmp_path):
+    assert newer_inputs(tmp_path / "final.mp4", tmp_path) == []
+
+
+def test_newer_inputs_empty_when_video_is_the_newest_file(tmp_path):
+    (tmp_path / "SCRIPT.txt").write_text("x")
+    (tmp_path / "REQUEST_PART_1.json").write_text("{}")
+    video = tmp_path / "final.mp4"
+    video.write_text("video")  # written last -> naturally newest
+    assert newer_inputs(video, tmp_path) == []
+
+
+def test_newer_inputs_flags_script_newer_than_video(tmp_path):
+    # The exact EP01 setup: a correction lands in SCRIPT.txt after a video
+    # already rendered. Deleting final.mp4 wouldn't even be enough on its
+    # own (see the render_part tests below) -- this is the check that
+    # catches it before any money gets spent re-uploading stale video.
+    video = tmp_path / "final.mp4"
+    video.write_text("video")
+    script = tmp_path / "SCRIPT.txt"
+    script.write_text("corrected")
+    now = time.time()
+    os.utime(video, (now - 10, now - 10))
+    os.utime(script, (now, now))
+    assert newer_inputs(video, tmp_path) == [script]
+
+
+def test_newer_inputs_flags_matching_request_newer_than_video(tmp_path):
+    video = tmp_path / "part1.mp4"
+    video.write_text("video")
+    req = tmp_path / "REQUEST_PART_1.json"
+    req.write_text("{}")
+    now = time.time()
+    os.utime(video, (now - 10, now - 10))
+    os.utime(req, (now, now))
+    assert newer_inputs(video, tmp_path, request_pattern="REQUEST_PART_1.json") == [req]
+
+
+def test_newer_inputs_pattern_narrows_to_the_matching_part_only(tmp_path):
+    # part1.mp4 depends only on REQUEST_PART_1.json. A change to a
+    # different part's request must not make this part look stale.
+    video = tmp_path / "part1.mp4"
+    video.write_text("video")
+    req1 = tmp_path / "REQUEST_PART_1.json"
+    req1.write_text("{}")
+    req2 = tmp_path / "REQUEST_PART_2.json"
+    req2.write_text("{}")
+    now = time.time()
+    os.utime(video, (now - 10, now - 10))
+    os.utime(req1, (now - 10, now - 10))
+    os.utime(req2, (now, now))  # a sibling part's request changed, not this one
+    assert newer_inputs(video, tmp_path, request_pattern="REQUEST_PART_1.json") == []
+
+
+def test_render_part_raises_when_cached_video_is_stale(tmp_path):
+    # This is finding 6/fix 4's exact failure scenario: a correction lands
+    # in REQUEST_PART_1.json (via propagate_correction.py + write_parts)
+    # after part1.mp4 already rendered. Silently reusing part1.mp4 would
+    # ship the pre-correction video -- render_part must refuse instead.
+    mp4 = tmp_path / "part1.mp4"
+    mp4.write_text("old video")
+    req = tmp_path / "REQUEST_PART_1.json"
+    req.write_text("{}")
+    now = time.time()
+    os.utime(mp4, (now - 10, now - 10))
+    os.utime(req, (now, now))
+    with pytest.raises(StaleRenderError, match="part1.mp4"):
+        render_part(tmp_path, 1)
+
+
+def test_render_part_skips_cleanly_when_cached_video_is_fresh(tmp_path, capsys):
+    mp4 = tmp_path / "part1.mp4"
+    mp4.write_text("video")
+    result = render_part(tmp_path, 1)
+    assert result == mp4
+    assert "cached, skip" in capsys.readouterr().out
+
+
+def test_main_raises_when_final_is_stale(tmp_path):
+    final = tmp_path / "final.mp4"
+    final.write_text("old")
+    script = tmp_path / "SCRIPT.txt"
+    script.write_text("corrected")
+    now = time.time()
+    os.utime(final, (now - 10, now - 10))
+    os.utime(script, (now, now))
+    with pytest.raises(StaleRenderError, match="final.mp4"):
+        render_main(str(tmp_path))
+
+
+def test_main_skips_cleanly_when_final_is_fresh(tmp_path, capsys):
+    final = tmp_path / "final.mp4"
+    final.write_text("video")
+    render_main(str(tmp_path))
+    assert "skipping render" in capsys.readouterr().out

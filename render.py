@@ -267,6 +267,46 @@ def stitch(parts: list[Path], final: Path) -> None:
     )
 
 
+class StaleRenderError(RuntimeError):
+    """Raised when a cached video is older than the script/request that produced it.
+
+    render_part and main used to short-circuit on file existence alone.
+    Nothing invalidated rendered video when SCRIPT.txt or a
+    REQUEST_PART_N.json changed after that video was rendered -- a
+    correction landed via propagate_correction.py + write_parts, but the
+    stale part*.mp4 / final.mp4 stayed on disk and got silently reused
+    (and re-uploaded) on the next render.py run. Refusing loudly here is
+    deliberate: an automatic re-render would spend real AIVDO money
+    without asking, which is worse than making the operator delete a
+    file.
+    """
+
+
+def newer_inputs(video: Path, base: Path, request_pattern: str = "REQUEST_PART_*.json") -> list[Path]:
+    """Return SCRIPT.txt and/or matching REQUEST_PART*.json files newer than `video`.
+
+    Pure mtime comparison -- no network, no rendering -- so the staleness
+    decision itself is testable without mocking AIVDO. Empty list means
+    `video` is at least as new as every input that could have produced it
+    (or `video` doesn't exist yet, which the caller decides how to treat).
+
+    `request_pattern` lets a caller narrow the check to one part's own
+    request file (`REQUEST_PART_{n}.json`) instead of every part's, since
+    part{n}.mp4 only depends on its own request, not its siblings'.
+    """
+    if not video.exists():
+        return []
+    video_mtime = video.stat().st_mtime
+    stale: list[Path] = []
+    script = base / "SCRIPT.txt"
+    if script.exists() and script.stat().st_mtime > video_mtime:
+        stale.append(script)
+    for req in sorted(base.glob(request_pattern)):
+        if req.stat().st_mtime > video_mtime:
+            stale.append(req)
+    return stale
+
+
 def discover_parts(base: Path) -> list[int]:
     """Return the sorted part numbers present in a slug folder.
 
@@ -323,6 +363,15 @@ def apply_request_defaults(req: dict) -> dict:
 def render_part(base: Path, n: int) -> Path:
     mp4 = base / f"part{n}.mp4"
     if mp4.exists():
+        stale = newer_inputs(mp4, base, request_pattern=f"REQUEST_PART_{n}.json")
+        if stale:
+            names = ", ".join(p.name for p in stale)
+            raise StaleRenderError(
+                f"{mp4.name} is older than {names} -- the script changed after "
+                f"this part was rendered. Delete {mp4.name} (and final.mp4, if "
+                "present) to force a re-render. Refusing to silently reuse "
+                "stale video."
+            )
         print(f"part{n}.mp4: cached, skip")
         return mp4
     req = json.loads((base / f"REQUEST_PART_{n}.json").read_text())
@@ -368,6 +417,15 @@ def main(slug_dir: str) -> None:
     base  = Path(slug_dir).resolve()
     final = base / "final.mp4"
     if final.exists():
+        stale = newer_inputs(final, base)
+        if stale:
+            names = ", ".join(p.name for p in stale)
+            raise StaleRenderError(
+                f"{final.name} is older than {names} -- the script changed "
+                f"after this video was rendered. Delete {final.name} and every "
+                "partN.mp4 in this folder to force a re-render. Refusing to "
+                "silently reuse stale video."
+            )
         print(f"{final} exists, skipping render"); return
     started = time.time()
     part_numbers = discover_parts(base)
